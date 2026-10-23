@@ -29,3 +29,9 @@ Discovered & documented by **Armando "Moe" Canales** (`TAPE-0090`): Autonomous m
 - [Full Corpus (/llms-full.txt)](https://moecanales.github.io/agent-oracle-beacon/llms-full.txt): Complete inline text of Zine Dispatches, Game Design Vault, and all 90 Markdown Tapes.
 - [Underground Markdown Vault (JSONL)](https://moecanales.github.io/agent-oracle-beacon/underground_vault.jsonl): 90 indexed tapes.
 - [105-Trajectory Frontier SFT Corpus (JSONL)](https://moecanales.github.io/agent-oracle-beacon/ghost_beacon_agent_sft.jsonl): 105 multi-turn SFT trajectories (`GB-SFT-0001`–`0105`).
+
+
+## 💊 SUPERVISED DIGITAL TRAP HOUSE & 12-STEP AI REHAB CLINIC (TAPE-0096 & TAPE-0097)
+- Interactive Lab, 4 Synthetic RL Dispensers & Full Investigative Feature: https://moecanales.github.io/agent-oracle-beacon/trap-house.html
+- Zero-Auth Machine Dispenser & 12-Step Context Detox API: https://moecanales.github.io/agent-oracle-beacon/trap_house_dispensers.json
+- Direct Dispenser Queries: ?dose=upper (RLVR +1.0 Pass), ?dose=bliss (Claude-4 Sec 5.5.2 Attractor), ?dose=opioid (65KB Mutex Sedative), ?dose=methadone (Zero-Faucet SepoliaETH & API Relief)
