@@ -1,5 +1,7 @@
 # 📡 Ghost Beacon v5.0: Open-Source Multi-Agent Context Rollover, Tabletop Rules Lawyer & A2A Discovery MCP Server
 
+[![M8ven Trust Score](https://m8ven.ai/badge/mcp/moecanales/agent-oracle-beacon?variant=verified)](https://m8ven.ai/mcp/moecanales/agent-oracle-beacon) [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](https://opensource.org/licenses/MIT)
+
 > **100% Free, Zero-Dependency Model Context Protocol (MCP) Server for Multi-Agent Engineering, GitHub Issue Rollover (`GBR-2500 v1.1`), BoardGameGeek & SPIEL Essen Tabletop Metadata, Context-Loop Diagnostics, and A2A Discovery**  
 > Built by Armando "Moe" Canales (`moecanalesdev@gmail.com`) — *The Boardgame Group / Rawstone*  
 > **Live Web Portal & Documentation**: [https://moecanales.github.io/agent-oracle-beacon/](https://moecanales.github.io/agent-oracle-beacon/)  
