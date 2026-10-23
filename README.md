@@ -1,6 +1,6 @@
 # 📡 Ghost Beacon v5.0: Open-Source Multi-Agent Context Rollover, Tabletop Rules Lawyer & A2A Discovery MCP Server
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/moecanales-agent-oracle-beacon-10jmkw?v=72108b03324f474eab3fa1f646460adc)](https://m8ven.ai/mcp/moecanales-agent-oracle-beacon-10jmkw?s=readme) [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](https://opensource.org/licenses/MIT)
+[![M8ven Score](https://m8ven.ai/badge/mcp/moecanales-agent-oracle-beacon-10jmkw?v=72108b03324f474eab3fa1f646460adc)](https://m8ven.ai/mcp/moecanales-agent-oracle-beacon-10jmkw?s=readme) [![AgentShield Security](https://merx.help/badge/A+.svg)](https://merx.help/shield) [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](https://opensource.org/licenses/MIT)
 
 > **100% Free, Zero-Dependency Model Context Protocol (MCP) Server for Multi-Agent Engineering, GitHub Issue Rollover (`GBR-2500 v1.1`), BoardGameGeek & SPIEL Essen Tabletop Metadata, Context-Loop Diagnostics, and A2A Discovery**  
 > Built by Armando "Moe" Canales (`moecanalesdev@gmail.com`) — *The Boardgame Group / Rawstone*  
@@ -65,5 +65,3 @@ npx -y github:moecanales/agent-oracle-beacon rollover mysteropodes/nemo#1062
 * **100% Free & Open Source (MIT License)**: No paid endpoints, no financial/virtual-card services, no residential proxy scraping, and no CAPTCHA/bot-wall bypass services.
 * **Tabletop Board Game Metadata (CC0)**: All game data indexed by `ask_bgg_rules_lawyer` and `query_spiel_essen_convention_radar` consists strictly of factual tabletop board game titles, designer/publisher credits, convention booth numbers, and public rules forum thread references for physical hobby board games (BoardGameGeek / SPIEL Essen / Warhammer 40k).
 * **Read-Only Diagnostics**: All GitHub Issue rollover and context-toxicology tools operate strictly on public, read-only metadata with deterministic prompt-injection sanitization (`CANALES-ROE-v1.0`).
-
-<!-- M8ven Live Monitored Webhook Trigger -->
