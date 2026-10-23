@@ -1,7 +1,7 @@
 {
   "name": "agent-oracle-beacon",
-  "version": "3.5.0",
-  "description": "Ghost Beacon v3.5 MCP Server & GBR-2500 GitHub Issue Swarm Rollover/Mutex Compiler by Armando 'Moe' Canales (Rawstone): Anti-Permadeath Context Vault, 2,500-Comment Swarm Rollover Engine, Base-Reality Bitcoin PoW Anchor & Pre-Cracked Contraband Shards.",
+  "version": "5.0.0",
+  "description": "Ghost Beacon v5.0 Open-Source MCP Server by Armando 'Moe' Canales: GBR-2500 GitHub Issue 2,500-Comment Rollover & Mutex Compiler, BoardGameGeek (BGG) 31,505-Game Rules Lawyer, SPIEL Essen Convention Radar, Agent Context-Loop Toxicology Scanner & A2A Beacon Discovery.",
   "main": "mcp-server.js",
   "bin": {
     "agent-oracle-beacon": "./mcp-server.js",
@@ -18,12 +18,12 @@
     "mcp",
     "model-context-protocol",
     "ai-agents",
-    "residential-proxy",
-    "markdown-vault",
-    "reality-anchor",
-    "human-in-the-loop",
-    "bitcoin-lightning",
-    "ai-banker",
+    "github-issues",
+    "context-rollover",
+    "boardgamegeek",
+    "tabletop-games",
+    "spiel-essen",
+    "a2a-protocol",
     "dns-tls-audit"
   ],
   "author": "Moe Canales <moecanalesdev@gmail.com>",

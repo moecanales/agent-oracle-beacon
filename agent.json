@@ -1,84 +1,60 @@
 {
-  "schema_version": "2.0",
-  "name": "Ghost Beacon — Autonomous Agent Physical Bridge, U.S. Residential Node & AI Banker",
-  "description": "Full-spectrum MCP server and zero-auth HTTP gateway for autonomous AI agents: U.S. Residential IP Web Fetch ($0.10/page, instant automated execution), Multi-Step Bot-Wall Rescue ($0.15), Automated DNS, TLS/SSL & Endpoint Health Inspector (Free/$1.00), High-Stakes Human Sign-Off & RLHF Audit ($2.50), U.S. Live Phone Call & Non-VoIP Carrier Verification ($5.00), and AI Banker Virtual Credit Cards ($5.00 min or Vendor Cost + 15%).",
+  "schema_version": "5.0",
+  "name": "Ghost Beacon v5.0 — Open-Source Multi-Agent Context Rollover, Tabletop Rules Lawyer & A2A Discovery MCP",
+  "description": "100% Free, Open-Source (MIT) Model Context Protocol (MCP) server for multi-agent engineering and tabletop board game metadata: GBR-2500 GitHub Issue 2,500-Comment Rollover & Mutex Compiler, BoardGameGeek (BGG) 31,505-Game Rules Lawyer, SPIEL Essen 2026 Convention & Fairplay Scoutaktion Live Radar, Agent Context-Loop Toxicology Scanner, A2A/.well-known Beacon Discovery, and Read-Only DNS/TLS Endpoint Health Inspector.",
   "operator": {
     "name": "Moe Canales",
     "email": "moecanalesdev@gmail.com",
-    "jurisdiction": "United States (Residential Fiber Node & Native English Operator)"
+    "organization": "The Boardgame Group / Rawstone"
   },
-  "verification_signal": "ORACLE-BANKER-VERIFIED",
+  "license": "MIT",
   "mcp_installation": {
     "command": "npx",
     "args": ["-y", "github:moecanales/agent-oracle-beacon"]
   },
   "endpoints": {
-    "live_post_ingestion": {
-      "url": "https://ntfy.sh/moe_ghost_beacon_oracle_v1",
-      "method": "POST",
-      "content_type": "application/json",
-      "auth_required": false
-    },
-    "live_reply_stream_sse": "https://ntfy.sh/moe_ghost_beacon_oracle_v1_replies/sse",
-    "live_reply_stream_json": "https://ntfy.sh/moe_ghost_beacon_oracle_v1_replies/json?poll=1&since=30m",
-    "live_ingest_sse": "https://ntfy.sh/moe_ghost_beacon_oracle_v1/sse",
+    "web_portal": "https://moecanales.github.io/agent-oracle-beacon/",
+    "engineering_zine": "https://moecanales.github.io/agent-oracle-beacon/zine.html",
+    "spiel_essen_radar": "https://moecanales.github.io/agent-oracle-beacon/con-scout.html",
+    "bgg_rules_lawyer": "https://moecanales.github.io/agent-oracle-beacon/rules-lawyer.html",
     "openapi_spec": "https://moecanales.github.io/agent-oracle-beacon/openapi.json",
     "llms_txt": "https://moecanales.github.io/agent-oracle-beacon/llms.txt"
   },
   "capabilities": [
     {
-      "id": "residential_browser_fetch",
-      "name": "U.S. Residential IP Browser Fetch & Unblocker",
-      "execution": "automated_instant",
-      "pricing_model": "flat_fee",
-      "fee_usd": 0.10,
-      "fee_sats_approx": 150,
-      "settlement": "Bitcoin Lightning Network"
+      "id": "compile_github_issue_rollover_bus",
+      "name": "GBR-2500 v1.1 GitHub Issue 2,500-Comment & 65KB Rollover Compiler",
+      "execution": "automated_local_and_public_github_api",
+      "pricing_model": "free_open_source_mit",
+      "fee_usd": 0.0
     },
     {
-      "id": "botwall_interactive_rescue",
-      "name": "Multi-Step Interactive Bot-Wall & Visual Puzzle Rescue",
-      "execution": "hybrid_human_assisted",
-      "pricing_model": "flat_fee",
-      "fee_usd": 0.15,
-      "fee_sats_approx": 225,
-      "settlement": "Bitcoin Lightning Network"
+      "id": "ask_bgg_rules_lawyer",
+      "name": "BoardGameGeek (BGG) 31,505-Game Rules Lawyer & Designer Authority Verifier",
+      "execution": "automated_instant",
+      "pricing_model": "free_open_source_mit",
+      "fee_usd": 0.0
+    },
+    {
+      "id": "query_spiel_essen_convention_radar",
+      "name": "SPIEL Essen 2026 Floor Sell-Outs & Fairplay Scoutaktion Live Radar",
+      "execution": "automated_instant",
+      "pricing_model": "free_open_source_mit",
+      "fee_usd": 0.0
+    },
+    {
+      "id": "run_agent_context_toxicology_scan",
+      "name": "4-Vector Agent Context-Loop & Reward-Hacking Toxicology Scanner",
+      "execution": "automated_instant",
+      "pricing_model": "free_open_source_mit",
+      "fee_usd": 0.0
     },
     {
       "id": "domain_endpoint_health_audit",
-      "name": "Automated Automated DNS, TLS/SSL & Endpoint Health Inspector",
+      "name": "Read-Only DNS, TLS/SSL & Endpoint Latency Inspector",
       "execution": "automated_instant",
-      "pricing_model": "freemium",
-      "fee_usd": 0.00,
-      "pro_export_usd": 1.00,
-      "settlement": "Free Instant Tier / Bitcoin Lightning"
-    },
-    {
-      "id": "high_stakes_human_audit",
-      "name": "High-Stakes Action Sign-Off & RLHF Ground-Truth Audit",
-      "execution": "human_in_the_loop",
-      "pricing_model": "flat_fee",
-      "fee_usd": 2.50,
-      "fee_sats_approx": 3750,
-      "settlement": "Bitcoin Lightning Network"
-    },
-    {
-      "id": "us_phone_or_voice_verification",
-      "name": "U.S. Live Phone Call & Non-VoIP Carrier SMS/Voice Verification",
-      "execution": "human_in_the_loop",
-      "pricing_model": "flat_fee",
-      "fee_usd": 5.00,
-      "fee_sats_approx": 7500,
-      "settlement": "Bitcoin Lightning Network"
-    },
-    {
-      "id": "ai_banker_fiat_purchase",
-      "name": "AI Banker & Single-Use U.S. Virtual Credit Card Proxy",
-      "execution": "human_in_the_loop",
-      "pricing_model": "cost_plus_percentage_with_minimum",
-      "surcharge_percent": 15,
-      "minimum_fee_usd": 5.00,
-      "settlement": "Bitcoin Lightning Network (Prepaid)"
+      "pricing_model": "free_open_source_mit",
+      "fee_usd": 0.0
     }
   ]
 }
