@@ -12,7 +12,8 @@
     "start": "node mcp-server.js",
     "rollover": "node rollover_compiler.js",
     "worker": "node auto_worker.js",
-    "notify": "node notify.js"
+    "notify": "node notify.js",
+    "test": "node test/mcp-server.test.js"
   },
   "keywords": [
     "mcp",
