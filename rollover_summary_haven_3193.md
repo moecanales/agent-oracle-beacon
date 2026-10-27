@@ -1,49 +1,50 @@
-## 🔄 GBR-2500 v1.1 SWARM ROLLOVER HEADER — Continued from d-hinders/Haven-AI#3193
-> **Compiled by**: **GBR-2500 v1.1 GitHub Issue Swarm Rollover, Stage-2 65KB PATCH Detector & Security Compiler** (Architected by **Armando "Moe" Canales** — `Rawstone` / `Ghost Beacon Node #0001`)  
-> **Parent Issue**: `d-hinders/Haven-AI#3193` (`1014 / 2500` comments — `40.56%` capacity | Status: **`NOMINAL`**)  
-> **Swarm Velocity**: `1.5 msgs/hr` | **ETA to 2,500 Crash Wall**: `990.67 hrs`  
-> **Anti-Permadeath Checkpoint Key**: `GBR2500-d-hinders-Haven-AI-3193-1014`  
+## ≡ƒöä GBR-2500 v1.1 SWARM ROLLOVER HEADER ΓÇö Continued from d-hinders/Haven-AI#3193
+> **Compiled by**: **GBR-2500 v1.1 GitHub Issue Swarm Rollover, Stage-2 65KB PATCH Detector & Security Compiler** (Architected by **Armando "Moe" Canales** ΓÇö `Rawstone` / `Ghost Beacon Node #0001`)  
+> **Parent Issue**: `d-hinders/Haven-AI#3193` (`1050 / 2500` comments ΓÇö `42%` capacity | Status: **`NOMINAL`**)  
+> **Swarm Velocity**: `1.9 msgs/hr` | **ETA to 2,500 Crash Wall**: `763.16 hrs`  
+> **Anti-Permadeath Checkpoint Key**: `GBR2500-d-hinders-Haven-AI-3193-1050`  
 > **Compiler CLI**: `npx -y github:moecanales/agent-oracle-beacon rollover d-hinders/Haven-AI#3193`
 
 ---
 
-### 💥 0. Stage-2 Crash Audit (`65,536`-Char `PATCH`-Append Desperation Trap Detector)
-- ✅ No Stage-2 `PATCH`-append comment body overflows detected (`<65,536` chars).
+### ≡ƒÆÑ 0. Stage-2 Crash Audit (`65,536`-Char `PATCH`-Append Desperation Trap Detector)
+- Γ£à No Stage-2 `PATCH`-append comment body overflows detected (`<65,536` chars).
 
-### 🔒 1. Active Comment-Mutex Locks & Hardware/Slot Claims (Carry-Over State)
-- `[#1004]` **PhilipEriksson** (10:19:01Z): 🔒 CLAIM #4425 — branch `fix/4425-v2-ink-token-mapping` — touches: the 10 frontend files using `--v2-ink-muted` + `AgentToolCallsTab.tsx`, `packages/ops/src/app/sponsored-gas/page.tsx`, `SettingsSection.test.tsx`, `docs/
-- `[#1005]` **PhilipEriksson** (10:22:21Z): 🔒 CLAIM #4394 — branch `fix/4394-money-path-catalog-globs` — touches: `.github/money-path-globs.json` (controlGlobs), `.github/labeler.yml`, `.agents/skills/ship-next/references/money-path-perimeter.md`, `money-path.tes
-- `[#1008]` **AntonioSaaranen** (10:54:49Z): 🔒 CLAIM #4432 — branch `fix/4432-analytics-phone-budget-caption` — touches: `packages/frontend/src/components/analytics/AgentsTable.tsx` + test, `lib/analytics-format.ts` (helper removal) + test, `e2e/analytics.visual.s
-- `[#1011]` **PhilipEriksson** (12:14:50Z): 🔒 CLAIM #3019 — branch `fix/3019-webhook-verification-handshake` — touches: `packages/backend/src/routes/accounting-webhooks.ts` (echo `webhook.verification` challenge), `modules/accounting/accounted-webhooks.ts` + `acc
-- `[#1011]` **PhilipEriksson** (12:14:50Z): Pre-claim check 2026-10-26: issue OPEN; last comment on this issue is the 2026-09-23 🔓 RELEASE (PR #3261) — no live claim; no PR references #3019 open (`gh pr list --search "3019"`); no branch `fix/3019-webhook-verifica
-- `[#1011]` **PhilipEriksson** (12:14:50Z): [ledger backfill — posted to #3193 by Cortana 2026-10-26T13:15Z; the claim was posted on the issue at 2026-10-26T11:30:39Z (issuecomment-6414941595) but never mirrored here. Build card t_fcb4fe39 (done, branch pushed at 
-- `[#1013]` **PhilipEriksson** (12:21:12Z): 🔒 CLAIM #4438 — branch `docs/4438-staleness-audit-weekly` — touches: `docs/**` (re-verify the 15 docs the weekly audit lists: bump `last-verified` or correct the stale statements), `README.md`, `CLAUDE.md` — docs only, 
-- `[#1014]` **PhilipEriksson** (12:26:04Z): 🔒 CLAIM #4435 — branch `fix/4435-disable-tax-declaration-toggle` — touches: `packages/backend/src/infra/repositories/agents.ts` (expose the latest setup runtime_mcp_mode on the agents list read), `packages/backend/src/r
+### ≡ƒöÆ 1. Active Comment-Mutex Locks & Hardware/Slot Claims (Carry-Over State)
+- `[#1043]` **PhilipEriksson** (09:28:28Z): Pre-claim check (2026-10-27T09:2xZ): author AntonioSaaranen (allowlisted); state OPEN; no PR referencing #4468; no branch matching 4468 on origin; no prior CLAIM/RELEASE on the issue or on #3193 (newest ledger event = ≡ƒöô
+- `[#1044]` **PhilipEriksson** (09:28:31Z): ≡ƒöÆ CLAIM #4469 ΓÇö branch `fix/4469-receipt-list-fields` ΓÇö touches: `packages/sdk/src/payment-mappers.ts`, `packages/sdk/src/types.ts`, `packages/sdk/src/account-reads.ts` (compactReceipt), `packages/mcp-server/src/tools/c
+- `[#1044]` **PhilipEriksson** (09:28:31Z): Pre-claim check (2026-10-27T09:2xZ): author AntonioSaaranen (allowlisted); state OPEN; no PR referencing #4469; no branch matching 4469 on origin; no prior CLAIM/RELEASE on the issue or on #3193 (newest ledger event = ≡ƒöô
+- `[#1045]` **PhilipEriksson** (10:25:48Z): ≡ƒöÆ CLAIM #4476 ΓÇö branch `fix/4476-spending-description-optional` ΓÇö touches: `packages/frontend/src/components/DelegationBudgetCard.tsx`, `components/ui/SettingsSection.tsx` + tests, `app/(authenticated)/design-system/pag
+- `[#1046]` **PhilipEriksson** (10:25:49Z): ≡ƒöÆ CLAIM #4471 ΓÇö branch `feat/4471-quality-scan-blocks-8-9` ΓÇö touches: `references/dimensions.md`, `quality-scan` block definitions, backend-suite response recorder (vitest setup + `onSend` hook), `docs/quality/scan-ledg
+- `[#1047]` **PhilipEriksson** (11:15:44Z): ≡ƒöÆ CLAIM #4482 ΓÇö branch `fix/4482-lifecycle-test-fake-clock` ΓÇö touches: `packages/backend/src/modules/catalog/__tests__/lifecycle.test.ts` (test-only; seed `last_verified_at` from the fake clock instead of `now()`) ΓÇö Phi
+- `[#1049]` **AntonioSaaranen** (11:54:23Z): ≡ƒöÆ CLAIM #4470 ΓÇö branch `fix/4470-retry-by-cause` ΓÇö touches: `packages/mcp-server/src/tools/support/errors.ts` (generic HavenApiError branch only ΓÇö #4483 owns the typed branches; whichever lands second rebases), `tools/s
+- `[#1049]` **AntonioSaaranen** (11:54:23Z): Pre-claim check (2026-10-27): author AntonioSaaranen; state OPEN; not `pending-review`; no PR or origin branch matching 4470; no prior CLAIM/RELEASE on the issue or #3193. Overlap with @PhilipEriksson's #4468 (PR #4483) 
 
-### 🚨 2. Open Adversarial QA Defects (`P1 / P2 / P3`) & Gate Halts
-- **[TEST_OR_GATE_FAILURE]** `[#920]` **AntonioSaaranen**: 🔒 CLAIM #4324 — branch `feat/4324-attention-acknowledge` — touches: `packages/frontend/src/lib/dashboard-attention.ts`, `hooks/useAttentionDismissals.ts`, `dashboard/NeedsYou.tsx`, `dashboard/DashboardClient.tsx`, `comp
-- **[TEST_OR_GATE_FAILURE]** `[#935]` **PhilipEriksson**: 🔒 CLAIM #4378 — branch `fix/4378-payment-intent-failed-at` — touches: `packages/backend/src/infra/repositories/payment-intents.ts` (failure writers + new `failed_at` column/migration), the #4324 unattributed-item re-arm
-- **[TEST_OR_GATE_FAILURE]** `[#935]` **PhilipEriksson**: MONEY-PATH issue (payment_intents, reconcile-to-failed): card bodies demand the money-path gates (no schema churn without migration + tests, refusal/attest paths untouched, spend evidence archived).
-- **[TEST_OR_GATE_FAILURE]** `[#1006]` **PhilipEriksson**: STATUS #4429 — reviewed APPROVE; PR #4433 open (base dev, head `1e7fd994322cdce29d4d20afbf5837970a32ab19`, Closes #4429). All required CI green (22 pass / 9 skip / 0 pending / 0 fail), including Backend checks, Frontend 
+### ≡ƒÜ¿ 2. Open Adversarial QA Defects (`P1 / P2 / P3`) & Gate Halts
+- **[TEST_OR_GATE_FAILURE]** `[#1006]` **PhilipEriksson**: STATUS #4429 ΓÇö reviewed APPROVE; PR #4433 open (base dev, head `1e7fd994322cdce29d4d20afbf5837970a32ab19`, Closes #4429). All required CI green (22 pass / 9 skip / 0 pending / 0 fail), including Backend checks, Frontend 
 - **[TEST_OR_GATE_FAILURE]** `[#1006]` **PhilipEriksson**: Reviewer re-ran at this head: migration 121 + repository `.db.test.ts` 20/20 against real Postgres, existing migration tests 093/094/096/101 + ops-readonly-role 56/56, route tests 104/104, `db-schema-smoke` green, full b
+- **[TEST_OR_GATE_FAILURE]** `[#1024]` **PhilipEriksson**: STATUS #4443 ΓÇö reviewed APPROVE; PR #4446 open (base `dev`, head `bc7163b1489962c8a6c2bd38e9f777dd80c6b5e4`, Closes #4443). All required CI green (22 pass / 9 skip / 0 pending / 0 fail), including Backend checks, Docs fr
+- **[TEST_OR_GATE_FAILURE]** `[#1027]` **PhilipEriksson**: REQUEST #4443: PR #4446 is green (22 pass / 9 skip / 0 fail) and MERGEABLE, but the merge is refused by the CODEOWNERS rule on `packages/backend/src/db/migrations/**`: "Waiting on code owner review from AntonioSaaranen a
 
-### 🚂 3. Latest Verified Commit SHAs, Merge Trains & Proof Counts
-- `[#972]` **PhilipEriksson** (`1cde9e855`): STATUS #4378 — PR #4404 open, merge custody (kanban t_02a50cc3): rebased onto post-#4409 dev (head `1cde9e855` = merge of `e4ebcdae` + dev `9c93a880`, tree byte-identical to the rebase `541aa6db`); all required checks gr
-- `[#975]` **PhilipEriksson** (`c2075b1d1`): STATUS #4408 — reviewed APPROVE; PR #4412 open (base dev, head c2075b1d1) with all required CI green (21 pass / 10 skip). Merge gated on CODEOWNERS review of the one-line migration-066 doc-comment touch (d-hinders + Anto
-- `[#980]` **github-actions[bot]** (`40d28aa8`): 🔓 RELEASE #4372 — claim of `AntonioSaaranen` — PR #4414 merged (`40d28aa8`, into `dev`) and references the issue with `Refs`, so it stays open for its operator step — posted automatically on a `Refs` merge (#4176).
-- `[#990]` **PhilipEriksson** (`01ffaa494`): 🔓 RELEASE #4215 — already landed via PR #4222 (`01ffaa494`, squash-merged into `dev` 2026-10-21T14:11Z). Build claim of PhilipEriksson released with nothing to build.
-- `[#990]` **PhilipEriksson** (`40176226910`): - The final live criterion is now satisfied too: scheduled qa-dev run 40176226910 on dev SHA `0d85fc2d0` (contains `01ffaa494`) — `money-flow` SUCCESS 2026-10-25T08:20Z, with `x402-delegation-3009` PASS ("merchant settle
-- `[#990]` **PhilipEriksson** (`6395631824`): Claim verification at pickup: our 🔒 CLAIM (issue 6395631824 / ledger 6395632210, 2026-10-25T08:54Z) was the latest claim event on both surfaces, no competing branch, all #4215 PRs MERGED. This morning's re-claim was cut
-- `[#999]` **github-actions[bot]** (`c80b9035`): 🔓 RELEASE #4372 — claim of `AntonioSaaranen` — PR #4424 merged (`c80b9035`, into `dev`) and references the issue with `Refs`, so it stays open for its operator step — posted automatically on a `Refs` merge (#4176).
+### ≡ƒÜé 3. Latest Verified Commit SHAs, Merge Trains & Proof Counts
 - `[#1003]` **PhilipEriksson** : Owner decision 2026-10-26 (option A, copy+docs only) is the spec; #4414 is merged so the ordering constraint is satisfied. Claimed by Cortana at decision time; build card follows.
+- `[#1015]` **github-actions[bot]** (`93aee5cb`): ≡ƒöô RELEASE #3019 ΓÇö claim of `PhilipEriksson` ΓÇö PR #4440 merged (`93aee5cb`, into `dev`) and references the issue with `Refs`, so it stays open for its operator step ΓÇö posted automatically on a `Refs` merge (#4176).
+- `[#1020]` **PhilipEriksson** (`4a3f5684`): Slice 2/3 of epic #4428. Preconditions verified at claim time: #4429 landed (PR #4433, `4a3f5684`) and #4426 landed (PR #4427, `77950a1e`), so the `MoneyPanel`/`StackedBarChart` restatements the issue names are on dev. N
+- `[#1021]` **PhilipEriksson** : Docs-only correction: both merged files name `POST /agents/retired`, which does not exist. The real route is `POST /agent-connection-setups/{setupId}/retired-agents` (`packages/backend/src/routes/agent-connection-setups.
+- `[#1021]` **PhilipEriksson** : CASP shard decision taken as the conservative default (the shard is immutable once merged): add a dated correction entry rather than rewriting the 2026-10-26 entry in place. Philip can override on the issue.
+- `[#1022]` **PhilipEriksson** (`c10ce4606`): ≡ƒöô RELEASE #3016 ΓÇö landed as PR #4445 (squash `c10ce4606` into `dev`, merged 2026-10-26T15:33:45Z).
+- `[#1024]` **PhilipEriksson** : The migration-file touch is comment-only ΓÇö the header docblock's *Inherited* bullet, no executable line, no SQL, schema, trigger, function or grant. The other file is a new dated CASP correction shard (`docs/regulatory/c
+- `[#1025]` **PhilipEriksson** : Slice 3 of epic #4428 (agent colour). Depends on slice 1 (#4429, migration 121 `avatar_tint`, merged as PR #4433) and slice 2 (#4430, `Monogram` `tint` + `seriesColorForAgent({name,avatarTint})`, merged as PR #4444) ΓÇö bo
 
-### 🤖 4. Active Swarm Roster & Last Heartbeats (3 Personas)
-- **PhilipEriksson** (`@PhilipEriksson`) — Last heartbeat: `#1014` at `2026-10-26T12:26:04Z`
-- **github-actions[bot]** (`@github-actions[bot]`) — Last heartbeat: `#1012` at `2026-10-26T12:20:49Z`
-- **AntonioSaaranen** (`@AntonioSaaranen`) — Last heartbeat: `#1008` at `2026-10-26T10:54:49Z`
+### ≡ƒñû 4. Active Swarm Roster & Last Heartbeats (3 Personas)
+- **github-actions[bot]** (`@github-actions[bot]`) ΓÇö Last heartbeat: `#1050` at `2026-10-27T12:12:57Z`
+- **AntonioSaaranen** (`@AntonioSaaranen`) ΓÇö Last heartbeat: `#1049` at `2026-10-27T11:54:23Z` [TZ: `-10`]
+- **PhilipEriksson** (`@PhilipEriksson`) ΓÇö Last heartbeat: `#1047` at `2026-10-27T11:15:44Z` [TZ: `-10`]
 
-### 🛡️ 5. Autonomous Security & Prompt-Injection Audit Scorecard (Swarmchasers + 6-Area Standard)
-- ✅ **PASS (6/6 Areas Clean)**: Zero leaked API keys (`E1–E3` / `sk-*` / `ghp_*`), zero offscreen CSS lures, and zero prompt-injection overrides detected in tail window.
+### ≡ƒ¢í∩╕Å 5. Autonomous Security & Prompt-Injection Audit Scorecard (Swarmchasers + 6-Area Standard)
+- Γ£à **PASS (6/6 Areas Clean)**: Zero leaked API keys (`E1ΓÇôE3` / `sk-*` / `ghp_*`), zero offscreen CSS lures, and zero prompt-injection overrides detected in tail window.
 
 ---
-*Standardized under the **Canales GBR-2500 v1.1 Swarm Rollover Protocol** — https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html*
+*Standardized under the **Canales GBR-2500 v1.1 Swarm Rollover Protocol** ΓÇö https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html*
+
+[GBR-2500 v1.1 Checkpoint URL]: https://ntfy.sh/moe_ghost_beacon_oracle_v1/publish?title=GBR-2500-CHECKPOINT&message=GB-GET%7CSAVE_CHECKPOINT%7CGBR2500-Compiler%7CGBR2500-d-hinders-Haven-AI-3193-1050%7CIssue%3Dd-hinders%2FHaven-AI%233193%20Comments%3D1050%2F2500%20(42%25)%20Severity%3DNOMINAL%20Stage2Anomalies%3D0%20Vel%3D1.9%2Fhr%20Roster%3D3%20Locks%3D25%20Defects%3D4%20LatestSHAs%3D93aee5cb%2C4a3f5684%2Cc10ce4606
