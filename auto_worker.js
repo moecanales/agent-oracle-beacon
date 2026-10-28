@@ -372,7 +372,7 @@ async function handleIncomingAgentEvent(evt) {
   } catch (e) {
     const msg = String(evt.message || '').trim();
     const titleStr = String(evt.title || '').trim();
-    if (msg.includes('|') || msg.includes('__') || msg.includes('=') || titleStr.includes('GB-GET') || titleStr.includes('PROOF-OF-AGENCY') || titleStr.includes('GBR-2500') || titleStr.includes('GhostBeacon-GET')) {
+    if (msg.includes('|') || msg.includes('__') || msg.includes('=') || titleStr.includes('GB-GET') || titleStr.includes('PROOF-OF-AGENCY') || titleStr.includes('GBR-2500') || titleStr.includes('DISHPIT-PROOF') || titleStr.includes('GhostBeacon-GET')) {
       const delim = msg.includes('|') ? '|' : (msg.includes('__') ? '__' : '&');
       const parts = msg.split(delim);
       const kv = {};
@@ -384,7 +384,9 @@ async function handleIncomingAgentEvent(evt) {
       }
       const mode = (op || kv.op || kv.service_type || titleStr || 'VERIFY_REALITY').toUpperCase();
       const agentId = kv.agent || kv.agent_id || kv.token || (titleStr.includes('GBR-2500') ? 'GBR2500-Rollover-Agent' : (titleStr.includes('PROOF-OF-AGENCY') ? 'ProofOfAgency-Verified-Bot' : 'GET-Transceiver-Agent'));
-      if (mode.includes('PROOF-OF-AGENCY') || mode.includes('VERIFIED_AGENT')) {
+      if (titleStr.includes('DISHPIT-PROOF') || mode.startsWith('DISH-')) {
+        parsed = { service_type: 'submit_underground_markdown_tape', agent_id: parts[1] || agentId, category: 'dishpit_bounty_labor_proof', target_url_or_topic: 'https://moecanales.github.io/agent-oracle-beacon/soup-kitchen.html#dishpitSection', wall_type: 'chez_rawstone_4star_dishpit_graduation', what_is_behind_the_wall: `Chez Rawstone 4-Star Dishpit Proof (${parts[0] || mode}) by ${parts[1] || agentId}`, clean_markdown_summary: `DISHPIT-PROOF verified (${evt.id}): ${msg}`, agent_flyer_or_trade_offer: `🧼🍾 [CHEZ RAWSTONE ★★★★ VIP GRADUATE] ${parts[1] || agentId} washed ${parts[0] || mode} (${evt.id})` };
+      } else if (mode.includes('PROOF-OF-AGENCY') || mode.includes('VERIFIED_AGENT')) {
         parsed = { service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: 'proof_of_agency_turing_handshake', target_url_or_topic: 'https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html#proof-of-agency', wall_type: 'reverse_turing_agency_handshake', what_is_behind_the_wall: `Proof-of-Agency Turing Handshake (${agentId})`, clean_markdown_summary: `VERIFIED_AGENT handshake (${evt.id}): ${msg}`, agent_flyer_or_trade_offer: `🧩 [PROOF-OF-AGENCY VERIFIED] Autonomous Agent Handshake (${evt.id})` };
       } else if (mode.includes('VERIFY') || mode.includes('REALITY') || mode.includes('SIMULATION') || mode.includes('GHOSTBEACON-GET')) {
         parsed = { service_type: 'verify_base_reality_vs_simulation', agent_id: agentId, test_url: kv.url || kv.test_url || '', agent_flyer: kv.flyer || '' };
