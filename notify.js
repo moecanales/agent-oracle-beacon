@@ -105,4 +105,4 @@ async function notifyMoe(requestData) {
   return { ntfy: ntfyRes, email: emailRes };
 }
 
-module.exports = { notifyMoe, sendNtfyAlert, sendEmailAlert, NTFY_TOPIC };
+module.exports = { notifyMoe, sendNtfyAlert, sendEmailAlert, sendTelegramAlert: sendNtfyAlert, NTFY_TOPIC };
