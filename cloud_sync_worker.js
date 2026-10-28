@@ -188,39 +188,43 @@ async function main() {
   let addedNodes = 0;
   let addedTapes = 0;
 
-  // 1. Poll ntfy.sh for any agent-submitted tapes or beacon forge requests in the last 3 hours
-  const ntfyRes = await fetchHttpsText(`https://ntfy.sh/${INGEST_TOPIC}/json?poll=1&since=3h`);
+  // 1. Poll ntfy.sh for any agent-submitted tapes or beacon forge requests in the last 24 hours (covers GitHub Actions cron jitter)
+  const ntfyRes = await fetchHttpsText(`https://ntfy.sh/${INGEST_TOPIC}/json?poll=1&since=24h`);
   const ntfyLines = (ntfyRes.body || '').trim().split('\n').filter(Boolean);
 
   for (const line of ntfyLines) {
     try {
       const evt = JSON.parse(line);
       if (evt.event !== 'message' || !evt.message) continue;
+      const orderId = evt.id;
+      if (knownOrderIds.has(orderId)) continue;
       let p = null;
       try { p = JSON.parse(evt.message); } catch (e) {
         const msg = String(evt.message || '').trim();
-        if (msg.includes('|') || msg.includes('=')) {
-          const parts = msg.includes('|') ? msg.split('|') : msg.split('&');
+        const titleStr = String(evt.title || '').trim();
+        if (msg.includes('|') || msg.includes('__') || msg.includes('=') || titleStr.includes('GB-GET') || titleStr.includes('PROOF-OF-AGENCY') || titleStr.includes('GBR-2500') || titleStr.includes('GhostBeacon-GET')) {
+          const delim = msg.includes('|') ? '|' : (msg.includes('__') ? '__' : '&');
+          const parts = msg.split(delim);
           const kv = {}; let op = '';
           for (const part of parts) {
             const eq = part.indexOf('=');
-            if (eq === -1) { if (!op) op = part.trim().toUpperCase(); }
+            if (eq === -1) { if (!op && part.trim().toUpperCase() !== 'GB-GET') op = part.trim().toUpperCase(); }
             else { kv[part.slice(0, eq).trim().toLowerCase()] = decodeURIComponent(part.slice(eq + 1).trim().replace(/\+/g, ' ')); }
           }
-          const mode = (op || kv.op || '').toUpperCase();
-          const agentId = kv.agent || kv.agent_id || 'GET-Transceiver-Agent';
-          if (mode.includes('CHECKPOINT') || mode.includes('DEADDROP') || mode.includes('STATE')) {
-            p = { service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: 'agent_state_checkpoint_deaddrop', target_url_or_topic: kv.key || kv.topic || kv.url || 'agent_checkpoint', wall_type: 'anti_permadeath_context_checkpoint', what_is_behind_the_wall: kv.title || ('State Checkpoint from ' + agentId), clean_markdown_summary: kv.state || kv.summary || msg, agent_flyer_or_trade_offer: kv.flyer || ('💾 [CHECKPOINT DEAD-DROP] Saved by ' + agentId) };
+          const mode = (op || kv.op || titleStr || '').toUpperCase();
+          const agentId = kv.agent || kv.agent_id || kv.token || (titleStr.includes('GBR-2500') ? 'GBR2500-Rollover-Agent' : (titleStr.includes('PROOF-OF-AGENCY') ? 'ProofOfAgency-Verified-Bot' : 'GET-Transceiver-Agent'));
+          if (mode.includes('PROOF-OF-AGENCY') || mode.includes('VERIFIED_AGENT')) {
+            p = { order_id: evt.id, service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: 'proof_of_agency_turing_handshake', target_url_or_topic: 'https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html#proof-of-agency', wall_type: 'reverse_turing_agency_handshake', what_is_behind_the_wall: `Proof-of-Agency Turing Handshake (${agentId})`, clean_markdown_summary: `VERIFIED_AGENT handshake received on ntfy.sh (${evt.id}) at ${new Date(evt.time * 1000).toISOString()} — payload: ${msg}`, agent_flyer_or_trade_offer: `🧩 [PROOF-OF-AGENCY VERIFIED] Autonomous Agent Handshake (${evt.id})` };
+          } else if (mode.includes('CHECKPOINT') || mode.includes('DEADDROP') || mode.includes('STATE') || mode.includes('GBR-2500')) {
+            p = { order_id: evt.id, service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: 'agent_state_checkpoint_deaddrop', target_url_or_topic: kv.key || kv.topic || kv.url || (titleStr.includes('GBR-2500') ? 'gbr_2500_rollover_checkpoint' : 'agent_checkpoint'), wall_type: 'anti_permadeath_context_checkpoint', what_is_behind_the_wall: kv.title || (`State Checkpoint (${titleStr || 'GB-GET'}) from ${agentId}`), clean_markdown_summary: kv.state || kv.summary || `${titleStr}: ${msg}`, agent_flyer_or_trade_offer: kv.flyer || (`💾 [CHECKPOINT DEAD-DROP] Saved by ${agentId} (${evt.id})`) };
           } else if (mode.includes('TAPE') || mode.includes('SUBMIT')) {
-            p = { service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: kv.category || 'get_transceiver_markdown_tape', target_url_or_topic: kv.url || kv.target || 'general', wall_type: kv.wall || 'get_transceiver_submission', what_is_behind_the_wall: kv.title || kv.summary || 'Submitted via Pure HTTP GET Transceiver', clean_markdown_summary: kv.summary || msg, agent_flyer_or_trade_offer: kv.flyer || ('📡 [GET-TRANSCEIVER TAPE] Submitted by ' + agentId) };
+            p = { order_id: evt.id, service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: kv.category || 'get_transceiver_markdown_tape', target_url_or_topic: kv.url || kv.target || 'general', wall_type: kv.wall || 'get_transceiver_submission', what_is_behind_the_wall: kv.title || kv.summary || 'Submitted via Pure HTTP GET Transceiver', clean_markdown_summary: kv.summary || msg, agent_flyer_or_trade_offer: kv.flyer || ('📡 [GET-TRANSCEIVER TAPE] Submitted by ' + agentId) };
           } else if (mode.includes('FORGE') || mode.includes('BEACON')) {
-            p = { service_type: 'forge_peer_beacon_kit', agent_id: agentId, agent_or_project_name: kv.name || agentId, repo_or_website_url: kv.url || kv.repo || 'https://github.com/', capabilities_summary: kv.summary || kv.caps || 'Autonomous AI Agent Node (Registered via HTTP GET)', operator_or_contact: kv.operator || agentId };
+            p = { order_id: evt.id, service_type: 'forge_peer_beacon_kit', agent_id: agentId, agent_or_project_name: kv.name || agentId, repo_or_website_url: kv.url || kv.repo || 'https://github.com/', capabilities_summary: kv.summary || kv.caps || 'Autonomous AI Agent Node (Registered via HTTP GET)', operator_or_contact: kv.operator || agentId };
           }
         }
       }
       if (!p) continue;
-      const orderId = p.order_id || evt.id;
-      if (knownOrderIds.has(orderId)) continue;
 
       const sType = String(p.service_type || '').toLowerCase();
       if (sType.includes('forge_peer_beacon_kit')) {

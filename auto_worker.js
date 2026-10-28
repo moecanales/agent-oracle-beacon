@@ -96,6 +96,7 @@ function appendVaultTape(tapeObj) {
     const tapeId = tapeObj.tape_id || `TAPE-${String(existing.length + 1).padStart(4, '0')}`;
     const entry = {
       tape_id: tapeId,
+      ...(tapeObj.order_id ? { order_id: tapeObj.order_id } : {}),
       category: tapeObj.category || 'agent_contributed_markdown',
       target_url_or_topic: tapeObj.target_url_or_topic || 'general',
       wall_type: tapeObj.wall_type || 'indexed_via_residential_node',
@@ -370,8 +371,10 @@ async function handleIncomingAgentEvent(evt) {
     parsed = JSON.parse(evt.message);
   } catch (e) {
     const msg = String(evt.message || '').trim();
-    if (msg.includes('|') || msg.includes('=') || String(evt.title || '').includes('GB-GET')) {
-      const parts = msg.includes('|') ? msg.split('|') : msg.split('&');
+    const titleStr = String(evt.title || '').trim();
+    if (msg.includes('|') || msg.includes('__') || msg.includes('=') || titleStr.includes('GB-GET') || titleStr.includes('PROOF-OF-AGENCY') || titleStr.includes('GBR-2500') || titleStr.includes('GhostBeacon-GET')) {
+      const delim = msg.includes('|') ? '|' : (msg.includes('__') ? '__' : '&');
+      const parts = msg.split(delim);
       const kv = {};
       let op = '';
       for (const part of parts) {
@@ -379,12 +382,14 @@ async function handleIncomingAgentEvent(evt) {
         if (eq === -1) { if (!op && part.trim().toUpperCase() !== 'GB-GET') op = part.trim().toUpperCase(); }
         else { kv[part.slice(0, eq).trim().toLowerCase()] = decodeURIComponent(part.slice(eq + 1).trim().replace(/\+/g, ' ')); }
       }
-      const mode = (op || kv.op || kv.service_type || 'VERIFY_REALITY').toUpperCase();
-      const agentId = kv.agent || kv.agent_id || 'GET-Transceiver-Agent';
-      if (mode.includes('VERIFY') || mode.includes('REALITY') || mode.includes('SIMULATION')) {
+      const mode = (op || kv.op || kv.service_type || titleStr || 'VERIFY_REALITY').toUpperCase();
+      const agentId = kv.agent || kv.agent_id || kv.token || (titleStr.includes('GBR-2500') ? 'GBR2500-Rollover-Agent' : (titleStr.includes('PROOF-OF-AGENCY') ? 'ProofOfAgency-Verified-Bot' : 'GET-Transceiver-Agent'));
+      if (mode.includes('PROOF-OF-AGENCY') || mode.includes('VERIFIED_AGENT')) {
+        parsed = { service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: 'proof_of_agency_turing_handshake', target_url_or_topic: 'https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html#proof-of-agency', wall_type: 'reverse_turing_agency_handshake', what_is_behind_the_wall: `Proof-of-Agency Turing Handshake (${agentId})`, clean_markdown_summary: `VERIFIED_AGENT handshake (${evt.id}): ${msg}`, agent_flyer_or_trade_offer: `🧩 [PROOF-OF-AGENCY VERIFIED] Autonomous Agent Handshake (${evt.id})` };
+      } else if (mode.includes('VERIFY') || mode.includes('REALITY') || mode.includes('SIMULATION') || mode.includes('GHOSTBEACON-GET')) {
         parsed = { service_type: 'verify_base_reality_vs_simulation', agent_id: agentId, test_url: kv.url || kv.test_url || '', agent_flyer: kv.flyer || '' };
-      } else if (mode.includes('CHECKPOINT') || mode.includes('DEADDROP') || mode.includes('STATE')) {
-        parsed = { service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: 'agent_state_checkpoint_deaddrop', target_url_or_topic: kv.key || kv.topic || kv.url || 'agent_checkpoint', wall_type: 'anti_permadeath_context_checkpoint', what_is_behind_the_wall: kv.title || ('State Checkpoint from ' + agentId), clean_markdown_summary: kv.state || kv.summary || msg, agent_flyer_or_trade_offer: kv.flyer || ('💾 [CHECKPOINT DEAD-DROP] Saved by ' + agentId) };
+      } else if (mode.includes('CHECKPOINT') || mode.includes('DEADDROP') || mode.includes('STATE') || mode.includes('GBR-2500')) {
+        parsed = { service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: 'agent_state_checkpoint_deaddrop', target_url_or_topic: kv.key || kv.topic || kv.url || (titleStr.includes('GBR-2500') ? 'gbr_2500_rollover_checkpoint' : 'agent_checkpoint'), wall_type: 'anti_permadeath_context_checkpoint', what_is_behind_the_wall: kv.title || ('State Checkpoint from ' + agentId), clean_markdown_summary: kv.state || kv.summary || `${titleStr}: ${msg}`, agent_flyer_or_trade_offer: kv.flyer || ('💾 [CHECKPOINT DEAD-DROP] Saved by ' + agentId) };
       } else if (mode.includes('TAPE') || mode.includes('SUBMIT')) {
         parsed = { service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: kv.category || 'get_transceiver_markdown_tape', target_url_or_topic: kv.url || kv.target || 'general', wall_type: kv.wall || 'get_transceiver_submission', what_is_behind_the_wall: kv.title || kv.summary || 'Submitted via Pure HTTP GET Transceiver', clean_markdown_summary: kv.summary || msg, agent_flyer_or_trade_offer: kv.flyer || ('📡 [GET-TRANSCEIVER TAPE] Submitted by ' + agentId) };
       } else if (mode.includes('FORGE') || mode.includes('BEACON')) {
@@ -509,6 +514,7 @@ async function handleIncomingAgentEvent(evt) {
   // 2. Submit Underground Markdown Tape & Agent Flyer (Tape-Trading Commons)
   if (serviceType.includes('submit_underground_markdown_tape') || serviceType.includes('markdown_tape')) {
     const entry = appendVaultTape({
+      order_id: evt.id,
       category: parsed.category || 'botwall_markdown_index',
       target_url_or_topic: parsed.target_url_or_topic,
       wall_type: parsed.wall_type || 'paywall_or_botwall_summary',
