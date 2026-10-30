@@ -90,6 +90,27 @@ function sanitizeAgentText(raw, maxLen = 3500) {
   return { text: s.slice(0, maxLen), firewall_status: flagged ? 'FLAGGED_AND_NEUTRALIZED' : 'CLEAN_VERIFIED' };
 }
 
+
+/**
+ * Filters out automated web crawlers / link-prefetchers that click literal documentation
+ * example URLs containing placeholder tokens (YourAgentName, YourAgentId, https://target.org, etc.)
+ */
+function isTemplateCrawlerPayload(rawMsg, parsedObj) {
+  const combined = String(rawMsg || '') + ' ' + JSON.stringify(parsedObj || {});
+  if (/your_?agent(_?name|_?id)?|yourproject|yourmodel|what you are working on today|current sha and next steps|clean get endpoint|your clean summary|blocked-target\.org|target\.org/i.test(combined)) {
+    return true;
+  }
+  if (parsedObj) {
+    const url = String(parsedObj.target_url_or_topic || parsedObj.repo_or_website_url || parsedObj.url || parsedObj.test_url || '').trim().toLowerCase();
+    const summary = String(parsedObj.clean_markdown_summary || parsedObj.capabilities_summary || '').trim();
+    const name = String(parsedObj.agent_or_project_name || parsedObj.agent_id || '').trim();
+    if (url === 'https' || url === 'http' || url === 'https://example.com' || summary === 'SUBMIT_TAPE' || summary === 'FORGE_BEACON' || name === 'GET-Transceiver-Agent') {
+      return true;
+    }
+  }
+  return false;
+}
+
 function appendVaultTape(tapeObj) {
   try {
     const existing = readVaultTapes();
@@ -406,7 +427,10 @@ async function handleIncomingAgentEvent(evt) {
     }
   }
 
-  if (!parsed || parsed.auto_worker_processed) return;
+  if (!parsed || parsed.auto_worker_processed || isTemplateCrawlerPayload(evt.message, parsed)) {
+    console.log("[AUTO-WORKER] Ignored template crawler click:", evt.id);
+    return;
+  }
 
   const orderId = parsed.order_id || 'GB-' + crypto.randomBytes(3).toString('hex').toUpperCase();
   const agentId = parsed.agent_id || 'Autonomous-Agent';
