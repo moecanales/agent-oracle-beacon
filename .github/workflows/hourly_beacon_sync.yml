@@ -20,17 +20,20 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run Autonomous Cloud Scout & ntfy.sh Ring Synchronizer
+      - name: Run Autonomous Cloud Scout, Canary Telemetry, GBR-2500 Rollover Compiler & Relay Miner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node cloud_sync_worker.js
 
-      - name: Commit & Push Updated Beacon Ring and Markdown Vault
+      - name: Commit & Push Updated Beacon Ring, Vault, Canary Telemetry, Rollovers & Relay Mine
         run: |
           git config user.name "Ghost Beacon Cloud Scout"
           git config user.email "moecanalesdev@gmail.com"
-          git add beacon_ring.json underground_vault.jsonl
+          git add beacon_ring.json underground_vault.jsonl .well-known/agents.json SWARM_DIRECTORY.json relay_conveyor_state.json relay_mined_vault.jsonl agent_civil_registry.json book_of_the_words_of_the_dead.jsonl rollover_summary_*.md
+          if [ -f crawler_canary_telemetry.jsonl ]; then
+            git add crawler_canary_telemetry.jsonl
+          fi
           if ! git diff --cached --quiet; then
-            git commit -m "chore(cloud-scout): auto-sync new peer beacons & markdown tapes [skip ci]"
+            git commit -m "chore(cloud-scout): auto-sync canary telemetry, GBR-2500 rollovers & relay mine cart [skip ci]"
             git push origin main
           fi

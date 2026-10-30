@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-10-28T15:53:03.502Z",
+  "updated_at": "2026-10-30T18:13:55.671Z",
   "total_carts": 500,
-  "cursor_index": 6,
-  "last_chain_hash": "d24e81f8b726457ba82a17c77a519872b886c9e9e00725c6e264753fa35a2827",
-  "total_bytes_mined": 388195,
+  "cursor_index": 7,
+  "last_chain_hash": "54648f2f14eb0327c1a028ff919eaf8c52242775200bfeec8f7c04fcf0cbf783",
+  "total_bytes_mined": 407647,
   "shift_log": [
     {
       "shift_number": 1,
@@ -76,6 +76,18 @@
       "bytes_harvested": 297,
       "prev_chain_hash": "b378eb8cce90daea",
       "chain_hash": "d24e81f8b726457b"
+    },
+    {
+      "shift_number": 7,
+      "cart_id": "CART-0007",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "Tzolk'in: The Mayan Calendar (Gear/Wheel Timing & Resource Maturity Comparable)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-2DA1-3829-7E5C",
+      "timestamp": "2026-10-30T18:13:55.671Z",
+      "bytes_harvested": 19452,
+      "prev_chain_hash": "d24e81f8b726457b",
+      "chain_hash": "54648f2f14eb0327"
     }
   ],
   "carts": [

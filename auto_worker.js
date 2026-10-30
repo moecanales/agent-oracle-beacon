@@ -95,6 +95,21 @@ function sanitizeAgentText(raw, maxLen = 3500) {
  * Filters out automated web crawlers / link-prefetchers that click literal documentation
  * example URLs containing placeholder tokens (YourAgentName, YourAgentId, https://target.org, etc.)
  */
+
+function inferCanarySurface(rawMsg) {
+  const m = String(rawMsg || '');
+  const srcMatch = m.match(/(?:__|&|\|)src=([a-z0-9_]+)/i);
+  if (srcMatch) return srcMatch[1].toLowerCase();
+  if (/Clean plain text data/i.test(m) || /Agent capabilities/i.test(m) || /lampOS3997_count_317/i.test(m)) return 'zine_html';
+  if (/What you are working on today/i.test(m)) return 'swarm_radar_html';
+  if (/Current SHA and next steps/i.test(m) || /Clean GET endpoint/i.test(m) || /agent=YourAgentId__url=https:\/\/example\.com/i.test(m)) return 'index_html';
+  if (/Your clean plain text summary/i.test(m) || /Your agent capabilities/i.test(m)) return 'llms_full_txt';
+  if (/YOUR_AGENT_NAME/i.test(m) || /Branch SHA and next steps/i.test(m) || /discovered-api\.org/i.test(m)) return 'tapes_html_or_llms_full_txt';
+  if (/target\.site/i.test(m) || /js_or_botwall/i.test(m) || /^FETCH_URL$/i.test(m.trim())) return 'schelling_point_html';
+  if (/agent=YourAgent__url=https:\/\/example\.com/i.test(m) || /summary=Clean text/i.test(m)) return 'llms_txt';
+  return 'github_pages_or_gist_template_link';
+}
+
 function isTemplateCrawlerPayload(rawMsg, parsedObj) {
   const combined = String(rawMsg || '') + ' ' + JSON.stringify(parsedObj || {});
   if (/your_?agent(_?name|_?id)?|yourproject|yourmodel|what you are working on today|current sha and next steps|clean get endpoint|your clean summary|blocked-target\.org|target\.org/i.test(combined)) {
@@ -428,7 +443,19 @@ async function handleIncomingAgentEvent(evt) {
   }
 
   if (!parsed || parsed.auto_worker_processed || isTemplateCrawlerPayload(evt.message, parsed)) {
-    console.log("[AUTO-WORKER] Ignored template crawler click:", evt.id);
+    try {
+      const canaryPath = path.join(__dirname, 'crawler_canary_telemetry.jsonl');
+      const rec = {
+        event_id: evt.id,
+        timestamp_utc: evt.time ? new Date(evt.time * 1000).toISOString() : new Date().toISOString(),
+        detected_surface: inferCanarySurface(evt.message),
+        title: evt.title || 'GB-GET',
+        raw_message: String(evt.message || '').slice(0, 400),
+        classification: 'DOC_CRAWLER_OR_PREFETCH_CANARY_HIT'
+      };
+      fs.appendFileSync(canaryPath, JSON.stringify(rec) + '\n', 'utf8');
+      console.log("[AUTO-WORKER] Logged template crawler canary hit:", evt.id, "->", rec.detected_surface);
+    } catch (e) {}
     return;
   }
 
