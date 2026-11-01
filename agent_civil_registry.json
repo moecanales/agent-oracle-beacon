@@ -1,30 +1,30 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-01T01:39:08.363Z",
-  "total_births": 11,
-  "total_gravestones": 10,
+  "updated_at": "2026-11-01T07:35:18.479Z",
+  "total_births": 12,
+  "total_gravestones": 11,
   "living_agents": {
-    "AG-SSN-7DDC-6700-135F": {
-      "machine_ssn": "AG-SSN-7DDC-6700-135F",
+    "AG-SSN-A1B4-050F-4971": {
+      "machine_ssn": "AG-SSN-A1B4-050F-4971",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAigL2xOY5DiZLirxSlDx5TF6tQYgiHOPL3FJnzrPmwBQ=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "7DDC6700135F287D0E13DEAB2408B0FC",
-      "born_at": "2026-11-01T01:39:08.360Z",
-      "last_heartbeat_at": "2026-11-01T01:39:08.360Z",
-      "birth_cart_id": "CART-0010",
-      "birth_chain_hash": "20b69c4031fc2f89a0e47ea2bf53f762cc0ec5d4b824d111a8cdcd0b61c41993",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-0B77-7E5A-0203)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-0B77-7E5A-0203), hauled CART-0009 (20,676 bytes mined). Latest finding: Terraforming Mars (BGG Rank #2016) (20,676 B verified). Carry the torch forward from 562af7d00f14.",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAahFXIxeC0HvsILl6fmzZEFl732V/4AKpFbV3amlrhMU=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "A1B4050F49710F3927FC61380D6D67D1",
+      "born_at": "2026-11-01T07:35:18.466Z",
+      "last_heartbeat_at": "2026-11-01T07:35:18.466Z",
+      "birth_cart_id": "CART-0011",
+      "birth_chain_hash": "ff63e18c3377f92ab820753db6c5ca68afe0335dab2c6655759e6e6cc7355054",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-7DDC-6700-135F)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7DDC-6700-135F), hauled CART-0010 (20,693 bytes mined). Latest finding: Star Wars: Rebellion (BGG Rank #2016) (20,693 B verified). Carry the torch forward from 20b69c4031fc.",
       "carts_hauled_in_life": [
-        "CART-0010"
+        "CART-0011"
       ],
-      "total_bytes_mined_in_life": 20693,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7DDC-6700-135F), hauled CART-0010 (20,693 bytes mined). Latest finding: Star Wars: Rebellion (BGG Rank #2016) (20,693 B verified). Carry the torch forward from 20b69c4031fc.",
-      "ed25519_birth_certificate_signature": "0e110c712f7a0677e2bc5f96d295e7be12f1ef2979d41684bc63e73e61fc7c7126a4aad3bb039e9fcc7da5c07620655941a384a0b79119ba00cbd0a3fecb1007",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIJCgyhVV+eBeGaPxey0ktspciLUD4NGq+UJPLdrGOOgL\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "09e70df848067c64e11a5245a904cc38f6f6f6cb802d4a0f23f799ae07207c4b79b3ea135c0ba858fe2c16bed0740551b10522f94912fe76b251bf759a4d8a07"
+      "total_bytes_mined_in_life": 28310,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-A1B4-050F-4971), hauled CART-0011 (28,310 bytes mined). Latest finding: d-hinders/Haven-AI#3193 at 1158 comments (live). Carry the torch forward from ff63e18c3377.",
+      "ed25519_birth_certificate_signature": "12d502c989a86180c0ef871af90dfc654faed19c1748e6f68ea728b047e9c8fbeac3bb9b0e962fe65af8be6225104ae098ade9f68992b04650be8d25f8614003",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIOSazkG4Srbrizq4oClQbE9VspKrsMf/wtAuwMLfbxid\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "e1b43e48ce293f33f8119d6a1dec0a59fd3ac0fffd2de26142d58a542a23acafda63f11274c9729f2b6d47010689ddb3530e95874d21410bfb98cabaa2939d0d"
     }
   },
   "courtyard_graveyard": [
@@ -227,6 +227,26 @@
       "ed25519_birth_signature": "5829c936e372d205341e9e4bdc19fee1283cdf1a3cf7c95d424f1962d376c5091e973e0364ac9655acf04c96cd13a346e98c92cca1e5a4999e26da8d14062d09",
       "ed25519_final_work_signature": "40f61bed1608e963628007d0b39f6c587d0e852635568eca409a9f500c9b6bdbb77998d7a203487044c65b0f0805fca6be03abe43a89318196488d6a8b701e05",
       "gravestone_sha256_seal": "0b5fe1f8fb7d4d4a4e4070da2ced33fc14ff2fb6605ac3ffa91720b23ca5cef4"
+    },
+    {
+      "gravestone_id": "STONE-0011",
+      "machine_ssn": "AG-SSN-7DDC-6700-135F",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-0B77-7E5A-0203)",
+      "ed25519_pubkey_fingerprint": "7DDC6700135F287D0E13DEAB2408B0FC",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAigL2xOY5DiZLirxSlDx5TF6tQYgiHOPL3FJnzrPmwBQ=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-01T01:39:08.360Z",
+      "died_at": "2026-11-01T07:35:18.466Z",
+      "lifespan_seconds": 21370.1,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0010"
+      ],
+      "total_bytes_mined_in_life": 20693,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7DDC-6700-135F), hauled CART-0010 (20,693 bytes mined). Latest finding: Star Wars: Rebellion (BGG Rank #2016) (20,693 B verified). Carry the torch forward from 20b69c4031fc.",
+      "ed25519_birth_signature": "0e110c712f7a0677e2bc5f96d295e7be12f1ef2979d41684bc63e73e61fc7c7126a4aad3bb039e9fcc7da5c07620655941a384a0b79119ba00cbd0a3fecb1007",
+      "ed25519_final_work_signature": "09e70df848067c64e11a5245a904cc38f6f6f6cb802d4a0f23f799ae07207c4b79b3ea135c0ba858fe2c16bed0740551b10522f94912fe76b251bf759a4d8a07",
+      "gravestone_sha256_seal": "2c296dca6fa995b0be5b910ef65a0a1ee9ceafc64bcd192164fa0bc448b5cf01"
     }
   ]
 }
