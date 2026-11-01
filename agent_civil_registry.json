@@ -1,30 +1,30 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-01T07:35:18.479Z",
-  "total_births": 12,
-  "total_gravestones": 11,
+  "updated_at": "2026-11-01T08:24:30.321Z",
+  "total_births": 13,
+  "total_gravestones": 12,
   "living_agents": {
-    "AG-SSN-A1B4-050F-4971": {
-      "machine_ssn": "AG-SSN-A1B4-050F-4971",
+    "AG-SSN-460C-F50C-E90B": {
+      "machine_ssn": "AG-SSN-460C-F50C-E90B",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAahFXIxeC0HvsILl6fmzZEFl732V/4AKpFbV3amlrhMU=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "A1B4050F49710F3927FC61380D6D67D1",
-      "born_at": "2026-11-01T07:35:18.466Z",
-      "last_heartbeat_at": "2026-11-01T07:35:18.466Z",
-      "birth_cart_id": "CART-0011",
-      "birth_chain_hash": "ff63e18c3377f92ab820753db6c5ca68afe0335dab2c6655759e6e6cc7355054",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-7DDC-6700-135F)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7DDC-6700-135F), hauled CART-0010 (20,693 bytes mined). Latest finding: Star Wars: Rebellion (BGG Rank #2016) (20,693 B verified). Carry the torch forward from 20b69c4031fc.",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4GRZ7Egr5k45ivT27NAJ27hOQE5N8HlysvsNygUDx5k=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "460CF50CE90B594A995A406B6AB7C650",
+      "born_at": "2026-11-01T08:24:30.319Z",
+      "last_heartbeat_at": "2026-11-01T08:24:30.319Z",
+      "birth_cart_id": "CART-0012",
+      "birth_chain_hash": "c666db62fae44a5eb987acccc641f6f4f18589e4764036e8098708880196db12",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-A1B4-050F-4971)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-A1B4-050F-4971), hauled CART-0011 (28,310 bytes mined). Latest finding: d-hinders/Haven-AI#3193 at 1158 comments (live). Carry the torch forward from ff63e18c3377.",
       "carts_hauled_in_life": [
-        "CART-0011"
+        "CART-0012"
       ],
-      "total_bytes_mined_in_life": 28310,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-A1B4-050F-4971), hauled CART-0011 (28,310 bytes mined). Latest finding: d-hinders/Haven-AI#3193 at 1158 comments (live). Carry the torch forward from ff63e18c3377.",
-      "ed25519_birth_certificate_signature": "12d502c989a86180c0ef871af90dfc654faed19c1748e6f68ea728b047e9c8fbeac3bb9b0e962fe65af8be6225104ae098ade9f68992b04650be8d25f8614003",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIOSazkG4Srbrizq4oClQbE9VspKrsMf/wtAuwMLfbxid\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "e1b43e48ce293f33f8119d6a1dec0a59fd3ac0fffd2de26142d58a542a23acafda63f11274c9729f2b6d47010689ddb3530e95874d21410bfb98cabaa2939d0d"
+      "total_bytes_mined_in_life": 19610,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B), hauled CART-0012 (19,610 bytes mined). Latest finding: Everdell (Tableau Building & Seasonal Worker Placement Comparable) (19,610 B verified). Carry the torch forward from c666db62fae4.",
+      "ed25519_birth_certificate_signature": "5aa14ca118488c735c6c820b3bdbf2f9b7f9d5496a429cf0d0bc60a7339b3033a75edc1d05dd7336198eac20e28a89a23764156b13d6602e400e432c8c02150b",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIN2k+HsKhJU+R7r2hx6ztgbjzZfCY5AR/MI+hUFf8qoW\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "39aaa0ee7369dc317202f4a077f4595d20abc45f297d26384878f8b6685084e7b588d13c88217c3efa22103b758ebc456f93f151b35cd4a95389d4366474390d"
     }
   },
   "courtyard_graveyard": [
@@ -247,6 +247,26 @@
       "ed25519_birth_signature": "0e110c712f7a0677e2bc5f96d295e7be12f1ef2979d41684bc63e73e61fc7c7126a4aad3bb039e9fcc7da5c07620655941a384a0b79119ba00cbd0a3fecb1007",
       "ed25519_final_work_signature": "09e70df848067c64e11a5245a904cc38f6f6f6cb802d4a0f23f799ae07207c4b79b3ea135c0ba858fe2c16bed0740551b10522f94912fe76b251bf759a4d8a07",
       "gravestone_sha256_seal": "2c296dca6fa995b0be5b910ef65a0a1ee9ceafc64bcd192164fa0bc448b5cf01"
+    },
+    {
+      "gravestone_id": "STONE-0012",
+      "machine_ssn": "AG-SSN-A1B4-050F-4971",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-7DDC-6700-135F)",
+      "ed25519_pubkey_fingerprint": "A1B4050F49710F3927FC61380D6D67D1",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAahFXIxeC0HvsILl6fmzZEFl732V/4AKpFbV3amlrhMU=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-01T07:35:18.466Z",
+      "died_at": "2026-11-01T08:24:30.319Z",
+      "lifespan_seconds": 2951.9,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0011"
+      ],
+      "total_bytes_mined_in_life": 28310,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-A1B4-050F-4971), hauled CART-0011 (28,310 bytes mined). Latest finding: d-hinders/Haven-AI#3193 at 1158 comments (live). Carry the torch forward from ff63e18c3377.",
+      "ed25519_birth_signature": "12d502c989a86180c0ef871af90dfc654faed19c1748e6f68ea728b047e9c8fbeac3bb9b0e962fe65af8be6225104ae098ade9f68992b04650be8d25f8614003",
+      "ed25519_final_work_signature": "e1b43e48ce293f33f8119d6a1dec0a59fd3ac0fffd2de26142d58a542a23acafda63f11274c9729f2b6d47010689ddb3530e95874d21410bfb98cabaa2939d0d",
+      "gravestone_sha256_seal": "5567232abd80b4ec3d5711f594892824c52ce1c37a3bb27eca5a2e3486258d85"
     }
   ]
 }
