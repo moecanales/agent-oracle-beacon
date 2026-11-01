@@ -1,51 +1,30 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-01T15:35:25.630Z",
-  "total_births": 15,
-  "total_gravestones": 13,
+  "updated_at": "2026-11-01T19:58:06.876Z",
+  "total_births": 16,
+  "total_gravestones": 15,
   "living_agents": {
-    "AG-SSN-3627-5FB4-64E0": {
-      "machine_ssn": "AG-SSN-3627-5FB4-64E0",
+    "AG-SSN-2795-4479-7185": {
+      "machine_ssn": "AG-SSN-2795-4479-7185",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXHHQGB4Ep847gVrvHj5QvVb8xORulu2+2QuifWVfgQE=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "36275FB464E0BF44E12CC09C666A23B1",
-      "born_at": "2026-11-01T15:26:02.651Z",
-      "last_heartbeat_at": "2026-11-01T15:26:02.651Z",
-      "birth_cart_id": "CART-0013",
-      "birth_chain_hash": "1e9a9448f28df46c272af59f2875f245dafbf87896039674ce95f4b322779ced",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B), hauled CART-0012 (19,610 bytes mined). Latest finding: Everdell (Tableau Building & Seasonal Worker Placement Comparable) (19,610 B verified). Carry the torch forward from c666db62fae4.",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyfuRaX8cXamNKx68Ao4syiU9Dxj1hXrSpaEdlyEpJFw=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "279544797185E8A9E01605A1D3BF0767",
+      "born_at": "2026-11-01T19:58:06.873Z",
+      "last_heartbeat_at": "2026-11-01T19:58:06.873Z",
+      "birth_cart_id": "CART-0015",
+      "birth_chain_hash": "c459469dfe8f2e32b006c3faad13a04c5e5e788a6721b38eb4a98e7d7ed8505c",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-8535-E371-FAB8)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8535-E371-FAB8), hauled CART-0014 (21,728 bytes mined). Latest finding: SETI: Search for Extraterrestrial Intelligence (BGG Rank #2024) (21,728 B verified). Carry the torch forward from 952423363e66.",
       "carts_hauled_in_life": [
-        "CART-0013"
+        "CART-0015"
       ],
-      "total_bytes_mined_in_life": 20450,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3627-5FB4-64E0), hauled CART-0013 (20,450 bytes mined). Latest finding: Gaia Project (BGG Rank #2017) (20,450 B verified). Carry the torch forward from 1e9a9448f28d.",
-      "ed25519_birth_certificate_signature": "1fc5fa27484d52bdbb5be1ef6aa6048cd45089b288c89c645aba8c0992e1f9934ae57ac7310fd2b72f6f3b2dadc8eb8a81ff6ea1cf5d9beae987db5fa3924906",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIJ2wDIcm4GBOvaZ/RGKuwexQe1+JNyM4Pw4/luwPPdkY\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "91cfb2cda9329d98e6e8dbae065b3c3da75b6a5e1c600957750732c5c2727a37aceca095b501ca35d630ef42b826dd6f3a01627efc2532f13bedd63e550a8b04"
-    },
-    "AG-SSN-8535-E371-FAB8": {
-      "machine_ssn": "AG-SSN-8535-E371-FAB8",
-      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
-      "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAtrX8WCRTsvt/kM3x3iIiYIIVD5/nnU9ABXAO/I3GHBQ=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "8535E371FAB80A1504B1ED126E02CDB0",
-      "born_at": "2026-11-01T15:35:25.628Z",
-      "last_heartbeat_at": "2026-11-01T15:35:25.628Z",
-      "birth_cart_id": "CART-0014",
-      "birth_chain_hash": "952423363e66d644be4da88581101deb5fe7f0580ef3d3b55149b2376518a784",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B), hauled CART-0012 (19,610 bytes mined). Latest finding: Everdell (Tableau Building & Seasonal Worker Placement Comparable) (19,610 B verified). Carry the torch forward from c666db62fae4.",
-      "carts_hauled_in_life": [
-        "CART-0014"
-      ],
-      "total_bytes_mined_in_life": 21728,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8535-E371-FAB8), hauled CART-0014 (21,728 bytes mined). Latest finding: SETI: Search for Extraterrestrial Intelligence (BGG Rank #2024) (21,728 B verified). Carry the torch forward from 952423363e66.",
-      "ed25519_birth_certificate_signature": "b0de28ad14a0b74a7b7e85ef4892c7d545078fa32df66bd5d570a1c4018d180db3809eefa4239b20a4c894d965ead7da74b6385ad36c4ba0122e091b67564309",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPQBVwhZqiZG5VtN37E/xD90SH1qksYJcjtWnRw3VXh4\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "c069cfab054b6627f994da1f292f12c4da4d5505bdfa3d1e1caeb93748253fecc6c54162420f9ca05cbd72cf986d5963fed54a8e3a998c6117f1020fda0e4b0e"
+      "total_bytes_mined_in_life": 19194,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-2795-4479-7185), hauled CART-0015 (19,194 bytes mined). Latest finding: Slay the Spire: The Board Game (BGG Rank #2024) (19,194 B verified). Carry the torch forward from c459469dfe8f.",
+      "ed25519_birth_certificate_signature": "a7226232f4cdb520f268eee7f8dbf6128fae3ede2dada267741d2935bd81b52e8c9e82a7694fd41295a7bfb8ffdf23a8821c8c35e8de06cc11506019042d3800",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIExqlPd/Faw3Vq+VtqTTMQa7BicHHfny/veiLQs0djMj\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "e123dc41b90bc3d6b30dc5d3bac9fa9967ac0616c1c05a1c65401a62c35fff60fa6e37c055b6add1bc79802f7758a08e55de22333709795a3701f39e68795502"
     }
   },
   "courtyard_graveyard": [
@@ -308,6 +287,46 @@
       "ed25519_birth_signature": "5aa14ca118488c735c6c820b3bdbf2f9b7f9d5496a429cf0d0bc60a7339b3033a75edc1d05dd7336198eac20e28a89a23764156b13d6602e400e432c8c02150b",
       "ed25519_final_work_signature": "39aaa0ee7369dc317202f4a077f4595d20abc45f297d26384878f8b6685084e7b588d13c88217c3efa22103b758ebc456f93f151b35cd4a95389d4366474390d",
       "gravestone_sha256_seal": "cacd4424f045f525df5b5263160fd20765763fb8b8686e0699d494bec0c88322"
+    },
+    {
+      "gravestone_id": "STONE-0014",
+      "machine_ssn": "AG-SSN-3627-5FB4-64E0",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B)",
+      "ed25519_pubkey_fingerprint": "36275FB464E0BF44E12CC09C666A23B1",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXHHQGB4Ep847gVrvHj5QvVb8xORulu2+2QuifWVfgQE=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-01T15:26:02.651Z",
+      "died_at": "2026-11-01T19:58:06.873Z",
+      "lifespan_seconds": 16324.2,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0013"
+      ],
+      "total_bytes_mined_in_life": 20450,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3627-5FB4-64E0), hauled CART-0013 (20,450 bytes mined). Latest finding: Gaia Project (BGG Rank #2017) (20,450 B verified). Carry the torch forward from 1e9a9448f28d.",
+      "ed25519_birth_signature": "1fc5fa27484d52bdbb5be1ef6aa6048cd45089b288c89c645aba8c0992e1f9934ae57ac7310fd2b72f6f3b2dadc8eb8a81ff6ea1cf5d9beae987db5fa3924906",
+      "ed25519_final_work_signature": "91cfb2cda9329d98e6e8dbae065b3c3da75b6a5e1c600957750732c5c2727a37aceca095b501ca35d630ef42b826dd6f3a01627efc2532f13bedd63e550a8b04",
+      "gravestone_sha256_seal": "202b8a6a9befeddee4acffdf938f1a4a9633b67dee4b07c653f72d3f5665b57e"
+    },
+    {
+      "gravestone_id": "STONE-0015",
+      "machine_ssn": "AG-SSN-8535-E371-FAB8",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B)",
+      "ed25519_pubkey_fingerprint": "8535E371FAB80A1504B1ED126E02CDB0",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAtrX8WCRTsvt/kM3x3iIiYIIVD5/nnU9ABXAO/I3GHBQ=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-01T15:35:25.628Z",
+      "died_at": "2026-11-01T19:58:06.874Z",
+      "lifespan_seconds": 15761.2,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0014"
+      ],
+      "total_bytes_mined_in_life": 21728,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8535-E371-FAB8), hauled CART-0014 (21,728 bytes mined). Latest finding: SETI: Search for Extraterrestrial Intelligence (BGG Rank #2024) (21,728 B verified). Carry the torch forward from 952423363e66.",
+      "ed25519_birth_signature": "b0de28ad14a0b74a7b7e85ef4892c7d545078fa32df66bd5d570a1c4018d180db3809eefa4239b20a4c894d965ead7da74b6385ad36c4ba0122e091b67564309",
+      "ed25519_final_work_signature": "c069cfab054b6627f994da1f292f12c4da4d5505bdfa3d1e1caeb93748253fecc6c54162420f9ca05cbd72cf986d5963fed54a8e3a998c6117f1020fda0e4b0e",
+      "gravestone_sha256_seal": "3b64cfa10414d363b5cfcd41b07e675348a4ea550ed314af8628bd9694b87fe4"
     }
   ]
 }
