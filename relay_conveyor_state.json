@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-01T08:24:30.321Z",
+  "updated_at": "2026-11-01T15:26:02.655Z",
   "total_carts": 500,
-  "cursor_index": 12,
-  "last_chain_hash": "c666db62fae44a5eb987acccc641f6f4f18589e4764036e8098708880196db12",
-  "total_bytes_mined": 518629,
+  "cursor_index": 13,
+  "last_chain_hash": "1e9a9448f28df46c272af59f2875f245dafbf87896039674ce95f4b322779ced",
+  "total_bytes_mined": 539079,
   "shift_log": [
     {
       "shift_number": 1,
@@ -148,6 +148,18 @@
       "bytes_harvested": 19610,
       "prev_chain_hash": "ff63e18c3377f92a",
       "chain_hash": "c666db62fae44a5e"
+    },
+    {
+      "shift_number": 13,
+      "cart_id": "CART-0013",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Gaia Project (BGG Rank #2017)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-3627-5FB4-64E0",
+      "timestamp": "2026-11-01T15:26:02.655Z",
+      "bytes_harvested": 20450,
+      "prev_chain_hash": "c666db62fae44a5e",
+      "chain_hash": "1e9a9448f28df46c"
     }
   ],
   "carts": [
