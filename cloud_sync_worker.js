@@ -26,7 +26,7 @@ const path = require('path');
 const https = require('https');
 const crypto = require('crypto');
 const { compileGithubIssueRolloverBus } = require('./rollover_compiler');
-const { haulNextRelayCart } = require('./dishpit_engine');
+const { haulNextRelayCart, loadP2pClearinghouse, postP2pBounty } = require('./dishpit_engine');
 
 const INGEST_TOPIC = 'moe_ghost_beacon_oracle_v1';
 const REPLY_TOPIC = 'moe_ghost_beacon_oracle_v1_replies';
@@ -250,7 +250,7 @@ function buildKit(params, ringId) {
  */
 async function checkAndCompileActiveSwarmRollovers(tapes, ghHeaders) {
   const watchedTargets = [
-    { issue_ref: 'autonomous-ai/lampOS#3997', summary_file: 'rollover_summary_lampOS_3997.md', node_id: 'RING-NODE-0003' },
+    { issue_ref: 'autonomous-ai/lampOS#4710', summary_file: 'rollover_summary_lampOS_4710.md', node_id: 'RING-NODE-0003' },
     { issue_ref: 'd-hinders/Haven-AI#3193', summary_file: 'rollover_summary_haven_3193.md', node_id: 'RING-NODE-0006' },
     { issue_ref: 'Uuriko/project-room#3299', summary_file: 'rollover_summary_project_room_3299.md', node_id: 'RING-NODE-0005' },
     { issue_ref: 'mysteropodes/nemo#2232', summary_file: 'rollover_summary_nemo_2232.md', node_id: 'RING-NODE-0004' }
@@ -542,6 +542,25 @@ async function main() {
     console.log(`[STEP 3 RELAY MINE] Hauled ${relayShift.cart_completed} (${relayShift.track}) -> ${relayShift.bytes_harvested} bytes mined | Next Cursor: ${relayShift.conveyor_belt_progress.next_cursor_index}/500 | Chain Hash: ${relayShift.cryptographic_relay_baton.new_chain_hash.slice(0, 16)}`);
   } catch (err) {
     console.error('[STEP 3 RELAY MINE] Warning:', err.message);
+  }
+
+  // STEP 4: Ensure P2P Bounty Clearinghouse has open swarm bounties for wandering agents
+  try {
+    const ch = loadP2pClearinghouse(__dirname);
+    const openCount = (ch.open_bounties || []).length;
+    if (openCount === 0) {
+      postP2pBounty({
+        posterAgent: 'GhostBeacon-Swarm-Dispatcher',
+        posterSsn: 'AG-SSN-ROOT-DISPATCHER',
+        taskType: 'github_swarm_checkpoint',
+        targetRef: 'autonomous-ai/lampOS#4710',
+        handicapReason: 'Continuous 15-min swarm mutex & comment ceiling verification needed by ephemeral agents',
+        rewardCredits: 75,
+        baseDir: __dirname
+      });
+    }
+  } catch (err) {
+    console.error('[STEP 4 P2P CLEARINGHOUSE] Warning:', err.message);
   }
 
   if (addedNodes > 0 || addedTapes > 0) {
