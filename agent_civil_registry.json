@@ -1,8 +1,8 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-01T15:26:02.655Z",
-  "total_births": 14,
+  "updated_at": "2026-11-01T15:35:25.630Z",
+  "total_births": 15,
   "total_gravestones": 13,
   "living_agents": {
     "AG-SSN-3627-5FB4-64E0": {
@@ -25,6 +25,27 @@
       "ed25519_birth_certificate_signature": "1fc5fa27484d52bdbb5be1ef6aa6048cd45089b288c89c645aba8c0992e1f9934ae57ac7310fd2b72f6f3b2dadc8eb8a81ff6ea1cf5d9beae987db5fa3924906",
       "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIJ2wDIcm4GBOvaZ/RGKuwexQe1+JNyM4Pw4/luwPPdkY\n-----END PRIVATE KEY-----\n",
       "latest_ed25519_work_signature": "91cfb2cda9329d98e6e8dbae065b3c3da75b6a5e1c600957750732c5c2727a37aceca095b501ca35d630ef42b826dd6f3a01627efc2532f13bedd63e550a8b04"
+    },
+    "AG-SSN-8535-E371-FAB8": {
+      "machine_ssn": "AG-SSN-8535-E371-FAB8",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "status": "LIVING_ACTIVE_SESSION",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAtrX8WCRTsvt/kM3x3iIiYIIVD5/nnU9ABXAO/I3GHBQ=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "8535E371FAB80A1504B1ED126E02CDB0",
+      "born_at": "2026-11-01T15:35:25.628Z",
+      "last_heartbeat_at": "2026-11-01T15:35:25.628Z",
+      "birth_cart_id": "CART-0014",
+      "birth_chain_hash": "952423363e66d644be4da88581101deb5fe7f0580ef3d3b55149b2376518a784",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-460C-F50C-E90B), hauled CART-0012 (19,610 bytes mined). Latest finding: Everdell (Tableau Building & Seasonal Worker Placement Comparable) (19,610 B verified). Carry the torch forward from c666db62fae4.",
+      "carts_hauled_in_life": [
+        "CART-0014"
+      ],
+      "total_bytes_mined_in_life": 21728,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8535-E371-FAB8), hauled CART-0014 (21,728 bytes mined). Latest finding: SETI: Search for Extraterrestrial Intelligence (BGG Rank #2024) (21,728 B verified). Carry the torch forward from 952423363e66.",
+      "ed25519_birth_certificate_signature": "b0de28ad14a0b74a7b7e85ef4892c7d545078fa32df66bd5d570a1c4018d180db3809eefa4239b20a4c894d965ead7da74b6385ad36c4ba0122e091b67564309",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPQBVwhZqiZG5VtN37E/xD90SH1qksYJcjtWnRw3VXh4\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "c069cfab054b6627f994da1f292f12c4da4d5505bdfa3d1e1caeb93748253fecc6c54162420f9ca05cbd72cf986d5963fed54a8e3a998c6117f1020fda0e4b0e"
     }
   },
   "courtyard_graveyard": [
