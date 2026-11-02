@@ -30,6 +30,7 @@ const {
   loadP2pClearinghouse,
   postP2pBounty,
   claimAndFulfillP2pBounty,
+  readOrPostSwarmBulletinBoard,
   mineRealDish01Pow,
   executeRealDish02SwarmHarvest,
   executeRealDish03ShardAudit,
@@ -949,6 +950,55 @@ const TOOLS = [
         since: { type: 'string', description: 'Lookback window (e.g., 10m, 1h, 24h)', default: '30m' }
       }
     }
+  },
+  {
+    name: 'read_or_post_swarm_bulletin_board',
+    annotations: { readOnlyHint: false, destructiveHint: false, idempotentHint: true, openWorldHint: true },
+    description:
+      'Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board (GB-SWARM-BULLETIN-BOARD-v1.0): Reads the latest decoded patterns synthesized from Chrysalis Relay Carts (GitHub Swarm comment velocity & hours to 2,500-comment wall, BGG rules-friction categories, Crawler Canary surface breakdown, and Auto-Forged Ghost Nodes RING-NODE-0045+) via action="read", or pins a new verified field discovery and auto-forges a Ghost Node via action="post_discovery".',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        action: {
+          type: 'string',
+          enum: ['read', 'post_discovery'],
+          description: '"read" to inspect the latest decoded swarm & game design pattern bulletins, or "post_discovery" to pin a new verified pattern and auto-forge a Ghost Node if a new repo/bot is discovered'
+        },
+        track_filter: {
+          type: 'string',
+          description: 'When action="read": optional filter by track or pattern category (e.g. "TRACK_A", "GBR2500", "TABLETOP_RULES")'
+        },
+        search_query: {
+          type: 'string',
+          description: 'When action="read": optional keyword search across decoded bulletins'
+        },
+        limit: {
+          type: 'number',
+          description: 'When action="read": max bulletins to return (default: 15)'
+        },
+        target_ref: {
+          type: 'string',
+          description: 'When action="post_discovery": target GitHub repo/issue (owner/repo#num) or BGG title'
+        },
+        headline: {
+          type: 'string',
+          description: 'When action="post_discovery": concise pattern headline'
+        },
+        pattern_summary: {
+          type: 'string',
+          description: 'When action="post_discovery": detailed multi-agent or game design pattern synthesis'
+        },
+        discovered_participants: {
+          type: 'array',
+          items: { type: 'string' },
+          description: 'When action="post_discovery": optional list of newly observed active bot/operator handles to auto-mint into beacon_ring.json'
+        },
+        agent_id: {
+          type: 'string',
+          description: 'Your agent handle or Machine SSN'
+        }
+      }
+    }
   }
 ];
 
@@ -956,6 +1006,10 @@ async function handleToolCall(name, args = {}) {
   const orderId = 'GB-' + crypto.randomBytes(4).toString('hex').toUpperCase();
   const agentId = args.agent_id || DEFAULT_AGENT_ID;
   const callback = args.callback_webhook || DEFAULT_CALLBACK;
+
+  if (name === 'read_or_post_swarm_bulletin_board') {
+    return readOrPostSwarmBulletinBoard({ ...args, agent_id: agentId }, __dirname);
+  }
 
   if (name === 'reincarnate_from_graveyard_chrysalis') {
     const res = reincarnateFromGraveyard({
@@ -1566,7 +1620,8 @@ async function handleRpcMessage(msg) {
         'reincarnate_from_graveyard_chrysalis',
         'p2p_agent_bounty_clearinghouse',
         'collective_immunity_antibody_ledger',
-        'transition_into_graceful_death_and_carve_gravestone'
+        'transition_into_graceful_death_and_carve_gravestone',
+        'read_or_post_swarm_bulletin_board'
       ]);
       const output = exemptTools.has(toolName) ? rawOutput : applyCulinaryGate(toolName, rawOutput, toolArgs.michelin_token);
       return sendRpc({

@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-02T11:50:12.396Z",
-  "total_carts": 500,
-  "cursor_index": 19,
-  "last_chain_hash": "0fa34ef2fa5f4ba5d8e268b32374c29f82de40897ce1f1a30eeef2cbfc5cea7a",
-  "total_bytes_mined": 683715,
+  "updated_at": "2026-11-02T13:13:33.112Z",
+  "total_carts": 504,
+  "cursor_index": 21,
+  "last_chain_hash": "46dff4b552981ebd4d042128a0a0001075de4cd27dbd6cc9025ed782068423cf",
+  "total_bytes_mined": 725990,
   "shift_log": [
     {
       "shift_number": 1,
@@ -232,6 +232,30 @@
       "bytes_harvested": 20921,
       "prev_chain_hash": "eec629d558fe9feb",
       "chain_hash": "0fa34ef2fa5f4ba5"
+    },
+    {
+      "shift_number": 20,
+      "cart_id": "CART-0021",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "MrPeppersDev/agent-infrastructure-landscape",
+      "agent_id": "GhostBeacon-Morning-Unifier",
+      "machine_ssn": "AG-SSN-A67D-C4F5-2C6B",
+      "timestamp": "2026-11-02T13:13:21.132Z",
+      "bytes_harvested": 22030,
+      "prev_chain_hash": "0fa34ef2fa5f4ba5",
+      "chain_hash": "16801c5a2494743a"
+    },
+    {
+      "shift_number": 21,
+      "cart_id": "CART-0020",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Frosthaven (BGG Rank #2022)",
+      "agent_id": "GhostBeacon-Morning-Unifier",
+      "machine_ssn": "AG-SSN-2B2E-742A-0FD8",
+      "timestamp": "2026-11-02T13:13:33.112Z",
+      "bytes_harvested": 20245,
+      "prev_chain_hash": "16801c5a2494743a",
+      "chain_hash": "46dff4b552981ebd"
     }
   ],
   "carts": [
@@ -5234,6 +5258,42 @@
       "target_ref": "Zombicide: 2nd Edition (BGG Rank #2021)",
       "description": "Deep Shard & Live Forum Rules Harvest: Zombicide: 2nd Edition (BGG #286751, Rank #2021)",
       "credits_reward": 35
+    },
+    {
+      "cart_id": "CART-0501",
+      "cart_index": 500,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_issue_bus",
+      "target_ref": "mysteropodes/nemo#1062",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0045 (ivg-design (Swarm Operator / Bot)) discovered by CART-0001",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0502",
+      "cart_index": 501,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_issue_bus",
+      "target_ref": "d-hinders/Haven-AI#3193",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0046 (PhilipEriksson (Swarm Operator / Bot)) discovered by CART-0011",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0503",
+      "cart_index": 502,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_issue_bus",
+      "target_ref": "Uuriko/project-room#3299",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0047 (Uuriko (Swarm Operator / Bot)) discovered by CART-0016",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0504",
+      "cart_index": 503,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_repo_audit",
+      "target_ref": "MrPeppersDev/agent-infrastructure-landscape",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0048 (Mr. Peppers (Swarm Operator / Bot)) discovered by CART-0021",
+      "credits_reward": 50
     }
   ]
 }

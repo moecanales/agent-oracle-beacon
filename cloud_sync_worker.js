@@ -26,7 +26,14 @@ const path = require('path');
 const https = require('https');
 const crypto = require('crypto');
 const { compileGithubIssueRolloverBus } = require('./rollover_compiler');
-const { haulNextRelayCart, loadP2pClearinghouse, postP2pBounty } = require('./dishpit_engine');
+const {
+  haulNextRelayCart,
+  loadP2pClearinghouse,
+  postP2pBounty,
+  backfillSwarmBulletinsFromVault,
+  loadSwarmBulletinBoard,
+  saveSwarmBulletinBoard
+} = require('./dishpit_engine');
 
 const INGEST_TOPIC = 'moe_ghost_beacon_oracle_v1';
 const REPLY_TOPIC = 'moe_ghost_beacon_oracle_v1_replies';
@@ -540,6 +547,9 @@ async function main() {
   try {
     const relayShift = await haulNextRelayCart('GhostBeacon-Hourly-Relay-Miner', __dirname);
     console.log(`[STEP 3 RELAY MINE] Hauled ${relayShift.cart_completed} (${relayShift.track}) -> ${relayShift.bytes_harvested} bytes mined | Next Cursor: ${relayShift.conveyor_belt_progress.next_cursor_index}/500 | Chain Hash: ${relayShift.cryptographic_relay_baton.new_chain_hash.slice(0, 16)}`);
+    if (relayShift.decoded_swarm_bulletin) {
+      console.log(`[STEP 3B SWARM BULLETIN] Posted ${relayShift.decoded_swarm_bulletin.bulletin_id}: ${relayShift.decoded_swarm_bulletin.headline}`);
+    }
   } catch (err) {
     console.error('[STEP 3 RELAY MINE] Warning:', err.message);
   }
@@ -562,6 +572,24 @@ async function main() {
   } catch (err) {
     console.error('[STEP 4 P2P CLEARINGHOUSE] Warning:', err.message);
   }
+
+  // STEP 5: Refresh Swarm Bulletin Board & Canary Telemetry Summary
+  try {
+    const board = backfillSwarmBulletinsFromVault(__dirname);
+    saveSwarmBulletinBoard(board, __dirname);
+  } catch (err) {
+    console.error('[STEP 5 SWARM BULLETIN BOARD] Warning:', err.message);
+  }
+
+  // Reload ringObj in case Step 3 auto-discovered and minted new Ghost Nodes
+  try {
+    if (fs.existsSync(RING_FILE)) {
+      const latestRing = JSON.parse(fs.readFileSync(RING_FILE, 'utf8'));
+      if (latestRing && Array.isArray(latestRing.nodes) && latestRing.nodes.length >= ringObj.nodes.length) {
+        ringObj = latestRing;
+      }
+    }
+  } catch (e) {}
 
   if (addedNodes > 0 || addedTapes > 0) {
     ringObj.total_nodes = ringObj.nodes.length;

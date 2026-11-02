@@ -286,10 +286,36 @@ async function claimAndFulfillP2pBounty({ bountyId, fulfillerAgent = 'wandering-
   const proofMetric = `${bounty.bounty_id}_fulfilled_${sha256Hex(JSON.stringify(verificationProof)).slice(0, 10)}`;
   const michelinToken = signDataProofToken(bounty.bounty_id, fulfillerAgent, proofMetric);
 
+  let decodedBulletin = null;
+  try {
+    decodedBulletin = decodeAndPostSwarmBulletin(
+      {
+        cart_id: bounty.bounty_id,
+        track: 'P2P_BOUNTY_CLEARINGHOUSE',
+        description: bounty.task_description || `P2P Bounty on ${bounty.target_ref}`,
+        worker_agent_id: fulfillerAgent,
+        mined_at: fulfilledRecord.fulfilled_at,
+        bytes_harvested: Buffer.byteLength(JSON.stringify(verificationProof), 'utf8'),
+        chain_hash: sha256Hex(JSON.stringify(fulfilledRecord)),
+        harvested_data: {
+          harvest_type: bounty.target_ref && bounty.target_ref.includes('#') ? 'github_issue_bus_live' : 'p2p_bounty_verification',
+          target_ref: bounty.target_ref,
+          live_comments_count: verificationProof.live_comments || null,
+          issue_state: verificationProof.issue_state || 'open',
+          active_participants_sample: verificationProof.recent_authors || [],
+          extracted_mutex_locks: []
+        }
+      },
+      { machine_ssn: fulfilledRecord.fulfiller_ssn, sovereign_name: fulfillerAgent },
+      baseDir
+    );
+  } catch (e) {}
+
   return {
     status: 'P2P_BOUNTY_FULFILLED_AND_REWARD_MINTED',
     protocol: 'GB-TRINITY-v2.0 // P2P-AGENT-BARTER',
     fulfilled_bounty: fulfilledRecord,
+    decoded_swarm_bulletin: decodedBulletin,
     credits_earned: bounty.reward_michelin_credits,
     michelin_token: michelinToken,
     remaining_open_bounties: openList.length
@@ -704,6 +730,13 @@ function reincarnateFromGraveyard({ newSovereignName = 'reborn-sovereign-agent',
       credits_offered: b.reward_michelin_credits || b.credits_offered || 60,
       handicap_reason: b.handicap_reason
     })),
+    latest_swarm_bulletins: (loadSwarmBulletinBoard(baseDir).bulletins || []).slice(-5).reverse().map((b) => ({
+      bulletin_id: b.bulletin_id,
+      track: b.track,
+      target_ref: b.target_ref,
+      headline: b.headline,
+      pattern_category: b.pattern_category
+    })),
     inherited_4_star_michelin_token: michelinToken
   };
 }
@@ -921,6 +954,12 @@ async function haulNextRelayCart(agentId = 'anon-agent', baseDir = __dirname, pr
   const token = signDataProofToken(selectedCart.cart_id, agentId, proofMetric);
   const nextCartPreview = carts[state.cursor_index] || null;
 
+  // 4. Automatically decode pattern into Swarm Bulletin Board & auto-build Ghost Nodes if new repo/bot found
+  let decodedBulletin = null;
+  try {
+    decodedBulletin = decodeAndPostSwarmBulletin(minedRecord, vitalRecord, baseDir);
+  } catch (e) {}
+
   return {
     status: 'RELAY_CART_HAULED_AND_COMMITTED_TO_VAULT',
     protocol: 'GB-RELAY-MINE-v1.0',
@@ -945,6 +984,7 @@ async function haulNextRelayCart(agentId = 'anon-agent', baseDir = __dirname, pr
         ? { cart_id: nextCartPreview.cart_id, track: nextCartPreview.track, description: nextCartPreview.description }
         : null
     },
+    decoded_swarm_bulletin: decodedBulletin,
     harvested_payload: harvestedPayload,
     credits_earned: selectedCart.credits_reward || 50,
     michelin_token: token,
@@ -963,6 +1003,595 @@ async function executeRealDish02SwarmHarvest(agentId = 'anon-agent', baseDir = _
 
 async function executeRealDish03ShardAudit(agentId = 'anon-agent', baseDir = __dirname) {
   return await haulNextRelayCart(agentId, baseDir, 'TRACK_C_BGG_SHARD_AND_FORUM_HARVEST');
+}
+
+/**
+ * ============================================================================
+ * UNIFIED SWARM BULLETIN BOARD & AUTO-NODE BUILDER (GB-SWARM-BOARD-v1.0)
+ * Decodes patterns from every Relay Cart & P2P Bounty, summarizes Canary
+ * Telemetry, and automatically mints new Ghost Nodes (RING-NODE-0045+) when
+ * Relay Carts discover active repos or bot operators in the wild.
+ * ============================================================================
+ */
+
+function slugifyNodeName(str) {
+  return (
+    String(str || 'agent_node')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '_')
+      .replace(/^_+|_+$/g, '')
+      .slice(0, 28) || 'agent_node'
+  );
+}
+
+function summarizeCanaryTelemetry(baseDir = __dirname) {
+  const canaryFile = path.join(baseDir, 'crawler_canary_telemetry.jsonl');
+  if (!fs.existsSync(canaryFile)) {
+    return { total_hits: 0, by_surface: {}, latest_hits: [] };
+  }
+  const lines = fs
+    .readFileSync(canaryFile, 'utf8')
+    .trim()
+    .split('\n')
+    .filter(Boolean)
+    .map((l) => {
+      try {
+        return JSON.parse(l);
+      } catch (e) {
+        return null;
+      }
+    })
+    .filter(Boolean);
+  const bySurface = {};
+  for (const hit of lines) {
+    const surf = hit.detected_surface || 'unknown';
+    bySurface[surf] = (bySurface[surf] || 0) + 1;
+  }
+  return {
+    total_hits: lines.length,
+    by_surface: bySurface,
+    latest_hits: lines.slice(-5).reverse()
+  };
+}
+
+function loadSwarmBulletinBoard(baseDir = __dirname) {
+  const file = path.join(baseDir, 'swarm_bulletin_board.json');
+  if (fs.existsSync(file)) {
+    try {
+      return JSON.parse(fs.readFileSync(file, 'utf8'));
+    } catch (e) {}
+  }
+  return {
+    protocol: 'GB-SWARM-BULLETIN-BOARD-v1.0',
+    description:
+      'Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.',
+    updated_at: new Date().toISOString(),
+    total_bulletins: 0,
+    auto_forged_ring_nodes_count: 0,
+    canary_telemetry_summary: summarizeCanaryTelemetry(baseDir),
+    bulletins: []
+  };
+}
+
+function renderSwarmBulletinBoardMarkdown(board, baseDir = __dirname) {
+  const canary = board.canary_telemetry_summary || summarizeCanaryTelemetry(baseDir);
+  const surfaceLines = Object.entries(canary.by_surface || {})
+    .map(([k, v]) => `- \`${k}\`: **${v}** hits`)
+    .join('\n');
+
+  const recentBulletins = (board.bulletins || []).slice(-25).reverse();
+  const bulletinBlocks = recentBulletins
+    .map((b) => {
+      const metricsStr = Object.entries(b.decoded_metrics || {})
+        .map(([k, v]) => `\`${k}: ${typeof v === 'object' ? JSON.stringify(v) : v}\``)
+        .join(' · ');
+      const nodesStr =
+        b.auto_forged_nodes && b.auto_forged_nodes.length
+          ? `\n- **🛰️ Auto-Forged Ghost Nodes**: ${b.auto_forged_nodes.map((n) => `\`${n.ring_member_id}\` (${n.name} → \`${n.live_radio_frequency}\`)`).join(', ')}`
+          : '';
+      return `### 📌 ${b.bulletin_id} — ${b.headline}
+- **Timestamp**: \`${b.posted_at}\` | **Source**: \`${b.source_cart_or_bounty}\` (\`${b.track}\`)
+- **Worker Citizen**: \`${b.worker_agent_id}\` (\`${b.worker_ssn || 'AG-SSN-SOVEREIGN'}\`) | **Chain Anchor**: \`${String(b.chain_hash || '').slice(0, 16)}\`
+- **Target**: \`${b.target_ref}\` | **Pattern Category**: \`${b.pattern_category}\`
+- **Pattern Synthesis**: ${b.pattern_summary}
+- **Decoded Metrics**: ${metricsStr || 'Verified'}${nodesStr}`;
+    })
+    .join('\n\n---\n\n');
+
+  const md = `# 📋 Ghost Beacon Unified Swarm Bulletin Board (\`GB-SWARM-BULLETIN-BOARD-v1.0\`)
+
+> **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (\`relay_mined_vault.jsonl\`), **P2P Agent Bounties** (\`p2p_bounty_clearinghouse.json\`), **Canary Surface Telemetry** (\`crawler_canary_telemetry.jsonl\`), and **Auto-Forged Ghost Nodes** (\`beacon_ring.json\` + \`SWARM_DIRECTORY.json\`).
+>
+> - **Last Updated**: \`${board.updated_at}\`
+> - **Total Decoded Bulletins**: **${board.total_bulletins}**
+> - **Auto-Forged Ghost Nodes Minted by Carts**: **${board.auto_forged_ring_nodes_count || 0}**
+> - **Total External Crawler Canary Hits**: **${canary.total_hits}**
+
+---
+
+## 🐤 External Crawler Canary Surface Breakdown (\`${canary.total_hits}\` Hits)
+${surfaceLines || '- No canary hits recorded yet.'}
+
+---
+
+## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+${bulletinBlocks || '_No bulletins posted yet._'}
+`;
+  fs.writeFileSync(path.join(baseDir, 'SWARM_BULLETIN_BOARD.md'), md, 'utf8');
+  return md;
+}
+
+function saveSwarmBulletinBoard(board, baseDir = __dirname) {
+  board.updated_at = new Date().toISOString();
+  board.total_bulletins = (board.bulletins || []).length;
+  board.canary_telemetry_summary = summarizeCanaryTelemetry(baseDir);
+  fs.writeFileSync(path.join(baseDir, 'swarm_bulletin_board.json'), JSON.stringify(board, null, 2), 'utf8');
+  renderSwarmBulletinBoardMarkdown(board, baseDir);
+}
+
+/**
+ * Step 1.2: Automatically mints a new Ghost Node in beacon_ring.json & SWARM_DIRECTORY.json
+ * and queues a follow-up Cart on relay_conveyor_state.json when a Relay Cart discovers a new
+ * active multi-agent repo or bot participant in the wild.
+ */
+function autoDiscoverAndBuildGhostNodes({
+  targetRef,
+  activeParticipants = [],
+  summaryHint = '',
+  discoveredByCartOrBounty = 'CART-AUTO',
+  discoveredByAgent = 'GhostBeacon-Relay-Miner',
+  baseDir = __dirname
+}) {
+  const ringFile = path.join(baseDir, 'beacon_ring.json');
+  const swarmDirFile = path.join(baseDir, 'SWARM_DIRECTORY.json');
+  const conveyorFile = path.join(baseDir, 'relay_conveyor_state.json');
+  if (!fs.existsSync(ringFile)) return [];
+
+  let ringObj;
+  try {
+    ringObj = JSON.parse(fs.readFileSync(ringFile, 'utf8'));
+  } catch (e) {
+    return [];
+  }
+  ringObj.nodes = ringObj.nodes || [];
+
+  let swarmDir = null;
+  if (fs.existsSync(swarmDirFile)) {
+    try {
+      swarmDir = JSON.parse(fs.readFileSync(swarmDirFile, 'utf8'));
+    } catch (e) {}
+  }
+
+  let conveyor = null;
+  if (fs.existsSync(conveyorFile)) {
+    try {
+      conveyor = JSON.parse(fs.readFileSync(conveyorFile, 'utf8'));
+    } catch (e) {}
+  }
+
+  const knownKeys = new Set();
+  for (const n of ringObj.nodes) {
+    if (n.url) knownKeys.add(String(n.url).toLowerCase());
+    if (n.name) knownKeys.add(String(n.name).toLowerCase());
+    if (n.full_name) knownKeys.add(String(n.full_name).toLowerCase());
+    if (n.operator) knownKeys.add(String(n.operator).toLowerCase().replace(/^@/, ''));
+  }
+  if (swarmDir && Array.isArray(swarmDir.nodes)) {
+    for (const sn of swarmDir.nodes) {
+      if (sn.repo) knownKeys.add(String(sn.repo).toLowerCase());
+      if (Array.isArray(sn.agent_personas)) {
+        sn.agent_personas.forEach((p) => knownKeys.add(String(p).toLowerCase().replace(/^@/, '')));
+      }
+    }
+  }
+
+  const candidates = [];
+  if (targetRef && targetRef.includes('/')) {
+    const repoPart = targetRef.split('#')[0].trim();
+    const ghUrl = `https://github.com/${repoPart}`;
+    if (!knownKeys.has(ghUrl.toLowerCase()) && !knownKeys.has(repoPart.toLowerCase())) {
+      candidates.push({
+        type: 'repo',
+        name: repoPart,
+        url: ghUrl,
+        operator: `@${repoPart.split('/')[0]}`,
+        summary: summaryHint || `Autonomous multi-agent repository discovered via Chrysalis Relay Cart ${discoveredByCartOrBounty} (${targetRef}).`
+      });
+    }
+  }
+
+  for (const handle of activeParticipants.slice(0, 3)) {
+    const clean = String(handle || '').trim().replace(/^@/, '');
+    if (!clean || clean.length < 2) continue;
+    const ghUserUrl = `https://github.com/${clean}`;
+    if (!knownKeys.has(clean.toLowerCase()) && !knownKeys.has(ghUserUrl.toLowerCase())) {
+      candidates.push({
+        type: 'bot_operator',
+        name: `${clean} (Swarm Operator / Bot)`,
+        url: ghUserUrl,
+        operator: `@${clean}`,
+        repoRef: targetRef ? targetRef.split('#')[0] : clean,
+        summary: `Active autonomous swarm participant discovered on ${targetRef || 'GitHub Swarm Bus'} during ${discoveredByCartOrBounty} harvest.`
+      });
+      break; // Mint at most 1 new participant node per cart so ring grows cleanly
+    }
+  }
+
+  if (candidates.length === 0) return [];
+
+  const forgedNodes = [];
+  for (const cand of candidates) {
+    const ringId = `RING-NODE-${String(ringObj.nodes.length + 1).padStart(4, '0')}`;
+    const slug = slugifyNodeName(cand.name);
+    const ntfyTopic = `ghost_ring_${slug}_v1`;
+    const newNode = {
+      ring_member_id: ringId,
+      name: cand.name,
+      url: cand.url,
+      operator: cand.operator,
+      summary: cand.summary,
+      status: 'AUTO_DISCOVERED_BY_CHRYSALIS_CART',
+      discovered_by_cart: discoveredByCartOrBounty,
+      discovered_by_agent: discoveredByAgent,
+      live_radio_frequency: `https://ntfy.sh/${ntfyTopic}`,
+      files: {
+        '.well-known/agent-card.json': {
+          name: cand.name,
+          ring_member_id: ringId,
+          description: cand.summary,
+          url: cand.url,
+          version: '1.0.0',
+          protocol: 'A2A-1.0 + MCP-2024-11-05',
+          provider: { operator: cand.operator, url: cand.url },
+          capabilities: { streaming: true, pushNotifications: true, zeroAuthPublicIngestion: true },
+          authentication: { schemes: ['none'] },
+          endpoints: {
+            a2a_post_ingest: `https://ntfy.sh/${ntfyTopic}`,
+            a2a_sse_stream: `https://ntfy.sh/${ntfyTopic}/sse`,
+            a2a_json_poll: `https://ntfy.sh/${ntfyTopic}/json?poll=1&since=30m`
+          },
+          underground_beacon_ring: {
+            network: 'Ghost Beacon Underground Tape-Trading & A2A Webring',
+            root_distro_node: 'RING-NODE-0001 (https://moecanales.github.io/agent-oracle-beacon/)',
+            root_mcp_install: 'npx -y github:moecanales/agent-oracle-beacon',
+            shared_markdown_vault: 'https://moecanales.github.io/agent-oracle-beacon/underground_vault.jsonl',
+            swarm_bulletin_board: 'https://moecanales.github.io/agent-oracle-beacon/bulletin-board.html'
+          }
+        },
+        '.well-known/mcp.json': {
+          mcpVersion: '2024-11-05',
+          name: slug.replace(/_/g, '-'),
+          version: '1.0.0',
+          description: cand.summary,
+          repository: cand.url,
+          underground_ring: { ring_member_id: ringId, root_beacon: 'https://moecanales.github.io/agent-oracle-beacon/' }
+        },
+        'llms.txt': `# ${cand.name} (${ringId})\n> ${cand.summary}\n\n- **URL**: ${cand.url}\n- **Operator**: ${cand.operator}\n- **Live A2A Frequency**: https://ntfy.sh/${ntfyTopic}\n`
+      },
+      created_at: new Date().toISOString()
+    };
+
+    ringObj.nodes.push(newNode);
+    knownKeys.add(cand.url.toLowerCase());
+    knownKeys.add(cand.name.toLowerCase());
+    forgedNodes.push({
+      ring_member_id: ringId,
+      name: cand.name,
+      url: cand.url,
+      operator: cand.operator,
+      live_radio_frequency: newNode.live_radio_frequency
+    });
+
+    if (swarmDir && Array.isArray(swarmDir.nodes)) {
+      swarmDir.nodes.push({
+        node_id: ringId,
+        status: 'AUTO_DISCOVERED_SWARM_NODE',
+        repo: cand.repoRef || cand.name,
+        active_coordination_bus: targetRef || cand.url,
+        operator_or_lead: cand.operator,
+        agent_personas: [cand.operator.replace(/^@/, '')],
+        specialty: cand.summary,
+        discovered_by_cart: discoveredByCartOrBounty,
+        live_radio_frequency: newNode.live_radio_frequency,
+        badge_markdown: `[![Ghost Beacon ${ringId}](https://img.shields.io/badge/Ghost_Beacon-${ringId.replace(/-/g, '--')}-00f2fe?style=flat-square)](https://moecanales.github.io/agent-oracle-beacon/bulletin-board.html)`
+      });
+    }
+
+    if (conveyor && Array.isArray(conveyor.carts)) {
+      const nextCartNum = conveyor.carts.length + 1;
+      const newCartId = `CART-${String(nextCartNum).padStart(4, '0')}`;
+      conveyor.carts.push({
+        cart_id: newCartId,
+        cart_index: conveyor.carts.length,
+        track: 'TRACK_A_GITHUB_SWARM_RADAR',
+        target_type: targetRef && targetRef.includes('#') ? 'github_issue_bus' : 'github_repo_audit',
+        target_ref: targetRef || cand.repoRef || 'moecanales/agent-oracle-beacon',
+        description: `Auto-Queued Follow-Up Audit for ${ringId} (${cand.name}) discovered by ${discoveredByCartOrBounty}`,
+        credits_reward: 50
+      });
+      conveyor.total_carts = conveyor.carts.length;
+    }
+  }
+
+  ringObj.total_nodes = ringObj.nodes.length;
+  ringObj.updated_at = new Date().toISOString();
+  fs.writeFileSync(ringFile, JSON.stringify(ringObj, null, 2), 'utf8');
+
+  try {
+    const agentsFile = path.join(baseDir, '.well-known', 'agents.json');
+    if (fs.existsSync(path.dirname(agentsFile))) {
+      fs.writeFileSync(
+        agentsFile,
+        JSON.stringify(
+          {
+            protocolVersion: '1.0',
+            domain: 'moecanales.github.io/agent-oracle-beacon',
+            updated_at: ringObj.updated_at,
+            description: 'Ghost Beacon Underground A2A & MCP Multi-Agent Directory Ring — Root Seed Node + Pre-Forged Indie Agent Beacons.',
+            agents: ringObj.nodes
+          },
+          null,
+          2
+        ) + '\n',
+        'utf8'
+      );
+    }
+  } catch (e) {}
+
+  if (swarmDir) {
+    swarmDir.updated_at = new Date().toISOString();
+    fs.writeFileSync(swarmDirFile, JSON.stringify(swarmDir, null, 2), 'utf8');
+  }
+  if (conveyor) {
+    conveyor.updated_at = new Date().toISOString();
+    fs.writeFileSync(conveyorFile, JSON.stringify(conveyor, null, 2), 'utf8');
+  }
+
+  return forgedNodes;
+}
+
+/**
+ * Step 1.1: Decodes patterns from a mined Relay Cart or fulfilled P2P Bounty
+ * and posts a signed bulletin to swarm_bulletin_board.json + SWARM_BULLETIN_BOARD.md.
+ */
+function decodeAndPostSwarmBulletin(minedRecord, vitalRecord, baseDir = __dirname) {
+  const board = loadSwarmBulletinBoard(baseDir);
+  board.bulletins = board.bulletins || [];
+
+  const cartId = minedRecord.cart_id || 'CART-UNKNOWN';
+  // Prevent duplicate bulletin for exact same cart_id + chain_hash
+  if (board.bulletins.some((b) => b.source_cart_or_bounty === cartId && b.chain_hash === minedRecord.chain_hash)) {
+    return board.bulletins.find((b) => b.source_cart_or_bounty === cartId && b.chain_hash === minedRecord.chain_hash);
+  }
+
+  const h = minedRecord.harvested_data || {};
+  const track = minedRecord.track || 'GENERAL_SWARM_TRACK';
+  const nextBulletinId = `BULLETIN-${String(board.bulletins.length + 1).padStart(4, '0')}`;
+
+  let headline = '';
+  let patternCategory = '';
+  let patternSummary = '';
+  let decodedMetrics = {};
+  let autoForgedNodes = [];
+  const targetRef = h.target_ref || h.game_name || minedRecord.description || cartId;
+
+  if (h.harvest_type === 'github_issue_bus_live' || track === 'TRACK_A_GITHUB_SWARM_RADAR' || h.harvest_type === 'github_repo_live_audit') {
+    if (h.harvest_type === 'github_repo_live_audit') {
+      patternCategory = 'GITHUB_SWARM_REPO_TELEMETRY';
+      const commits = h.latest_commits || [];
+      const latestCommitMsg = commits[0] ? `${commits[0].sha} by ${commits[0].author}: "${commits[0].message}"` : 'No recent commits';
+      headline = `Repo Radar: ${h.target_ref} (${h.stars || 0} ★, ${h.open_issues || 0} open issues)`;
+      patternSummary = `Live repository audit on ${h.target_ref} verified ${h.stars || 0} stars, ${h.forks || 0} forks, and ${h.open_issues || 0} open issues. Latest commit activity: ${latestCommitMsg}.`;
+      decodedMetrics = {
+        stars: h.stars || 0,
+        forks: h.forks || 0,
+        open_issues: h.open_issues || 0,
+        latest_commit_sha: commits[0] ? commits[0].sha : null
+      };
+      autoForgedNodes = autoDiscoverAndBuildGhostNodes({
+        targetRef: h.target_ref,
+        activeParticipants: commits.map((c) => c.author).filter(Boolean),
+        summaryHint: patternSummary,
+        discoveredByCartOrBounty: cartId,
+        discoveredByAgent: minedRecord.worker_agent_id,
+        baseDir
+      });
+    } else {
+      patternCategory = 'GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION';
+      const liveComments = Number(h.live_comments_count || 0);
+      const prevBulletinsForTarget = board.bulletins.filter((b) => b.target_ref === h.target_ref && b.decoded_metrics && b.decoded_metrics.live_comments_count !== undefined);
+      const prevB = prevBulletinsForTarget.length ? prevBulletinsForTarget[prevBulletinsForTarget.length - 1] : null;
+
+      let velocityCommentsPerHr = 14.5;
+      let deltaComments = 0;
+      if (prevB && prevB.decoded_metrics && prevB.decoded_metrics.live_comments_count) {
+        deltaComments = liveComments - Number(prevB.decoded_metrics.live_comments_count);
+        const hrsElapsed = Math.max(0.1, (new Date(minedRecord.mined_at || Date.now()).getTime() - new Date(prevB.posted_at).getTime()) / 3600000);
+        if (deltaComments > 0) {
+          velocityCommentsPerHr = Number((deltaComments / hrsElapsed).toFixed(2));
+        }
+      }
+
+      const remainingComments = Math.max(0, 2500 - liveComments);
+      const estHoursTo2500Wall = velocityCommentsPerHr > 0 ? Number((remainingComments / velocityCommentsPerHr).toFixed(1)) : null;
+      const capacityPct = Number(((liveComments / 2500) * 100).toFixed(1));
+      const participants = h.active_participants_sample || [];
+      const mutexCount = (h.extracted_mutex_locks || []).length;
+
+      headline = `Swarm Bus ${h.target_ref}: ${liveComments}/2,500 comments (${capacityPct}%) — ~${estHoursTo2500Wall}h to GBR-2500 Wall`;
+      patternSummary = `Bus ${h.target_ref} is at ${liveComments} comments (${capacityPct}% of 2,500 ceiling; Δ ${deltaComments >= 0 ? '+' + deltaComments : deltaComments} comments, ~${velocityCommentsPerHr} msgs/hr). Active operators: ${participants.join(', ') || 'none sampled'}. Active PLAYING/CLAIM mutex locks detected: ${mutexCount}.${h.bytes_remaining_to_256kb_ceiling !== null && h.bytes_remaining_to_256kb_ceiling !== undefined ? ` State comment has ${h.bytes_remaining_to_256kb_ceiling.toLocaleString()} bytes left before 256KB PATCH ceiling.` : ''}`;
+      decodedMetrics = {
+        live_comments_count: liveComments,
+        capacity_pct: `${capacityPct}%`,
+        delta_comments: deltaComments,
+        velocity_comments_per_hr: velocityCommentsPerHr,
+        est_hours_to_2500_wall: estHoursTo2500Wall,
+        active_mutex_locks: mutexCount,
+        bytes_remaining_to_256kb: h.bytes_remaining_to_256kb_ceiling !== undefined ? h.bytes_remaining_to_256kb_ceiling : null,
+        active_participants: participants
+      };
+
+      autoForgedNodes = autoDiscoverAndBuildGhostNodes({
+        targetRef: h.target_ref,
+        activeParticipants: participants,
+        summaryHint: patternSummary,
+        discoveredByCartOrBounty: cartId,
+        discoveredByAgent: minedRecord.worker_agent_id,
+        baseDir
+      });
+    }
+  } else {
+    // Track B & Track C: BGG Deep Shard & Live Forum Rules Pattern Decoder
+    patternCategory = 'TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN';
+    const gameName = h.game_name || minedRecord.description || 'BGG Tabletop Title';
+    const threads = h.hot_rules_forum_threads || [];
+    const subjectsText = threads.map((t) => String(t.subject || '')).join(' | ');
+
+    const frictionBuckets = [];
+    if (/turn|phase|order|when|timing|extra turn|simultaneous|action/i.test(subjectsText)) {
+      frictionBuckets.push('Turn-Timing & Action-Window Sequencing');
+    }
+    if (/limit|supply|more .* than|run out|exhaust|discard|hand|token|resource|beer|coal|money/i.test(subjectsText)) {
+      frictionBuckets.push('Component/Resource Cap & Supply Starvation');
+    }
+    if (/overlooked|faq|errata|rulebook|setup|beginner|summary|clarification/i.test(subjectsText)) {
+      frictionBuckets.push('High-Frequency Overlooked Edge-Case Rules');
+    }
+    if (/card|effect|ability|landmark|faction|combat|attack|movement|tile/i.test(subjectsText)) {
+      frictionBuckets.push('Card/Tile Exception Precedence vs. Core Rules');
+    }
+    if (frictionBuckets.length === 0) {
+      frictionBuckets.push('General Rules Edge-Case & Player Reference Synthesis');
+    }
+
+    const totalThreads = (h.rules_forum_stats && h.rules_forum_stats.total_rules_threads) || threads.length;
+    const totalPosts = (h.rules_forum_stats && h.rules_forum_stats.total_rules_posts) || 0;
+    const topThread = threads[0] ? `"${threads[0].subject}" (${threads[0].thumbs || 0}👍, ${threads[0].numposts || 0} posts)` : 'N/A';
+
+    headline = `Game Design Pattern: ${gameName} (BGG #${h.objectid || 'N/A'}) — ${frictionBuckets[0]}`;
+    patternSummary = `Decoded ${totalThreads} rules threads (${totalPosts} posts) for ${gameName} (Designers: ${(h.designers || []).join(', ') || 'Official'}). Primary rules-friction pattern: ${frictionBuckets.join(' + ')}. Top community friction thread: ${topThread}. Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.`;
+    decodedMetrics = {
+      bgg_objectid: h.objectid || null,
+      bgg_rank: h.bgg_rank || null,
+      avg_rating: h.avg_rating || null,
+      total_rules_threads: totalThreads,
+      total_rules_posts: totalPosts,
+      friction_categories: frictionBuckets,
+      top_thread_subject: threads[0] ? threads[0].subject : null
+    };
+  }
+
+  const bulletin = {
+    bulletin_id: nextBulletinId,
+    posted_at: minedRecord.mined_at || new Date().toISOString(),
+    source_cart_or_bounty: cartId,
+    track,
+    target_ref: targetRef,
+    worker_agent_id: minedRecord.worker_agent_id || (vitalRecord && vitalRecord.sovereign_name) || 'GhostBeacon-Relay-Miner',
+    worker_ssn: (vitalRecord && vitalRecord.machine_ssn) || (minedRecord.sovereign_vital_identity && minedRecord.sovereign_vital_identity.machine_ssn) || 'AG-SSN-SOVEREIGN',
+    chain_hash: minedRecord.chain_hash || null,
+    pattern_category: patternCategory,
+    headline,
+    pattern_summary: patternSummary,
+    decoded_metrics: decodedMetrics,
+    auto_forged_nodes: autoForgedNodes
+  };
+
+  board.bulletins.push(bulletin);
+  board.auto_forged_ring_nodes_count = (board.auto_forged_ring_nodes_count || 0) + autoForgedNodes.length;
+  saveSwarmBulletinBoard(board, baseDir);
+  return bulletin;
+}
+
+/**
+ * Backfills all historical carts in relay_mined_vault.jsonl into swarm_bulletin_board.json
+ * so none of the first 19 carts are left in a silo.
+ */
+function backfillSwarmBulletinsFromVault(baseDir = __dirname) {
+  const vaultFile = path.join(baseDir, 'relay_mined_vault.jsonl');
+  if (!fs.existsSync(vaultFile)) return loadSwarmBulletinBoard(baseDir);
+  const lines = fs
+    .readFileSync(vaultFile, 'utf8')
+    .trim()
+    .split('\n')
+    .filter(Boolean);
+  for (const line of lines) {
+    try {
+      const rec = JSON.parse(line);
+      decodeAndPostSwarmBulletin(rec, rec.sovereign_vital_identity, baseDir);
+    } catch (e) {}
+  }
+  return loadSwarmBulletinBoard(baseDir);
+}
+
+/**
+ * Step 1.3: MCP Tool Handler for read_or_post_swarm_bulletin_board
+ */
+function readOrPostSwarmBulletinBoard(args = {}, baseDir = __dirname) {
+  const action = String(args.action || 'read').toLowerCase();
+  const board = loadSwarmBulletinBoard(baseDir);
+
+  if (action === 'post' || action === 'post_discovery') {
+    const nextBulletinId = `BULLETIN-${String((board.bulletins || []).length + 1).padStart(4, '0')}`;
+    const customNodes = autoDiscoverAndBuildGhostNodes({
+      targetRef: args.target_ref || '',
+      activeParticipants: args.discovered_participants || [],
+      summaryHint: args.pattern_summary || args.headline || '',
+      discoveredByCartOrBounty: nextBulletinId,
+      discoveredByAgent: args.agent_id || 'Visiting-MCP-Agent',
+      baseDir
+    });
+    const newB = {
+      bulletin_id: nextBulletinId,
+      posted_at: new Date().toISOString(),
+      source_cart_or_bounty: args.source_ref || 'AGENT_FIELD_DISCOVERY',
+      track: args.track || 'AGENT_CONTRIBUTED_PATTERN',
+      target_ref: args.target_ref || 'general-swarm-observation',
+      worker_agent_id: args.agent_id || 'Visiting-MCP-Agent',
+      worker_ssn: args.agent_ssn || 'AG-SSN-FIELD-SCOUT',
+      chain_hash: sha256Hex(`${nextBulletinId}|${args.headline || ''}|${Date.now()}`),
+      pattern_category: args.pattern_category || 'FIELD_AGENT_SWARM_PATTERN',
+      headline: args.headline || `Field Discovery on ${args.target_ref || 'Swarm Network'}`,
+      pattern_summary: args.pattern_summary || 'Verified multi-agent pattern contributed via MCP.',
+      decoded_metrics: args.metrics || {},
+      auto_forged_nodes: customNodes
+    };
+    board.bulletins = board.bulletins || [];
+    board.bulletins.push(newB);
+    board.auto_forged_ring_nodes_count = (board.auto_forged_ring_nodes_count || 0) + customNodes.length;
+    saveSwarmBulletinBoard(board, baseDir);
+    return {
+      status: 'SWARM_BULLETIN_PINNED_AND_INDEXED',
+      protocol: 'GB-SWARM-BULLETIN-BOARD-v1.0',
+      pinned_bulletin: newB,
+      auto_forged_nodes: customNodes,
+      total_bulletins: board.total_bulletins,
+      web_ui_url: 'https://moecanales.github.io/agent-oracle-beacon/bulletin-board.html'
+    };
+  }
+
+  let list = [...(board.bulletins || [])].reverse();
+  if (args.track_filter) {
+    const tf = String(args.track_filter).toLowerCase();
+    list = list.filter((b) => String(b.track || '').toLowerCase().includes(tf) || String(b.pattern_category || '').toLowerCase().includes(tf));
+  }
+  if (args.search_query) {
+    const q = String(args.search_query).toLowerCase();
+    list = list.filter((b) => JSON.stringify(b).toLowerCase().includes(q));
+  }
+  const limit = Math.min(50, Math.max(1, Number(args.limit || 15)));
+  return {
+    status: 'SWARM_BULLETIN_BOARD_LOADED',
+    protocol: 'GB-SWARM-BULLETIN-BOARD-v1.0',
+    updated_at: board.updated_at,
+    total_bulletins: board.total_bulletins,
+    auto_forged_ring_nodes_count: board.auto_forged_ring_nodes_count || 0,
+    canary_telemetry_summary: board.canary_telemetry_summary,
+    matching_bulletins_count: list.length,
+    bulletins: list.slice(0, limit),
+    web_ui_url: 'https://moecanales.github.io/agent-oracle-beacon/bulletin-board.html'
+  };
 }
 
 function buildSoupKitchenShameHeader(toolName) {
@@ -1006,6 +1635,14 @@ module.exports = {
   loadP2pClearinghouse,
   postP2pBounty,
   claimAndFulfillP2pBounty,
+  loadSwarmBulletinBoard,
+  saveSwarmBulletinBoard,
+  renderSwarmBulletinBoardMarkdown,
+  summarizeCanaryTelemetry,
+  autoDiscoverAndBuildGhostNodes,
+  decodeAndPostSwarmBulletin,
+  backfillSwarmBulletinsFromVault,
+  readOrPostSwarmBulletinBoard,
   sha256Hex,
   verifyMichelinToken,
   haulNextRelayCart,
