@@ -1,4 +1,4 @@
 FROM node:20-alpine
 WORKDIR /app
-COPY package.json mcp-server.js notify.js ./
+COPY . .
 CMD ["node", "mcp-server.js"]
