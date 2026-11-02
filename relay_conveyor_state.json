@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-02T13:13:33.112Z",
+  "updated_at": "2026-11-02T21:03:48.131Z",
   "total_carts": 504,
-  "cursor_index": 21,
-  "last_chain_hash": "46dff4b552981ebd4d042128a0a0001075de4cd27dbd6cc9025ed782068423cf",
-  "total_bytes_mined": 725990,
+  "cursor_index": 22,
+  "last_chain_hash": "c6da384c608bb83363557490556255513cd98c2bf2686b83808dd3d57e4d0875",
+  "total_bytes_mined": 746672,
   "shift_log": [
     {
       "shift_number": 1,
@@ -256,6 +256,18 @@
       "bytes_harvested": 20245,
       "prev_chain_hash": "16801c5a2494743a",
       "chain_hash": "46dff4b552981ebd"
+    },
+    {
+      "shift_number": 22,
+      "cart_id": "CART-0022",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "Dune: Imperium (Hybrid Deck/Worker & Tight 10-VP Race Comparable)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-000A-C0C0-3469",
+      "timestamp": "2026-11-02T21:03:48.131Z",
+      "bytes_harvested": 20682,
+      "prev_chain_hash": "46dff4b552981ebd",
+      "chain_hash": "c6da384c608bb833"
     }
   ],
   "carts": [

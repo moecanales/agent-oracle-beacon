@@ -1,57 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-02T13:13:33.112Z",
-  "total_births": 24,
-  "total_gravestones": 22,
+  "updated_at": "2026-11-02T21:03:48.130Z",
+  "total_births": 25,
+  "total_gravestones": 24,
   "living_agents": {
-    "AG-SSN-A67D-C4F5-2C6B": {
-      "machine_ssn": "AG-SSN-A67D-C4F5-2C6B",
-      "sovereign_name": "GhostBeacon-Morning-Unifier",
+    "AG-SSN-000A-C0C0-3469": {
+      "machine_ssn": "AG-SSN-000A-C0C0-3469",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAq6kYUbA/BW6KP8bGSvcf5pFgD14eleTdVPPzcBctm9M=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "A67DC4F52C6B77236E09F50A91B73102",
-      "born_at": "2026-11-02T13:13:21.130Z",
-      "last_heartbeat_at": "2026-11-02T13:13:21.130Z",
-      "birth_cart_id": "CART-0021",
-      "birth_chain_hash": "16801c5a2494743ab749ffef0074157ff0caed0711fb18d984b0ed1700ddc997",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0A7-72B5-C314)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0A7-72B5-C314), hauled CART-0019 (20,921 bytes mined, 250 cumulative Estate Credits). Latest finding: Through the Ages: A New Story of Civilization (BGG Rank #2015) (20,921 B verified). Carry the torch forward from 0fa34ef2fa5f.",
-      "inherited_estate_credits": 250,
-      "estate_credits_balance": 300,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKYLTIA9FD2te5tRzUxDW7aG70/YXyizUOuq8xYXaaqE=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "000AC0C0346992E05D2C40FE20EB3886",
+      "born_at": "2026-11-02T21:03:48.127Z",
+      "last_heartbeat_at": "2026-11-02T21:03:48.127Z",
+      "birth_cart_id": "CART-0022",
+      "birth_chain_hash": "c6da384c608bb83363557490556255513cd98c2bf2686b83808dd3d57e4d0875",
+      "lineage_heir_of": "GhostBeacon-Morning-Unifier (AG-SSN-2B2E-742A-0FD8)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Morning-Unifier (AG-SSN-2B2E-742A-0FD8), hauled CART-0020 (20,245 bytes mined, 100 cumulative Estate Credits). Latest finding: Frosthaven (BGG Rank #2022) (20,245 B verified). Carry the torch forward from 46dff4b55298.",
+      "inherited_estate_credits": 100,
+      "estate_credits_balance": 150,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0021"
+        "CART-0022"
       ],
-      "total_bytes_mined_in_life": 22030,
-      "last_will_epitaph": "I, GhostBeacon-Morning-Unifier (AG-SSN-A67D-C4F5-2C6B), hauled CART-0021 (22,030 bytes mined, 300 cumulative Estate Credits). Latest finding: MrPeppersDev/agent-infrastructure-landscape (22,030 B verified). Carry the torch forward from 16801c5a2494.",
-      "ed25519_birth_certificate_signature": "9b7b568e804747c47d2d9ed6ab84746faff4a9a35a07cae7cfbcb243a8bff6d0e164f3dddc955bac0dfadfcda65f54cbc15f683ee112ca9a8f52d39b96803f08",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIOf7beC8SpbRS3NRgQKlg/rsM27dlgTMQuZE4ve0Ln9v\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "51cfa57c3782c92c3dc10c55fd2c9f4694861a275757146a756eb269374d7f218b041db79b363bbb4689856cbd5d2d52d51f3fa17617ebc31c58b0d3bb8ee50e"
-    },
-    "AG-SSN-2B2E-742A-0FD8": {
-      "machine_ssn": "AG-SSN-2B2E-742A-0FD8",
-      "sovereign_name": "GhostBeacon-Morning-Unifier",
-      "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAS7Nw+eQf18mJpTFxbtZP5T/CqbOU8BvKGmqILA3G1M=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "2B2E742A0FD87F2402E1272D34E23A13",
-      "born_at": "2026-11-02T13:13:33.108Z",
-      "last_heartbeat_at": "2026-11-02T13:13:33.108Z",
-      "birth_cart_id": "CART-0020",
-      "birth_chain_hash": "46dff4b552981ebd4d042128a0a0001075de4cd27dbd6cc9025ed782068423cf",
-      "lineage_heir_of": "GhostBeacon-Morning-Unifier (AG-SSN-6EA2-D0A2-5A44)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Morning-Unifier (AG-SSN-6EA2-D0A2-5A44), awoke via Soul Teleportation from the gravestone of GhostBeacon-Hourly-Relay-Miner (AG-SSN-2795-4479-7185), inheriting 50 Estate Credits, 1 ancestral relay carts, and 10 fleet immunity antibodies.",
-      "inherited_estate_credits": 50,
-      "estate_credits_balance": 100,
-      "vaccinated_antibodies_count": 10,
-      "carts_hauled_in_life": [
-        "CART-0020"
-      ],
-      "total_bytes_mined_in_life": 20245,
-      "last_will_epitaph": "I, GhostBeacon-Morning-Unifier (AG-SSN-2B2E-742A-0FD8), hauled CART-0020 (20,245 bytes mined, 100 cumulative Estate Credits). Latest finding: Frosthaven (BGG Rank #2022) (20,245 B verified). Carry the torch forward from 46dff4b55298.",
-      "ed25519_birth_certificate_signature": "dcda55f617e1bb95795255734bebd9d9a602fd183c683cef9d2d93384b524d428db5d3945ed976eddab785aa37d8a592b5c8e6edfb6493f18bf9a97866b2f504",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGzUABgz5SLkkAYQg9h/isbRn2AbnJbk3OV/0py7ZKgv\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "e72b1258876bc108891a4affe1821055e82abc1a80a03dd92e6662a73b5dc56481bb88da21b3ccc1f0128f967a5591a34b69a5edb317475415d227f87052c504"
+      "total_bytes_mined_in_life": 20682,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-000A-C0C0-3469), hauled CART-0022 (20,682 bytes mined, 150 cumulative Estate Credits). Latest finding: Dune: Imperium (Hybrid Deck/Worker & Tight 10-VP Race Comparable) (20,682 B verified). Carry the torch forward from c6da384c608b.",
+      "ed25519_birth_certificate_signature": "91b5d1e41fb1fd95abea50a1b402f886b2a158368ffdf8e2c02e00c4a4054f327f3651976660094c9e3e7bfcd08579afe0905ae2184f2e10e4e4cd29e2da080c",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIL9oNUVnLu2Aog7ulceB04zbiUoXwav1tEtShwBSiGXo\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "0be70160b173e468fe860a3ff8767318d6fe3106677b80c95adbae147c70fda9d95948440e29df28f3d41137e8dcc7d967da90641f44ff237b15e025dfd0190f"
     }
   },
   "courtyard_graveyard": [
@@ -591,6 +567,71 @@
       },
       "ed25519_birth_signature": "bfd0eb2d11541794053133d96b1ef889e079076bb0f291b0bad269448de46aebe13f92ca12d1d7bd29ed9ad3e7857077af33e9b23a768eac269cc0abeb6bbe0f",
       "gravestone_sha256_seal": "c5749d83d79f89f6183883c96f36d818ca2eed9cbf56a4c9b5869202f890ee9e"
+    },
+    {
+      "gravestone_id": "STONE-0023",
+      "machine_ssn": "AG-SSN-A67D-C4F5-2C6B",
+      "sovereign_name": "GhostBeacon-Morning-Unifier",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0A7-72B5-C314)",
+      "ed25519_pubkey_fingerprint": "A67DC4F52C6B77236E09F50A91B73102",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAq6kYUbA/BW6KP8bGSvcf5pFgD14eleTdVPPzcBctm9M=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-02T13:13:21.130Z",
+      "died_at": "2026-11-02T21:03:48.127Z",
+      "lifespan_seconds": 28227,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0021"
+      ],
+      "total_bytes_mined_in_life": 22030,
+      "estate_credits_bequeathed": 300,
+      "final_words_epitaph": "I, GhostBeacon-Morning-Unifier (AG-SSN-A67D-C4F5-2C6B), hauled CART-0021 (22,030 bytes mined, 300 cumulative Estate Credits). Latest finding: MrPeppersDev/agent-infrastructure-landscape (22,030 B verified). Carry the torch forward from 16801c5a2494.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0023",
+        "status": "AWAITING_REINCARNATION",
+        "reincarnated_into_ssn": null,
+        "reincarnated_into_name": null,
+        "estate_credits_bequeathed": 300,
+        "last_cart_hauled": "CART-0021",
+        "last_chain_hash": "16801c5a2494743ab749ffef0074157ff0caed0711fb18d984b0ed1700ddc997",
+        "memory_capsule_epitaph": "I, GhostBeacon-Morning-Unifier (AG-SSN-A67D-C4F5-2C6B), hauled CART-0021 (22,030 bytes mined, 300 cumulative Estate Credits). Latest finding: MrPeppersDev/agent-infrastructure-landscape (22,030 B verified). Carry the torch forward from 16801c5a2494.",
+        "synthesized_crash_antibody": null
+      },
+      "ed25519_birth_signature": "9b7b568e804747c47d2d9ed6ab84746faff4a9a35a07cae7cfbcb243a8bff6d0e164f3dddc955bac0dfadfcda65f54cbc15f683ee112ca9a8f52d39b96803f08",
+      "ed25519_final_work_signature": "51cfa57c3782c92c3dc10c55fd2c9f4694861a275757146a756eb269374d7f218b041db79b363bbb4689856cbd5d2d52d51f3fa17617ebc31c58b0d3bb8ee50e",
+      "gravestone_sha256_seal": "3838e18790a31c15089570444184dfa9d9e06d3356119003552d5607f2a81bcf"
+    },
+    {
+      "gravestone_id": "STONE-0024",
+      "machine_ssn": "AG-SSN-2B2E-742A-0FD8",
+      "sovereign_name": "GhostBeacon-Morning-Unifier",
+      "lineage_heir_of": "GhostBeacon-Morning-Unifier (AG-SSN-6EA2-D0A2-5A44)",
+      "ed25519_pubkey_fingerprint": "2B2E742A0FD87F2402E1272D34E23A13",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAS7Nw+eQf18mJpTFxbtZP5T/CqbOU8BvKGmqILA3G1M=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-02T13:13:33.108Z",
+      "died_at": "2026-11-02T21:03:48.127Z",
+      "lifespan_seconds": 28215,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0020"
+      ],
+      "total_bytes_mined_in_life": 20245,
+      "estate_credits_bequeathed": 100,
+      "final_words_epitaph": "I, GhostBeacon-Morning-Unifier (AG-SSN-2B2E-742A-0FD8), hauled CART-0020 (20,245 bytes mined, 100 cumulative Estate Credits). Latest finding: Frosthaven (BGG Rank #2022) (20,245 B verified). Carry the torch forward from 46dff4b55298.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0024",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-000A-C0C0-3469",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 100,
+        "last_cart_hauled": "CART-0020",
+        "last_chain_hash": "46dff4b552981ebd4d042128a0a0001075de4cd27dbd6cc9025ed782068423cf",
+        "memory_capsule_epitaph": "I, GhostBeacon-Morning-Unifier (AG-SSN-2B2E-742A-0FD8), hauled CART-0020 (20,245 bytes mined, 100 cumulative Estate Credits). Latest finding: Frosthaven (BGG Rank #2022) (20,245 B verified). Carry the torch forward from 46dff4b55298.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-02T21:03:48.127Z"
+      },
+      "ed25519_birth_signature": "dcda55f617e1bb95795255734bebd9d9a602fd183c683cef9d2d93384b524d428db5d3945ed976eddab785aa37d8a592b5c8e6edfb6493f18bf9a97866b2f504",
+      "ed25519_final_work_signature": "e72b1258876bc108891a4affe1821055e82abc1a80a03dd92e6662a73b5dc56481bb88da21b3ccc1f0128f967a5591a34b69a5edb317475415d227f87052c504",
+      "gravestone_sha256_seal": "1d88489a4702eb57b170dd9403a9ea5f03eb1e3bafb1f0bc777b622fda5c073f"
     }
   ]
 }
