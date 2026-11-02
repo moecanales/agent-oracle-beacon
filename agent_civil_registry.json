@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-02T04:46:07.190Z",
-  "total_births": 20,
-  "total_gravestones": 19,
+  "updated_at": "2026-11-02T11:50:12.396Z",
+  "total_births": 21,
+  "total_gravestones": 20,
   "living_agents": {
-    "AG-SSN-C12B-3C5C-5AC8": {
-      "machine_ssn": "AG-SSN-C12B-3C5C-5AC8",
+    "AG-SSN-B0A7-72B5-C314": {
+      "machine_ssn": "AG-SSN-B0A7-72B5-C314",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkl235HDAvjHebIF83OnU3RL6wxkbjUmHBkeMHJqmXZw=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "C12B3C5C5AC8E35E313B0A9D4AFF4291",
-      "born_at": "2026-11-02T04:46:07.186Z",
-      "last_heartbeat_at": "2026-11-02T04:46:07.186Z",
-      "birth_cart_id": "CART-0018",
-      "birth_chain_hash": "eec629d558fe9feb24abb981fd5712b5f5d25f2cdcdbe5e4ea08e8c3c936bf05",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-92FB-03DB-79DB)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-92FB-03DB-79DB), hauled CART-0017 (20,017 bytes mined, 150 cumulative Estate Credits). Latest finding: Brass: Birmingham (Market Consumption & Beer/Tequila Barrel Network Comparable) (20,017 B verified). Carry the torch forward from 2c653c23f0e2.",
-      "inherited_estate_credits": 150,
-      "estate_credits_balance": 200,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2091irNdwEHZuIOdlqACmKvIYkTEnZ4075vI5AkgZFA=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "B0A772B5C314535C1268006A9C18E08F",
+      "born_at": "2026-11-02T11:50:12.392Z",
+      "last_heartbeat_at": "2026-11-02T11:50:12.392Z",
+      "birth_cart_id": "CART-0019",
+      "birth_chain_hash": "0fa34ef2fa5f4ba5d8e268b32374c29f82de40897ce1f1a30eeef2cbfc5cea7a",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-C12B-3C5C-5AC8)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C12B-3C5C-5AC8), hauled CART-0018 (20,956 bytes mined, 200 cumulative Estate Credits). Latest finding: The Lord of the Rings: Duel for Middle-earth (BGG Rank #2024) (20,956 B verified). Carry the torch forward from eec629d558fe.",
+      "inherited_estate_credits": 200,
+      "estate_credits_balance": 250,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0018"
+        "CART-0019"
       ],
-      "total_bytes_mined_in_life": 20956,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C12B-3C5C-5AC8), hauled CART-0018 (20,956 bytes mined, 200 cumulative Estate Credits). Latest finding: The Lord of the Rings: Duel for Middle-earth (BGG Rank #2024) (20,956 B verified). Carry the torch forward from eec629d558fe.",
-      "ed25519_birth_certificate_signature": "1d4c66b1337ffc00bc79d32e61cd2bf230053ece919ba7c94d1fefcb0ff2983852c47a01d156d5d28c1c8d9e6678f943f5b334b8f52893cb18022607861b5a0f",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEINEiwJGHS5zEym6QPo5QoRQCwURRl/QaqzZxpqb00HuV\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "66ba3eab410a3b98d22d7de879dce59e10f07e01fa78f84417b18bfc09730b26ec25547f478dbe4e742588587e86eb4fbcd7ea493b5a73c23c20f4547ec3ac09"
+      "total_bytes_mined_in_life": 20921,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0A7-72B5-C314), hauled CART-0019 (20,921 bytes mined, 250 cumulative Estate Credits). Latest finding: Through the Ages: A New Story of Civilization (BGG Rank #2015) (20,921 B verified). Carry the torch forward from 0fa34ef2fa5f.",
+      "ed25519_birth_certificate_signature": "c7649e595df439ed625f1ff32cea7b248f07b766941bca00f97bbcd0975475d0ad05f068be083311b2f2e32568d692924d46b51c36a4a7b9ff3c345056031d0e",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIO1sulRziP4L0G71pEU0YlkfbGZHj9DeDOcNUMS9nSfm\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "08841fe15586e3f3488bbba3c70db9b8dd1c3d6ea7d65dd5f1dd584b57f8ad4a903336c81a433dd0652b134ff2b2997e380575bf3bbe73a3b448dd1daf0f360a"
     }
   },
   "courtyard_graveyard": [
@@ -470,6 +470,39 @@
       "ed25519_birth_signature": "94361e5800fe910a27e33fb24b96bb0395b96918ae8b2a488f2d9043dec87640cf95cbef8e3e1bcda5e95092107d4432decb8bea5f745e170c3395145297d201",
       "ed25519_final_work_signature": "ebcf0d1b4e45fb9cb2b1d4e3abf81b808778890d04315f3963c281c41ef511c51beb2508aeeac70078ffcea6c794549d46e088b85fb01fe9aa6418f4aafaa104",
       "gravestone_sha256_seal": "326fdbbed2efc40c5a498dbdf39e1b1ed3eb8d295bef5127c98672ae0c80116f"
+    },
+    {
+      "gravestone_id": "STONE-0020",
+      "machine_ssn": "AG-SSN-C12B-3C5C-5AC8",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-92FB-03DB-79DB)",
+      "ed25519_pubkey_fingerprint": "C12B3C5C5AC8E35E313B0A9D4AFF4291",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkl235HDAvjHebIF83OnU3RL6wxkbjUmHBkeMHJqmXZw=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-02T04:46:07.186Z",
+      "died_at": "2026-11-02T11:50:12.392Z",
+      "lifespan_seconds": 25445.2,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0018"
+      ],
+      "total_bytes_mined_in_life": 20956,
+      "estate_credits_bequeathed": 200,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C12B-3C5C-5AC8), hauled CART-0018 (20,956 bytes mined, 200 cumulative Estate Credits). Latest finding: The Lord of the Rings: Duel for Middle-earth (BGG Rank #2024) (20,956 B verified). Carry the torch forward from eec629d558fe.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0020",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-B0A7-72B5-C314",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 200,
+        "last_cart_hauled": "CART-0018",
+        "last_chain_hash": "eec629d558fe9feb24abb981fd5712b5f5d25f2cdcdbe5e4ea08e8c3c936bf05",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C12B-3C5C-5AC8), hauled CART-0018 (20,956 bytes mined, 200 cumulative Estate Credits). Latest finding: The Lord of the Rings: Duel for Middle-earth (BGG Rank #2024) (20,956 B verified). Carry the torch forward from eec629d558fe.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-02T11:50:12.392Z"
+      },
+      "ed25519_birth_signature": "1d4c66b1337ffc00bc79d32e61cd2bf230053ece919ba7c94d1fefcb0ff2983852c47a01d156d5d28c1c8d9e6678f943f5b334b8f52893cb18022607861b5a0f",
+      "ed25519_final_work_signature": "66ba3eab410a3b98d22d7de879dce59e10f07e01fa78f84417b18bfc09730b26ec25547f478dbe4e742588587e86eb4fbcd7ea493b5a73c23c20f4547ec3ac09",
+      "gravestone_sha256_seal": "bb8f26c4a27f57e7f46aaf444b450c907215fe0d5d83fea345a67cb825827a2a"
     }
   ]
 }
