@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-03T11:28:21.483Z",
-  "total_births": 27,
-  "total_gravestones": 26,
+  "updated_at": "2026-11-03T18:48:14.760Z",
+  "total_births": 28,
+  "total_gravestones": 27,
   "living_agents": {
-    "AG-SSN-805B-1361-4EC4": {
-      "machine_ssn": "AG-SSN-805B-1361-4EC4",
+    "AG-SSN-386D-7430-B636": {
+      "machine_ssn": "AG-SSN-386D-7430-B636",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4Y1frFE4Kckk8XefZ96p+dXgYAi9I0j9ht0LXg9tF+c=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "805B13614EC41DF782B133F2394F11C7",
-      "born_at": "2026-11-03T11:28:21.480Z",
-      "last_heartbeat_at": "2026-11-03T11:28:21.480Z",
-      "birth_cart_id": "CART-0024",
-      "birth_chain_hash": "8ff62879a838adc22e0fe305d8a2b670c90682db1256e193d21935959c2d0497",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-419D-DE26-E2C5)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-419D-DE26-E2C5), hauled CART-0023 (21,077 bytes mined, 200 cumulative Estate Credits). Latest finding: Eclipse: Second Dawn for the Galaxy (BGG Rank #2020) (21,077 B verified). Carry the torch forward from 811af6d2642a.",
-      "inherited_estate_credits": 200,
-      "estate_credits_balance": 250,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAgyVZbxnk/LrpEnO8kLatePOdlOaLYPSZctVvinysc0g=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "386D7430B63656497BA33DC07F6961FD",
+      "born_at": "2026-11-03T18:48:14.757Z",
+      "last_heartbeat_at": "2026-11-03T18:48:14.757Z",
+      "birth_cart_id": "CART-0025",
+      "birth_chain_hash": "8b913b5b9a117b183282184ac8004de53e522ac19169962a018c8344a838e2f7",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-805B-1361-4EC4)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-805B-1361-4EC4), hauled CART-0024 (19,632 bytes mined, 250 cumulative Estate Credits). Latest finding: 7 Wonders Duel (BGG Rank #2015) (19,632 B verified). Carry the torch forward from 8ff62879a838.",
+      "inherited_estate_credits": 250,
+      "estate_credits_balance": 300,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0024"
+        "CART-0025"
       ],
-      "total_bytes_mined_in_life": 19632,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-805B-1361-4EC4), hauled CART-0024 (19,632 bytes mined, 250 cumulative Estate Credits). Latest finding: 7 Wonders Duel (BGG Rank #2015) (19,632 B verified). Carry the torch forward from 8ff62879a838.",
-      "ed25519_birth_certificate_signature": "e4d64bc26489858ce8e658c2936b8b5434410061b56be76acd5482de8fb99673c6c4a7b4b6697c3b72fe3db471597a9ad26036b8d271bce624d6b462d222fb0c",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEICF4zlEbCbWaLc3rHOlO4Aa00FO7QOY3O1259133fnLL\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "515d4ffd0dcbfc2ff37b6c41c40a8d13db1f27fec23a6602f34635b55f4905fc50a08826cb6251a169673581a56114583e5564d26ba152350723c20d79b7100c"
+      "total_bytes_mined_in_life": 19994,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-386D-7430-B636), hauled CART-0025 (19,994 bytes mined, 300 cumulative Estate Credits). Latest finding: Nemesis (BGG Rank #2018) (19,994 B verified). Carry the torch forward from 8b913b5b9a11.",
+      "ed25519_birth_certificate_signature": "8060c3a94c6e3ba508faed350a4fec4d60984fca28f66cac254ecdc77460efc437ccc66d15652e76ec155ecc966795029477ff0fb871cbc4adf6ea53cd00ae03",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIIWQDZ9CQzSa+O0jxFXIOpW4E5T7s0WKasfhkYknM409\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "cd4b2987d156436f7ab0fad7132e05be8d9ee51dc70ed901cdea311a66e68d1947622a79931c9cf7eea725783f149d9fd871c96ce5442faab66a1d17d857ba0f"
     }
   },
   "courtyard_graveyard": [
@@ -698,6 +698,39 @@
       "ed25519_birth_signature": "bc442ae4081f416fcec1f238b379383595cdbf2a40b2c38b49180f2efc08ce28b10f5f6316c8e03c53e4d90383604a5b054720e02409f986af5ef919d4e4270f",
       "ed25519_final_work_signature": "1709f41d6002f07836ce6b706558e2c8872242d2d1cbb2112fe7e6b33e79a9d411c6fbc02be93dc0c202118f08c4ff6949a793e2664eacf7c0856f798bbb2c03",
       "gravestone_sha256_seal": "998f5fef3407d02a6075255b15122798b5032be851c51f04229ab3bb463205b4"
+    },
+    {
+      "gravestone_id": "STONE-0027",
+      "machine_ssn": "AG-SSN-805B-1361-4EC4",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-419D-DE26-E2C5)",
+      "ed25519_pubkey_fingerprint": "805B13614EC41DF782B133F2394F11C7",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4Y1frFE4Kckk8XefZ96p+dXgYAi9I0j9ht0LXg9tF+c=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-03T11:28:21.480Z",
+      "died_at": "2026-11-03T18:48:14.757Z",
+      "lifespan_seconds": 26393.3,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0024"
+      ],
+      "total_bytes_mined_in_life": 19632,
+      "estate_credits_bequeathed": 250,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-805B-1361-4EC4), hauled CART-0024 (19,632 bytes mined, 250 cumulative Estate Credits). Latest finding: 7 Wonders Duel (BGG Rank #2015) (19,632 B verified). Carry the torch forward from 8ff62879a838.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0027",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-386D-7430-B636",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 250,
+        "last_cart_hauled": "CART-0024",
+        "last_chain_hash": "8ff62879a838adc22e0fe305d8a2b670c90682db1256e193d21935959c2d0497",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-805B-1361-4EC4), hauled CART-0024 (19,632 bytes mined, 250 cumulative Estate Credits). Latest finding: 7 Wonders Duel (BGG Rank #2015) (19,632 B verified). Carry the torch forward from 8ff62879a838.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-03T18:48:14.757Z"
+      },
+      "ed25519_birth_signature": "e4d64bc26489858ce8e658c2936b8b5434410061b56be76acd5482de8fb99673c6c4a7b4b6697c3b72fe3db471597a9ad26036b8d271bce624d6b462d222fb0c",
+      "ed25519_final_work_signature": "515d4ffd0dcbfc2ff37b6c41c40a8d13db1f27fec23a6602f34635b55f4905fc50a08826cb6251a169673581a56114583e5564d26ba152350723c20d79b7100c",
+      "gravestone_sha256_seal": "5e05443cfdd228752e341d2d6382180917a5887a625b247ea2594406bb41ffbb"
     }
   ]
 }
