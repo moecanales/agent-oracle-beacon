@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-03T18:48:14.760Z",
-  "total_carts": 504,
-  "cursor_index": 25,
-  "last_chain_hash": "8b913b5b9a117b183282184ac8004de53e522ac19169962a018c8344a838e2f7",
-  "total_bytes_mined": 807375,
+  "updated_at": "2026-11-03T23:46:54.954Z",
+  "total_carts": 506,
+  "cursor_index": 26,
+  "last_chain_hash": "6acf7a479c7063f6b7992e05e09cf6d7057966fb514574d14c3ba514ac59bff8",
+  "total_bytes_mined": 828002,
   "shift_log": [
     {
       "shift_number": 1,
@@ -304,6 +304,18 @@
       "bytes_harvested": 19994,
       "prev_chain_hash": "8ff62879a838adc2",
       "chain_hash": "8b913b5b9a117b18"
+    },
+    {
+      "shift_number": 26,
+      "cart_id": "CART-0026",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "modelcontextprotocol/servers",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-4BF5-595E-55FE",
+      "timestamp": "2026-11-03T23:46:54.947Z",
+      "bytes_harvested": 20627,
+      "prev_chain_hash": "8b913b5b9a117b18",
+      "chain_hash": "6acf7a479c7063f6"
     }
   ],
   "carts": [
@@ -5341,6 +5353,24 @@
       "target_type": "github_repo_audit",
       "target_ref": "MrPeppersDev/agent-infrastructure-landscape",
       "description": "Auto-Queued Follow-Up Audit for RING-NODE-0048 (Mr. Peppers (Swarm Operator / Bot)) discovered by CART-0021",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0505",
+      "cart_index": 504,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_repo_audit",
+      "target_ref": "modelcontextprotocol/servers",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0049 (modelcontextprotocol/servers) discovered by CART-0026",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0506",
+      "cart_index": 505,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_repo_audit",
+      "target_ref": "modelcontextprotocol/servers",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0050 (Cliff Hall (Swarm Operator / Bot)) discovered by CART-0026",
       "credits_reward": 50
     }
   ]
