@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-03T03:10:08.584Z",
+  "updated_at": "2026-11-03T11:28:21.483Z",
   "total_carts": 504,
-  "cursor_index": 23,
-  "last_chain_hash": "811af6d2642a74cc664cc9b9cbedd8af51a59e69c14291d67863bc5a68aa0a03",
-  "total_bytes_mined": 767749,
+  "cursor_index": 24,
+  "last_chain_hash": "8ff62879a838adc22e0fe305d8a2b670c90682db1256e193d21935959c2d0497",
+  "total_bytes_mined": 787381,
   "shift_log": [
     {
       "shift_number": 1,
@@ -280,6 +280,18 @@
       "bytes_harvested": 21077,
       "prev_chain_hash": "c6da384c608bb833",
       "chain_hash": "811af6d2642a74cc"
+    },
+    {
+      "shift_number": 24,
+      "cart_id": "CART-0024",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "7 Wonders Duel (BGG Rank #2015)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-805B-1361-4EC4",
+      "timestamp": "2026-11-03T11:28:21.483Z",
+      "bytes_harvested": 19632,
+      "prev_chain_hash": "811af6d2642a74cc",
+      "chain_hash": "8ff62879a838adc2"
     }
   ],
   "carts": [
