@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-03T23:46:54.954Z",
-  "total_carts": 506,
-  "cursor_index": 26,
-  "last_chain_hash": "6acf7a479c7063f6b7992e05e09cf6d7057966fb514574d14c3ba514ac59bff8",
-  "total_bytes_mined": 828002,
+  "updated_at": "2026-11-04T03:53:56.862Z",
+  "total_carts": 507,
+  "cursor_index": 27,
+  "last_chain_hash": "adcdd71bfae997ccfd0a7820dfcccee9f8d7abea60b00ac6f9a7d8cebe782c8d",
+  "total_bytes_mined": 848030,
   "shift_log": [
     {
       "shift_number": 1,
@@ -316,6 +316,18 @@
       "bytes_harvested": 20627,
       "prev_chain_hash": "8b913b5b9a117b18",
       "chain_hash": "6acf7a479c7063f6"
+    },
+    {
+      "shift_number": 27,
+      "cart_id": "CART-0027",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "Ark Nova (Action Card Upgrading & Dual-Track Scoring Comparable)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-390A-B47D-79A5",
+      "timestamp": "2026-11-04T03:53:56.566Z",
+      "bytes_harvested": 20028,
+      "prev_chain_hash": "6acf7a479c7063f6",
+      "chain_hash": "adcdd71bfae997cc"
     }
   ],
   "carts": [
@@ -5371,6 +5383,15 @@
       "target_type": "github_repo_audit",
       "target_ref": "modelcontextprotocol/servers",
       "description": "Auto-Queued Follow-Up Audit for RING-NODE-0050 (Cliff Hall (Swarm Operator / Bot)) discovered by CART-0026",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0507",
+      "cart_index": 506,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_repo_audit",
+      "target_ref": "modelcontextprotocol/servers",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0051 (cliffhall (Swarm Operator / Bot)) discovered by CART-0026",
       "credits_reward": 50
     }
   ]
