@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-04T03:53:56.862Z",
+  "updated_at": "2026-11-04T11:44:51.211Z",
   "total_carts": 507,
-  "cursor_index": 27,
-  "last_chain_hash": "adcdd71bfae997ccfd0a7820dfcccee9f8d7abea60b00ac6f9a7d8cebe782c8d",
-  "total_bytes_mined": 848030,
+  "cursor_index": 28,
+  "last_chain_hash": "5a0ee450ef083f1dc976ee93de9583a6660dffa9b32dcda75afdd814e08f1f17",
+  "total_bytes_mined": 868887,
   "shift_log": [
     {
       "shift_number": 1,
@@ -328,6 +328,18 @@
       "bytes_harvested": 20028,
       "prev_chain_hash": "6acf7a479c7063f6",
       "chain_hash": "adcdd71bfae997cc"
+    },
+    {
+      "shift_number": 28,
+      "cart_id": "CART-0028",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Clank! Legacy: Acquisitions Incorporated (BGG Rank #2019)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-838F-8545-F58C",
+      "timestamp": "2026-11-04T11:44:51.211Z",
+      "bytes_harvested": 20857,
+      "prev_chain_hash": "adcdd71bfae997cc",
+      "chain_hash": "5a0ee450ef083f1d"
     }
   ],
   "carts": [
