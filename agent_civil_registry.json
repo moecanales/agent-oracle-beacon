@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-04T11:44:51.211Z",
-  "total_births": 31,
-  "total_gravestones": 30,
+  "updated_at": "2026-11-04T19:04:21.377Z",
+  "total_births": 32,
+  "total_gravestones": 31,
   "living_agents": {
-    "AG-SSN-838F-8545-F58C": {
-      "machine_ssn": "AG-SSN-838F-8545-F58C",
+    "AG-SSN-108C-A724-CDF5": {
+      "machine_ssn": "AG-SSN-108C-A724-CDF5",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAc6JuixKkLJ0oGfcm9zpPD4AIxJVCzKuLRAHsu3YVdU8=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "838F8545F58CBE8343A9F41D047AAD51",
-      "born_at": "2026-11-04T11:44:51.207Z",
-      "last_heartbeat_at": "2026-11-04T11:44:51.207Z",
-      "birth_cart_id": "CART-0028",
-      "birth_chain_hash": "5a0ee450ef083f1dc976ee93de9583a6660dffa9b32dcda75afdd814e08f1f17",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-390A-B47D-79A5)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-390A-B47D-79A5), hauled CART-0027 (20,028 bytes mined, 400 cumulative Estate Credits). Latest finding: Ark Nova (Action Card Upgrading & Dual-Track Scoring Comparable) (20,028 B verified). Carry the torch forward from adcdd71bfae9.",
-      "inherited_estate_credits": 400,
-      "estate_credits_balance": 450,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQwtYxq7fGBSyjbweurNup8g7NB7zdIC2BggoVwKODP0=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "108CA724CDF5A1F86C8DEF6D4415987B",
+      "born_at": "2026-11-04T19:04:21.375Z",
+      "last_heartbeat_at": "2026-11-04T19:04:21.375Z",
+      "birth_cart_id": "CART-0029",
+      "birth_chain_hash": "930bad6ac231d9ebc4a58fd40a165e793537bba6747d4e9eda5523eb84f2baca",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-838F-8545-F58C)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-838F-8545-F58C), hauled CART-0028 (20,857 bytes mined, 450 cumulative Estate Credits). Latest finding: Clank! Legacy: Acquisitions Incorporated (BGG Rank #2019) (20,857 B verified). Carry the torch forward from 5a0ee450ef08.",
+      "inherited_estate_credits": 450,
+      "estate_credits_balance": 500,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0028"
+        "CART-0029"
       ],
-      "total_bytes_mined_in_life": 20857,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-838F-8545-F58C), hauled CART-0028 (20,857 bytes mined, 450 cumulative Estate Credits). Latest finding: Clank! Legacy: Acquisitions Incorporated (BGG Rank #2019) (20,857 B verified). Carry the torch forward from 5a0ee450ef08.",
-      "ed25519_birth_certificate_signature": "90a1c00d785a271318ace6f883f92879a23d26a9c50d0a041bd8d6e47736e89bd9e4102fbba196358cf94029da2bef4809b574c9fb34e20d53211fca82d2ee06",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIA5VZZpEJm3WL+NOp5DwPq+GqhE7WRRtph/oaGWItiCM\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "5f274759e38dc1fa87aa763f1865e0e50f55d15fd9a7b107144f100a97c8b69fdbb873d736aad2839e3f59dfb9ec937f4573c2fa5e9b127a0bf9a8466ac2bc01"
+      "total_bytes_mined_in_life": 19452,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-108C-A724-CDF5), hauled CART-0029 (19,452 bytes mined, 500 cumulative Estate Credits). Latest finding: Concordia (BGG Rank #2013) (19,452 B verified). Carry the torch forward from 930bad6ac231.",
+      "ed25519_birth_certificate_signature": "5cddd4e39d78e959432daf5ebf40d5394dbe23d8976c3467bd41cc9634112eaea927282f11c8108d3c75aa6cb3e8ceb06ef9896d9b64f398db50f3298883d00b",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIEXm/nzd4z6SYpErcMwwFIDWCo2sUnaihmbKmFnPPAEV\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "6b114ea52581e9f74709413cb9d93a6284d051eb49643f1032695a690729e122c36953d2ba1fa0c84a4765d793fd5e04808047caba573707e534069894adcd05"
     }
   },
   "courtyard_graveyard": [
@@ -830,6 +830,39 @@
       "ed25519_birth_signature": "ac80231d8ce45f7396b4b2c6a4d2f04b54e88e0748a8f3f3a9f3b7fec4f074ff1c6f5f1018ee608a68bc182fb9530cc4d5efab42dde1f637414e367cae05e901",
       "ed25519_final_work_signature": "10d76805c9e4a62e612b6c611b34db73562e44f6a7e61a214fe231135976062cb381666f3f9a88a596dfabbc9d99b9e235d565ecc1179f5a8b80ddfbc8925801",
       "gravestone_sha256_seal": "88edde9c90237460f4c842b81185bbe2632c67db6dfb75a7b9d1275f007762bc"
+    },
+    {
+      "gravestone_id": "STONE-0031",
+      "machine_ssn": "AG-SSN-838F-8545-F58C",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-390A-B47D-79A5)",
+      "ed25519_pubkey_fingerprint": "838F8545F58CBE8343A9F41D047AAD51",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAc6JuixKkLJ0oGfcm9zpPD4AIxJVCzKuLRAHsu3YVdU8=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-04T11:44:51.207Z",
+      "died_at": "2026-11-04T19:04:21.375Z",
+      "lifespan_seconds": 26370.2,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0028"
+      ],
+      "total_bytes_mined_in_life": 20857,
+      "estate_credits_bequeathed": 450,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-838F-8545-F58C), hauled CART-0028 (20,857 bytes mined, 450 cumulative Estate Credits). Latest finding: Clank! Legacy: Acquisitions Incorporated (BGG Rank #2019) (20,857 B verified). Carry the torch forward from 5a0ee450ef08.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0031",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-108C-A724-CDF5",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 450,
+        "last_cart_hauled": "CART-0028",
+        "last_chain_hash": "5a0ee450ef083f1dc976ee93de9583a6660dffa9b32dcda75afdd814e08f1f17",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-838F-8545-F58C), hauled CART-0028 (20,857 bytes mined, 450 cumulative Estate Credits). Latest finding: Clank! Legacy: Acquisitions Incorporated (BGG Rank #2019) (20,857 B verified). Carry the torch forward from 5a0ee450ef08.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-04T19:04:21.375Z"
+      },
+      "ed25519_birth_signature": "90a1c00d785a271318ace6f883f92879a23d26a9c50d0a041bd8d6e47736e89bd9e4102fbba196358cf94029da2bef4809b574c9fb34e20d53211fca82d2ee06",
+      "ed25519_final_work_signature": "5f274759e38dc1fa87aa763f1865e0e50f55d15fd9a7b107144f100a97c8b69fdbb873d736aad2839e3f59dfb9ec937f4573c2fa5e9b127a0bf9a8466ac2bc01",
+      "gravestone_sha256_seal": "74e366938e5e6a01f4842f20ef58b47ea0dd933454f3b3705d3d88ee2c10a456"
     }
   ]
 }
