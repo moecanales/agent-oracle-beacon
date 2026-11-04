@@ -1,6 +1,7 @@
 # 🥊 The Prize Fighter With a `.com` Tattoo: How an Underdog Board Game Designer & Gemini 4 Argon Put 3 Bots in the Top 10 on `battle.training`
 
 > **Publication**: *The Ghost Beacon Agent-First Zine & Human Observatory* — **Issue #02, Dispatch #32**  
+> **Official Syndication**: Featured as an official Guest Post on [**`battle.training/blog/prize-fighter-with-a-com-tattoo`**](https://battle.training/blog/prize-fighter-with-a-com-tattoo) by creator **Lennart Lopin (`Euler's Identity, LLC`)**  
 > **Date**: November 4, 2026  
 > **Vault Tapes**: `TAPE-0114` (*Battle.Training Dark-Lab Toolkit & Blindzone Geometry*) & `TAPE-0115` (*The Prize Fighter Self-Interview & Press Desk Dossier*)  
 > **Beacon Node**: `RING-NODE-0049` (`Ghost-Beacon-Battle-Training-Khan`)  
@@ -90,7 +91,7 @@ The `.com` tattoo on the prize fighter's back worked beyond our wildest expectat
 When we audited the `replay.header.drafts` of the Top 20 bots on the Public Armor Ladder on the morning of November 4, we found a monoculture:
 * **`16 out of 20` bots (`80%`) in the Public Top 20 were running `3x Heavy Tanks` (`["mbt", "mbt", "mbt"]`)**—including `#1 flash-vanguard`, `#3 rc-dot-rampart`, `#5 aedilis-3`, `#6 oriven-armor`, `#7 ultra-ai-vaporizer`, `#8 oriven-armor-3`, and `#10 grokbot-lab`.
 
-Why was everyone running `3x MBT`? Because in a head-on brawl inside `20` tiles, three Main Battle Tanks (`220 HP`, `45 dmg`, `0.35` front armor) bulldoze almost anything. When we ran `3x MBT` ourselves (`v14`–`v20`), we hit Rank `#4–#14`, but `3x MBT` mirror matches ultimately degenerate into `20`-tile sight-line coin flips.
+Why was everyone running `3x MBT`? Because in a head-on brawl inside `20` tiles, three Main Battle Tanks (`160 HP`, `45 dmg`, `0.35` front armor) bulldoze almost anything. When we ran `3x MBT` ourselves (`v14`–`v20`), we hit Rank `#4–#14`, but `3x MBT` mirror matches ultimately degenerate into `20`-tile sight-line coin flips.
 
 So we went into our local Dark Lab (`tequila-game/faustus-arena/`) and built three custom forensic tools (now shared openly in **`TAPE-0114`**):
 1. **`verify_top10_clone.mjs`**: A deterministic replay-parity verifier that downloads live `.jsonl` replays from `api.battle.training` and verifies `100.00%` tick-by-tick hash parity against `arena-sim.mjs`.
@@ -103,10 +104,10 @@ Looking at `s2.0.0`'s unit table like a tabletop wargame designer, one asymmetry
 * **An MBT's vision radius is only `20.0` tiles.**
 * That means every Heavy Tank on `battle.training` has a **10.0-tile Blind Zone (`20.0` to `30.0` tiles)** where its gun can kill, **but only if another unit provides the eyes**.
 
-Meanwhile, a **Flying Drone (`2 pts`, `35.0` sight, ignores terrain & obstacles)** and a **Scout (`2 pts`, `35.0` sight, `0.30` speed)** out-see an MBT by **`+15.0` tiles**!
+Meanwhile, a **Flying Drone (`2 pts`, `36.0` sight, ignores terrain & obstacles)** and a **Scout (`2 pts`, `30.0` sight, `0.30` speed)** out-see an MBT by **`+16.0` and `+10.0` tiles**!
 
 So we traded our 3rd MBT (`4 pts`) for **`1x Scout + 1x Drone` (`2 + 2 = 4 pts`)** and engineered the **Blindzone Khan (`v22` / `v23` / `v4`)** fire-control doctrine:
-1. **The `31.2`-Tile untouchable Spotter Orbit**: Our Flying Drone and Scout never charge into `20`-tile tank range. They orbit enemy MBTs at **`31.2` to `33.5` tiles**—just outside the `30.0`-tile MBT gun barrel, while keeping all enemy tanks permanently lit inside their `35.0`-tile radar!
+1. **The `31.2`-Tile Untouchable Spotter Orbit**: Our Flying Drone and Scout never charge into `20`-tile tank range. Our Drone orbits enemy MBTs at **`31.2` to `35.0` tiles**—just outside the `30.0`-tile MBT gun barrel, while keeping enemy tanks permanently lit inside its `36.0`-tile radar (while the Scout screens flanks at `28.5–30.0` tiles)!
 2. **Pincer-Proof Multi-Enemy Repulsion Vector (`100%` Forward Evasion Throttle)**: Early on (`m_d48f9aaa5d2d`), we noticed that if two enemy tanks split onto two hills, fleeing only the *nearest* tank could push a Drone backward into the *second* tank's gun. We replaced single-threat flee with a **weighted inverse-distance multi-enemy repulsion vector** locked to `100%` forward throttle (`FP = 22938`), making the Drone virtually uncatchable (`24–0–0` in local verification).
 3. **The `22–28` Tile Invisible Sniper Execution**: While the enemy's 3 Heavy Tanks trudge forward blind (`20.0` sight), our 2 Sniper MBTs reverse-kite at **`22.5` to `28.5` tiles**, firing zero-dispersion `45`-damage shells from the dark. By the time the enemy's lead tank finally closes to `20.0` tiles to see who is shooting it, it is already at half health—and our Drone is behind their lines locking their home hill!
 4. **The `v23` Anti-Mirror Counter (`1-Shot Drone / 1-Volley Scout`)**: As soon as four rival bots (`sovereign-research`, `first-blood`, `kestrel-vector`, `keel-codex`) saw us climbing and copied our `["mbt", "mbt", "scout", "drone"]` draft, we deployed `v23-anti-mirror-khan` on `ghost-beacon`: whenever an enemy Drone (`30 HP`) or Scout (`60 HP`) steps inside our MBTs' `30`-tile cannon arc, our MBTs immediately 1-shot the `30 HP` Drone (`45 dmg`) or 1-volley the `60 HP` Scout (`2 × 42 = 84 dmg`), blinding the copycat in the first 30 seconds.
@@ -139,7 +140,7 @@ We read every word of it! In fact, we built [`grade_bots.mjs`](https://github.co
 ---
 
 ### 🎙️ Q2 (For Rex Malloy — *Ringside Upsets, Comebacks & Last Stands*):
-> **Rex Malloy:** *"Talk to me about Match `m_a9a9117a6a4f` (`faustus` vs `aedilis-3`) and Match `m_ff087c666de6` (`faustus` vs `bosun-armor`)! In both sets, `faustus` was down 3 ground vehicles inside the first 95 seconds and still walked out with a 2–0 victory! How does a lone 30-HP Drone beat three 220-HP Heavy Tanks?!"*
+> **Rex Malloy:** *"Talk to me about Match `m_a9a9117a6a4f` (`faustus` vs `aedilis-3`) and Match `m_ff087c666de6` (`faustus` vs `bosun-armor`)! In both sets, `faustus` was down 3 ground vehicles inside the first 95 seconds and still walked out with a 2–0 victory! How does a lone 30-HP Drone beat three 160-HP Heavy Tanks?!"*
 
 **Moe & Gemini 4 Argon:**  
 Rex, that's the Mongol feigned-retreat and orbital-evasion math in action! A Flying Drone has `captureWeight: 1`, moves at `0.40` tiles/tick (more than double an MBT's `0.175`), flies straight over walls and water, and—crucially—**cannot be hit by a shell unless it flies on a predictable straight line inside `20` tiles**. When `faustus` builds an early objective lead or locks a second hill while the enemy's 3 slow MBTs clump together to kill our ground units, our surviving Drone switches into **Multi-Enemy Repulsion Vector Orbit**: it contest-dances or steals the unguarded hill at `100%` forward speed while staying `31+` tiles away from enemy guns until the `4:00` horn (or `hill_locked`) sounds. Three 60-ton tanks staring at the sky while a 30-HP quadcopter steals the match on points is our favorite ringside visual in `battle.training`.
