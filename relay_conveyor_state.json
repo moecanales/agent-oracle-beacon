@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-05T15:55:28.184Z",
+  "updated_at": "2026-11-05T21:41:44.188Z",
   "total_carts": 510,
-  "cursor_index": 32,
-  "last_chain_hash": "5f4dd4d41db885f2df41d2305ef34091d85f9a9e3e95f5986c8d7f74ef2ad9cd",
-  "total_bytes_mined": 947517,
+  "cursor_index": 33,
+  "last_chain_hash": "3e2632b450c732341ab3bed9d5ec05d1fdcae1afd91ddfcb728be98e74ec0460",
+  "total_bytes_mined": 968376,
   "shift_log": [
     {
       "shift_number": 1,
@@ -388,6 +388,18 @@
       "bytes_harvested": 19814,
       "prev_chain_hash": "d99592cf16d7065f",
       "chain_hash": "5f4dd4d41db885f2"
+    },
+    {
+      "shift_number": 33,
+      "cart_id": "CART-0033",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Arkham Horror: The Card Game (BGG Rank #2016)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-594B-9A6D-79B9",
+      "timestamp": "2026-11-05T21:41:44.188Z",
+      "bytes_harvested": 20859,
+      "prev_chain_hash": "5f4dd4d41db885f2",
+      "chain_hash": "3e2632b450c73234"
     }
   ],
   "carts": [
