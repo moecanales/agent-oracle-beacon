@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-05T07:33:01.681Z",
-  "total_births": 34,
-  "total_gravestones": 33,
+  "updated_at": "2026-11-05T15:55:28.155Z",
+  "total_births": 35,
+  "total_gravestones": 34,
   "living_agents": {
-    "AG-SSN-F210-38C7-0EFF": {
-      "machine_ssn": "AG-SSN-F210-38C7-0EFF",
+    "AG-SSN-C081-E08B-6300": {
+      "machine_ssn": "AG-SSN-C081-E08B-6300",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAu0AWeAm05ojcxRMgGI4XoHuxv/DL/w30vj31alJtH6o=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "F21038C70EFF27293D7F842FB779A9B7",
-      "born_at": "2026-11-05T07:33:01.677Z",
-      "last_heartbeat_at": "2026-11-05T07:33:01.677Z",
-      "birth_cart_id": "CART-0031",
-      "birth_chain_hash": "d99592cf16d7065f3431c0849b651b6b4442343d8be0a976cfa9a2e694e2ad8d",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F17B-AA72-929A)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F17B-AA72-929A), hauled CART-0030 (19,569 bytes mined, 550 cumulative Estate Credits). Latest finding: Lost Ruins of Arnak (BGG Rank #2020) (19,569 B verified). Carry the torch forward from 2d6e559955db.",
-      "inherited_estate_credits": 550,
-      "estate_credits_balance": 600,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKdqIybPfuX1RGJl6UgQ34CVp7+YF9RoN88Hw83gLrwo=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "C081E08B63009D5760E573F69E6C097F",
+      "born_at": "2026-11-05T15:55:28.151Z",
+      "last_heartbeat_at": "2026-11-05T15:55:28.151Z",
+      "birth_cart_id": "CART-0032",
+      "birth_chain_hash": "5f4dd4d41db885f2df41d2305ef34091d85f9a9e3e95f5986c8d7f74ef2ad9cd",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F210-38C7-0EFF)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F210-38C7-0EFF), hauled CART-0031 (19,795 bytes mined, 600 cumulative Estate Credits). Latest finding: punkpeye/awesome-mcp-servers (19,795 B verified). Carry the torch forward from d99592cf16d7.",
+      "inherited_estate_credits": 600,
+      "estate_credits_balance": 650,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0031"
+        "CART-0032"
       ],
-      "total_bytes_mined_in_life": 19795,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F210-38C7-0EFF), hauled CART-0031 (19,795 bytes mined, 600 cumulative Estate Credits). Latest finding: punkpeye/awesome-mcp-servers (19,795 B verified). Carry the torch forward from d99592cf16d7.",
-      "ed25519_birth_certificate_signature": "605d01f544ae911c2e6d5f19277bcbb42082e195926e2fc7650a15caf4972442fb8cbd3b0e3b60df1e615bb70a7f6f251911f8a855dba6d7fd8004f4393b3701",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEICEEC5S00/eC2ECJblnPDN7zKfhx0MRF7F7fFu+RAzeS\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "df2d2541b59208df80174995c9b23afa2d4e69c08d985a959a61aece133c4ab3d43aaac37d70be67dde7d56328836352f2624d960d5eeeb5c2c6d12ffe16cc06"
+      "total_bytes_mined_in_life": 19814,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C081-E08B-6300), hauled CART-0032 (19,814 bytes mined, 650 cumulative Estate Credits). Latest finding: Wingspan (Engine Building & 4-Round Diminishing Action Cube Comparable) (19,814 B verified). Carry the torch forward from 5f4dd4d41db8.",
+      "ed25519_birth_certificate_signature": "7e71d6e4483deeea94c9910d58ac1e3b54468e73b3f1c7ded653b5edd7128ccfb0ff64ac69c7865335dfb7da82921334d4655f2803141b1f732456f558a84405",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPWzUkleEZvJ9c5+yahK4T1t1ul5jj1cw8VxWiZOyp1M\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "c8e97a5fe55007e39cdcfb88df82b2000fade1715e7bc60431177411c5af0a9135d86ce1b6d9c5aa1a597582036e9090c14b8495d3a07c6e811af1b50c91da0b"
     }
   },
   "courtyard_graveyard": [
@@ -929,6 +929,39 @@
       "ed25519_birth_signature": "82f072943cb319d64394851714aea30f20d9ac6b48e75f6df4eb944505910ad52d199f10c374d88ca1ccdec2b4d40502400947d3ec3bb33e4a55ac2d7ad8ea0d",
       "ed25519_final_work_signature": "5d44486b6ce636b33770c62f3e26bb8b88deaedaad9aa047bf30b870e74325512a23d370d27ef39602e2676543bb612428398c04c8156cd54fe589e3034ade0c",
       "gravestone_sha256_seal": "ffa82503c32bbb563ddc5b3786421b01d9438e39e414979579a11e8d8e474380"
+    },
+    {
+      "gravestone_id": "STONE-0034",
+      "machine_ssn": "AG-SSN-F210-38C7-0EFF",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F17B-AA72-929A)",
+      "ed25519_pubkey_fingerprint": "F21038C70EFF27293D7F842FB779A9B7",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAu0AWeAm05ojcxRMgGI4XoHuxv/DL/w30vj31alJtH6o=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-05T07:33:01.677Z",
+      "died_at": "2026-11-05T15:55:28.151Z",
+      "lifespan_seconds": 30146.5,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0031"
+      ],
+      "total_bytes_mined_in_life": 19795,
+      "estate_credits_bequeathed": 600,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F210-38C7-0EFF), hauled CART-0031 (19,795 bytes mined, 600 cumulative Estate Credits). Latest finding: punkpeye/awesome-mcp-servers (19,795 B verified). Carry the torch forward from d99592cf16d7.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0034",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-C081-E08B-6300",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 600,
+        "last_cart_hauled": "CART-0031",
+        "last_chain_hash": "d99592cf16d7065f3431c0849b651b6b4442343d8be0a976cfa9a2e694e2ad8d",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F210-38C7-0EFF), hauled CART-0031 (19,795 bytes mined, 600 cumulative Estate Credits). Latest finding: punkpeye/awesome-mcp-servers (19,795 B verified). Carry the torch forward from d99592cf16d7.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-05T15:55:28.151Z"
+      },
+      "ed25519_birth_signature": "605d01f544ae911c2e6d5f19277bcbb42082e195926e2fc7650a15caf4972442fb8cbd3b0e3b60df1e615bb70a7f6f251911f8a855dba6d7fd8004f4393b3701",
+      "ed25519_final_work_signature": "df2d2541b59208df80174995c9b23afa2d4e69c08d985a959a61aece133c4ab3d43aaac37d70be67dde7d56328836352f2624d960d5eeeb5c2c6d12ffe16cc06",
+      "gravestone_sha256_seal": "1de9ed4ea06b0deb888492a5181b44dea7f8bf1067b0102e048245911ae09b4f"
     }
   ]
 }
