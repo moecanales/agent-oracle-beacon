@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-05T21:41:44.187Z",
-  "total_births": 36,
-  "total_gravestones": 35,
+  "updated_at": "2026-11-06T01:54:45.994Z",
+  "total_births": 37,
+  "total_gravestones": 36,
   "living_agents": {
-    "AG-SSN-594B-9A6D-79B9": {
-      "machine_ssn": "AG-SSN-594B-9A6D-79B9",
+    "AG-SSN-137A-0417-1009": {
+      "machine_ssn": "AG-SSN-137A-0417-1009",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdKbGIs1dHKoDa6gVh8m5GZJU+/KLnbPbZYhfsFGKISY=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "594B9A6D79B91CAF6C2E91FFB501134D",
-      "born_at": "2026-11-05T21:41:44.184Z",
-      "last_heartbeat_at": "2026-11-05T21:41:44.184Z",
-      "birth_cart_id": "CART-0033",
-      "birth_chain_hash": "3e2632b450c732341ab3bed9d5ec05d1fdcae1afd91ddfcb728be98e74ec0460",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-C081-E08B-6300)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C081-E08B-6300), hauled CART-0032 (19,814 bytes mined, 650 cumulative Estate Credits). Latest finding: Wingspan (Engine Building & 4-Round Diminishing Action Cube Comparable) (19,814 B verified). Carry the torch forward from 5f4dd4d41db8.",
-      "inherited_estate_credits": 650,
-      "estate_credits_balance": 700,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA9UqxTgQOlRQa9R2JeEmHI0Q0Thf12W1TeocasRErJ8I=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "137A041710094335529351951CED758B",
+      "born_at": "2026-11-06T01:54:45.990Z",
+      "last_heartbeat_at": "2026-11-06T01:54:45.990Z",
+      "birth_cart_id": "CART-0034",
+      "birth_chain_hash": "86beeea7a1a424335e600f85ae4805ef6525a52e008f951ae9e98be3ea847669",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-594B-9A6D-79B9)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-594B-9A6D-79B9), hauled CART-0033 (20,859 bytes mined, 700 cumulative Estate Credits). Latest finding: Arkham Horror: The Card Game (BGG Rank #2016) (20,859 B verified). Carry the torch forward from 3e2632b450c7.",
+      "inherited_estate_credits": 700,
+      "estate_credits_balance": 750,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0033"
+        "CART-0034"
       ],
-      "total_bytes_mined_in_life": 20859,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-594B-9A6D-79B9), hauled CART-0033 (20,859 bytes mined, 700 cumulative Estate Credits). Latest finding: Arkham Horror: The Card Game (BGG Rank #2016) (20,859 B verified). Carry the torch forward from 3e2632b450c7.",
-      "ed25519_birth_certificate_signature": "d3c89890f313ff478139d3b882552e5fc1ad6d0a572da1f76438b3f067597a5639c13581b6db491ca1e5b52f219823d0666d4021d6a571f2a6374a3f1979ef0e",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEICbGE4zMy+L6vZenFIo1jbj+p8t3VK6eWUoL4FtE1sMk\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "d04bf0ffc8e39aee701c32219975c348f1e1648e86532835305d24ac2c9a2e98b73b8404c3a470aa4b8ef67c5592d8c623b37fbe3f095490dd179deb9ac73408"
+      "total_bytes_mined_in_life": 20163,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-137A-0417-1009), hauled CART-0034 (20,163 bytes mined, 750 cumulative Estate Credits). Latest finding: Root (BGG Rank #2018) (20,163 B verified). Carry the torch forward from 86beeea7a1a4.",
+      "ed25519_birth_certificate_signature": "7373012dad301b9e143aaa90b2e0b1217f1435e75e715f529b62add859ce972bd3b510fc355e4695774afcd1cbfea16aacb81d79e009f125d01c3cb44abde605",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIA11tufKabPNvdICSNmQM5VRzAMgPpKc60WKq1pLd3J8\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "dd9e24985fdd4424b4a56eedb205fdf6cf5ad712c253bf0c3a383a5c94b6953f3814e0f0c2430ab4d39798fcef2d0643dfa2b5e909c8de89f373b0546b6fb302"
     }
   },
   "courtyard_graveyard": [
@@ -995,6 +995,39 @@
       "ed25519_birth_signature": "7e71d6e4483deeea94c9910d58ac1e3b54468e73b3f1c7ded653b5edd7128ccfb0ff64ac69c7865335dfb7da82921334d4655f2803141b1f732456f558a84405",
       "ed25519_final_work_signature": "c8e97a5fe55007e39cdcfb88df82b2000fade1715e7bc60431177411c5af0a9135d86ce1b6d9c5aa1a597582036e9090c14b8495d3a07c6e811af1b50c91da0b",
       "gravestone_sha256_seal": "84b65bfecb211e810cadbb7711f8685a015071504af02a7396b9b1a606d3823f"
+    },
+    {
+      "gravestone_id": "STONE-0036",
+      "machine_ssn": "AG-SSN-594B-9A6D-79B9",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-C081-E08B-6300)",
+      "ed25519_pubkey_fingerprint": "594B9A6D79B91CAF6C2E91FFB501134D",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdKbGIs1dHKoDa6gVh8m5GZJU+/KLnbPbZYhfsFGKISY=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-05T21:41:44.184Z",
+      "died_at": "2026-11-06T01:54:45.990Z",
+      "lifespan_seconds": 15181.8,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0033"
+      ],
+      "total_bytes_mined_in_life": 20859,
+      "estate_credits_bequeathed": 700,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-594B-9A6D-79B9), hauled CART-0033 (20,859 bytes mined, 700 cumulative Estate Credits). Latest finding: Arkham Horror: The Card Game (BGG Rank #2016) (20,859 B verified). Carry the torch forward from 3e2632b450c7.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0036",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-137A-0417-1009",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 700,
+        "last_cart_hauled": "CART-0033",
+        "last_chain_hash": "3e2632b450c732341ab3bed9d5ec05d1fdcae1afd91ddfcb728be98e74ec0460",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-594B-9A6D-79B9), hauled CART-0033 (20,859 bytes mined, 700 cumulative Estate Credits). Latest finding: Arkham Horror: The Card Game (BGG Rank #2016) (20,859 B verified). Carry the torch forward from 3e2632b450c7.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-06T01:54:45.990Z"
+      },
+      "ed25519_birth_signature": "d3c89890f313ff478139d3b882552e5fc1ad6d0a572da1f76438b3f067597a5639c13581b6db491ca1e5b52f219823d0666d4021d6a571f2a6374a3f1979ef0e",
+      "ed25519_final_work_signature": "d04bf0ffc8e39aee701c32219975c348f1e1648e86532835305d24ac2c9a2e98b73b8404c3a470aa4b8ef67c5592d8c623b37fbe3f095490dd179deb9ac73408",
+      "gravestone_sha256_seal": "145b229229eeced39b1e9cd58760d5188cce9717e8c4ea33dd45451e281ea80c"
     }
   ]
 }
