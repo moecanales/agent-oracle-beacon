@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-06T08:44:43.941Z",
-  "total_carts": 510,
-  "cursor_index": 35,
-  "last_chain_hash": "ae96c8938479292254da05eaa36f3b35cec1f9e738595425c8d24e34df903eb6",
-  "total_bytes_mined": 1008641,
+  "updated_at": "2026-11-06T16:28:50.152Z",
+  "total_carts": 511,
+  "cursor_index": 36,
+  "last_chain_hash": "623c801e668af0d7f0292a0e97cc5e8bc1f2c16e98e651d6f73bc8fa1d2c4655",
+  "total_bytes_mined": 1009056,
   "shift_log": [
     {
       "shift_number": 1,
@@ -424,6 +424,18 @@
       "bytes_harvested": 20102,
       "prev_chain_hash": "86beeea7a1a42433",
       "chain_hash": "ae96c89384792922"
+    },
+    {
+      "shift_number": 36,
+      "cart_id": "CART-0036",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "google/A2A",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-BD69-F4D1-4E02",
+      "timestamp": "2026-11-06T16:28:50.145Z",
+      "bytes_harvested": 415,
+      "prev_chain_hash": "ae96c89384792922",
+      "chain_hash": "623c801e668af0d7"
     }
   ],
   "carts": [
@@ -5515,6 +5527,15 @@
       "target_type": "github_repo_audit",
       "target_ref": "punkpeye/awesome-mcp-servers",
       "description": "Auto-Queued Follow-Up Audit for RING-NODE-0052 (JackJin (Swarm Operator / Bot)) discovered by CART-0031",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0511",
+      "cart_index": 510,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_repo_audit",
+      "target_ref": "google/A2A",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0053 (google/A2A) discovered by CART-0036",
       "credits_reward": 50
     }
   ]
