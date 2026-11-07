@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-07T01:26:35.822Z",
+  "updated_at": "2026-11-07T07:59:22.844Z",
   "total_carts": 511,
-  "cursor_index": 38,
-  "last_chain_hash": "e68232053f52815948943ef31fd11b88fd8ee9efeeb1290c170cde4d35d5d7ab",
-  "total_bytes_mined": 1049586,
+  "cursor_index": 39,
+  "last_chain_hash": "604b9441ca87c448cee8cbf629872d430080fcba101a1c8ae6d4efe6bea46dea",
+  "total_bytes_mined": 1070300,
   "shift_log": [
     {
       "shift_number": 1,
@@ -460,6 +460,18 @@
       "bytes_harvested": 19814,
       "prev_chain_hash": "f2383ee63fba2550",
       "chain_hash": "e68232053f528159"
+    },
+    {
+      "shift_number": 39,
+      "cart_id": "CART-0039",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Mage Knight Board Game (BGG Rank #2011)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-2CA5-5CE0-6CD3",
+      "timestamp": "2026-11-07T07:59:22.844Z",
+      "bytes_harvested": 20714,
+      "prev_chain_hash": "e68232053f528159",
+      "chain_hash": "604b9441ca87c448"
     }
   ],
   "carts": [
