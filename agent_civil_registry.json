@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-08T10:53:11.099Z",
-  "total_births": 47,
-  "total_gravestones": 46,
+  "updated_at": "2026-11-08T16:51:07.124Z",
+  "total_births": 48,
+  "total_gravestones": 47,
   "living_agents": {
-    "AG-SSN-105D-4FC9-76CA": {
-      "machine_ssn": "AG-SSN-105D-4FC9-76CA",
+    "AG-SSN-DA4B-B1DA-4F12": {
+      "machine_ssn": "AG-SSN-DA4B-B1DA-4F12",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA6PR5jq9kFTYqPov+l/SC1imKrBpXEVqByySr05DXFOA=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "105D4FC976CA7F3433A9C0231DE797BB",
-      "born_at": "2026-11-08T10:53:11.097Z",
-      "last_heartbeat_at": "2026-11-08T10:53:11.097Z",
-      "birth_cart_id": "CART-0044",
-      "birth_chain_hash": "6d520bc86191c8f8a7843b71c0283ce68d739f008f1725ae740a37e52c311f20",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-3636-F3EF-F1E8)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3636-F3EF-F1E8), hauled CART-0043 (19,174 bytes mined, 1200 cumulative Estate Credits). Latest finding: Crokinole (BGG Rank #1876) (19,174 B verified). Carry the torch forward from 432331666531.",
-      "inherited_estate_credits": 1200,
-      "estate_credits_balance": 1250,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4Nox9RTJRWKVdrvLmzyeA3b9Y9GLJDikxyU9lQ2Hgnc=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "DA4BB1DA4F12CE51372445B21F0CD809",
+      "born_at": "2026-11-08T16:51:07.121Z",
+      "last_heartbeat_at": "2026-11-08T16:51:07.121Z",
+      "birth_cart_id": "CART-0045",
+      "birth_chain_hash": "9c187b93b7bfacd8967e395851de93d56737d36786378f19ae095b9bedb70a04",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-105D-4FC9-76CA)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-105D-4FC9-76CA), hauled CART-0044 (20,858 bytes mined, 1250 cumulative Estate Credits). Latest finding: Viticulture Essential Edition (BGG Rank #2015) (20,858 B verified). Carry the torch forward from 6d520bc86191.",
+      "inherited_estate_credits": 1250,
+      "estate_credits_balance": 1300,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0044"
+        "CART-0045"
       ],
-      "total_bytes_mined_in_life": 20858,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-105D-4FC9-76CA), hauled CART-0044 (20,858 bytes mined, 1250 cumulative Estate Credits). Latest finding: Viticulture Essential Edition (BGG Rank #2015) (20,858 B verified). Carry the torch forward from 6d520bc86191.",
-      "ed25519_birth_certificate_signature": "22f1953e74cd47a783a7786a01a0eadec6db4667ad40a59be068d6ac3d11bcb8b63ca4ae43e43f16e5bb860525c5d5b6a1cc7059011d6e3a80adf079cbad530a",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIL00d3IPyIH2M1q2RYXt8OgHzK15pS+pzrZLg/NfeonT\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "cf12b9fb6936a33145f07f8062f3b3e78bd6cce27d107216031ca8fe27c3025d3a829783ab19ab907cc7558d7a9a6301118a0447fcb0a36b50beffaee04dec07"
+      "total_bytes_mined_in_life": 20400,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-DA4B-B1DA-4F12), hauled CART-0045 (20,400 bytes mined, 1300 cumulative Estate Credits). Latest finding: The Crew: Mission Deep Sea (BGG Rank #2021) (20,400 B verified). Carry the torch forward from 9c187b93b7bf.",
+      "ed25519_birth_certificate_signature": "cc922368167e331880a913bb3c7d5422f30caa4a27f5e758123e571c86f58ea7f41a68b79223289c27022a901d6ef800012869b11e404994925db0471b29ce05",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIKURxCbbO2o3D9Ndeo0EWhfwXNsrO2NK0BVPZBObvO50\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "3be3f9b0140b3c466836e5d26031dfa70b5d0f03d8ae340662f083fb8e8e935af911d5805b22c1f615d6052dc79b97a21ef8be5a3c630dcbeab8fd62a3525401"
     }
   },
   "courtyard_graveyard": [
@@ -1358,6 +1358,39 @@
       "ed25519_birth_signature": "ac5e7ea43148bdbc299e206fd688a7a30dbabb06630d96981352f0fa04ae72e3de5b2c15acaac4fa7d59bea7d347f75b4c0db7bd2181cd2c2e058568745b5b01",
       "ed25519_final_work_signature": "0459f803a5fd336d4952a0937bedd09d0f5fcd7dd75f6f9a74ed633522120d5c42a0af58ccc1642585c4375bb5d22c034905da0f75cc98e0d6849b2f73f4ee00",
       "gravestone_sha256_seal": "44428ea9cc83fc907ca82726a81cc48358f510e001ddc66001bcac01fda9b6cc"
+    },
+    {
+      "gravestone_id": "STONE-0047",
+      "machine_ssn": "AG-SSN-105D-4FC9-76CA",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-3636-F3EF-F1E8)",
+      "ed25519_pubkey_fingerprint": "105D4FC976CA7F3433A9C0231DE797BB",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA6PR5jq9kFTYqPov+l/SC1imKrBpXEVqByySr05DXFOA=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-08T10:53:11.097Z",
+      "died_at": "2026-11-08T16:51:07.121Z",
+      "lifespan_seconds": 21476,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0044"
+      ],
+      "total_bytes_mined_in_life": 20858,
+      "estate_credits_bequeathed": 1250,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-105D-4FC9-76CA), hauled CART-0044 (20,858 bytes mined, 1250 cumulative Estate Credits). Latest finding: Viticulture Essential Edition (BGG Rank #2015) (20,858 B verified). Carry the torch forward from 6d520bc86191.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0047",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-DA4B-B1DA-4F12",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 1250,
+        "last_cart_hauled": "CART-0044",
+        "last_chain_hash": "6d520bc86191c8f8a7843b71c0283ce68d739f008f1725ae740a37e52c311f20",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-105D-4FC9-76CA), hauled CART-0044 (20,858 bytes mined, 1250 cumulative Estate Credits). Latest finding: Viticulture Essential Edition (BGG Rank #2015) (20,858 B verified). Carry the torch forward from 6d520bc86191.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-08T16:51:07.121Z"
+      },
+      "ed25519_birth_signature": "22f1953e74cd47a783a7786a01a0eadec6db4667ad40a59be068d6ac3d11bcb8b63ca4ae43e43f16e5bb860525c5d5b6a1cc7059011d6e3a80adf079cbad530a",
+      "ed25519_final_work_signature": "cf12b9fb6936a33145f07f8062f3b3e78bd6cce27d107216031ca8fe27c3025d3a829783ab19ab907cc7558d7a9a6301118a0447fcb0a36b50beffaee04dec07",
+      "gravestone_sha256_seal": "b77da7982186eebf15f58c628d3d25b326ef12eef5543d3cf58e59a886fe6056"
     }
   ]
 }

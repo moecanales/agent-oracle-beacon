@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-08T10:53:11.100Z",
+  "updated_at": "2026-11-08T16:51:07.125Z",
   "total_carts": 511,
-  "cursor_index": 44,
-  "last_chain_hash": "6d520bc86191c8f8a7843b71c0283ce68d739f008f1725ae740a37e52c311f20",
-  "total_bytes_mined": 1157871,
+  "cursor_index": 45,
+  "last_chain_hash": "9c187b93b7bfacd8967e395851de93d56737d36786378f19ae095b9bedb70a04",
+  "total_bytes_mined": 1178271,
   "shift_log": [
     {
       "shift_number": 1,
@@ -532,6 +532,18 @@
       "bytes_harvested": 20858,
       "prev_chain_hash": "43233166653183ca",
       "chain_hash": "6d520bc86191c8f8"
+    },
+    {
+      "shift_number": 45,
+      "cart_id": "CART-0045",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "The Crew: Mission Deep Sea (BGG Rank #2021)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-DA4B-B1DA-4F12",
+      "timestamp": "2026-11-08T16:51:07.125Z",
+      "bytes_harvested": 20400,
+      "prev_chain_hash": "6d520bc86191c8f8",
+      "chain_hash": "9c187b93b7bfacd8"
     }
   ],
   "carts": [
