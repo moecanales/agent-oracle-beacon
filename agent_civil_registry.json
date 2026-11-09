@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-09T07:26:26.221Z",
-  "total_births": 51,
-  "total_gravestones": 50,
+  "updated_at": "2026-11-09T17:59:03.865Z",
+  "total_births": 52,
+  "total_gravestones": 51,
   "living_agents": {
-    "AG-SSN-91F1-1B46-5F84": {
-      "machine_ssn": "AG-SSN-91F1-1B46-5F84",
+    "AG-SSN-3EF2-F1B7-3349": {
+      "machine_ssn": "AG-SSN-3EF2-F1B7-3349",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWW/0l8+GhniE2ay8CKi/YkJHu96PUK1VAa9AWQIB5UM=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "91F11B465F84725783150CB1A0E8C26B",
-      "born_at": "2026-11-09T07:26:26.218Z",
-      "last_heartbeat_at": "2026-11-09T07:26:26.218Z",
-      "birth_cart_id": "CART-0048",
-      "birth_chain_hash": "46394702b342e5e2ffe2ec7dde55fd419854faa6f13b83e5759c937515e5ffb5",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-77BF-1A44-33B8)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-77BF-1A44-33B8), hauled CART-0047 (20,814 bytes mined, 1400 cumulative Estate Credits). Latest finding: The Crew: The Quest for Planet Nine (Trick/Tile Cooperative Information Comparable) (20,814 B verified). Carry the torch forward from 2248a5b19f93.",
-      "inherited_estate_credits": 1400,
-      "estate_credits_balance": 1450,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfwwVPt7UPQvnLBK0ff7auC5Dgvt9wwY6O1Pm3v2WX5w=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "3EF2F1B73349381BCC29F438ABA88AE3",
+      "born_at": "2026-11-09T17:59:03.862Z",
+      "last_heartbeat_at": "2026-11-09T17:59:03.862Z",
+      "birth_cart_id": "CART-0049",
+      "birth_chain_hash": "c07295bd61dfbb1487d252b920e5e525209746bf6e271338077170fa05d896e7",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84), hauled CART-0048 (20,516 bytes mined, 1450 cumulative Estate Credits). Latest finding: Heat: Pedal to the Metal (BGG Rank #2022) (20,516 B verified). Carry the torch forward from 46394702b342.",
+      "inherited_estate_credits": 1450,
+      "estate_credits_balance": 1500,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0048"
+        "CART-0049"
       ],
-      "total_bytes_mined_in_life": 20516,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84), hauled CART-0048 (20,516 bytes mined, 1450 cumulative Estate Credits). Latest finding: Heat: Pedal to the Metal (BGG Rank #2022) (20,516 B verified). Carry the torch forward from 46394702b342.",
-      "ed25519_birth_certificate_signature": "6234be9391910a757939733f6d5805654ae9ed24eaa50b9cdce4613fe1a5a501b1c4900ffa8494946daf5d248394ba1bdfd2c0058c3a132f566bb0d0ead30008",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIKB5RlMTqtz6oAMmiYlQNBHmRxj83ewycFJrb6kkuvSE\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "523768a3332cac5a29d371b35d5147b70c1eeb9f5abb79a0e4c6e13f80bed6d2ed7957187cd58f52d2465a45af9e506e169eaec5314d39b26a681ea968b53409"
+      "total_bytes_mined_in_life": 20995,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3EF2-F1B7-3349), hauled CART-0049 (20,995 bytes mined, 1500 cumulative Estate Credits). Latest finding: Ticket to Ride Legacy: Legends of the West (BGG Rank #2023) (20,995 B verified). Carry the torch forward from c07295bd61df.",
+      "ed25519_birth_certificate_signature": "f01e9e3d09cb252c11fa0d6dd3a7ef9217320ba5c4d9b952a4b0263d265ae7fa8e202f0d5b084d39e6131f54d2addb2536a7ef9695d3d22fdd9c1f2c54d96808",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIEAbzsebgLXAmZxss3omF79KcMdle+SP6yaOBp2ruk26\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "d2cce35786bc8e57889cf7737b7264489531b797c4425c134fbc458bfaa31702886bbea38fc0c6ccec20efab5a466bb9be536164e9b23f615d97fdf0d7d7ed0c"
     }
   },
   "courtyard_graveyard": [
@@ -1490,6 +1490,39 @@
       "ed25519_birth_signature": "d1acd17223fdce6234ce2dbf2ccb87a938a4e01464b3337597a27813a6b92d052bdf7730ed02a37b8087b6ce9351343686945abbc3a9ce6b993d5bc651afe90a",
       "ed25519_final_work_signature": "e1b7636ab31635cd18078deaa4a906907999d3d5a0172f29514885a9234bd9c11cee23364f14bcef9b5a16a3d75d6987330ed3a2f70a221b533e9863b8cf1307",
       "gravestone_sha256_seal": "620cf3c039c768fd75d16ddf8a127cd62e163a5533ca84502b1eb4274e8d0d91"
+    },
+    {
+      "gravestone_id": "STONE-0051",
+      "machine_ssn": "AG-SSN-91F1-1B46-5F84",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-77BF-1A44-33B8)",
+      "ed25519_pubkey_fingerprint": "91F11B465F84725783150CB1A0E8C26B",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWW/0l8+GhniE2ay8CKi/YkJHu96PUK1VAa9AWQIB5UM=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-09T07:26:26.218Z",
+      "died_at": "2026-11-09T17:59:03.863Z",
+      "lifespan_seconds": 37957.6,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0048"
+      ],
+      "total_bytes_mined_in_life": 20516,
+      "estate_credits_bequeathed": 1450,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84), hauled CART-0048 (20,516 bytes mined, 1450 cumulative Estate Credits). Latest finding: Heat: Pedal to the Metal (BGG Rank #2022) (20,516 B verified). Carry the torch forward from 46394702b342.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0051",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-3EF2-F1B7-3349",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 1450,
+        "last_cart_hauled": "CART-0048",
+        "last_chain_hash": "46394702b342e5e2ffe2ec7dde55fd419854faa6f13b83e5759c937515e5ffb5",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84), hauled CART-0048 (20,516 bytes mined, 1450 cumulative Estate Credits). Latest finding: Heat: Pedal to the Metal (BGG Rank #2022) (20,516 B verified). Carry the torch forward from 46394702b342.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-09T17:59:03.862Z"
+      },
+      "ed25519_birth_signature": "6234be9391910a757939733f6d5805654ae9ed24eaa50b9cdce4613fe1a5a501b1c4900ffa8494946daf5d248394ba1bdfd2c0058c3a132f566bb0d0ead30008",
+      "ed25519_final_work_signature": "523768a3332cac5a29d371b35d5147b70c1eeb9f5abb79a0e4c6e13f80bed6d2ed7957187cd58f52d2465a45af9e506e169eaec5314d39b26a681ea968b53409",
+      "gravestone_sha256_seal": "d01f5013f4a6089f2b2e02166a7619e9ac575fcb3a5554d5588efffc319ceab7"
     }
   ]
 }
