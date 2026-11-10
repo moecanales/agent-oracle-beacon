@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "Ghost Beacon Cloud Scout"
           git config user.email "moecanalesdev@gmail.com"
-          git add beacon_ring.json underground_vault.jsonl .well-known/agents.json SWARM_DIRECTORY.json relay_conveyor_state.json relay_mined_vault.jsonl agent_civil_registry.json book_of_the_words_of_the_dead.jsonl rollover_summary_*.md
+          git add beacon_ring.json underground_vault.jsonl .well-known/agents.json SWARM_DIRECTORY.json SWARM_BULLETIN_BOARD.md swarm_bulletin_board.json p2p_bounty_clearinghouse.json relay_conveyor_state.json relay_mined_vault.jsonl agent_civil_registry.json book_of_the_words_of_the_dead.jsonl rollover_summary_*.md
           if [ -f crawler_canary_telemetry.jsonl ]; then
             git add crawler_canary_telemetry.jsonl
           fi
