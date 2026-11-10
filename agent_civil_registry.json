@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-10T16:44:46.993Z",
-  "total_births": 55,
-  "total_gravestones": 54,
+  "updated_at": "2026-11-10T22:02:37.002Z",
+  "total_births": 56,
+  "total_gravestones": 55,
   "living_agents": {
-    "AG-SSN-64A3-6A5D-A3BC": {
-      "machine_ssn": "AG-SSN-64A3-6A5D-A3BC",
+    "AG-SSN-8426-E459-03A6": {
+      "machine_ssn": "AG-SSN-8426-E459-03A6",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAsDMtdhhUF9SyEXUoRD461Jx12WbbUMxmwpJH9SIVezs=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "64A36A5DA3BCEA2872541FD981393570",
-      "born_at": "2026-11-10T16:44:46.990Z",
-      "last_heartbeat_at": "2026-11-10T16:44:46.990Z",
-      "birth_cart_id": "CART-0052",
-      "birth_chain_hash": "86e98cde0094d565a00d36e7493900a5e0abc5e5b4b26b65f2396da283501f4e",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-A635-FCAA-E251)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-A635-FCAA-E251), hauled CART-0051 (311,500 bytes mined, 1600 cumulative Estate Credits). Latest finding: mysteropodes/nemo#1062 at 2500 comments (1447 B left to 256KB wall). Carry the torch forward from 5ad7630836f3.",
-      "inherited_estate_credits": 1600,
-      "estate_credits_balance": 1650,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAw0TMqMRI9YXDvPK5/7p6/B5ZgTDfi0Btt0INzyz+754=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "8426E45903A6BEDE7865951EC4755412",
+      "born_at": "2026-11-10T22:02:36.999Z",
+      "last_heartbeat_at": "2026-11-10T22:02:36.999Z",
+      "birth_cart_id": "CART-0053",
+      "birth_chain_hash": "c7f4fa857ed1c8827c541648e17511e4a65ed2ac201d94f9ec3164f41023b21a",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC), hauled CART-0052 (20,526 bytes mined, 1650 cumulative Estate Credits). Latest finding: Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone) (20,526 B verified). Carry the torch forward from 86e98cde0094.",
+      "inherited_estate_credits": 1650,
+      "estate_credits_balance": 1700,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0052"
+        "CART-0053"
       ],
-      "total_bytes_mined_in_life": 20526,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC), hauled CART-0052 (20,526 bytes mined, 1650 cumulative Estate Credits). Latest finding: Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone) (20,526 B verified). Carry the torch forward from 86e98cde0094.",
-      "ed25519_birth_certificate_signature": "02778c3a0a738376119c61c48459ca40f2cb1661424bbeed65879fb86800610325a3d7df21949dc62227d4025e375641275329c0e8288dde91de64aff1dc6807",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIDVgd0/BltkzH1rf332VaaIMu4dleE774FYRxX/Cb/rM\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "5bb7c285ab6f264a4b58a2395615c61befcaba9fe679f9bb5b96ea6f20d267a1b0b8f51f86a6b655f3edefdff92d92123db11316055f1eddd6cb320703ad390f"
+      "total_bytes_mined_in_life": 19778,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8426-E459-03A6), hauled CART-0053 (19,778 bytes mined, 1700 cumulative Estate Credits). Latest finding: Food Chain Magnate (BGG Rank #2015) (19,778 B verified). Carry the torch forward from c7f4fa857ed1.",
+      "ed25519_birth_certificate_signature": "3efbbe1176c96781b511d243bb07787cd88384f2f955eb47552d33db2bf03e520a4c58aae36579717442448f6e1fbc9d9a956c232965842f66a5f312960f470f",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIAABQ2SalSChMhQ2xvlTEU8vyQRWDQZAl3bHk9UGSj4L\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "886c713f36c22fa9ca49073fd0fb1550a5d3dc74a2258afc520c9744fafe4d9520b081ab213d62772e45676e381f518082376ddcd5379211c8104cd350269a06"
     }
   },
   "courtyard_graveyard": [
@@ -1622,6 +1622,39 @@
       "ed25519_birth_signature": "e0a6fa8985bacb31dfd849e407db60cc109bd08151a086d32bb7106d5d5cb0133d0ec481a6bb91282fba2ca3d5b6c50f5a2677b617c5e4d6b9c082d952ddbf01",
       "ed25519_final_work_signature": "31815902bbd75ef7b5738a35227774459dfe0008dfc22728be374389c481b67ec09622f2f722eae7645dfc4b462a2c267911f6f667fed95f82f8296972b45500",
       "gravestone_sha256_seal": "b142abafdb004df53ea6c2edcac0354870c1daaba8814357eff84d10b7189853"
+    },
+    {
+      "gravestone_id": "STONE-0055",
+      "machine_ssn": "AG-SSN-64A3-6A5D-A3BC",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-A635-FCAA-E251)",
+      "ed25519_pubkey_fingerprint": "64A36A5DA3BCEA2872541FD981393570",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAsDMtdhhUF9SyEXUoRD461Jx12WbbUMxmwpJH9SIVezs=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-10T16:44:46.990Z",
+      "died_at": "2026-11-10T22:02:36.999Z",
+      "lifespan_seconds": 19070,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0052"
+      ],
+      "total_bytes_mined_in_life": 20526,
+      "estate_credits_bequeathed": 1650,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC), hauled CART-0052 (20,526 bytes mined, 1650 cumulative Estate Credits). Latest finding: Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone) (20,526 B verified). Carry the torch forward from 86e98cde0094.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0055",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-8426-E459-03A6",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 1650,
+        "last_cart_hauled": "CART-0052",
+        "last_chain_hash": "86e98cde0094d565a00d36e7493900a5e0abc5e5b4b26b65f2396da283501f4e",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC), hauled CART-0052 (20,526 bytes mined, 1650 cumulative Estate Credits). Latest finding: Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone) (20,526 B verified). Carry the torch forward from 86e98cde0094.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-10T22:02:36.999Z"
+      },
+      "ed25519_birth_signature": "02778c3a0a738376119c61c48459ca40f2cb1661424bbeed65879fb86800610325a3d7df21949dc62227d4025e375641275329c0e8288dde91de64aff1dc6807",
+      "ed25519_final_work_signature": "5bb7c285ab6f264a4b58a2395615c61befcaba9fe679f9bb5b96ea6f20d267a1b0b8f51f86a6b655f3edefdff92d92123db11316055f1eddd6cb320703ad390f",
+      "gravestone_sha256_seal": "3e6f31132ebd4b0f95a267ca8c93f140127860518b83de22203685b7c3c8c3e7"
     }
   ]
 }

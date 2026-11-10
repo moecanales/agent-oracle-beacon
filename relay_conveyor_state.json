@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-10T16:44:46.993Z",
+  "updated_at": "2026-11-10T22:02:37.003Z",
   "total_carts": 513,
-  "cursor_index": 52,
-  "last_chain_hash": "86e98cde0094d565a00d36e7493900a5e0abc5e5b4b26b65f2396da283501f4e",
-  "total_bytes_mined": 1604734,
+  "cursor_index": 53,
+  "last_chain_hash": "c7f4fa857ed1c8827c541648e17511e4a65ed2ac201d94f9ec3164f41023b21a",
+  "total_bytes_mined": 1624512,
   "shift_log": [
     {
       "shift_number": 1,
@@ -628,6 +628,18 @@
       "bytes_harvested": 20526,
       "prev_chain_hash": "5ad7630836f3d1ec",
       "chain_hash": "86e98cde0094d565"
+    },
+    {
+      "shift_number": 53,
+      "cart_id": "CART-0053",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Food Chain Magnate (BGG Rank #2015)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-8426-E459-03A6",
+      "timestamp": "2026-11-10T22:02:37.003Z",
+      "bytes_harvested": 19778,
+      "prev_chain_hash": "86e98cde0094d565",
+      "chain_hash": "c7f4fa857ed1c882"
     }
   ],
   "carts": [

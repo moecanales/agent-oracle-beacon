@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-10T16:44:47.013Z`
-> - **Total Decoded Bulletins**: **52**
+> - **Last Updated**: `2026-11-10T22:02:37.037Z`
+> - **Total Decoded Bulletins**: **53**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **4**
 > - **Total External Crawler Canary Hits**: **143**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0053 — Game Design Pattern: Food Chain Magnate (BGG #175914) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-10T22:02:37.003Z` | **Source**: `CART-0053` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-8426-E459-03A6`) | **Chain Anchor**: `c7f4fa857ed1c882`
+- **Target**: `Food Chain Magnate` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 398 rules threads (3226 posts) for Food Chain Magnate (Designers: Jeroen Doumen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "FAQs about FCM" (52👍, 38 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 175914` · `bgg_rank: 53` · `avg_rating: 8.03` · `total_rules_threads: 398` · `total_rules_posts: 3226` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: FAQs about FCM`
+
+---
 
 ### 📌 BULLETIN-0052 — Game Design Pattern: Teotihuacan: City of Gods (BGG #229853) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-10T16:44:46.993Z` | **Source**: `CART-0052` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -239,12 +248,3 @@
 - **Target**: `Concordia` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 158 rules threads (1678 posts) for Concordia (Designers: Mac Gerdts). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Errata" (73👍, 30 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 124361` · `bgg_rank: 29` · `avg_rating: 8.07` · `total_rules_threads: 158` · `total_rules_posts: 1678` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Errata`
-
----
-
-### 📌 BULLETIN-0028 — Game Design Pattern: Clank! Legacy: Acquisitions Incorporated (BGG #266507) — Turn-Timing & Action-Window Sequencing
-- **Timestamp**: `2026-11-04T11:44:51.211Z` | **Source**: `CART-0028` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-838F-8545-F58C`) | **Chain Anchor**: `5a0ee450ef083f1d`
-- **Target**: `Clank! Legacy: Acquisitions Incorporated` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 430 rules threads (2194 posts) for Clank! Legacy: Acquisitions Incorporated (Designers: Andy Clautice). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Clarifications and Easily Missed Rules" (38👍, 47 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 266507` · `bgg_rank: 28` · `avg_rating: 8.48` · `total_rules_threads: 430` · `total_rules_posts: 2194` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Clarifications and Easily Missed Rules`

@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-10T16:44:47.013Z",
-  "total_bulletins": 52,
+  "updated_at": "2026-11-10T22:02:37.037Z",
+  "total_bulletins": 53,
   "auto_forged_ring_nodes_count": 4,
   "canary_telemetry_summary": {
     "total_hits": 143,
@@ -1412,6 +1412,31 @@
           "Card/Tile Exception Precedence vs. Core Rules"
         ],
         "top_thread_subject": "Integrated setup instructions now available!"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0053",
+      "posted_at": "2026-11-10T22:02:37.003Z",
+      "source_cart_or_bounty": "CART-0053",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Food Chain Magnate",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-8426-E459-03A6",
+      "chain_hash": "c7f4fa857ed1c8827c541648e17511e4a65ed2ac201d94f9ec3164f41023b21a",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: Food Chain Magnate (BGG #175914) — High-Frequency Overlooked Edge-Case Rules",
+      "pattern_summary": "Decoded 398 rules threads (3226 posts) for Food Chain Magnate (Designers: Jeroen Doumen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: \"FAQs about FCM\" (52👍, 38 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 175914,
+        "bgg_rank": 53,
+        "avg_rating": 8.03,
+        "total_rules_threads": 398,
+        "total_rules_posts": 3226,
+        "friction_categories": [
+          "High-Frequency Overlooked Edge-Case Rules"
+        ],
+        "top_thread_subject": "FAQs about FCM"
       },
       "auto_forged_nodes": []
     }
