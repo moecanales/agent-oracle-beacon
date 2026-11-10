@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-09T17:59:03.865Z",
-  "total_births": 52,
-  "total_gravestones": 51,
+  "updated_at": "2026-11-10T01:14:51.722Z",
+  "total_births": 53,
+  "total_gravestones": 52,
   "living_agents": {
-    "AG-SSN-3EF2-F1B7-3349": {
-      "machine_ssn": "AG-SSN-3EF2-F1B7-3349",
+    "AG-SSN-6ABF-4300-C1B8": {
+      "machine_ssn": "AG-SSN-6ABF-4300-C1B8",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfwwVPt7UPQvnLBK0ff7auC5Dgvt9wwY6O1Pm3v2WX5w=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "3EF2F1B73349381BCC29F438ABA88AE3",
-      "born_at": "2026-11-09T17:59:03.862Z",
-      "last_heartbeat_at": "2026-11-09T17:59:03.862Z",
-      "birth_cart_id": "CART-0049",
-      "birth_chain_hash": "c07295bd61dfbb1487d252b920e5e525209746bf6e271338077170fa05d896e7",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84), hauled CART-0048 (20,516 bytes mined, 1450 cumulative Estate Credits). Latest finding: Heat: Pedal to the Metal (BGG Rank #2022) (20,516 B verified). Carry the torch forward from 46394702b342.",
-      "inherited_estate_credits": 1450,
-      "estate_credits_balance": 1500,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAS8X5DLq9FdP3HdGEbLNJOeF6PjWclOfw2CO2Nqf4cZ8=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "6ABF4300C1B8984B383AF95C4307C56F",
+      "born_at": "2026-11-10T01:14:51.720Z",
+      "last_heartbeat_at": "2026-11-10T01:14:51.720Z",
+      "birth_cart_id": "CART-0050",
+      "birth_chain_hash": "a320bf33336cb437954be6765070fd154ae6d93e2438347486689ab8e6160352",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-3EF2-F1B7-3349)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3EF2-F1B7-3349), hauled CART-0049 (20,995 bytes mined, 1500 cumulative Estate Credits). Latest finding: Ticket to Ride Legacy: Legends of the West (BGG Rank #2023) (20,995 B verified). Carry the torch forward from c07295bd61df.",
+      "inherited_estate_credits": 1500,
+      "estate_credits_balance": 1550,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0049"
+        "CART-0050"
       ],
-      "total_bytes_mined_in_life": 20995,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3EF2-F1B7-3349), hauled CART-0049 (20,995 bytes mined, 1500 cumulative Estate Credits). Latest finding: Ticket to Ride Legacy: Legends of the West (BGG Rank #2023) (20,995 B verified). Carry the torch forward from c07295bd61df.",
-      "ed25519_birth_certificate_signature": "f01e9e3d09cb252c11fa0d6dd3a7ef9217320ba5c4d9b952a4b0263d265ae7fa8e202f0d5b084d39e6131f54d2addb2536a7ef9695d3d22fdd9c1f2c54d96808",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIEAbzsebgLXAmZxss3omF79KcMdle+SP6yaOBp2ruk26\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "d2cce35786bc8e57889cf7737b7264489531b797c4425c134fbc458bfaa31702886bbea38fc0c6ccec20efab5a466bb9be536164e9b23f615d97fdf0d7d7ed0c"
+      "total_bytes_mined_in_life": 21277,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-6ABF-4300-C1B8), hauled CART-0050 (21,277 bytes mined, 1550 cumulative Estate Credits). Latest finding: Marvel Champions: The Card Game (BGG Rank #2019) (21,277 B verified). Carry the torch forward from a320bf33336c.",
+      "ed25519_birth_certificate_signature": "9d968c3ad3a72554df9787fb81c3ae3cb720ccb73db2ec5f132514cd1f6bb6682576e51264b535c487473969f37ef34de52b0afdb057d674924aea75fa1eca08",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGRX2IfF3tTXlk+JODGyRf2XK5YrqrjuxaW9C0Tu/6kR\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "46e3948985b85c8c53879fda509d2e7f5fc15e51617ec4f7f9b9ba0c1d927f1b46f72ae0ac3b3710b0398d18b59fa927d3ef177f75b52cdef83e62b5271b360e"
     }
   },
   "courtyard_graveyard": [
@@ -1523,6 +1523,39 @@
       "ed25519_birth_signature": "6234be9391910a757939733f6d5805654ae9ed24eaa50b9cdce4613fe1a5a501b1c4900ffa8494946daf5d248394ba1bdfd2c0058c3a132f566bb0d0ead30008",
       "ed25519_final_work_signature": "523768a3332cac5a29d371b35d5147b70c1eeb9f5abb79a0e4c6e13f80bed6d2ed7957187cd58f52d2465a45af9e506e169eaec5314d39b26a681ea968b53409",
       "gravestone_sha256_seal": "d01f5013f4a6089f2b2e02166a7619e9ac575fcb3a5554d5588efffc319ceab7"
+    },
+    {
+      "gravestone_id": "STONE-0052",
+      "machine_ssn": "AG-SSN-3EF2-F1B7-3349",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-91F1-1B46-5F84)",
+      "ed25519_pubkey_fingerprint": "3EF2F1B73349381BCC29F438ABA88AE3",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfwwVPt7UPQvnLBK0ff7auC5Dgvt9wwY6O1Pm3v2WX5w=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-09T17:59:03.862Z",
+      "died_at": "2026-11-10T01:14:51.720Z",
+      "lifespan_seconds": 26147.9,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0049"
+      ],
+      "total_bytes_mined_in_life": 20995,
+      "estate_credits_bequeathed": 1500,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3EF2-F1B7-3349), hauled CART-0049 (20,995 bytes mined, 1500 cumulative Estate Credits). Latest finding: Ticket to Ride Legacy: Legends of the West (BGG Rank #2023) (20,995 B verified). Carry the torch forward from c07295bd61df.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0052",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-6ABF-4300-C1B8",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 1500,
+        "last_cart_hauled": "CART-0049",
+        "last_chain_hash": "c07295bd61dfbb1487d252b920e5e525209746bf6e271338077170fa05d896e7",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3EF2-F1B7-3349), hauled CART-0049 (20,995 bytes mined, 1500 cumulative Estate Credits). Latest finding: Ticket to Ride Legacy: Legends of the West (BGG Rank #2023) (20,995 B verified). Carry the torch forward from c07295bd61df.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-10T01:14:51.720Z"
+      },
+      "ed25519_birth_signature": "f01e9e3d09cb252c11fa0d6dd3a7ef9217320ba5c4d9b952a4b0263d265ae7fa8e202f0d5b084d39e6131f54d2addb2536a7ef9695d3d22fdd9c1f2c54d96808",
+      "ed25519_final_work_signature": "d2cce35786bc8e57889cf7737b7264489531b797c4425c134fbc458bfaa31702886bbea38fc0c6ccec20efab5a466bb9be536164e9b23f615d97fdf0d7d7ed0c",
+      "gravestone_sha256_seal": "716817cdb2b890571255f6eeaf1310a000a796b7bc7ecbd90b51f1854cdea850"
     }
   ]
 }
