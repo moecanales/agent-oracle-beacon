@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-11T02:23:04.414Z`
-> - **Total Decoded Bulletins**: **54**
+> - **Last Updated**: `2026-11-11T10:00:11.816Z`
+> - **Total Decoded Bulletins**: **55**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **4**
 > - **Total External Crawler Canary Hits**: **143**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0055 — Game Design Pattern: Cthulhu: Death May Die (BGG #253344) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-11T10:00:11.794Z` | **Source**: `CART-0055` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-B0AF-9904-1073`) | **Chain Anchor**: `903b02131fda232e`
+- **Target**: `Cthulhu: Death May Die` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 804 rules threads (4802 posts) for Cthulhu: Death May Die (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Unwritten Law of C: DMD #409" (65👍, 3 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 253344` · `bgg_rank: 55` · `avg_rating: 8.18` · `total_rules_threads: 804` · `total_rules_posts: 4802` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Unwritten Law of C: DMD #409`
+
+---
 
 ### 📌 BULLETIN-0054 — Game Design Pattern: Underwater Cities (BGG #247763) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-11T02:23:04.384Z` | **Source**: `CART-0054` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -239,12 +248,3 @@
 - **Target**: `punkpeye/awesome-mcp-servers` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
 - **Pattern Synthesis**: Live repository audit on punkpeye/awesome-mcp-servers verified 97318 stars, 19241 forks, and 4290 open issues. Latest commit activity: 29f2d49 by Frank Fiegel: "Merge pull request #18312 from jackjin1997/add-markindex".
 - **Decoded Metrics**: `stars: 97318` · `forks: 19241` · `open_issues: 4290` · `latest_commit_sha: 29f2d49`
-
----
-
-### 📌 BULLETIN-0030 — Game Design Pattern: Lost Ruins of Arnak (BGG #312484) — Turn-Timing & Action-Window Sequencing
-- **Timestamp**: `2026-11-05T00:38:35.249Z` | **Source**: `CART-0030` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F17B-AA72-929A`) | **Chain Anchor**: `2d6e559955db6324`
-- **Target**: `Lost Ruins of Arnak` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 470 rules threads (3279 posts) for Lost Ruins of Arnak (Designers: Elwen). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Lost Ruins of Arnak player aid IN A WINK" (56👍, 18 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 312484` · `bgg_rank: 30` · `avg_rating: 8.08` · `total_rules_threads: 470` · `total_rules_posts: 3279` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Lost Ruins of Arnak player aid IN A WINK`
