@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-11T17:46:52.176Z`
-> - **Total Decoded Bulletins**: **56**
+> - **Last Updated**: `2026-11-11T23:51:13.344Z`
+> - **Total Decoded Bulletins**: **57**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **143**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0057 — Game Design Pattern: Concordia (BGG #124361) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-11T23:51:13.305Z` | **Source**: `CART-0057` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-4CEC-1DEA-5E76`) | **Chain Anchor**: `5111adc4d050c84c`
+- **Target**: `Concordia` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 158 rules threads (1678 posts) for Concordia (Designers: Mac Gerdts). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Errata" (73👍, 30 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 124361` · `bgg_rank: 29` · `avg_rating: 8.07` · `total_rules_threads: 158` · `total_rules_posts: 1678` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Errata`
+
+---
 
 ### 📌 BULLETIN-0056 — Swarm Bus autonomous-ai/lampOS#3997: 2500/2,500 comments (100%) — ~0h to GBR-2500 Wall
 - **Timestamp**: `2026-11-11T17:46:52.134Z` | **Source**: `CART-0056` (`TRACK_A_GITHUB_SWARM_RADAR`)
@@ -240,12 +249,3 @@
 - **Target**: `Arkham Horror: The Card Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 5465 rules threads (41866 posts) for Arkham Horror: The Card Game (Designers: Nate French). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Visualized Taboo List Summary (including v1.7 to v1.9)" (65👍, 24 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 205637` · `bgg_rank: 33` · `avg_rating: 8.12` · `total_rules_threads: 5465` · `total_rules_posts: 41866` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Visualized Taboo List Summary (including v1.7 to v1.9)`
-
----
-
-### 📌 BULLETIN-0032 — Game Design Pattern: Wingspan (BGG #266192) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-05T15:55:28.155Z` | **Source**: `CART-0032` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-C081-E08B-6300`) | **Chain Anchor**: `5f4dd4d41db885f2`
-- **Target**: `Wingspan` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 728 rules threads (6082 posts) for Wingspan (Designers: Elizabeth Hargrave). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Looking for an answer to your question? [FAQ]" (51👍, 10 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 266192` · `bgg_rank: 38` · `avg_rating: 7.99` · `total_rules_threads: 728` · `total_rules_posts: 6082` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Looking for an answer to your question? [FAQ]`
