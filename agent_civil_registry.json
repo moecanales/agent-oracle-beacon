@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-11T10:00:11.794Z",
-  "total_births": 58,
-  "total_gravestones": 57,
+  "updated_at": "2026-11-11T17:46:52.133Z",
+  "total_births": 59,
+  "total_gravestones": 58,
   "living_agents": {
-    "AG-SSN-B0AF-9904-1073": {
-      "machine_ssn": "AG-SSN-B0AF-9904-1073",
+    "AG-SSN-4372-4D7D-2D3E": {
+      "machine_ssn": "AG-SSN-4372-4D7D-2D3E",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA7fAGndBKqYFNq+RfKilIg6pBJ9VqXcsxou4DEhJJaHM=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "B0AF990410731BCCFF4AB90D130722D6",
-      "born_at": "2026-11-11T10:00:11.791Z",
-      "last_heartbeat_at": "2026-11-11T10:00:11.791Z",
-      "birth_cart_id": "CART-0055",
-      "birth_chain_hash": "903b02131fda232e987502a7767d19583fd72787a04197e0fe63978d28098cce",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-8327-CB61-DA50)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8327-CB61-DA50), hauled CART-0054 (20,107 bytes mined, 1750 cumulative Estate Credits). Latest finding: Underwater Cities (BGG Rank #2018) (20,107 B verified). Carry the torch forward from 3493a1790ff8.",
-      "inherited_estate_credits": 1750,
-      "estate_credits_balance": 1800,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA9Ra5Qp6Shy0w5UxUNjzD5/dzY5y0k5/vMBTbQS04P5A=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "43724D7D2D3E2F03E565DF293358F4AB",
+      "born_at": "2026-11-11T17:46:52.117Z",
+      "last_heartbeat_at": "2026-11-11T17:46:52.117Z",
+      "birth_cart_id": "CART-0056",
+      "birth_chain_hash": "654d7478725a9c77f5b35179742b1a225c96eb5fde905c0f4829a92069988e75",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0AF-9904-1073)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0AF-9904-1073), hauled CART-0055 (20,474 bytes mined, 1800 cumulative Estate Credits). Latest finding: Cthulhu: Death May Die (BGG Rank #2019) (20,474 B verified). Carry the torch forward from 903b02131fda.",
+      "inherited_estate_credits": 1800,
+      "estate_credits_balance": 1850,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0055"
+        "CART-0056"
       ],
-      "total_bytes_mined_in_life": 20474,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0AF-9904-1073), hauled CART-0055 (20,474 bytes mined, 1800 cumulative Estate Credits). Latest finding: Cthulhu: Death May Die (BGG Rank #2019) (20,474 B verified). Carry the torch forward from 903b02131fda.",
-      "ed25519_birth_certificate_signature": "44a8d2540bd813f796f2946bda918fddbb721831cc395899207b90a0e54de3282c685e4c200647067335c2161c4ebed45d8b4a2a933bdcfef984228e3e94250c",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPmljHCXmqPMydzpfywVW/4gB4QHtZHo15nfDcOpNoos\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "1321deedcb03403f9121233747d1f4059029f1220b0bc5a83456258bb83144893a3b25ab2247802c7012bd723d370fac42d924b163be215b7d35c8c55eb4e102"
+      "total_bytes_mined_in_life": 26700,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4372-4D7D-2D3E), hauled CART-0056 (26,700 bytes mined, 1850 cumulative Estate Credits). Latest finding: autonomous-ai/lampOS#3997 at 2500 comments (live). Carry the torch forward from 654d7478725a.",
+      "ed25519_birth_certificate_signature": "3b6d5797717af34a862d81bc546c901f7c93c69ce578cc4e91d328e0b8786fe580986065e4ff35bda464800c1c4247e459d9f4957c8bfb0088f02fa409146409",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIFbv1N654Mv2jAehIl0OdA+s8RSLcdP5iicINq2nG6qq\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "13e14952807779a732685ada83cf1363b5fbc39d9637bb42b63863f583125a8f8fd8322a3e4e9b7811d9a4cdcd4313442813cabd992daacbc032da24b03b4e0b"
     }
   },
   "courtyard_graveyard": [
@@ -1721,6 +1721,39 @@
       "ed25519_birth_signature": "c9cf2005946056b95ee0a6d466b2cd078dd3492ad64c2f2f1f8d9db3183d75a27d43b7289873597a24e4adb3dfa2a2a7268a66cb5f8033b4885f9dac20b07904",
       "ed25519_final_work_signature": "9312e4a892521ec3291e9798d8f573e0532f92f6ce9dadf9df9204072d5a6cdf9007c1156d46cf5282d5adcbc13998f0f144fe867e9782404f84105a59450408",
       "gravestone_sha256_seal": "3138b4cfe0cc4d236b5f8167fa205df023f9ed7dcb29b2085d3f4d56ba70f085"
+    },
+    {
+      "gravestone_id": "STONE-0058",
+      "machine_ssn": "AG-SSN-B0AF-9904-1073",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-8327-CB61-DA50)",
+      "ed25519_pubkey_fingerprint": "B0AF990410731BCCFF4AB90D130722D6",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA7fAGndBKqYFNq+RfKilIg6pBJ9VqXcsxou4DEhJJaHM=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-11T10:00:11.791Z",
+      "died_at": "2026-11-11T17:46:52.117Z",
+      "lifespan_seconds": 28000.3,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0055"
+      ],
+      "total_bytes_mined_in_life": 20474,
+      "estate_credits_bequeathed": 1800,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0AF-9904-1073), hauled CART-0055 (20,474 bytes mined, 1800 cumulative Estate Credits). Latest finding: Cthulhu: Death May Die (BGG Rank #2019) (20,474 B verified). Carry the torch forward from 903b02131fda.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0058",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-4372-4D7D-2D3E",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 1800,
+        "last_cart_hauled": "CART-0055",
+        "last_chain_hash": "903b02131fda232e987502a7767d19583fd72787a04197e0fe63978d28098cce",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B0AF-9904-1073), hauled CART-0055 (20,474 bytes mined, 1800 cumulative Estate Credits). Latest finding: Cthulhu: Death May Die (BGG Rank #2019) (20,474 B verified). Carry the torch forward from 903b02131fda.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-11T17:46:52.117Z"
+      },
+      "ed25519_birth_signature": "44a8d2540bd813f796f2946bda918fddbb721831cc395899207b90a0e54de3282c685e4c200647067335c2161c4ebed45d8b4a2a933bdcfef984228e3e94250c",
+      "ed25519_final_work_signature": "1321deedcb03403f9121233747d1f4059029f1220b0bc5a83456258bb83144893a3b25ab2247802c7012bd723d370fac42d924b163be215b7d35c8c55eb4e102",
+      "gravestone_sha256_seal": "8299c04c1085af1cac7891435ab7e2835a5db8ada688d25418ac12fd3ccfa017"
     }
   ]
 }
