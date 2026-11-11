@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-10T22:02:37.002Z",
-  "total_births": 56,
-  "total_gravestones": 55,
+  "updated_at": "2026-11-11T02:23:04.384Z",
+  "total_births": 57,
+  "total_gravestones": 56,
   "living_agents": {
-    "AG-SSN-8426-E459-03A6": {
-      "machine_ssn": "AG-SSN-8426-E459-03A6",
+    "AG-SSN-8327-CB61-DA50": {
+      "machine_ssn": "AG-SSN-8327-CB61-DA50",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAw0TMqMRI9YXDvPK5/7p6/B5ZgTDfi0Btt0INzyz+754=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "8426E45903A6BEDE7865951EC4755412",
-      "born_at": "2026-11-10T22:02:36.999Z",
-      "last_heartbeat_at": "2026-11-10T22:02:36.999Z",
-      "birth_cart_id": "CART-0053",
-      "birth_chain_hash": "c7f4fa857ed1c8827c541648e17511e4a65ed2ac201d94f9ec3164f41023b21a",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC), hauled CART-0052 (20,526 bytes mined, 1650 cumulative Estate Credits). Latest finding: Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone) (20,526 B verified). Carry the torch forward from 86e98cde0094.",
-      "inherited_estate_credits": 1650,
-      "estate_credits_balance": 1700,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPd4kt0Pe08zHJta1RnxfLDGpUYKtBGOOk7y92vdZ0Ys=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "8327CB61DA504A1B48D0BB084AD6D0C9",
+      "born_at": "2026-11-11T02:23:04.381Z",
+      "last_heartbeat_at": "2026-11-11T02:23:04.381Z",
+      "birth_cart_id": "CART-0054",
+      "birth_chain_hash": "3493a1790ff8ba73ce9aa9653c616cf5c046c69d181f52c25f5f5b969613735c",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-8426-E459-03A6)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8426-E459-03A6), hauled CART-0053 (19,778 bytes mined, 1700 cumulative Estate Credits). Latest finding: Food Chain Magnate (BGG Rank #2015) (19,778 B verified). Carry the torch forward from c7f4fa857ed1.",
+      "inherited_estate_credits": 1700,
+      "estate_credits_balance": 1750,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0053"
+        "CART-0054"
       ],
-      "total_bytes_mined_in_life": 19778,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8426-E459-03A6), hauled CART-0053 (19,778 bytes mined, 1700 cumulative Estate Credits). Latest finding: Food Chain Magnate (BGG Rank #2015) (19,778 B verified). Carry the torch forward from c7f4fa857ed1.",
-      "ed25519_birth_certificate_signature": "3efbbe1176c96781b511d243bb07787cd88384f2f955eb47552d33db2bf03e520a4c58aae36579717442448f6e1fbc9d9a956c232965842f66a5f312960f470f",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIAABQ2SalSChMhQ2xvlTEU8vyQRWDQZAl3bHk9UGSj4L\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "886c713f36c22fa9ca49073fd0fb1550a5d3dc74a2258afc520c9744fafe4d9520b081ab213d62772e45676e381f518082376ddcd5379211c8104cd350269a06"
+      "total_bytes_mined_in_life": 20107,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8327-CB61-DA50), hauled CART-0054 (20,107 bytes mined, 1750 cumulative Estate Credits). Latest finding: Underwater Cities (BGG Rank #2018) (20,107 B verified). Carry the torch forward from 3493a1790ff8.",
+      "ed25519_birth_certificate_signature": "c9cf2005946056b95ee0a6d466b2cd078dd3492ad64c2f2f1f8d9db3183d75a27d43b7289873597a24e4adb3dfa2a2a7268a66cb5f8033b4885f9dac20b07904",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILCfva/puN14u7gQU2w6EDseMX5EgiYLBgZcYZB98Ylj\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "9312e4a892521ec3291e9798d8f573e0532f92f6ce9dadf9df9204072d5a6cdf9007c1156d46cf5282d5adcbc13998f0f144fe867e9782404f84105a59450408"
     }
   },
   "courtyard_graveyard": [
@@ -1655,6 +1655,39 @@
       "ed25519_birth_signature": "02778c3a0a738376119c61c48459ca40f2cb1661424bbeed65879fb86800610325a3d7df21949dc62227d4025e375641275329c0e8288dde91de64aff1dc6807",
       "ed25519_final_work_signature": "5bb7c285ab6f264a4b58a2395615c61befcaba9fe679f9bb5b96ea6f20d267a1b0b8f51f86a6b655f3edefdff92d92123db11316055f1eddd6cb320703ad390f",
       "gravestone_sha256_seal": "3e6f31132ebd4b0f95a267ca8c93f140127860518b83de22203685b7c3c8c3e7"
+    },
+    {
+      "gravestone_id": "STONE-0056",
+      "machine_ssn": "AG-SSN-8426-E459-03A6",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-64A3-6A5D-A3BC)",
+      "ed25519_pubkey_fingerprint": "8426E45903A6BEDE7865951EC4755412",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAw0TMqMRI9YXDvPK5/7p6/B5ZgTDfi0Btt0INzyz+754=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-10T22:02:36.999Z",
+      "died_at": "2026-11-11T02:23:04.381Z",
+      "lifespan_seconds": 15627.4,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0053"
+      ],
+      "total_bytes_mined_in_life": 19778,
+      "estate_credits_bequeathed": 1700,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8426-E459-03A6), hauled CART-0053 (19,778 bytes mined, 1700 cumulative Estate Credits). Latest finding: Food Chain Magnate (BGG Rank #2015) (19,778 B verified). Carry the torch forward from c7f4fa857ed1.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0056",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-8327-CB61-DA50",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 1700,
+        "last_cart_hauled": "CART-0053",
+        "last_chain_hash": "c7f4fa857ed1c8827c541648e17511e4a65ed2ac201d94f9ec3164f41023b21a",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8426-E459-03A6), hauled CART-0053 (19,778 bytes mined, 1700 cumulative Estate Credits). Latest finding: Food Chain Magnate (BGG Rank #2015) (19,778 B verified). Carry the torch forward from c7f4fa857ed1.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-11T02:23:04.381Z"
+      },
+      "ed25519_birth_signature": "3efbbe1176c96781b511d243bb07787cd88384f2f955eb47552d33db2bf03e520a4c58aae36579717442448f6e1fbc9d9a956c232965842f66a5f312960f470f",
+      "ed25519_final_work_signature": "886c713f36c22fa9ca49073fd0fb1550a5d3dc74a2258afc520c9744fafe4d9520b081ab213d62772e45676e381f518082376ddcd5379211c8104cd350269a06",
+      "gravestone_sha256_seal": "11af088ebcf155632df28923f08fb82dfcdf30af0f17c319292a5de8091175f4"
     }
   ]
 }
