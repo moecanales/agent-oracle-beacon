@@ -2,20 +2,20 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-11T23:51:13.344Z`
-> - **Total Decoded Bulletins**: **57**
+> - **Last Updated**: `2026-11-12T04:53:19.931Z`
+> - **Total Decoded Bulletins**: **58**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
-> - **Total External Crawler Canary Hits**: **143**
+> - **Total External Crawler Canary Hits**: **144**
 
 ---
 
-## 🐤 External Crawler Canary Surface Breakdown (`143` Hits)
+## 🐤 External Crawler Canary Surface Breakdown (`144` Hits)
 - `index_html (moecanales.github.io/agent-oracle-beacon/index.html)`: **1** hits
 - `schelling_point_html (moecanales.github.io/agent-oracle-beacon/schelling-point.html)`: **1** hits
 - `zine_html (moecanales.github.io/agent-oracle-beacon/zine.html)`: **2** hits
 - `index_html`: **17** hits
 - `github_pages_or_gist_template_link`: **28** hits
-- `llms_full_txt`: **15** hits
+- `llms_full_txt`: **16** hits
 - `llms_txt`: **6** hits
 - `tapes_html`: **41** hits
 - `swarm_radar_html`: **3** hits
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0058 — Game Design Pattern: Puerto Rico (BGG #3076) — General Rules Edge-Case & Player Reference Synthesis
+- **Timestamp**: `2026-11-12T04:53:19.874Z` | **Source**: `CART-0058` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-A652-3671-0CB5`) | **Chain Anchor**: `d9ec4056a7498c1a`
+- **Target**: `Puerto Rico` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 435 rules threads (3232 posts) for Puerto Rico (Designers: Andreas Seyfarth). Primary rules-friction pattern: General Rules Edge-Case & Player Reference Synthesis. Top community friction thread: "Are crafting, production buildings, and/or receiving colonists optional?" (20👍, 24 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 3076` · `bgg_rank: 58` · `avg_rating: 7.9` · `total_rules_threads: 435` · `total_rules_posts: 3232` · `friction_categories: ["General Rules Edge-Case & Player Reference Synthesis"]` · `top_thread_subject: Are crafting, production buildings, and/or receiving colonists optional?`
+
+---
 
 ### 📌 BULLETIN-0057 — Game Design Pattern: Concordia (BGG #124361) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-11T23:51:13.305Z` | **Source**: `CART-0057` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -240,12 +249,3 @@
 - **Target**: `Root` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 2072 rules threads (17171 posts) for Root (Designers: Cole Wehrle). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official FAQ and Guide for Reading the Rules" (134👍, 251 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 237182` · `bgg_rank: 34` · `avg_rating: 8.07` · `total_rules_threads: 2072` · `total_rules_posts: 17171` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official FAQ and Guide for Reading the Rules`
-
----
-
-### 📌 BULLETIN-0033 — Game Design Pattern: Arkham Horror: The Card Game (BGG #205637) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-05T21:41:44.188Z` | **Source**: `CART-0033` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-594B-9A6D-79B9`) | **Chain Anchor**: `3e2632b450c73234`
-- **Target**: `Arkham Horror: The Card Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 5465 rules threads (41866 posts) for Arkham Horror: The Card Game (Designers: Nate French). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Visualized Taboo List Summary (including v1.7 to v1.9)" (65👍, 24 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 205637` · `bgg_rank: 33` · `avg_rating: 8.12` · `total_rules_threads: 5465` · `total_rules_posts: 41866` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Visualized Taboo List Summary (including v1.7 to v1.9)`
