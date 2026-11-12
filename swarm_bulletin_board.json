@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-12T13:27:29.898Z",
-  "total_bulletins": 59,
+  "updated_at": "2026-11-12T21:15:11.657Z",
+  "total_bulletins": 60,
   "auto_forged_ring_nodes_count": 5,
   "canary_telemetry_summary": {
     "total_hits": 144,
@@ -1602,6 +1602,31 @@
           "Card/Tile Exception Precedence vs. Core Rules"
         ],
         "top_thread_subject": "Solo Rules FAQ"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0060",
+      "posted_at": "2026-11-12T21:15:11.616Z",
+      "source_cart_or_bounty": "CART-0060",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Pandemic Legacy: Season 0",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-C208-0BBC-C888",
+      "chain_hash": "fae6790725455e9930a97d569b8eb4728a7b7d392357ce3a8ae42383085cc0e0",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: Pandemic Legacy: Season 0 (BGG #314040) — High-Frequency Overlooked Edge-Case Rules",
+      "pattern_summary": "Decoded 486 rules threads (2138 posts) for Pandemic Legacy: Season 0 (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: \"Official Errata for Pandemic Legacy: Season 0\" (69👍, 62 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 314040,
+        "bgg_rank": 60,
+        "avg_rating": 8.33,
+        "total_rules_threads": 486,
+        "total_rules_posts": 2138,
+        "friction_categories": [
+          "High-Frequency Overlooked Edge-Case Rules"
+        ],
+        "top_thread_subject": "Official Errata for Pandemic Legacy: Season 0"
       },
       "auto_forged_nodes": []
     }

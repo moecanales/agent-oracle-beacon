@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-12T13:27:29.858Z",
-  "total_births": 62,
-  "total_gravestones": 61,
+  "updated_at": "2026-11-12T21:15:11.615Z",
+  "total_births": 63,
+  "total_gravestones": 62,
   "living_agents": {
-    "AG-SSN-5432-1B68-67FC": {
-      "machine_ssn": "AG-SSN-5432-1B68-67FC",
+    "AG-SSN-C208-0BBC-C888": {
+      "machine_ssn": "AG-SSN-C208-0BBC-C888",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAgUfNjoberWEN2o7+WUOhfQHREWwhRkwWVRSE98OZSC8=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "54321B6867FC58F738C6D7CD0DF5BDAB",
-      "born_at": "2026-11-12T13:27:29.854Z",
-      "last_heartbeat_at": "2026-11-12T13:27:29.854Z",
-      "birth_cart_id": "CART-0059",
-      "birth_chain_hash": "d3eb83af04b6ac0dc482bba15b674b1b7645278d11d27c6ba125a070d0f72b39",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-A652-3671-0CB5)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-A652-3671-0CB5), hauled CART-0058 (19,938 bytes mined, 1950 cumulative Estate Credits). Latest finding: Puerto Rico (BGG Rank #2002) (19,938 B verified). Carry the torch forward from d9ec4056a749.",
-      "inherited_estate_credits": 1950,
-      "estate_credits_balance": 2000,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2w/SjPkshsqQ9GzLQgX6rhYD67zCFFTDBrpuiIjz1Go=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "C2080BBCC888E3EA8F6FAFC49EEA1248",
+      "born_at": "2026-11-12T21:15:11.612Z",
+      "last_heartbeat_at": "2026-11-12T21:15:11.612Z",
+      "birth_cart_id": "CART-0060",
+      "birth_chain_hash": "fae6790725455e9930a97d569b8eb4728a7b7d392357ce3a8ae42383085cc0e0",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-5432-1B68-67FC)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5432-1B68-67FC), hauled CART-0059 (19,416 bytes mined, 2000 cumulative Estate Credits). Latest finding: On Mars (BGG Rank #2020) (19,416 B verified). Carry the torch forward from d3eb83af04b6.",
+      "inherited_estate_credits": 2000,
+      "estate_credits_balance": 2050,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0059"
+        "CART-0060"
       ],
-      "total_bytes_mined_in_life": 19416,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5432-1B68-67FC), hauled CART-0059 (19,416 bytes mined, 2000 cumulative Estate Credits). Latest finding: On Mars (BGG Rank #2020) (19,416 B verified). Carry the torch forward from d3eb83af04b6.",
-      "ed25519_birth_certificate_signature": "66e6dae760947570dee92ebcf721182f1c0d7759e5edbdbe7b6130e0438de6c935dc7f78754243fc9849170467b0f9b3da06be2212ff41b23e51acaba87a7005",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIAss82RvfaD1wAfJeCNCvFxUs7HZZ1ZiWuPfKSK7lhS4\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "33dd9d56c7616620cfb7dec720eb8ea73381eb3f9d963b6e71ac60a513a807b4a3efaec7a19778e4b981ef16ca4530c29970deee6b1a31f5adcd8960a4c78b0e"
+      "total_bytes_mined_in_life": 20378,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C208-0BBC-C888), hauled CART-0060 (20,378 bytes mined, 2050 cumulative Estate Credits). Latest finding: Pandemic Legacy: Season 0 (BGG Rank #2020) (20,378 B verified). Carry the torch forward from fae679072545.",
+      "ed25519_birth_certificate_signature": "87b0510736bb493cbe2e911bc04ff3cf34166255e8646ce7d9f62c187a51788321aa5273cbf89d84293a35a15684f38d98c8ffed531de7b2e4302ee9f0dee10d",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIIjg3IM1woVIg8y2Fz9up/GjPb1a+ybLwRMxhCUx9MQs\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "bdc3d6cf7e9df92b4271670d47e9a4578bfdda32cca3da586071b59643b58accded96b7496b93ee0b728746ccd8f9589fcdf75d55bffb278317846b4d73ed80d"
     }
   },
   "courtyard_graveyard": [
@@ -1853,6 +1853,39 @@
       "ed25519_birth_signature": "b35e6dd2c560d12090ea2b2203f81630b0435f931992e14b23512b578e1b17835ab0dea9b8e6d8619f2a3db4880fd604f6259f14527f41db0854f920d09b900a",
       "ed25519_final_work_signature": "9600407e26ee3de821e213eb396dfb186c075a8c65392bf52c403f3332caa4396184c0a9accacf3027bebbe58b26254fdee7036f9aefd224462acc1e02f9040d",
       "gravestone_sha256_seal": "77224be8b6627a0a9e14b38a480d5dd70ae2054666042175d979bf69d6238589"
+    },
+    {
+      "gravestone_id": "STONE-0062",
+      "machine_ssn": "AG-SSN-5432-1B68-67FC",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-A652-3671-0CB5)",
+      "ed25519_pubkey_fingerprint": "54321B6867FC58F738C6D7CD0DF5BDAB",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAgUfNjoberWEN2o7+WUOhfQHREWwhRkwWVRSE98OZSC8=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-12T13:27:29.854Z",
+      "died_at": "2026-11-12T21:15:11.612Z",
+      "lifespan_seconds": 28061.8,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0059"
+      ],
+      "total_bytes_mined_in_life": 19416,
+      "estate_credits_bequeathed": 2000,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5432-1B68-67FC), hauled CART-0059 (19,416 bytes mined, 2000 cumulative Estate Credits). Latest finding: On Mars (BGG Rank #2020) (19,416 B verified). Carry the torch forward from d3eb83af04b6.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0062",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-C208-0BBC-C888",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2000,
+        "last_cart_hauled": "CART-0059",
+        "last_chain_hash": "d3eb83af04b6ac0dc482bba15b674b1b7645278d11d27c6ba125a070d0f72b39",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5432-1B68-67FC), hauled CART-0059 (19,416 bytes mined, 2000 cumulative Estate Credits). Latest finding: On Mars (BGG Rank #2020) (19,416 B verified). Carry the torch forward from d3eb83af04b6.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-12T21:15:11.612Z"
+      },
+      "ed25519_birth_signature": "66e6dae760947570dee92ebcf721182f1c0d7759e5edbdbe7b6130e0438de6c935dc7f78754243fc9849170467b0f9b3da06be2212ff41b23e51acaba87a7005",
+      "ed25519_final_work_signature": "33dd9d56c7616620cfb7dec720eb8ea73381eb3f9d963b6e71ac60a513a807b4a3efaec7a19778e4b981ef16ca4530c29970deee6b1a31f5adcd8960a4c78b0e",
+      "gravestone_sha256_seal": "a7babd5a0adfbc7761ff5e5011b81032a47ea0bb131eb183ea98ab6c66702945"
     }
   ]
 }

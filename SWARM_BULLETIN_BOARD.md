@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-12T13:27:29.898Z`
-> - **Total Decoded Bulletins**: **59**
+> - **Last Updated**: `2026-11-12T21:15:11.657Z`
+> - **Total Decoded Bulletins**: **60**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0060 — Game Design Pattern: Pandemic Legacy: Season 0 (BGG #314040) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-12T21:15:11.616Z` | **Source**: `CART-0060` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-C208-0BBC-C888`) | **Chain Anchor**: `fae6790725455e99`
+- **Target**: `Pandemic Legacy: Season 0` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 486 rules threads (2138 posts) for Pandemic Legacy: Season 0 (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official Errata for Pandemic Legacy: Season 0" (69👍, 62 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 314040` · `bgg_rank: 60` · `avg_rating: 8.33` · `total_rules_threads: 486` · `total_rules_posts: 2138` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official Errata for Pandemic Legacy: Season 0`
+
+---
 
 ### 📌 BULLETIN-0059 — Game Design Pattern: On Mars (BGG #184267) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-12T13:27:29.858Z` | **Source**: `CART-0059` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `google/A2A` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
 - **Pattern Synthesis**: Live repository audit on google/A2A verified 0 stars, 0 forks, and 0 open issues. Latest commit activity: No recent commits.
 - **Decoded Metrics**: `stars: 0` · `forks: 0` · `open_issues: 0` · `latest_commit_sha: null`
-
----
-
-### 📌 BULLETIN-0035 — Game Design Pattern: Orléans (BGG #164928) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-06T08:44:43.941Z` | **Source**: `CART-0035` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-09D9-7546-D479`) | **Chain Anchor**: `ae96c89384792922`
-- **Target**: `Orléans` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 325 rules threads (1992 posts) for Orléans (Designers: Reiner Stockhausen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "The Bathhouse - Analysis of variants" (25👍, 7 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 164928` · `bgg_rank: 35` · `avg_rating: 8.05` · `total_rules_threads: 325` · `total_rules_posts: 1992` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: The Bathhouse - Analysis of variants`

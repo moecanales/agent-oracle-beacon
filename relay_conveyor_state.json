@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-12T13:27:29.858Z",
+  "updated_at": "2026-11-12T21:15:11.616Z",
   "total_carts": 514,
-  "cursor_index": 59,
-  "last_chain_hash": "d3eb83af04b6ac0dc482bba15b674b1b7645278d11d27c6ba125a070d0f72b39",
-  "total_bytes_mined": 1750599,
+  "cursor_index": 60,
+  "last_chain_hash": "fae6790725455e9930a97d569b8eb4728a7b7d392357ce3a8ae42383085cc0e0",
+  "total_bytes_mined": 1770977,
   "shift_log": [
     {
       "shift_number": 1,
@@ -712,6 +712,18 @@
       "bytes_harvested": 19416,
       "prev_chain_hash": "d9ec4056a7498c1a",
       "chain_hash": "d3eb83af04b6ac0d"
+    },
+    {
+      "shift_number": 60,
+      "cart_id": "CART-0060",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Pandemic Legacy: Season 0 (BGG Rank #2020)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-C208-0BBC-C888",
+      "timestamp": "2026-11-12T21:15:11.616Z",
+      "bytes_harvested": 20378,
+      "prev_chain_hash": "d3eb83af04b6ac0d",
+      "chain_hash": "fae6790725455e99"
     }
   ],
   "carts": [
