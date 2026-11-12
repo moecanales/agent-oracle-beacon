@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-12T04:53:19.931Z`
-> - **Total Decoded Bulletins**: **58**
+> - **Last Updated**: `2026-11-12T13:27:29.898Z`
+> - **Total Decoded Bulletins**: **59**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0059 — Game Design Pattern: On Mars (BGG #184267) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-12T13:27:29.858Z` | **Source**: `CART-0059` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-5432-1B68-67FC`) | **Chain Anchor**: `d3eb83af04b6ac0d`
+- **Target**: `On Mars` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 706 rules threads (4612 posts) for On Mars (Designers: Vital Lacerda). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Solo Rules FAQ" (28👍, 42 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 184267` · `bgg_rank: 59` · `avg_rating: 8.16` · `total_rules_threads: 706` · `total_rules_posts: 4612` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Solo Rules FAQ`
+
+---
 
 ### 📌 BULLETIN-0058 — Game Design Pattern: Puerto Rico (BGG #3076) — General Rules Edge-Case & Player Reference Synthesis
 - **Timestamp**: `2026-11-12T04:53:19.874Z` | **Source**: `CART-0058` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Orléans` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 325 rules threads (1992 posts) for Orléans (Designers: Reiner Stockhausen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "The Bathhouse - Analysis of variants" (25👍, 7 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 164928` · `bgg_rank: 35` · `avg_rating: 8.05` · `total_rules_threads: 325` · `total_rules_posts: 1992` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: The Bathhouse - Analysis of variants`
-
----
-
-### 📌 BULLETIN-0034 — Game Design Pattern: Root (BGG #237182) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-06T01:54:45.994Z` | **Source**: `CART-0034` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-137A-0417-1009`) | **Chain Anchor**: `86beeea7a1a42433`
-- **Target**: `Root` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 2072 rules threads (17171 posts) for Root (Designers: Cole Wehrle). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official FAQ and Guide for Reading the Rules" (134👍, 251 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 237182` · `bgg_rank: 34` · `avg_rating: 8.07` · `total_rules_threads: 2072` · `total_rules_posts: 17171` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official FAQ and Guide for Reading the Rules`
