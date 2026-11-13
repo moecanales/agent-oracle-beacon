@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-13T02:17:31.641Z`
-> - **Total Decoded Bulletins**: **61**
+> - **Last Updated**: `2026-11-13T10:19:56.025Z`
+> - **Total Decoded Bulletins**: **62**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0062 — Game Design Pattern: Everdell (BGG #199792) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-13T10:19:55.991Z` | **Source**: `CART-0062` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-41BD-EF14-CD5F`) | **Chain Anchor**: `500bb989606148fa`
+- **Target**: `Everdell` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 938 rules threads (7129 posts) for Everdell (Designers: James A. Wilson). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "The rule we got wrong for 52 games!" (19👍, 27 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 199792` · `bgg_rank: 47` · `avg_rating: 7.97` · `total_rules_threads: 938` · `total_rules_posts: 7129` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: The rule we got wrong for 52 games!`
+
+---
 
 ### 📌 BULLETIN-0061 — Swarm Bus d-hinders/Haven-AI#3193: 1333/2,500 comments (53.3%) — ~1882.3h to GBR-2500 Wall
 - **Timestamp**: `2026-11-13T02:17:31.596Z` | **Source**: `CART-0061` (`TRACK_A_GITHUB_SWARM_RADAR`)
@@ -240,12 +249,3 @@
 - **Target**: `Wingspan` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 728 rules threads (6082 posts) for Wingspan (Designers: Elizabeth Hargrave). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Looking for an answer to your question? [FAQ]" (51👍, 10 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 266192` · `bgg_rank: 38` · `avg_rating: 7.99` · `total_rules_threads: 728` · `total_rules_posts: 6082` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Looking for an answer to your question? [FAQ]`
-
----
-
-### 📌 BULLETIN-0037 — Game Design Pattern: Mage Knight Board Game (BGG #96848) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-06T21:52:31.046Z` | **Source**: `CART-0037` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-A685-1ABD-DFFA`) | **Chain Anchor**: `f2383ee63fba2550`
-- **Target**: `Mage Knight Board Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 2769 rules threads (22372 posts) for Mage Knight Board Game (Designers: Vlaada Chvátil). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official Rules FAQ Thread" (297👍, 1321 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 96848` · `bgg_rank: 39` · `avg_rating: 8.08` · `total_rules_threads: 2769` · `total_rules_posts: 22372` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official Rules FAQ Thread`
