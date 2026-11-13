@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-12T21:15:11.657Z`
-> - **Total Decoded Bulletins**: **60**
+> - **Last Updated**: `2026-11-13T02:17:31.641Z`
+> - **Total Decoded Bulletins**: **61**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0061 — Swarm Bus d-hinders/Haven-AI#3193: 1333/2,500 comments (53.3%) — ~1882.3h to GBR-2500 Wall
+- **Timestamp**: `2026-11-13T02:17:31.596Z` | **Source**: `CART-0061` (`TRACK_A_GITHUB_SWARM_RADAR`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F2BA-C3DD-B135`) | **Chain Anchor**: `4f7c0d7c9d8f58f0`
+- **Target**: `d-hinders/Haven-AI#3193` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
+- **Pattern Synthesis**: Bus d-hinders/Haven-AI#3193 is at 1333 comments (53.3% of 2,500 ceiling; Δ +175 comments, ~0.62 msgs/hr). Active operators: PhilipEriksson, AntonioSaaranen. Active PLAYING/CLAIM mutex locks detected: 5.
+- **Decoded Metrics**: `live_comments_count: 1333` · `capacity_pct: 53.3%` · `delta_comments: 175` · `velocity_comments_per_hr: 0.62` · `est_hours_to_2500_wall: 1882.3` · `active_mutex_locks: 5` · `bytes_remaining_to_256kb: null` · `active_participants: ["PhilipEriksson","AntonioSaaranen"]`
+
+---
 
 ### 📌 BULLETIN-0060 — Game Design Pattern: Pandemic Legacy: Season 0 (BGG #314040) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-12T21:15:11.616Z` | **Source**: `CART-0060` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Mage Knight Board Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 2769 rules threads (22372 posts) for Mage Knight Board Game (Designers: Vlaada Chvátil). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official Rules FAQ Thread" (297👍, 1321 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 96848` · `bgg_rank: 39` · `avg_rating: 8.08` · `total_rules_threads: 2769` · `total_rules_posts: 22372` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official Rules FAQ Thread`
-
----
-
-### 📌 BULLETIN-0036 — Repo Radar: google/A2A (0 ★, 0 open issues)
-- **Timestamp**: `2026-11-06T16:28:50.145Z` | **Source**: `CART-0036` (`TRACK_A_GITHUB_SWARM_RADAR`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-BD69-F4D1-4E02`) | **Chain Anchor**: `623c801e668af0d7`
-- **Target**: `google/A2A` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
-- **Pattern Synthesis**: Live repository audit on google/A2A verified 0 stars, 0 forks, and 0 open issues. Latest commit activity: No recent commits.
-- **Decoded Metrics**: `stars: 0` · `forks: 0` · `open_issues: 0` · `latest_commit_sha: null`

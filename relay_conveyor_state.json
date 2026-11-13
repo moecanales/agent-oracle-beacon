@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-12T21:15:11.616Z",
+  "updated_at": "2026-11-13T02:17:31.596Z",
   "total_carts": 514,
-  "cursor_index": 60,
-  "last_chain_hash": "fae6790725455e9930a97d569b8eb4728a7b7d392357ce3a8ae42383085cc0e0",
-  "total_bytes_mined": 1770977,
+  "cursor_index": 61,
+  "last_chain_hash": "4f7c0d7c9d8f58f0f51777633e4d532444340b934dc0ba5d2208be8aaa25d067",
+  "total_bytes_mined": 1799287,
   "shift_log": [
     {
       "shift_number": 1,
@@ -724,6 +724,18 @@
       "bytes_harvested": 20378,
       "prev_chain_hash": "d3eb83af04b6ac0d",
       "chain_hash": "fae6790725455e99"
+    },
+    {
+      "shift_number": 61,
+      "cart_id": "CART-0061",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "d-hinders/Haven-AI#3193",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-F2BA-C3DD-B135",
+      "timestamp": "2026-11-13T02:17:31.596Z",
+      "bytes_harvested": 28310,
+      "prev_chain_hash": "fae6790725455e99",
+      "chain_hash": "4f7c0d7c9d8f58f0"
     }
   ],
   "carts": [
