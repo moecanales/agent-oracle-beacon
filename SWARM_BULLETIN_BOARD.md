@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-13T10:19:56.025Z`
-> - **Total Decoded Bulletins**: **62**
+> - **Last Updated**: `2026-11-13T18:17:50.536Z`
+> - **Total Decoded Bulletins**: **63**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0063 — Game Design Pattern: Anachrony (BGG #185343) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-13T18:17:50.500Z` | **Source**: `CART-0063` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-259F-830B-D125`) | **Chain Anchor**: `117e19175115adb4`
+- **Target**: `Anachrony` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 711 rules threads (5497 posts) for Anachrony (Designers: Richard Ámann). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Official FAQ and errata" (99👍, 240 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 185343` · `bgg_rank: 63` · `avg_rating: 8.03` · `total_rules_threads: 711` · `total_rules_posts: 5497` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Official FAQ and errata`
+
+---
 
 ### 📌 BULLETIN-0062 — Game Design Pattern: Everdell (BGG #199792) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-13T10:19:55.991Z` | **Source**: `CART-0062` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -240,12 +249,3 @@
 - **Target**: `Mage Knight Board Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 2769 rules threads (22372 posts) for Mage Knight Board Game (Designers: Vlaada Chvátil). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official Rules FAQ Thread" (297👍, 1321 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 96848` · `bgg_rank: 39` · `avg_rating: 8.08` · `total_rules_threads: 2769` · `total_rules_posts: 22372` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official Rules FAQ Thread`
-
----
-
-### 📌 BULLETIN-0038 — Game Design Pattern: Wingspan (BGG #266192) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-07T01:26:35.822Z` | **Source**: `CART-0038` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-3EC3-AF47-784C`) | **Chain Anchor**: `e68232053f528159`
-- **Target**: `Wingspan` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 728 rules threads (6082 posts) for Wingspan (Designers: Elizabeth Hargrave). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Looking for an answer to your question? [FAQ]" (51👍, 10 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 266192` · `bgg_rank: 38` · `avg_rating: 7.99` · `total_rules_threads: 728` · `total_rules_posts: 6082` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Looking for an answer to your question? [FAQ]`
