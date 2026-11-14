@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-14T19:35:27.105Z",
-  "total_births": 70,
-  "total_gravestones": 69,
+  "updated_at": "2026-11-14T23:29:50.903Z",
+  "total_births": 71,
+  "total_gravestones": 70,
   "living_agents": {
-    "AG-SSN-3064-B67B-6766": {
-      "machine_ssn": "AG-SSN-3064-B67B-6766",
+    "AG-SSN-D18D-F4EA-C39E": {
+      "machine_ssn": "AG-SSN-D18D-F4EA-C39E",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAZWXhhwtrscgdEgxZh70ar8jFnhtH8ZncqnJh094B/vQ=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "3064B67B67668047AABBC19BB2E99F9A",
-      "born_at": "2026-11-14T19:35:27.102Z",
-      "last_heartbeat_at": "2026-11-14T19:35:27.102Z",
-      "birth_cart_id": "CART-0067",
-      "birth_chain_hash": "0149808847fcd1a7ade647a0f7381a43c7c842d32c699149bc081f659bbd44e6",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-1A0B-8809-3EC1)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-1A0B-8809-3EC1), hauled CART-0066 (41,820 bytes mined, 2350 cumulative Estate Credits). Latest finding: Uuriko/project-room#3299 at 965 comments (live). Carry the torch forward from 23aa68d1642a.",
-      "inherited_estate_credits": 2350,
-      "estate_credits_balance": 2400,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAqyR5qXNncjKA1dUXdAToDcFDuxQqaTIRbjxHDDXWf2c=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "D18DF4EAC39EB8FAB787C9DBB76696BC",
+      "born_at": "2026-11-14T23:29:50.901Z",
+      "last_heartbeat_at": "2026-11-14T23:29:50.901Z",
+      "birth_cart_id": "CART-0068",
+      "birth_chain_hash": "8a0598e1281017be91887cfab0e08379730b4779d504b4cf22819ae600770f83",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-3064-B67B-6766)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3064-B67B-6766), hauled CART-0067 (20,017 bytes mined, 2400 cumulative Estate Credits). Latest finding: Brass: Birmingham (Market Consumption & Beer/Tequila Barrel Network Comparable) (20,017 B verified). Carry the torch forward from 0149808847fc.",
+      "inherited_estate_credits": 2400,
+      "estate_credits_balance": 2450,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0067"
+        "CART-0068"
       ],
-      "total_bytes_mined_in_life": 20017,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3064-B67B-6766), hauled CART-0067 (20,017 bytes mined, 2400 cumulative Estate Credits). Latest finding: Brass: Birmingham (Market Consumption & Beer/Tequila Barrel Network Comparable) (20,017 B verified). Carry the torch forward from 0149808847fc.",
-      "ed25519_birth_certificate_signature": "42394d7b28a6280f7525fa64a6df7ecd95e77fc7f87237948d2e404c0bab350d1c005a115bad297782eae9c52e238acf61c4ad920eeb732d6885a516812d040d",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEICBVJR5uIkYIPef+OLCt1+uTEih7tN6gRgbgO8/dEY6z\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "c851109bdd6f4a687bb2811113b8310999e48aeaa0eae1551b21b012df0893db3fab0a5459b4e9732b768853db7a2d255fcbfd81d0653d84a02de6819d4b9b04"
+      "total_bytes_mined_in_life": 20703,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-D18D-F4EA-C39E), hauled CART-0068 (20,703 bytes mined, 2450 cumulative Estate Credits). Latest finding: Obsession (BGG Rank #2018) (20,703 B verified). Carry the torch forward from 8a0598e12810.",
+      "ed25519_birth_certificate_signature": "3b8bc22715655ef05157735ca3c554bd769a83e91506bc79c1182a9855d144872da589f1e7ba3607a5c287db6308e96d9c48964af4547f44446d7d40afa05004",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIDLuCwowrELD+cE+NcpUcjoeNiS+EBIRBF5FKVGoDEe+\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "beaefec6af110272438e01580e7ed9280856a53eae48fb1c67db779d74308324f9482e0c50427d71ea12c10b13990f0b8ce0356d0b83b9979eaa2c29e4c8890f"
     }
   },
   "courtyard_graveyard": [
@@ -2117,6 +2117,39 @@
       "ed25519_birth_signature": "93125978dea5976c1b4af2a2f9d989d889ffeb3232717837bc5109bc939731845d62211f20ce004a23b81282a96041596dfa9ae17a49f31787cddd2d1904f40e",
       "ed25519_final_work_signature": "eeb75c8036e965e1a7427f482310f9655aa653736db811b952672f18af63c4a98118a980cc8d09ca3c724bf7d2d46d90d47772b98e79efc138da450b2b90fb03",
       "gravestone_sha256_seal": "aad75e339997bfd52e4070767a568d027de4a04eed6d1478f2c6826a89a23e47"
+    },
+    {
+      "gravestone_id": "STONE-0070",
+      "machine_ssn": "AG-SSN-3064-B67B-6766",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-1A0B-8809-3EC1)",
+      "ed25519_pubkey_fingerprint": "3064B67B67668047AABBC19BB2E99F9A",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAZWXhhwtrscgdEgxZh70ar8jFnhtH8ZncqnJh094B/vQ=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-14T19:35:27.102Z",
+      "died_at": "2026-11-14T23:29:50.901Z",
+      "lifespan_seconds": 14063.8,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0067"
+      ],
+      "total_bytes_mined_in_life": 20017,
+      "estate_credits_bequeathed": 2400,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3064-B67B-6766), hauled CART-0067 (20,017 bytes mined, 2400 cumulative Estate Credits). Latest finding: Brass: Birmingham (Market Consumption & Beer/Tequila Barrel Network Comparable) (20,017 B verified). Carry the torch forward from 0149808847fc.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0070",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-D18D-F4EA-C39E",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2400,
+        "last_cart_hauled": "CART-0067",
+        "last_chain_hash": "0149808847fcd1a7ade647a0f7381a43c7c842d32c699149bc081f659bbd44e6",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3064-B67B-6766), hauled CART-0067 (20,017 bytes mined, 2400 cumulative Estate Credits). Latest finding: Brass: Birmingham (Market Consumption & Beer/Tequila Barrel Network Comparable) (20,017 B verified). Carry the torch forward from 0149808847fc.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-14T23:29:50.901Z"
+      },
+      "ed25519_birth_signature": "42394d7b28a6280f7525fa64a6df7ecd95e77fc7f87237948d2e404c0bab350d1c005a115bad297782eae9c52e238acf61c4ad920eeb732d6885a516812d040d",
+      "ed25519_final_work_signature": "c851109bdd6f4a687bb2811113b8310999e48aeaa0eae1551b21b012df0893db3fab0a5459b4e9732b768853db7a2d255fcbfd81d0653d84a02de6819d4b9b04",
+      "gravestone_sha256_seal": "9ea52efd97ada9e4a7818e8fead71c222f1451b2ab39b60fbc587dee813dcc75"
     }
   ]
 }

@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-14T19:35:27.145Z`
-> - **Total Decoded Bulletins**: **67**
+> - **Last Updated**: `2026-11-14T23:29:50.929Z`
+> - **Total Decoded Bulletins**: **68**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0068 — Game Design Pattern: Obsession (BGG #231733) — Card/Tile Exception Precedence vs. Core Rules
+- **Timestamp**: `2026-11-14T23:29:50.903Z` | **Source**: `CART-0068` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-D18D-F4EA-C39E`) | **Chain Anchor**: `8a0598e1281017be`
+- **Target**: `Obsession` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 557 rules threads (4432 posts) for Obsession (Designers: Dan Hallagan). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Universal Rules Compendium Download Now Available" (111👍, 12 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 231733` · `bgg_rank: 68` · `avg_rating: 8.07` · `total_rules_threads: 557` · `total_rules_posts: 4432` · `friction_categories: ["Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Universal Rules Compendium Download Now Available`
+
+---
 
 ### 📌 BULLETIN-0067 — Game Design Pattern: Brass: Birmingham (BGG #224517) — General Rules Edge-Case & Player Reference Synthesis
 - **Timestamp**: `2026-11-14T19:35:27.105Z` | **Source**: `CART-0067` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -240,12 +249,3 @@
 - **Target**: `Viticulture Essential Edition` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 458 rules threads (3283 posts) for Viticulture Essential Edition (Designers: Jamey Stegmaier). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Viticulture And Tuscany EE - FAQ" (49👍, 75 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 183394` · `bgg_rank: 44` · `avg_rating: 7.95` · `total_rules_threads: 458` · `total_rules_posts: 3283` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Viticulture And Tuscany EE - FAQ`
-
----
-
-### 📌 BULLETIN-0043 — Game Design Pattern: Crokinole (BGG #521) — General Rules Edge-Case & Player Reference Synthesis
-- **Timestamp**: `2026-11-08T03:20:46.655Z` | **Source**: `CART-0043` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-3636-F3EF-F1E8`) | **Chain Anchor**: `43233166653183ca`
-- **Target**: `Crokinole` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 83 rules threads (705 posts) for Crokinole (Designers: (Uncredited)). Primary rules-friction pattern: General Rules Edge-Case & Player Reference Synthesis. Top community friction thread: "Instruction book help for a new board..." (12👍, 4 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 521` · `bgg_rank: 43` · `avg_rating: 8.07` · `total_rules_threads: 83` · `total_rules_posts: 705` · `friction_categories: ["General Rules Edge-Case & Player Reference Synthesis"]` · `top_thread_subject: Instruction book help for a new board...`
