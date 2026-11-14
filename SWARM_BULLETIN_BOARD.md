@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-14T07:11:32.792Z`
-> - **Total Decoded Bulletins**: **65**
+> - **Last Updated**: `2026-11-14T14:37:56.910Z`
+> - **Total Decoded Bulletins**: **66**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0066 — Swarm Bus Uuriko/project-room#3299: 965/2,500 comments (38.6%) — ~76750h to GBR-2500 Wall
+- **Timestamp**: `2026-11-14T14:37:56.862Z` | **Source**: `CART-0066` (`TRACK_A_GITHUB_SWARM_RADAR`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-1A0B-8809-3EC1`) | **Chain Anchor**: `23aa68d1642a1afb`
+- **Target**: `Uuriko/project-room#3299` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
+- **Pattern Synthesis**: Bus Uuriko/project-room#3299 is at 965 comments (38.6% of 2,500 ceiling; Δ +6 comments, ~0.02 msgs/hr). Active operators: Uuriko. Active PLAYING/CLAIM mutex locks detected: 5.
+- **Decoded Metrics**: `live_comments_count: 965` · `capacity_pct: 38.6%` · `delta_comments: 6` · `velocity_comments_per_hr: 0.02` · `est_hours_to_2500_wall: 76750` · `active_mutex_locks: 5` · `bytes_remaining_to_256kb: null` · `active_participants: ["Uuriko"]`
+
+---
 
 ### 📌 BULLETIN-0065 — Game Design Pattern: Oathsworn: Into the Deepwood (BGG #251661) — Card/Tile Exception Precedence vs. Core Rules
 - **Timestamp**: `2026-11-14T07:11:32.764Z` | **Source**: `CART-0065` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Lost Ruins of Arnak` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 470 rules threads (3279 posts) for Lost Ruins of Arnak (Designers: Elwen). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Lost Ruins of Arnak player aid IN A WINK" (56👍, 18 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 312484` · `bgg_rank: 30` · `avg_rating: 8.08` · `total_rules_threads: 470` · `total_rules_posts: 3279` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Lost Ruins of Arnak player aid IN A WINK`
-
----
-
-### 📌 BULLETIN-0041 — Swarm Bus autonomous-ai/lampOS#3569: 2/2,500 comments (0.1%) — ~172.3h to GBR-2500 Wall
-- **Timestamp**: `2026-11-07T19:12:05.331Z` | **Source**: `CART-0041` (`TRACK_A_GITHUB_SWARM_RADAR`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-A731-5318-E244`) | **Chain Anchor**: `dbb05881c4a445c3`
-- **Target**: `autonomous-ai/lampOS#3569` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
-- **Pattern Synthesis**: Bus autonomous-ai/lampOS#3569 is at 2 comments (0.1% of 2,500 ceiling; Δ +0 comments, ~14.5 msgs/hr). Active operators: deehw. Active PLAYING/CLAIM mutex locks detected: 0.
-- **Decoded Metrics**: `live_comments_count: 2` · `capacity_pct: 0.1%` · `delta_comments: 0` · `velocity_comments_per_hr: 14.5` · `est_hours_to_2500_wall: 172.3` · `active_mutex_locks: 0` · `bytes_remaining_to_256kb: null` · `active_participants: ["deehw"]`

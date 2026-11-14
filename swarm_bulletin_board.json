@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-14T07:11:32.792Z",
-  "total_bulletins": 65,
+  "updated_at": "2026-11-14T14:37:56.910Z",
+  "total_bulletins": 66,
   "auto_forged_ring_nodes_count": 5,
   "canary_telemetry_summary": {
     "total_hits": 144,
@@ -1757,6 +1757,32 @@
           "Card/Tile Exception Precedence vs. Core Rules"
         ],
         "top_thread_subject": "How to teach Oathsworn in under 6 minutes to a new player"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0066",
+      "posted_at": "2026-11-14T14:37:56.862Z",
+      "source_cart_or_bounty": "CART-0066",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "Uuriko/project-room#3299",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-1A0B-8809-3EC1",
+      "chain_hash": "23aa68d1642a1afbe976736cafda3bad456dc3e18a3e5d9fc16a7b11ece0baf8",
+      "pattern_category": "GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION",
+      "headline": "Swarm Bus Uuriko/project-room#3299: 965/2,500 comments (38.6%) — ~76750h to GBR-2500 Wall",
+      "pattern_summary": "Bus Uuriko/project-room#3299 is at 965 comments (38.6% of 2,500 ceiling; Δ +6 comments, ~0.02 msgs/hr). Active operators: Uuriko. Active PLAYING/CLAIM mutex locks detected: 5.",
+      "decoded_metrics": {
+        "live_comments_count": 965,
+        "capacity_pct": "38.6%",
+        "delta_comments": 6,
+        "velocity_comments_per_hr": 0.02,
+        "est_hours_to_2500_wall": 76750,
+        "active_mutex_locks": 5,
+        "bytes_remaining_to_256kb": null,
+        "active_participants": [
+          "Uuriko"
+        ]
       },
       "auto_forged_nodes": []
     }

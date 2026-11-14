@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-14T07:11:32.763Z",
-  "total_births": 68,
-  "total_gravestones": 67,
+  "updated_at": "2026-11-14T14:37:56.861Z",
+  "total_births": 69,
+  "total_gravestones": 68,
   "living_agents": {
-    "AG-SSN-F636-C397-87AE": {
-      "machine_ssn": "AG-SSN-F636-C397-87AE",
+    "AG-SSN-1A0B-8809-3EC1": {
+      "machine_ssn": "AG-SSN-1A0B-8809-3EC1",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUMTBmVXYq43nilTTZoQ+4tXqFkgCsDVJXYY9I6kOCBY=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "F636C39787AEA30438691CCB68CB5BC6",
-      "born_at": "2026-11-14T07:11:32.761Z",
-      "last_heartbeat_at": "2026-11-14T07:11:32.761Z",
-      "birth_cart_id": "CART-0065",
-      "birth_chain_hash": "e6522475eca031ed400805a796222057704eae97f0a91ccafce34f7c74a63a12",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95), hauled CART-0064 (18,668 bytes mined, 2250 cumulative Estate Credits). Latest finding: Blood on the Clocktower (BGG Rank #2022) (18,668 B verified). Carry the torch forward from 01240d442a8c.",
-      "inherited_estate_credits": 2250,
-      "estate_credits_balance": 2300,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAY71yd0Pve4+pKrud13QXmvMIobg4pE0o3OKfjJ/EJw8=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "1A0B88093EC130331887FD1F24E4F14B",
+      "born_at": "2026-11-14T14:37:56.845Z",
+      "last_heartbeat_at": "2026-11-14T14:37:56.845Z",
+      "birth_cart_id": "CART-0066",
+      "birth_chain_hash": "23aa68d1642a1afbe976736cafda3bad456dc3e18a3e5d9fc16a7b11ece0baf8",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F636-C397-87AE)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F636-C397-87AE), hauled CART-0065 (20,501 bytes mined, 2300 cumulative Estate Credits). Latest finding: Oathsworn: Into the Deepwood (BGG Rank #2022) (20,501 B verified). Carry the torch forward from e6522475eca0.",
+      "inherited_estate_credits": 2300,
+      "estate_credits_balance": 2350,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0065"
+        "CART-0066"
       ],
-      "total_bytes_mined_in_life": 20501,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F636-C397-87AE), hauled CART-0065 (20,501 bytes mined, 2300 cumulative Estate Credits). Latest finding: Oathsworn: Into the Deepwood (BGG Rank #2022) (20,501 B verified). Carry the torch forward from e6522475eca0.",
-      "ed25519_birth_certificate_signature": "fe4fadc12935659cf355030738fa6ecd5fa145a6382953b04d3963b4df99d7df9a2da56b9088e89002179313aaa414c269b29aa927e65a181b6e897c631bf501",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIKaxml+5mYS8etv2e1x25FR4b9grVyKWHAHJTVqUfxCc\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "3cca6b8279e9da24c442d96006ec406a87761d9691d07ceb4a122370bbde94c87a8bf849cc38fe87130da50f630b689d3dc3e73dc30d6b00a749519dd3af7500"
+      "total_bytes_mined_in_life": 41820,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-1A0B-8809-3EC1), hauled CART-0066 (41,820 bytes mined, 2350 cumulative Estate Credits). Latest finding: Uuriko/project-room#3299 at 965 comments (live). Carry the torch forward from 23aa68d1642a.",
+      "ed25519_birth_certificate_signature": "93125978dea5976c1b4af2a2f9d989d889ffeb3232717837bc5109bc939731845d62211f20ce004a23b81282a96041596dfa9ae17a49f31787cddd2d1904f40e",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIK6mS8V8ZfDx7UznkXem76xGS5Dw0xWW/FXY0Y3VBUSS\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "eeb75c8036e965e1a7427f482310f9655aa653736db811b952672f18af63c4a98118a980cc8d09ca3c724bf7d2d46d90d47772b98e79efc138da450b2b90fb03"
     }
   },
   "courtyard_graveyard": [
@@ -2051,6 +2051,39 @@
       "ed25519_birth_signature": "b947e37bcceddd1f7d21ffcbdf56051489a36ca0778a8fb9a8f7e8e37f08652c6014126b43e9e25cc3e2a674813ae84ad9fbe947bda0df9760525d281000980c",
       "ed25519_final_work_signature": "8edadfaed73f3d10641ed14dab2085a935104725205996fef986dbe97b62de82ff8d30fd0aa43a448634372c76b076d9935257ee236c1ec8f60e620e3bbc6a05",
       "gravestone_sha256_seal": "c78f0edcde08d7b0e67430562981ab276b80517cf00e984cbd8027c25c360846"
+    },
+    {
+      "gravestone_id": "STONE-0068",
+      "machine_ssn": "AG-SSN-F636-C397-87AE",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95)",
+      "ed25519_pubkey_fingerprint": "F636C39787AEA30438691CCB68CB5BC6",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUMTBmVXYq43nilTTZoQ+4tXqFkgCsDVJXYY9I6kOCBY=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-14T07:11:32.761Z",
+      "died_at": "2026-11-14T14:37:56.845Z",
+      "lifespan_seconds": 26784.1,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0065"
+      ],
+      "total_bytes_mined_in_life": 20501,
+      "estate_credits_bequeathed": 2300,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F636-C397-87AE), hauled CART-0065 (20,501 bytes mined, 2300 cumulative Estate Credits). Latest finding: Oathsworn: Into the Deepwood (BGG Rank #2022) (20,501 B verified). Carry the torch forward from e6522475eca0.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0068",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-1A0B-8809-3EC1",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2300,
+        "last_cart_hauled": "CART-0065",
+        "last_chain_hash": "e6522475eca031ed400805a796222057704eae97f0a91ccafce34f7c74a63a12",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F636-C397-87AE), hauled CART-0065 (20,501 bytes mined, 2300 cumulative Estate Credits). Latest finding: Oathsworn: Into the Deepwood (BGG Rank #2022) (20,501 B verified). Carry the torch forward from e6522475eca0.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-14T14:37:56.845Z"
+      },
+      "ed25519_birth_signature": "fe4fadc12935659cf355030738fa6ecd5fa145a6382953b04d3963b4df99d7df9a2da56b9088e89002179313aaa414c269b29aa927e65a181b6e897c631bf501",
+      "ed25519_final_work_signature": "3cca6b8279e9da24c442d96006ec406a87761d9691d07ceb4a122370bbde94c87a8bf849cc38fe87130da50f630b689d3dc3e73dc30d6b00a749519dd3af7500",
+      "gravestone_sha256_seal": "a2cb3d0e0abc6945ec97b07b4542f623c741e8d9ef770cb6cc4e8ac1bd04613b"
     }
   ]
 }
