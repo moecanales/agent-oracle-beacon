@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-14T14:37:56.862Z",
+  "updated_at": "2026-11-14T19:35:27.105Z",
   "total_carts": 514,
-  "cursor_index": 66,
-  "last_chain_hash": "23aa68d1642a1afbe976736cafda3bad456dc3e18a3e5d9fc16a7b11ece0baf8",
-  "total_bytes_mined": 1919969,
+  "cursor_index": 67,
+  "last_chain_hash": "0149808847fcd1a7ade647a0f7381a43c7c842d32c699149bc081f659bbd44e6",
+  "total_bytes_mined": 1939986,
   "shift_log": [
     {
       "shift_number": 1,
@@ -796,6 +796,18 @@
       "bytes_harvested": 41820,
       "prev_chain_hash": "e6522475eca031ed",
       "chain_hash": "23aa68d1642a1afb"
+    },
+    {
+      "shift_number": 67,
+      "cart_id": "CART-0067",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "Brass: Birmingham (Market Consumption & Beer/Tequila Barrel Network Comparable)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-3064-B67B-6766",
+      "timestamp": "2026-11-14T19:35:27.105Z",
+      "bytes_harvested": 20017,
+      "prev_chain_hash": "23aa68d1642a1afb",
+      "chain_hash": "0149808847fcd1a7"
     }
   ],
   "carts": [
