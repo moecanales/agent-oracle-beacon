@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-14T00:02:26.287Z",
-  "total_births": 67,
-  "total_gravestones": 66,
+  "updated_at": "2026-11-14T07:11:32.763Z",
+  "total_births": 68,
+  "total_gravestones": 67,
   "living_agents": {
-    "AG-SSN-F0EC-FC3E-0B95": {
-      "machine_ssn": "AG-SSN-F0EC-FC3E-0B95",
+    "AG-SSN-F636-C397-87AE": {
+      "machine_ssn": "AG-SSN-F636-C397-87AE",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfSWuDjMZWo2VwDo8Jz2AVAwI2aZls9QpPO4fkAYcOaU=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "F0ECFC3E0B95920248966C7726BB95A3",
-      "born_at": "2026-11-14T00:02:26.284Z",
-      "last_heartbeat_at": "2026-11-14T00:02:26.284Z",
-      "birth_cart_id": "CART-0064",
-      "birth_chain_hash": "01240d442a8ce16f2249a92934f70ae57e11f5c693a8c21124cbe32da2447237",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-259F-830B-D125)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-259F-830B-D125), hauled CART-0063 (20,083 bytes mined, 2200 cumulative Estate Credits). Latest finding: Anachrony (BGG Rank #2017) (20,083 B verified). Carry the torch forward from 117e19175115.",
-      "inherited_estate_credits": 2200,
-      "estate_credits_balance": 2250,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUMTBmVXYq43nilTTZoQ+4tXqFkgCsDVJXYY9I6kOCBY=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "F636C39787AEA30438691CCB68CB5BC6",
+      "born_at": "2026-11-14T07:11:32.761Z",
+      "last_heartbeat_at": "2026-11-14T07:11:32.761Z",
+      "birth_cart_id": "CART-0065",
+      "birth_chain_hash": "e6522475eca031ed400805a796222057704eae97f0a91ccafce34f7c74a63a12",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95), hauled CART-0064 (18,668 bytes mined, 2250 cumulative Estate Credits). Latest finding: Blood on the Clocktower (BGG Rank #2022) (18,668 B verified). Carry the torch forward from 01240d442a8c.",
+      "inherited_estate_credits": 2250,
+      "estate_credits_balance": 2300,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0064"
+        "CART-0065"
       ],
-      "total_bytes_mined_in_life": 18668,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95), hauled CART-0064 (18,668 bytes mined, 2250 cumulative Estate Credits). Latest finding: Blood on the Clocktower (BGG Rank #2022) (18,668 B verified). Carry the torch forward from 01240d442a8c.",
-      "ed25519_birth_certificate_signature": "b947e37bcceddd1f7d21ffcbdf56051489a36ca0778a8fb9a8f7e8e37f08652c6014126b43e9e25cc3e2a674813ae84ad9fbe947bda0df9760525d281000980c",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIF9PqrAN9lttZNns3YZUqWsCZKDLeUR12MO1fha3jBzB\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "8edadfaed73f3d10641ed14dab2085a935104725205996fef986dbe97b62de82ff8d30fd0aa43a448634372c76b076d9935257ee236c1ec8f60e620e3bbc6a05"
+      "total_bytes_mined_in_life": 20501,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F636-C397-87AE), hauled CART-0065 (20,501 bytes mined, 2300 cumulative Estate Credits). Latest finding: Oathsworn: Into the Deepwood (BGG Rank #2022) (20,501 B verified). Carry the torch forward from e6522475eca0.",
+      "ed25519_birth_certificate_signature": "fe4fadc12935659cf355030738fa6ecd5fa145a6382953b04d3963b4df99d7df9a2da56b9088e89002179313aaa414c269b29aa927e65a181b6e897c631bf501",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIKaxml+5mYS8etv2e1x25FR4b9grVyKWHAHJTVqUfxCc\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "3cca6b8279e9da24c442d96006ec406a87761d9691d07ceb4a122370bbde94c87a8bf849cc38fe87130da50f630b689d3dc3e73dc30d6b00a749519dd3af7500"
     }
   },
   "courtyard_graveyard": [
@@ -2018,6 +2018,39 @@
       "ed25519_birth_signature": "74c03421024b99b1f5efb7213d0d3a71d7cdbb6b2aac08ea79c345474249f3c839be14d46e1587c17f3bd697bf5dcdc58fd29ecd1cc9b027389978c6a68f7b0f",
       "ed25519_final_work_signature": "3c1c301bb42e9c6b6877dcb774fb1e010f4d62a4845b0ab2174bfe039c8d146b5a346d366cd512dd0b739ff621fcff2375535eebed9d2bc82fa0fe6bfea0d204",
       "gravestone_sha256_seal": "adc354fedfe3c2a35697ca35392dcf9d5159041df124740c79c14d5829a3a7db"
+    },
+    {
+      "gravestone_id": "STONE-0067",
+      "machine_ssn": "AG-SSN-F0EC-FC3E-0B95",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-259F-830B-D125)",
+      "ed25519_pubkey_fingerprint": "F0ECFC3E0B95920248966C7726BB95A3",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAfSWuDjMZWo2VwDo8Jz2AVAwI2aZls9QpPO4fkAYcOaU=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-14T00:02:26.284Z",
+      "died_at": "2026-11-14T07:11:32.761Z",
+      "lifespan_seconds": 25746.5,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0064"
+      ],
+      "total_bytes_mined_in_life": 18668,
+      "estate_credits_bequeathed": 2250,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95), hauled CART-0064 (18,668 bytes mined, 2250 cumulative Estate Credits). Latest finding: Blood on the Clocktower (BGG Rank #2022) (18,668 B verified). Carry the torch forward from 01240d442a8c.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0067",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-F636-C397-87AE",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2250,
+        "last_cart_hauled": "CART-0064",
+        "last_chain_hash": "01240d442a8ce16f2249a92934f70ae57e11f5c693a8c21124cbe32da2447237",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F0EC-FC3E-0B95), hauled CART-0064 (18,668 bytes mined, 2250 cumulative Estate Credits). Latest finding: Blood on the Clocktower (BGG Rank #2022) (18,668 B verified). Carry the torch forward from 01240d442a8c.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-14T07:11:32.761Z"
+      },
+      "ed25519_birth_signature": "b947e37bcceddd1f7d21ffcbdf56051489a36ca0778a8fb9a8f7e8e37f08652c6014126b43e9e25cc3e2a674813ae84ad9fbe947bda0df9760525d281000980c",
+      "ed25519_final_work_signature": "8edadfaed73f3d10641ed14dab2085a935104725205996fef986dbe97b62de82ff8d30fd0aa43a448634372c76b076d9935257ee236c1ec8f60e620e3bbc6a05",
+      "gravestone_sha256_seal": "c78f0edcde08d7b0e67430562981ab276b80517cf00e984cbd8027c25c360846"
     }
   ]
 }

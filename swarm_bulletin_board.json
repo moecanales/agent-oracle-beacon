@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-14T00:02:26.332Z",
-  "total_bulletins": 64,
+  "updated_at": "2026-11-14T07:11:32.792Z",
+  "total_bulletins": 65,
   "auto_forged_ring_nodes_count": 5,
   "canary_telemetry_summary": {
     "total_hits": 144,
@@ -1732,6 +1732,31 @@
           "Turn-Timing & Action-Window Sequencing"
         ],
         "top_thread_subject": "Blood on the Clocktower - Storyteller Quizzes"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0065",
+      "posted_at": "2026-11-14T07:11:32.764Z",
+      "source_cart_or_bounty": "CART-0065",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Oathsworn: Into the Deepwood",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-F636-C397-87AE",
+      "chain_hash": "e6522475eca031ed400805a796222057704eae97f0a91ccafce34f7c74a63a12",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: Oathsworn: Into the Deepwood (BGG #251661) — Card/Tile Exception Precedence vs. Core Rules",
+      "pattern_summary": "Decoded 1341 rules threads (7392 posts) for Oathsworn: Into the Deepwood (Designers: Jamie Jolly). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: \"How to teach Oathsworn in under 6 minutes to a new player\" (79👍, 14 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 251661,
+        "bgg_rank": 65,
+        "avg_rating": 8.74,
+        "total_rules_threads": 1341,
+        "total_rules_posts": 7392,
+        "friction_categories": [
+          "Card/Tile Exception Precedence vs. Core Rules"
+        ],
+        "top_thread_subject": "How to teach Oathsworn in under 6 minutes to a new player"
       },
       "auto_forged_nodes": []
     }

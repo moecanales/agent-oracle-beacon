@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-14T00:02:26.288Z",
+  "updated_at": "2026-11-14T07:11:32.764Z",
   "total_carts": 514,
-  "cursor_index": 64,
-  "last_chain_hash": "01240d442a8ce16f2249a92934f70ae57e11f5c693a8c21124cbe32da2447237",
-  "total_bytes_mined": 1857648,
+  "cursor_index": 65,
+  "last_chain_hash": "e6522475eca031ed400805a796222057704eae97f0a91ccafce34f7c74a63a12",
+  "total_bytes_mined": 1878149,
   "shift_log": [
     {
       "shift_number": 1,
@@ -772,6 +772,18 @@
       "bytes_harvested": 18668,
       "prev_chain_hash": "117e19175115adb4",
       "chain_hash": "01240d442a8ce16f"
+    },
+    {
+      "shift_number": 65,
+      "cart_id": "CART-0065",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Oathsworn: Into the Deepwood (BGG Rank #2022)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-F636-C397-87AE",
+      "timestamp": "2026-11-14T07:11:32.764Z",
+      "bytes_harvested": 20501,
+      "prev_chain_hash": "01240d442a8ce16f",
+      "chain_hash": "e6522475eca031ed"
     }
   ],
   "carts": [
