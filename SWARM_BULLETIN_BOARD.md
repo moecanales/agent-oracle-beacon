@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-13T18:17:50.536Z`
-> - **Total Decoded Bulletins**: **63**
+> - **Last Updated**: `2026-11-14T00:02:26.332Z`
+> - **Total Decoded Bulletins**: **64**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0064 — Game Design Pattern: Blood on the Clocktower (BGG #240980) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-14T00:02:26.288Z` | **Source**: `CART-0064` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F0EC-FC3E-0B95`) | **Chain Anchor**: `01240d442a8ce16f`
+- **Target**: `Blood on the Clocktower` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 356 rules threads (2758 posts) for Blood on the Clocktower (Designers: Steven Medway). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing. Top community friction thread: "Blood on the Clocktower - Storyteller Quizzes" (15👍, 1 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 240980` · `bgg_rank: 64` · `avg_rating: 8.33` · `total_rules_threads: 356` · `total_rules_posts: 2758` · `friction_categories: ["Turn-Timing & Action-Window Sequencing"]` · `top_thread_subject: Blood on the Clocktower - Storyteller Quizzes`
+
+---
 
 ### 📌 BULLETIN-0063 — Game Design Pattern: Anachrony (BGG #185343) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-13T18:17:50.500Z` | **Source**: `CART-0063` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Barrage` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 573 rules threads (3350 posts) for Barrage (Designers: Tommaso Battista). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "A Barrage of Questions -- Unofficial FAQ for Barrage" (67👍, 15 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 251247` · `bgg_rank: 40` · `avg_rating: 8.13` · `total_rules_threads: 573` · `total_rules_posts: 3350` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: A Barrage of Questions -- Unofficial FAQ for Barrage`
-
----
-
-### 📌 BULLETIN-0039 — Game Design Pattern: Mage Knight Board Game (BGG #96848) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-07T07:59:22.844Z` | **Source**: `CART-0039` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-2CA5-5CE0-6CD3`) | **Chain Anchor**: `604b9441ca87c448`
-- **Target**: `Mage Knight Board Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 2769 rules threads (22372 posts) for Mage Knight Board Game (Designers: Vlaada Chvátil). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official Rules FAQ Thread" (297👍, 1321 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 96848` · `bgg_rank: 39` · `avg_rating: 8.08` · `total_rules_threads: 2769` · `total_rules_posts: 22372` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official Rules FAQ Thread`

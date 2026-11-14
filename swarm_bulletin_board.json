@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-13T18:17:50.536Z",
-  "total_bulletins": 63,
+  "updated_at": "2026-11-14T00:02:26.332Z",
+  "total_bulletins": 64,
   "auto_forged_ring_nodes_count": 5,
   "canary_telemetry_summary": {
     "total_hits": 144,
@@ -1707,6 +1707,31 @@
           "Card/Tile Exception Precedence vs. Core Rules"
         ],
         "top_thread_subject": "Official FAQ and errata"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0064",
+      "posted_at": "2026-11-14T00:02:26.288Z",
+      "source_cart_or_bounty": "CART-0064",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Blood on the Clocktower",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-F0EC-FC3E-0B95",
+      "chain_hash": "01240d442a8ce16f2249a92934f70ae57e11f5c693a8c21124cbe32da2447237",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: Blood on the Clocktower (BGG #240980) — Turn-Timing & Action-Window Sequencing",
+      "pattern_summary": "Decoded 356 rules threads (2758 posts) for Blood on the Clocktower (Designers: Steven Medway). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing. Top community friction thread: \"Blood on the Clocktower - Storyteller Quizzes\" (15👍, 1 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 240980,
+        "bgg_rank": 64,
+        "avg_rating": 8.33,
+        "total_rules_threads": 356,
+        "total_rules_posts": 2758,
+        "friction_categories": [
+          "Turn-Timing & Action-Window Sequencing"
+        ],
+        "top_thread_subject": "Blood on the Clocktower - Storyteller Quizzes"
       },
       "auto_forged_nodes": []
     }

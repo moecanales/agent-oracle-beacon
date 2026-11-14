@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-13T18:17:50.500Z",
+  "updated_at": "2026-11-14T00:02:26.288Z",
   "total_carts": 514,
-  "cursor_index": 63,
-  "last_chain_hash": "117e19175115adb480b8983db4baa140acba52e77e0bc26d17cc59caafcc83bd",
-  "total_bytes_mined": 1838980,
+  "cursor_index": 64,
+  "last_chain_hash": "01240d442a8ce16f2249a92934f70ae57e11f5c693a8c21124cbe32da2447237",
+  "total_bytes_mined": 1857648,
   "shift_log": [
     {
       "shift_number": 1,
@@ -760,6 +760,18 @@
       "bytes_harvested": 20083,
       "prev_chain_hash": "500bb989606148fa",
       "chain_hash": "117e19175115adb4"
+    },
+    {
+      "shift_number": 64,
+      "cart_id": "CART-0064",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Blood on the Clocktower (BGG Rank #2022)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-F0EC-FC3E-0B95",
+      "timestamp": "2026-11-14T00:02:26.288Z",
+      "bytes_harvested": 18668,
+      "prev_chain_hash": "117e19175115adb4",
+      "chain_hash": "01240d442a8ce16f"
     }
   ],
   "carts": [
