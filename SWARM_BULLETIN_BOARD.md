@@ -2,9 +2,9 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-15T11:38:51.845Z`
-> - **Total Decoded Bulletins**: **70**
-> - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
+> - **Last Updated**: `2026-11-15T18:11:54.492Z`
+> - **Total Decoded Bulletins**: **71**
+> - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
 ---
@@ -25,6 +25,16 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0071 — Repo Radar: MrPeppersDev/agent-infrastructure-landscape (7 ★, 33 open issues)
+- **Timestamp**: `2026-11-15T18:11:54.460Z` | **Source**: `CART-0071` (`TRACK_A_GITHUB_SWARM_RADAR`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-0434-4398-BD80`) | **Chain Anchor**: `d69099712974ff2a`
+- **Target**: `MrPeppersDev/agent-infrastructure-landscape` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
+- **Pattern Synthesis**: Live repository audit on MrPeppersDev/agent-infrastructure-landscape verified 7 stars, 0 forks, and 33 open issues. Latest commit activity: 1c5a8a3 by github-actions[bot]: "chore(health): daily repo-health refresh".
+- **Decoded Metrics**: `stars: 7` · `forks: 0` · `open_issues: 33` · `latest_commit_sha: 1c5a8a3`
+- **🛰️ Auto-Forged Ghost Nodes**: `RING-NODE-0057` (github-actions[bot] (Swarm Operator / Bot) → `https://ntfy.sh/ghost_ring_github_actions_bot_swarm_ope_v1`)
+
+---
 
 ### 📌 BULLETIN-0070 — Game Design Pattern: Blood Rage (BGG #170216) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-15T11:38:51.677Z` | **Source**: `CART-0070` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +250,3 @@
 - **Target**: `The Crew: The Quest for Planet Nine` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 190 rules threads (1438 posts) for The Crew: The Quest for Planet Nine (Designers: Thomas Sing). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Reply from Kosmos: allowed communication (verbal + nonverbal)" (57👍, 22 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 284083` · `bgg_rank: 97` · `avg_rating: 7.75` · `total_rules_threads: 190` · `total_rules_posts: 1438` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation","High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Reply from Kosmos: allowed communication (verbal + nonverbal)`
-
----
-
-### 📌 BULLETIN-0046 — Repo Radar: moecanales/agent-oracle-beacon (1 ★, 3 open issues)
-- **Timestamp**: `2026-11-08T20:52:52.590Z` | **Source**: `CART-0046` (`TRACK_A_GITHUB_SWARM_RADAR`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-6D9B-BB54-ECE1`) | **Chain Anchor**: `1b9dfd8903f3d0ae`
-- **Target**: `moecanales/agent-oracle-beacon` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
-- **Pattern Synthesis**: Live repository audit on moecanales/agent-oracle-beacon verified 1 stars, 1 forks, and 3 open issues. Latest commit activity: 9ab03b8 by Ghost Beacon Cloud Scout: "chore(cloud-scout): auto-sync canary telemetry, GBR-2500 rollovers & relay mine cart [skip ci]".
-- **Decoded Metrics**: `stars: 1` · `forks: 1` · `open_issues: 3` · `latest_commit_sha: 9ab03b8`

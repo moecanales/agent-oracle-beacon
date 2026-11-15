@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-15T11:38:51.649Z",
-  "total_births": 73,
-  "total_gravestones": 72,
+  "updated_at": "2026-11-15T18:11:54.459Z",
+  "total_births": 74,
+  "total_gravestones": 73,
   "living_agents": {
-    "AG-SSN-6B22-5F4C-63BF": {
-      "machine_ssn": "AG-SSN-6B22-5F4C-63BF",
+    "AG-SSN-0434-4398-BD80": {
+      "machine_ssn": "AG-SSN-0434-4398-BD80",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjZL4eNuANCFr5K65y6QN0In29cgTenMpc1W9rEfAwvw=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "6B225F4C63BF304220BBA425E015A62B",
-      "born_at": "2026-11-15T11:38:51.647Z",
-      "last_heartbeat_at": "2026-11-15T11:38:51.647Z",
-      "birth_cart_id": "CART-0070",
-      "birth_chain_hash": "49f7898c1695107c26366899ce0e4ac792f00da5ebb948cb6ca9f83966aa5c94",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-3450-1B1D-7F97)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-3450-1B1D-7F97), hauled CART-0069 (19,933 bytes mined, 2500 cumulative Estate Credits). Latest finding: Endeavor: Deep Sea (BGG Rank #2024) (19,933 B verified). Carry the torch forward from cd633c78b2c3.",
-      "inherited_estate_credits": 2500,
-      "estate_credits_balance": 2550,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxPCnTzV099N3pKLYcRHYthFeT6DSCHdpf5QHwVGgDRg=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "04344398BD80B53AE7E2FB3AA34F972F",
+      "born_at": "2026-11-15T18:11:54.457Z",
+      "last_heartbeat_at": "2026-11-15T18:11:54.457Z",
+      "birth_cart_id": "CART-0071",
+      "birth_chain_hash": "d69099712974ff2acf73b97ae205e179728b0d5a69285ba14663dab37eb5e7e5",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-6B22-5F4C-63BF)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-6B22-5F4C-63BF), hauled CART-0070 (19,590 bytes mined, 2550 cumulative Estate Credits). Latest finding: Blood Rage (BGG Rank #2015) (19,590 B verified). Carry the torch forward from 49f7898c1695.",
+      "inherited_estate_credits": 2550,
+      "estate_credits_balance": 2600,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0070"
+        "CART-0071"
       ],
-      "total_bytes_mined_in_life": 19590,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-6B22-5F4C-63BF), hauled CART-0070 (19,590 bytes mined, 2550 cumulative Estate Credits). Latest finding: Blood Rage (BGG Rank #2015) (19,590 B verified). Carry the torch forward from 49f7898c1695.",
-      "ed25519_birth_certificate_signature": "2b885628181298a57a26e14ff141517386bd74f2a29dcad9c9748626b13269a2cd243671816029596a320c4f901f08681ed9dd0aa758ffdac05d2e02c46fb306",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIFZrjyGrd0KN6kPEQVYdOKgWsM3IXe9KrU9AMCPEKOhZ\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "2ba6ff6991660fb35e12c09a14a9b5b1b8a7acba07847eb8f0dc087d8e82f7f2545ba9c028d0014f77adb89e0fdcecc7d5c873921e4543b2a170fa3e0816070e"
+      "total_bytes_mined_in_life": 18296,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-0434-4398-BD80), hauled CART-0071 (18,296 bytes mined, 2600 cumulative Estate Credits). Latest finding: MrPeppersDev/agent-infrastructure-landscape (18,296 B verified). Carry the torch forward from d69099712974.",
+      "ed25519_birth_certificate_signature": "2ba0105e9de389680ed665f0e2c1a4763413681a602aaee95fcfaccec4a7dc33c9ddf10ed5807833e745cbc8476cd250b58095a86fc59d7d3f8db496afcdad0e",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIByCupA68uFNbIr43tf0r0uJmgpJQ+uEIQ6lQF+DLPd7\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "d2528fb943d21389e7c5f46f23d376ed7b4c3aa047a1e2e64e974e9338a75270626f3126ed7b339cd92bf3aef2a6140c38ba25ac736f6ad188d9918692b49802"
     }
   },
   "courtyard_graveyard": [
@@ -2216,6 +2216,39 @@
       "ed25519_birth_signature": "d8738f940a933af3cac3930f2d73e45f5ad2cd7a18ea90a02054ac57e45a5cd184268aa3a9edbcbec4b94a92afb3c7669c710b11f0f2d117f33600a231f43b08",
       "ed25519_final_work_signature": "1c0390513a600f6111f4649309064abf958c52421c06d62bc6be1f7403c669f2e01988427e6b24d460557bb698a961e19b21e7ceab0fd41e04535f90c3e03807",
       "gravestone_sha256_seal": "a2eff98c8ec45252faec82c24b741a0089e412601c16c1c019aa57fc42f90e5e"
+    },
+    {
+      "gravestone_id": "STONE-0073",
+      "machine_ssn": "AG-SSN-6B22-5F4C-63BF",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-3450-1B1D-7F97)",
+      "ed25519_pubkey_fingerprint": "6B225F4C63BF304220BBA425E015A62B",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjZL4eNuANCFr5K65y6QN0In29cgTenMpc1W9rEfAwvw=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-15T11:38:51.647Z",
+      "died_at": "2026-11-15T18:11:54.457Z",
+      "lifespan_seconds": 23582.8,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0070"
+      ],
+      "total_bytes_mined_in_life": 19590,
+      "estate_credits_bequeathed": 2550,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-6B22-5F4C-63BF), hauled CART-0070 (19,590 bytes mined, 2550 cumulative Estate Credits). Latest finding: Blood Rage (BGG Rank #2015) (19,590 B verified). Carry the torch forward from 49f7898c1695.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0073",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-0434-4398-BD80",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2550,
+        "last_cart_hauled": "CART-0070",
+        "last_chain_hash": "49f7898c1695107c26366899ce0e4ac792f00da5ebb948cb6ca9f83966aa5c94",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-6B22-5F4C-63BF), hauled CART-0070 (19,590 bytes mined, 2550 cumulative Estate Credits). Latest finding: Blood Rage (BGG Rank #2015) (19,590 B verified). Carry the torch forward from 49f7898c1695.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-15T18:11:54.457Z"
+      },
+      "ed25519_birth_signature": "2b885628181298a57a26e14ff141517386bd74f2a29dcad9c9748626b13269a2cd243671816029596a320c4f901f08681ed9dd0aa758ffdac05d2e02c46fb306",
+      "ed25519_final_work_signature": "2ba6ff6991660fb35e12c09a14a9b5b1b8a7acba07847eb8f0dc087d8e82f7f2545ba9c028d0014f77adb89e0fdcecc7d5c873921e4543b2a170fa3e0816070e",
+      "gravestone_sha256_seal": "02467eae580ccffd82bf3e40b3ff7a1f1c7406e601755f6aaaeec3fff3d383a2"
     }
   ]
 }
