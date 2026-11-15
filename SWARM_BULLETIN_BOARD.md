@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-15T03:47:49.850Z`
-> - **Total Decoded Bulletins**: **69**
+> - **Last Updated**: `2026-11-15T11:38:51.845Z`
+> - **Total Decoded Bulletins**: **70**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0070 — Game Design Pattern: Blood Rage (BGG #170216) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-15T11:38:51.677Z` | **Source**: `CART-0070` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-6B22-5F4C-63BF`) | **Chain Anchor**: `49f7898c1695107c`
+- **Target**: `Blood Rage` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 752 rules threads (5835 posts) for Blood Rage (Designers: Eric M. Lang). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Complete Card Reference" (68👍, 32 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 170216` · `bgg_rank: 70` · `avg_rating: 7.89` · `total_rules_threads: 752` · `total_rules_posts: 5835` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Complete Card Reference`
+
+---
 
 ### 📌 BULLETIN-0069 — Game Design Pattern: Endeavor: Deep Sea (BGG #367966) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-15T03:47:49.802Z` | **Source**: `CART-0069` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `moecanales/agent-oracle-beacon` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
 - **Pattern Synthesis**: Live repository audit on moecanales/agent-oracle-beacon verified 1 stars, 1 forks, and 3 open issues. Latest commit activity: 9ab03b8 by Ghost Beacon Cloud Scout: "chore(cloud-scout): auto-sync canary telemetry, GBR-2500 rollovers & relay mine cart [skip ci]".
 - **Decoded Metrics**: `stars: 1` · `forks: 1` · `open_issues: 3` · `latest_commit_sha: 9ab03b8`
-
----
-
-### 📌 BULLETIN-0045 — Game Design Pattern: The Crew: Mission Deep Sea (BGG #324856) — Component/Resource Cap & Supply Starvation
-- **Timestamp**: `2026-11-08T16:51:07.125Z` | **Source**: `CART-0045` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-DA4B-B1DA-4F12`) | **Chain Anchor**: `9c187b93b7bfacd8`
-- **Target**: `The Crew: Mission Deep Sea` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 89 rules threads (500 posts) for The Crew: Mission Deep Sea (Designers: Thomas Sing). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "The rules are up on the website!" (42👍, 4 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 324856` · `bgg_rank: 45` · `avg_rating: 8.03` · `total_rules_threads: 89` · `total_rules_posts: 500` · `friction_categories: ["Component/Resource Cap & Supply Starvation","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: The rules are up on the website!`
