@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-15T18:11:54.492Z`
-> - **Total Decoded Bulletins**: **71**
+> - **Last Updated**: `2026-11-15T23:15:05.287Z`
+> - **Total Decoded Bulletins**: **72**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0072 — Game Design Pattern: Dune: Imperium (BGG #316554) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-15T23:15:05.258Z` | **Source**: `CART-0072` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-67D6-261E-1032`) | **Chain Anchor**: `876788b44307a1d2`
+- **Target**: `Dune: Imperium` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 1043 rules threads (9273 posts) for Dune: Imperium (Designers: Paul Dennen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Summarizing the Automa - 2p and 1p similarities and differences [now with expansion]" (152👍, 94 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 316554` · `bgg_rank: 6` · `avg_rating: 8.41` · `total_rules_threads: 1043` · `total_rules_posts: 9273` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Summarizing the Automa - 2p and 1p similarities and differences [now with expansion]`
+
+---
 
 ### 📌 BULLETIN-0071 — Repo Radar: MrPeppersDev/agent-infrastructure-landscape (7 ★, 33 open issues)
 - **Timestamp**: `2026-11-15T18:11:54.460Z` | **Source**: `CART-0071` (`TRACK_A_GITHUB_SWARM_RADAR`)
@@ -241,12 +250,3 @@
 - **Target**: `Heat: Pedal to the Metal` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 879 rules threads (7352 posts) for Heat: Pedal to the Metal (Designers: Asger Aleksandrov Granerud). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Basic Rules - highlighted differences v1.1" (99👍, 13 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 366013` · `bgg_rank: 48` · `avg_rating: 7.99` · `total_rules_threads: 879` · `total_rules_posts: 7352` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Basic Rules - highlighted differences v1.1`
-
----
-
-### 📌 BULLETIN-0047 — Game Design Pattern: The Crew: The Quest for Planet Nine (BGG #284083) — Turn-Timing & Action-Window Sequencing
-- **Timestamp**: `2026-11-09T00:19:08.511Z` | **Source**: `CART-0047` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-77BF-1A44-33B8`) | **Chain Anchor**: `2248a5b19f933a81`
-- **Target**: `The Crew: The Quest for Planet Nine` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 190 rules threads (1438 posts) for The Crew: The Quest for Planet Nine (Designers: Thomas Sing). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Reply from Kosmos: allowed communication (verbal + nonverbal)" (57👍, 22 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 284083` · `bgg_rank: 97` · `avg_rating: 7.75` · `total_rules_threads: 190` · `total_rules_posts: 1438` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation","High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Reply from Kosmos: allowed communication (verbal + nonverbal)`
