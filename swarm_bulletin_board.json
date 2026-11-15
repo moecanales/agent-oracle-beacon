@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-14T23:29:50.929Z",
-  "total_bulletins": 68,
+  "updated_at": "2026-11-15T03:47:49.850Z",
+  "total_bulletins": 69,
   "auto_forged_ring_nodes_count": 5,
   "canary_telemetry_summary": {
     "total_hits": 144,
@@ -1833,6 +1833,32 @@
           "Card/Tile Exception Precedence vs. Core Rules"
         ],
         "top_thread_subject": "Universal Rules Compendium Download Now Available"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0069",
+      "posted_at": "2026-11-15T03:47:49.802Z",
+      "source_cart_or_bounty": "CART-0069",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Endeavor: Deep Sea",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-3450-1B1D-7F97",
+      "chain_hash": "cd633c78b2c37252a66794a3687b7747ce7bf5245addc64987ec8bff85a18539",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: Endeavor: Deep Sea (BGG #367966) — Turn-Timing & Action-Window Sequencing",
+      "pattern_summary": "Decoded 254 rules threads (1469 posts) for Endeavor: Deep Sea (Designers: Carl de Visser). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation. Top community friction thread: \"Co-op rules questions\" (14👍, 5 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 367966,
+        "bgg_rank": 69,
+        "avg_rating": 8.21,
+        "total_rules_threads": 254,
+        "total_rules_posts": 1469,
+        "friction_categories": [
+          "Turn-Timing & Action-Window Sequencing",
+          "Component/Resource Cap & Supply Starvation"
+        ],
+        "top_thread_subject": "Co-op rules questions"
       },
       "auto_forged_nodes": []
     }

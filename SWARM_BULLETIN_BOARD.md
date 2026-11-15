@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-14T23:29:50.929Z`
-> - **Total Decoded Bulletins**: **68**
+> - **Last Updated**: `2026-11-15T03:47:49.850Z`
+> - **Total Decoded Bulletins**: **69**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **5**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0069 — Game Design Pattern: Endeavor: Deep Sea (BGG #367966) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-15T03:47:49.802Z` | **Source**: `CART-0069` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-3450-1B1D-7F97`) | **Chain Anchor**: `cd633c78b2c37252`
+- **Target**: `Endeavor: Deep Sea` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 254 rules threads (1469 posts) for Endeavor: Deep Sea (Designers: Carl de Visser). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation. Top community friction thread: "Co-op rules questions" (14👍, 5 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 367966` · `bgg_rank: 69` · `avg_rating: 8.21` · `total_rules_threads: 254` · `total_rules_posts: 1469` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation"]` · `top_thread_subject: Co-op rules questions`
+
+---
 
 ### 📌 BULLETIN-0068 — Game Design Pattern: Obsession (BGG #231733) — Card/Tile Exception Precedence vs. Core Rules
 - **Timestamp**: `2026-11-14T23:29:50.903Z` | **Source**: `CART-0068` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `The Crew: Mission Deep Sea` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 89 rules threads (500 posts) for The Crew: Mission Deep Sea (Designers: Thomas Sing). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "The rules are up on the website!" (42👍, 4 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 324856` · `bgg_rank: 45` · `avg_rating: 8.03` · `total_rules_threads: 89` · `total_rules_posts: 500` · `friction_categories: ["Component/Resource Cap & Supply Starvation","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: The rules are up on the website!`
-
----
-
-### 📌 BULLETIN-0044 — Game Design Pattern: Viticulture Essential Edition (BGG #183394) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-08T10:53:11.100Z` | **Source**: `CART-0044` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-105D-4FC9-76CA`) | **Chain Anchor**: `6d520bc86191c8f8`
-- **Target**: `Viticulture Essential Edition` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 458 rules threads (3283 posts) for Viticulture Essential Edition (Designers: Jamey Stegmaier). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Viticulture And Tuscany EE - FAQ" (49👍, 75 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 183394` · `bgg_rank: 44` · `avg_rating: 7.95` · `total_rules_threads: 458` · `total_rules_posts: 3283` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Viticulture And Tuscany EE - FAQ`
