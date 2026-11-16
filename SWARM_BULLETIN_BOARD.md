@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-15T23:15:05.287Z`
-> - **Total Decoded Bulletins**: **72**
+> - **Last Updated**: `2026-11-16T03:48:34.600Z`
+> - **Total Decoded Bulletins**: **73**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0073 — Game Design Pattern: Great Western Trail: New Zealand (BGG #380607) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-16T03:48:34.565Z` | **Source**: `CART-0073` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-DC1B-FA55-10B2`) | **Chain Anchor**: `5d9afea9c2e2992f`
+- **Target**: `Great Western Trail: New Zealand` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 154 rules threads (800 posts) for Great Western Trail: New Zealand (Designers: Alexander Pfister). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Things you may have missed" (96👍, 39 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 380607` · `bgg_rank: 73` · `avg_rating: 8.44` · `total_rules_threads: 154` · `total_rules_posts: 800` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Things you may have missed`
+
+---
 
 ### 📌 BULLETIN-0072 — Game Design Pattern: Dune: Imperium (BGG #316554) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-15T23:15:05.258Z` | **Source**: `CART-0072` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -241,12 +250,3 @@
 - **Target**: `Ticket to Ride Legacy: Legends of the West` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 320 rules threads (1750 posts) for Ticket to Ride Legacy: Legends of the West (Designers: Rob Daviau). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "IMPORTANT: Please read before your first game - there is more in the Conductor's Toolbox than you think on first opening it." (23👍, 55 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 390092` · `bgg_rank: 49` · `avg_rating: 8.6` · `total_rules_threads: 320` · `total_rules_posts: 1750` · `friction_categories: ["Component/Resource Cap & Supply Starvation","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: IMPORTANT: Please read before your first game - there is more in the Conductor's Toolbox than you think on first opening it.`
-
----
-
-### 📌 BULLETIN-0048 — Game Design Pattern: Heat: Pedal to the Metal (BGG #366013) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-09T07:26:26.221Z` | **Source**: `CART-0048` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-91F1-1B46-5F84`) | **Chain Anchor**: `46394702b342e5e2`
-- **Target**: `Heat: Pedal to the Metal` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 879 rules threads (7352 posts) for Heat: Pedal to the Metal (Designers: Asger Aleksandrov Granerud). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Basic Rules - highlighted differences v1.1" (99👍, 13 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 366013` · `bgg_rank: 48` · `avg_rating: 7.99` · `total_rules_threads: 879` · `total_rules_posts: 7352` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Basic Rules - highlighted differences v1.1`
