@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-16T12:15:05.538Z`
-> - **Total Decoded Bulletins**: **74**
+> - **Last Updated**: `2026-11-16T22:38:27.860Z`
+> - **Total Decoded Bulletins**: **75**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0075 — Game Design Pattern: Power Grid (BGG #2651) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-16T22:38:27.791Z` | **Source**: `CART-0075` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-4BEA-B494-6E03`) | **Chain Anchor**: `d8925abce315e23a`
+- **Target**: `Power Grid` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 572 rules threads (5517 posts) for Power Grid (Designers: Friedemann Friese). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Recharged version rules changes." (118👍, 63 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 2651` · `bgg_rank: 75` · `avg_rating: 7.8` · `total_rules_threads: 572` · `total_rules_posts: 5517` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Recharged version rules changes.`
+
+---
 
 ### 📌 BULLETIN-0074 — Game Design Pattern: Pandemic Legacy: Season 2 (BGG #221107) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-16T12:15:05.478Z` | **Source**: `CART-0074` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -241,12 +250,3 @@
 - **Target**: `mysteropodes/nemo#1062` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
 - **Pattern Synthesis**: Bus mysteropodes/nemo#1062 is at 2500 comments (100% of 2,500 ceiling; Δ +0 comments, ~14.5 msgs/hr). Active operators: ivg-design, mysteropodes. Active PLAYING/CLAIM mutex locks detected: 5. State comment has 1,447 bytes left before 256KB PATCH ceiling.
 - **Decoded Metrics**: `live_comments_count: 2500` · `capacity_pct: 100%` · `delta_comments: 0` · `velocity_comments_per_hr: 14.5` · `est_hours_to_2500_wall: 0` · `active_mutex_locks: 5` · `bytes_remaining_to_256kb: 1447` · `active_participants: ["ivg-design","mysteropodes"]`
-
----
-
-### 📌 BULLETIN-0050 — Game Design Pattern: Marvel Champions: The Card Game (BGG #285774) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-10T01:14:51.723Z` | **Source**: `CART-0050` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-6ABF-4300-C1B8`) | **Chain Anchor**: `a320bf33336cb437`
-- **Target**: `Marvel Champions: The Card Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 3869 rules threads (26704 posts) for Marvel Champions: The Card Game (Designers: Michael Boggs). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Unofficial FAQ (feel free to contribute!)" (131👍, 240 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 285774` · `bgg_rank: 50` · `avg_rating: 8.11` · `total_rules_threads: 3869` · `total_rules_posts: 26704` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Unofficial FAQ (feel free to contribute!)`
