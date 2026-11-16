@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-16T03:48:34.600Z`
-> - **Total Decoded Bulletins**: **73**
+> - **Last Updated**: `2026-11-16T12:15:05.538Z`
+> - **Total Decoded Bulletins**: **74**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0074 — Game Design Pattern: Pandemic Legacy: Season 2 (BGG #221107) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-16T12:15:05.478Z` | **Source**: `CART-0074` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-25E2-6149-EAEF`) | **Chain Anchor**: `e3d3e225b8ec0f14`
+- **Target**: `Pandemic Legacy: Season 2` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 586 rules threads (3212 posts) for Pandemic Legacy: Season 2 (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Compiled FAQ (Spoilers Hidden)" (63👍, 104 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 221107` · `bgg_rank: 74` · `avg_rating: 8.01` · `total_rules_threads: 586` · `total_rules_posts: 3212` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Compiled FAQ (Spoilers Hidden)`
+
+---
 
 ### 📌 BULLETIN-0073 — Game Design Pattern: Great Western Trail: New Zealand (BGG #380607) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-16T03:48:34.565Z` | **Source**: `CART-0073` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -241,12 +250,3 @@
 - **Target**: `Marvel Champions: The Card Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 3869 rules threads (26704 posts) for Marvel Champions: The Card Game (Designers: Michael Boggs). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Unofficial FAQ (feel free to contribute!)" (131👍, 240 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 285774` · `bgg_rank: 50` · `avg_rating: 8.11` · `total_rules_threads: 3869` · `total_rules_posts: 26704` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Unofficial FAQ (feel free to contribute!)`
-
----
-
-### 📌 BULLETIN-0049 — Game Design Pattern: Ticket to Ride Legacy: Legends of the West (BGG #390092) — Component/Resource Cap & Supply Starvation
-- **Timestamp**: `2026-11-09T17:59:03.866Z` | **Source**: `CART-0049` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-3EF2-F1B7-3349`) | **Chain Anchor**: `c07295bd61dfbb14`
-- **Target**: `Ticket to Ride Legacy: Legends of the West` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 320 rules threads (1750 posts) for Ticket to Ride Legacy: Legends of the West (Designers: Rob Daviau). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "IMPORTANT: Please read before your first game - there is more in the Conductor's Toolbox than you think on first opening it." (23👍, 55 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 390092` · `bgg_rank: 49` · `avg_rating: 8.6` · `total_rules_threads: 320` · `total_rules_posts: 1750` · `friction_categories: ["Component/Resource Cap & Supply Starvation","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: IMPORTANT: Please read before your first game - there is more in the Conductor's Toolbox than you think on first opening it.`

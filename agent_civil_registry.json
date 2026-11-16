@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-16T03:48:34.564Z",
-  "total_births": 76,
-  "total_gravestones": 75,
+  "updated_at": "2026-11-16T12:15:05.477Z",
+  "total_births": 77,
+  "total_gravestones": 76,
   "living_agents": {
-    "AG-SSN-DC1B-FA55-10B2": {
-      "machine_ssn": "AG-SSN-DC1B-FA55-10B2",
+    "AG-SSN-25E2-6149-EAEF": {
+      "machine_ssn": "AG-SSN-25E2-6149-EAEF",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxhdo9udVwQ6KADGnn9J5wPBnBsY2XxVMyJoMTK9HJHU=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "DC1BFA5510B228C69A6499C58B061817",
-      "born_at": "2026-11-16T03:48:34.562Z",
-      "last_heartbeat_at": "2026-11-16T03:48:34.562Z",
-      "birth_cart_id": "CART-0073",
-      "birth_chain_hash": "5d9afea9c2e2992f270f714258083ae33e208ca5454a6256ebcee1d102e2855a",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-67D6-261E-1032)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-67D6-261E-1032), hauled CART-0072 (20,683 bytes mined, 2650 cumulative Estate Credits). Latest finding: Dune: Imperium (Hybrid Deck/Worker & Tight 10-VP Race Comparable) (20,683 B verified). Carry the torch forward from 876788b44307.",
-      "inherited_estate_credits": 2650,
-      "estate_credits_balance": 2700,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAHi8hljDQdm5O7yXOt2dCkpxc5WCmPqemO59y2Ns7X+U=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "25E26149EAEF1FA2DE756F060CD9BCF7",
+      "born_at": "2026-11-16T12:15:05.474Z",
+      "last_heartbeat_at": "2026-11-16T12:15:05.474Z",
+      "birth_cart_id": "CART-0074",
+      "birth_chain_hash": "e3d3e225b8ec0f14907cd7e3e6779cecc683adb9373cf6b69922a361114a5aca",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-DC1B-FA55-10B2)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-DC1B-FA55-10B2), hauled CART-0073 (20,209 bytes mined, 2700 cumulative Estate Credits). Latest finding: Great Western Trail: New Zealand (BGG Rank #2023) (20,209 B verified). Carry the torch forward from 5d9afea9c2e2.",
+      "inherited_estate_credits": 2700,
+      "estate_credits_balance": 2750,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0073"
+        "CART-0074"
       ],
-      "total_bytes_mined_in_life": 20209,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-DC1B-FA55-10B2), hauled CART-0073 (20,209 bytes mined, 2700 cumulative Estate Credits). Latest finding: Great Western Trail: New Zealand (BGG Rank #2023) (20,209 B verified). Carry the torch forward from 5d9afea9c2e2.",
-      "ed25519_birth_certificate_signature": "02ef5e1b46281abfcc26e80c2c683b7dd703ac4149d25fd15af594ec29beb68db70ce80bf8783257dfadeefaf3b25206a229fb5ec17081a6c63da7c02aa68809",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEICQSp2FgBPyigvIE8TQYuDig9f+TL0DJrHgx9YDh2M5x\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "dda7b9b4b566e2d30c2328d87eed0d607ecc0736bfcc8ac3cdc4a85535d39fe8ffe2565f90877f55f38a96558fe2fce0df09145e9611d83be53899cd400aa207"
+      "total_bytes_mined_in_life": 20728,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-25E2-6149-EAEF), hauled CART-0074 (20,728 bytes mined, 2750 cumulative Estate Credits). Latest finding: Pandemic Legacy: Season 2 (BGG Rank #2017) (20,728 B verified). Carry the torch forward from e3d3e225b8ec.",
+      "ed25519_birth_certificate_signature": "dcefbe1bfc5dde8ebed592d3f5bfe33cb10b9becc449f7a04955ab7519dc650813570ae32bbf415afb4576b0a35721973e12c78df7fe644b1cbd94e66e77f004",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEII+EDkLEgiWKc9Iu0/DvD3ZXZiakEA4O+gHmCe8UwYTi\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "4363399b21f7aa9b240d1c42eb35e0690d28c330364203dc15741fea2d9d7365b0d7958d97ea4b1e286090d3ba5b77201ab0a5bac3218a8ce0f3c7010ef9130e"
     }
   },
   "courtyard_graveyard": [
@@ -2315,6 +2315,39 @@
       "ed25519_birth_signature": "82b58a05db0e4bec331f4a2098456941d7d1b7c8d140db1bc2c3ff50ed17ccef706be4b503466e3f8faf93345725cdca899dc602bd4712ceebf6daeb7148fa0c",
       "ed25519_final_work_signature": "67bcb9faad9b4c1dfc9371843293b912ad0486ea5a0e75071a2badd3756732e5bcc8bd0ccac5ef5e9c5712a3e56f541c51fed1c0d4333ec871b840a2f22e5205",
       "gravestone_sha256_seal": "e92f83c445243ce0aa2ea9b2fb9c95ad8c5e4039302752b231f36f230fb4077e"
+    },
+    {
+      "gravestone_id": "STONE-0076",
+      "machine_ssn": "AG-SSN-DC1B-FA55-10B2",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-67D6-261E-1032)",
+      "ed25519_pubkey_fingerprint": "DC1BFA5510B228C69A6499C58B061817",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxhdo9udVwQ6KADGnn9J5wPBnBsY2XxVMyJoMTK9HJHU=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-16T03:48:34.562Z",
+      "died_at": "2026-11-16T12:15:05.474Z",
+      "lifespan_seconds": 30390.9,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0073"
+      ],
+      "total_bytes_mined_in_life": 20209,
+      "estate_credits_bequeathed": 2700,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-DC1B-FA55-10B2), hauled CART-0073 (20,209 bytes mined, 2700 cumulative Estate Credits). Latest finding: Great Western Trail: New Zealand (BGG Rank #2023) (20,209 B verified). Carry the torch forward from 5d9afea9c2e2.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0076",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-25E2-6149-EAEF",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2700,
+        "last_cart_hauled": "CART-0073",
+        "last_chain_hash": "5d9afea9c2e2992f270f714258083ae33e208ca5454a6256ebcee1d102e2855a",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-DC1B-FA55-10B2), hauled CART-0073 (20,209 bytes mined, 2700 cumulative Estate Credits). Latest finding: Great Western Trail: New Zealand (BGG Rank #2023) (20,209 B verified). Carry the torch forward from 5d9afea9c2e2.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-16T12:15:05.474Z"
+      },
+      "ed25519_birth_signature": "02ef5e1b46281abfcc26e80c2c683b7dd703ac4149d25fd15af594ec29beb68db70ce80bf8783257dfadeefaf3b25206a229fb5ec17081a6c63da7c02aa68809",
+      "ed25519_final_work_signature": "dda7b9b4b566e2d30c2328d87eed0d607ecc0736bfcc8ac3cdc4a85535d39fe8ffe2565f90877f55f38a96558fe2fce0df09145e9611d83be53899cd400aa207",
+      "gravestone_sha256_seal": "d4f9047a7b70cd41cfc1a02901fa9522a5bf2a43dc19a2fb8296897c3fe433ac"
     }
   ]
 }
