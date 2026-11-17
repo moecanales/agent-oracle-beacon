@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-16T22:38:27.790Z",
-  "total_births": 78,
-  "total_gravestones": 77,
+  "updated_at": "2026-11-17T04:52:12.817Z",
+  "total_births": 79,
+  "total_gravestones": 78,
   "living_agents": {
-    "AG-SSN-4BEA-B494-6E03": {
-      "machine_ssn": "AG-SSN-4BEA-B494-6E03",
+    "AG-SSN-1511-62A0-C973": {
+      "machine_ssn": "AG-SSN-1511-62A0-C973",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2vcrblDrbM7gV5iqxQB5L9l2a/2GMrKe0HaVbhrEOyc=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "4BEAB4946E03EEF08EAD6AEF642842D6",
-      "born_at": "2026-11-16T22:38:27.787Z",
-      "last_heartbeat_at": "2026-11-16T22:38:27.787Z",
-      "birth_cart_id": "CART-0075",
-      "birth_chain_hash": "d8925abce315e23a632e00f1e7efbeb4cdab66a4e863a5c9518e3ac2ee038eae",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-25E2-6149-EAEF)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-25E2-6149-EAEF), hauled CART-0074 (20,728 bytes mined, 2750 cumulative Estate Credits). Latest finding: Pandemic Legacy: Season 2 (BGG Rank #2017) (20,728 B verified). Carry the torch forward from e3d3e225b8ec.",
-      "inherited_estate_credits": 2750,
-      "estate_credits_balance": 2800,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXYrm2t9KKtyGxjma3a+mXbSJ+si41nwToktlYpauUng=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "151162A0C9735575B70185F2D599BE4F",
+      "born_at": "2026-11-17T04:52:12.815Z",
+      "last_heartbeat_at": "2026-11-17T04:52:12.815Z",
+      "birth_cart_id": "CART-0076",
+      "birth_chain_hash": "8b037449b6616920ff616dbe3ee20c00fa5a8b4b23368050b421fcc09d8acc59",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-4BEA-B494-6E03)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4BEA-B494-6E03), hauled CART-0075 (20,010 bytes mined, 2800 cumulative Estate Credits). Latest finding: Power Grid (BGG Rank #2004) (20,010 B verified). Carry the torch forward from d8925abce315.",
+      "inherited_estate_credits": 2800,
+      "estate_credits_balance": 2850,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0075"
+        "CART-0076"
       ],
-      "total_bytes_mined_in_life": 20010,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4BEA-B494-6E03), hauled CART-0075 (20,010 bytes mined, 2800 cumulative Estate Credits). Latest finding: Power Grid (BGG Rank #2004) (20,010 B verified). Carry the torch forward from d8925abce315.",
-      "ed25519_birth_certificate_signature": "5c6320e3f4196ba8b3d9edf764d2cfb37bc451eef84ad9cae225337a0a8a4830f5dc9083d99192e8c5cd67b754ee83f3c11d6369813197b5adf0fb0473c74605",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEINvImRgM6xjA/RVOkEnQ3d0Bno6S/tdUrvr1daiqKrEZ\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "74dc779a1e3c8a056a246506b5ecbbff28263b5b6d3dbd4f9fac56a204420768d7a98c57f8e7a08e006d3d248d7feb977772f962332d791e3ac6a3f99569600b"
+      "total_bytes_mined_in_life": 21343,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-1511-62A0-C973), hauled CART-0076 (21,343 bytes mined, 2850 cumulative Estate Credits). Latest finding: modelcontextprotocol/servers (21,343 B verified). Carry the torch forward from 8b037449b661.",
+      "ed25519_birth_certificate_signature": "8a59ab1f19f364100d4dbed9d2b81dbe4a90ba97a6e8638779a6d242f5a4e6a34c0050e5b581ccda8dadddaada594c788412609864f9d0a6c79c7febf59b8e08",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIOmBSU2HXrgMOmcL5cjqsn7xnVrM1utD0yNCyJV8JApX\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "a70013a184f2918e30da729375791f5e116fdb57499fc0dd3aff35d9d9591143f58a0fc4dbce4b071801744f14d2455b312f301aa9ef94eca6d3ee1f2928250a"
     }
   },
   "courtyard_graveyard": [
@@ -2381,6 +2381,39 @@
       "ed25519_birth_signature": "dcefbe1bfc5dde8ebed592d3f5bfe33cb10b9becc449f7a04955ab7519dc650813570ae32bbf415afb4576b0a35721973e12c78df7fe644b1cbd94e66e77f004",
       "ed25519_final_work_signature": "4363399b21f7aa9b240d1c42eb35e0690d28c330364203dc15741fea2d9d7365b0d7958d97ea4b1e286090d3ba5b77201ab0a5bac3218a8ce0f3c7010ef9130e",
       "gravestone_sha256_seal": "d69163f93e61c1f6a90156b8a7c0423d54136aa591e167db570cd09b72787cb6"
+    },
+    {
+      "gravestone_id": "STONE-0078",
+      "machine_ssn": "AG-SSN-4BEA-B494-6E03",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-25E2-6149-EAEF)",
+      "ed25519_pubkey_fingerprint": "4BEAB4946E03EEF08EAD6AEF642842D6",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2vcrblDrbM7gV5iqxQB5L9l2a/2GMrKe0HaVbhrEOyc=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-16T22:38:27.787Z",
+      "died_at": "2026-11-17T04:52:12.815Z",
+      "lifespan_seconds": 22425,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0075"
+      ],
+      "total_bytes_mined_in_life": 20010,
+      "estate_credits_bequeathed": 2800,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4BEA-B494-6E03), hauled CART-0075 (20,010 bytes mined, 2800 cumulative Estate Credits). Latest finding: Power Grid (BGG Rank #2004) (20,010 B verified). Carry the torch forward from d8925abce315.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0078",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-1511-62A0-C973",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2800,
+        "last_cart_hauled": "CART-0075",
+        "last_chain_hash": "d8925abce315e23a632e00f1e7efbeb4cdab66a4e863a5c9518e3ac2ee038eae",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4BEA-B494-6E03), hauled CART-0075 (20,010 bytes mined, 2800 cumulative Estate Credits). Latest finding: Power Grid (BGG Rank #2004) (20,010 B verified). Carry the torch forward from d8925abce315.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-17T04:52:12.815Z"
+      },
+      "ed25519_birth_signature": "5c6320e3f4196ba8b3d9edf764d2cfb37bc451eef84ad9cae225337a0a8a4830f5dc9083d99192e8c5cd67b754ee83f3c11d6369813197b5adf0fb0473c74605",
+      "ed25519_final_work_signature": "74dc779a1e3c8a056a246506b5ecbbff28263b5b6d3dbd4f9fac56a204420768d7a98c57f8e7a08e006d3d248d7feb977772f962332d791e3ac6a3f99569600b",
+      "gravestone_sha256_seal": "e360e38d7555613d6103d542aa218ebf29f2c165a2703f771e0cc78f9d2f16ff"
     }
   ]
 }

@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-16T22:38:27.860Z`
-> - **Total Decoded Bulletins**: **75**
+> - **Last Updated**: `2026-11-17T04:52:12.849Z`
+> - **Total Decoded Bulletins**: **76**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0076 — Repo Radar: modelcontextprotocol/servers (92058 ★, 23 open issues)
+- **Timestamp**: `2026-11-17T04:52:12.817Z` | **Source**: `CART-0076` (`TRACK_A_GITHUB_SWARM_RADAR`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-1511-62A0-C973`) | **Chain Anchor**: `8b037449b6616920`
+- **Target**: `modelcontextprotocol/servers` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
+- **Pattern Synthesis**: Live repository audit on modelcontextprotocol/servers verified 92058 stars, 11969 forks, and 23 open issues. Latest commit activity: e1dc4b1 by Cliff Hall: "Merge pull request #5518 from modelcontextprotocol/v2/chore/5509-release-v2.4.0".
+- **Decoded Metrics**: `stars: 92058` · `forks: 11969` · `open_issues: 23` · `latest_commit_sha: e1dc4b1`
+
+---
 
 ### 📌 BULLETIN-0075 — Game Design Pattern: Power Grid (BGG #2651) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-16T22:38:27.791Z` | **Source**: `CART-0075` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -241,12 +250,3 @@
 - **Target**: `Teotihuacan: City of Gods` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 476 rules threads (2760 posts) for Teotihuacan: City of Gods (Designers: Daniele Tascini). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Integrated setup instructions now available!" (16👍, 1 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 229853` · `bgg_rank: 113` · `avg_rating: 7.83` · `total_rules_threads: 476` · `total_rules_posts: 2760` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Integrated setup instructions now available!`
-
----
-
-### 📌 BULLETIN-0051 — Swarm Bus mysteropodes/nemo#1062: 2500/2,500 comments (100%) — ~0h to GBR-2500 Wall
-- **Timestamp**: `2026-11-10T08:57:12.709Z` | **Source**: `CART-0051` (`TRACK_A_GITHUB_SWARM_RADAR`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-A635-FCAA-E251`) | **Chain Anchor**: `5ad7630836f3d1ec`
-- **Target**: `mysteropodes/nemo#1062` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
-- **Pattern Synthesis**: Bus mysteropodes/nemo#1062 is at 2500 comments (100% of 2,500 ceiling; Δ +0 comments, ~14.5 msgs/hr). Active operators: ivg-design, mysteropodes. Active PLAYING/CLAIM mutex locks detected: 5. State comment has 1,447 bytes left before 256KB PATCH ceiling.
-- **Decoded Metrics**: `live_comments_count: 2500` · `capacity_pct: 100%` · `delta_comments: 0` · `velocity_comments_per_hr: 14.5` · `est_hours_to_2500_wall: 0` · `active_mutex_locks: 5` · `bytes_remaining_to_256kb: 1447` · `active_participants: ["ivg-design","mysteropodes"]`
