@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-17T13:58:25.924Z`
-> - **Total Decoded Bulletins**: **77**
+> - **Last Updated**: `2026-11-17T22:02:00.812Z`
+> - **Total Decoded Bulletins**: **78**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0078 — Game Design Pattern: Voidfall (BGG #337627) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-17T22:02:00.775Z` | **Source**: `CART-0078` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F21D-31D7-D7C5`) | **Chain Anchor**: `939ad73d06ffc058`
+- **Target**: `Voidfall` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 791 rules threads (4841 posts) for Voidfall (Designers: Nigel Buckle). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "FAQ / Errata (unoffical)" (47👍, 50 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 337627` · `bgg_rank: 78` · `avg_rating: 8.5` · `total_rules_threads: 791` · `total_rules_posts: 4841` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: FAQ / Errata (unoffical)`
+
+---
 
 ### 📌 BULLETIN-0077 — Game Design Pattern: Ark Nova (BGG #342942) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-17T13:58:25.892Z` | **Source**: `CART-0077` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -241,12 +250,3 @@
 - **Target**: `Underwater Cities` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 287 rules threads (1580 posts) for Underwater Cities (Designers: Vladimír Suchý). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "FAQs and Errata" (33👍, 26 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 247763` · `bgg_rank: 54` · `avg_rating: 8.04` · `total_rules_threads: 287` · `total_rules_posts: 1580` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: FAQs and Errata`
-
----
-
-### 📌 BULLETIN-0053 — Game Design Pattern: Food Chain Magnate (BGG #175914) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-10T22:02:37.003Z` | **Source**: `CART-0053` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-8426-E459-03A6`) | **Chain Anchor**: `c7f4fa857ed1c882`
-- **Target**: `Food Chain Magnate` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 398 rules threads (3226 posts) for Food Chain Magnate (Designers: Jeroen Doumen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "FAQs about FCM" (52👍, 38 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 175914` · `bgg_rank: 53` · `avg_rating: 8.03` · `total_rules_threads: 398` · `total_rules_posts: 3226` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: FAQs about FCM`

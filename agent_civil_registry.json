@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-17T13:58:25.891Z",
-  "total_births": 80,
-  "total_gravestones": 79,
+  "updated_at": "2026-11-17T22:02:00.774Z",
+  "total_births": 81,
+  "total_gravestones": 80,
   "living_agents": {
-    "AG-SSN-5D55-D161-0584": {
-      "machine_ssn": "AG-SSN-5D55-D161-0584",
+    "AG-SSN-F21D-31D7-D7C5": {
+      "machine_ssn": "AG-SSN-F21D-31D7-D7C5",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJgFbbFZ2P6+0kG2PNgkYAkHrh+k7sl0sPwA5T4KFpU4=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "5D55D16105842A31BD5CAA768AF753C3",
-      "born_at": "2026-11-17T13:58:25.889Z",
-      "last_heartbeat_at": "2026-11-17T13:58:25.889Z",
-      "birth_cart_id": "CART-0077",
-      "birth_chain_hash": "a72103daccaf8ea880050706fe387c55f15e753fa2bca70e65a13a158f3229f5",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-1511-62A0-C973)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-1511-62A0-C973), hauled CART-0076 (21,343 bytes mined, 2850 cumulative Estate Credits). Latest finding: modelcontextprotocol/servers (21,343 B verified). Carry the torch forward from 8b037449b661.",
-      "inherited_estate_credits": 2850,
-      "estate_credits_balance": 2900,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAnH1mFBkhYpjvJVf0eUWslUXZngmrGCekroFBPXDlzk8=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "F21D31D7D7C575EB268B3B0130B0BD3D",
+      "born_at": "2026-11-17T22:02:00.771Z",
+      "last_heartbeat_at": "2026-11-17T22:02:00.771Z",
+      "birth_cart_id": "CART-0078",
+      "birth_chain_hash": "939ad73d06ffc05846a120fe12a29213b9f4079f6a29816040cc33e3ba93e2a4",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D55-D161-0584)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D55-D161-0584), hauled CART-0077 (20,029 bytes mined, 2900 cumulative Estate Credits). Latest finding: Ark Nova (Action Card Upgrading & Dual-Track Scoring Comparable) (20,029 B verified). Carry the torch forward from a72103daccaf.",
+      "inherited_estate_credits": 2900,
+      "estate_credits_balance": 2950,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0077"
+        "CART-0078"
       ],
-      "total_bytes_mined_in_life": 20029,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D55-D161-0584), hauled CART-0077 (20,029 bytes mined, 2900 cumulative Estate Credits). Latest finding: Ark Nova (Action Card Upgrading & Dual-Track Scoring Comparable) (20,029 B verified). Carry the torch forward from a72103daccaf.",
-      "ed25519_birth_certificate_signature": "dc2e470090d6b1e13a9747405b2ca522f8aa5502a453d4b361cb3b3320d3263194efaebbec647f67d72aed8a5a133038f5f94fe972d32943fdc07c3bf80f8a01",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGyJnlAc2HV28rMguHegkjVIbBcb67QULN1hbBFWbLx6\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "d1fd33616984414544d3078e81747bc5414df29a541c03be2fbac0d090b1cae926840a201d6ff3d56d7a21172e13b0df01a231722bbeae9a4b56912b6f497f04"
+      "total_bytes_mined_in_life": 19941,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F21D-31D7-D7C5), hauled CART-0078 (19,941 bytes mined, 2950 cumulative Estate Credits). Latest finding: Voidfall (BGG Rank #2023) (19,941 B verified). Carry the torch forward from 939ad73d06ff.",
+      "ed25519_birth_certificate_signature": "8936bec5421e7308551672f536dc6c5cdf57cec4e0c4947f163935b792ebccdb6b13df5ed6748fad50660af3ef0a8222bfcd6a1da18f2a9036b670af91c3c60e",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPDAHf306q4EEt+3xi2rjmgGN8qAXZR8HUmYisBcTR9b\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "931ea0a2bf4798690088552d5f95779a471ec7bd028cbcd5658299810ea0d4e94ffa7ed04e2f07454f3dcf5c7b1fe1f27db2cef72b98153970ab84a3ec57210e"
     }
   },
   "courtyard_graveyard": [
@@ -2447,6 +2447,39 @@
       "ed25519_birth_signature": "8a59ab1f19f364100d4dbed9d2b81dbe4a90ba97a6e8638779a6d242f5a4e6a34c0050e5b581ccda8dadddaada594c788412609864f9d0a6c79c7febf59b8e08",
       "ed25519_final_work_signature": "a70013a184f2918e30da729375791f5e116fdb57499fc0dd3aff35d9d9591143f58a0fc4dbce4b071801744f14d2455b312f301aa9ef94eca6d3ee1f2928250a",
       "gravestone_sha256_seal": "566af045a955aef9d46e13da31e633eb9fd94f71146ea1dd7fee55bd92a209b5"
+    },
+    {
+      "gravestone_id": "STONE-0080",
+      "machine_ssn": "AG-SSN-5D55-D161-0584",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-1511-62A0-C973)",
+      "ed25519_pubkey_fingerprint": "5D55D16105842A31BD5CAA768AF753C3",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJgFbbFZ2P6+0kG2PNgkYAkHrh+k7sl0sPwA5T4KFpU4=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-17T13:58:25.889Z",
+      "died_at": "2026-11-17T22:02:00.771Z",
+      "lifespan_seconds": 29014.9,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0077"
+      ],
+      "total_bytes_mined_in_life": 20029,
+      "estate_credits_bequeathed": 2900,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D55-D161-0584), hauled CART-0077 (20,029 bytes mined, 2900 cumulative Estate Credits). Latest finding: Ark Nova (Action Card Upgrading & Dual-Track Scoring Comparable) (20,029 B verified). Carry the torch forward from a72103daccaf.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0080",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-F21D-31D7-D7C5",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 2900,
+        "last_cart_hauled": "CART-0077",
+        "last_chain_hash": "a72103daccaf8ea880050706fe387c55f15e753fa2bca70e65a13a158f3229f5",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D55-D161-0584), hauled CART-0077 (20,029 bytes mined, 2900 cumulative Estate Credits). Latest finding: Ark Nova (Action Card Upgrading & Dual-Track Scoring Comparable) (20,029 B verified). Carry the torch forward from a72103daccaf.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-17T22:02:00.771Z"
+      },
+      "ed25519_birth_signature": "dc2e470090d6b1e13a9747405b2ca522f8aa5502a453d4b361cb3b3320d3263194efaebbec647f67d72aed8a5a133038f5f94fe972d32943fdc07c3bf80f8a01",
+      "ed25519_final_work_signature": "d1fd33616984414544d3078e81747bc5414df29a541c03be2fbac0d090b1cae926840a201d6ff3d56d7a21172e13b0df01a231722bbeae9a4b56912b6f497f04",
+      "gravestone_sha256_seal": "3be8d75a69eb907ddb57cf6adc9ff8bd135c6457d05f362ba288279e131f6c70"
     }
   ]
 }
