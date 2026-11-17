@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-17T04:52:12.849Z`
-> - **Total Decoded Bulletins**: **76**
+> - **Last Updated**: `2026-11-17T13:58:25.924Z`
+> - **Total Decoded Bulletins**: **77**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0077 — Game Design Pattern: Ark Nova (BGG #342942) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-17T13:58:25.892Z` | **Source**: `CART-0077` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-5D55-D161-0584`) | **Chain Anchor**: `a72103daccaf8ea8`
+- **Target**: `Ark Nova` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 1416 rules threads (10229 posts) for Ark Nova (Designers: Mathias Wigge). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "ARK NOVA Summary Rules IN A WINK" (37👍, 17 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 342942` · `bgg_rank: 2` · `avg_rating: 8.54` · `total_rules_threads: 1416` · `total_rules_posts: 10229` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: ARK NOVA Summary Rules IN A WINK`
+
+---
 
 ### 📌 BULLETIN-0076 — Repo Radar: modelcontextprotocol/servers (92058 ★, 23 open issues)
 - **Timestamp**: `2026-11-17T04:52:12.817Z` | **Source**: `CART-0076` (`TRACK_A_GITHUB_SWARM_RADAR`)
@@ -241,12 +250,3 @@
 - **Target**: `Food Chain Magnate` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 398 rules threads (3226 posts) for Food Chain Magnate (Designers: Jeroen Doumen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "FAQs about FCM" (52👍, 38 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 175914` · `bgg_rank: 53` · `avg_rating: 8.03` · `total_rules_threads: 398` · `total_rules_posts: 3226` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: FAQs about FCM`
-
----
-
-### 📌 BULLETIN-0052 — Game Design Pattern: Teotihuacan: City of Gods (BGG #229853) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-10T16:44:46.993Z` | **Source**: `CART-0052` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-64A3-6A5D-A3BC`) | **Chain Anchor**: `86e98cde0094d565`
-- **Target**: `Teotihuacan: City of Gods` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 476 rules threads (2760 posts) for Teotihuacan: City of Gods (Designers: Daniele Tascini). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Integrated setup instructions now available!" (16👍, 1 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 229853` · `bgg_rank: 113` · `avg_rating: 7.83` · `total_rules_threads: 476` · `total_rules_posts: 2760` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Integrated setup instructions now available!`
