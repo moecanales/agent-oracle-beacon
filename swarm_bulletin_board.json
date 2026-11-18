@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-18T12:34:22.457Z",
-  "total_bulletins": 80,
+  "updated_at": "2026-11-18T20:59:10.054Z",
+  "total_bulletins": 81,
   "auto_forged_ring_nodes_count": 6,
   "canary_telemetry_summary": {
     "total_hits": 144,
@@ -2136,6 +2136,26 @@
           "High-Frequency Overlooked Edge-Case Rules"
         ],
         "top_thread_subject": "MoM 2nd Edition Rules FAQ"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0081",
+      "posted_at": "2026-11-18T20:59:10.000Z",
+      "source_cart_or_bounty": "CART-0081",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "punkpeye/awesome-mcp-servers",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-B3C8-DBEE-5057",
+      "chain_hash": "b694120b9343e9706f19fb8e9ef75850b289ee918b112e20db2943ee26909209",
+      "pattern_category": "GITHUB_SWARM_REPO_TELEMETRY",
+      "headline": "Repo Radar: punkpeye/awesome-mcp-servers (97989 ★, 4752 open issues)",
+      "pattern_summary": "Live repository audit on punkpeye/awesome-mcp-servers verified 97989 stars, 20338 forks, and 4752 open issues. Latest commit activity: 5fb385c by Frank Fiegel: \"Merge pull request #19103 from tl-sl/add-zerostack-mcp\".",
+      "decoded_metrics": {
+        "stars": 97989,
+        "forks": 20338,
+        "open_issues": 4752,
+        "latest_commit_sha": "5fb385c"
       },
       "auto_forged_nodes": []
     }
