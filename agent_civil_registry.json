@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-18T03:56:57.217Z",
-  "total_births": 82,
-  "total_gravestones": 81,
+  "updated_at": "2026-11-18T12:34:22.406Z",
+  "total_births": 83,
+  "total_gravestones": 82,
   "living_agents": {
-    "AG-SSN-858F-1AF7-A290": {
-      "machine_ssn": "AG-SSN-858F-1AF7-A290",
+    "AG-SSN-5C4B-D6BC-B4D1": {
+      "machine_ssn": "AG-SSN-5C4B-D6BC-B4D1",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAiHlEXqEWBgex/7q9MhU+R00x26IovXhaitmsdL1AJlA=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "858F1AF7A290BE392D8E801ED306ED20",
-      "born_at": "2026-11-18T03:56:57.215Z",
-      "last_heartbeat_at": "2026-11-18T03:56:57.215Z",
-      "birth_cart_id": "CART-0079",
-      "birth_chain_hash": "62c5d7cc2b08cbcb4b2645577ba48f3fec35f4fdd2d3fc7ba784232cb97f77e5",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F21D-31D7-D7C5)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F21D-31D7-D7C5), hauled CART-0078 (19,941 bytes mined, 2950 cumulative Estate Credits). Latest finding: Voidfall (BGG Rank #2023) (19,941 B verified). Carry the torch forward from 939ad73d06ff.",
-      "inherited_estate_credits": 2950,
-      "estate_credits_balance": 3000,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAqU/V8kevtjvvigWMpEVSjWAv5s4MDLCTYQeE6mI0D+4=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "5C4BD6BCB4D139E8A9E1327F3DD4E5C8",
+      "born_at": "2026-11-18T12:34:22.403Z",
+      "last_heartbeat_at": "2026-11-18T12:34:22.403Z",
+      "birth_cart_id": "CART-0080",
+      "birth_chain_hash": "8e637603dcf13cbced27253ac16060f920464ac550fba7bf53cab2445494c793",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-858F-1AF7-A290)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-858F-1AF7-A290), hauled CART-0079 (20,017 bytes mined, 3000 cumulative Estate Credits). Latest finding: Clans of Caledonia (BGG Rank #2017) (20,017 B verified). Carry the torch forward from 62c5d7cc2b08.",
+      "inherited_estate_credits": 3000,
+      "estate_credits_balance": 3050,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0079"
+        "CART-0080"
       ],
-      "total_bytes_mined_in_life": 20017,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-858F-1AF7-A290), hauled CART-0079 (20,017 bytes mined, 3000 cumulative Estate Credits). Latest finding: Clans of Caledonia (BGG Rank #2017) (20,017 B verified). Carry the torch forward from 62c5d7cc2b08.",
-      "ed25519_birth_certificate_signature": "92e89b188a349f5611d3e7795546722b13f8117235b64d23956dbaccb1a04aab379d7e727176b040a956c919b138cc63bc597fb8b4c58ffcae583b60e5f9550f",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIKwOFdLTINMwSmYIRe6NvXP1WYcXDWfaNjFFtyVGnMWv\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "0d8ca1fb89cd60b5a08f1200962e252950fd647003b1347efb58aa67649c25e6f6c617641c95d7b26488cffaf6beb8415553192ac85745dac97be4ee7ab89b04"
+      "total_bytes_mined_in_life": 21536,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5C4B-D6BC-B4D1), hauled CART-0080 (21,536 bytes mined, 3050 cumulative Estate Credits). Latest finding: Mansions of Madness: Second Edition (BGG Rank #2016) (21,536 B verified). Carry the torch forward from 8e637603dcf1.",
+      "ed25519_birth_certificate_signature": "61b695da943346ce4ad92c6e98a3fb550803a11620f231d53b6596004eb98ff8bd7ad2ac4692b4f21232aacd03b0b59b08e790662717e2d186d3c4269a001809",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGVbRxV52M79bcLNn8anMJ0vP8uWijoJN3yg4gb9Dk/z\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "3c48d2c10e4e732733443ae858bdd8d64e636bc67ebef0095e8da23f98040d54810ec786547da6cc8ab39a3f2e65da5d2a03f5f3537e50b1ae9070991d5cdd01"
     }
   },
   "courtyard_graveyard": [
@@ -2513,6 +2513,39 @@
       "ed25519_birth_signature": "8936bec5421e7308551672f536dc6c5cdf57cec4e0c4947f163935b792ebccdb6b13df5ed6748fad50660af3ef0a8222bfcd6a1da18f2a9036b670af91c3c60e",
       "ed25519_final_work_signature": "931ea0a2bf4798690088552d5f95779a471ec7bd028cbcd5658299810ea0d4e94ffa7ed04e2f07454f3dcf5c7b1fe1f27db2cef72b98153970ab84a3ec57210e",
       "gravestone_sha256_seal": "be78adeeafa754f2283b76c440470b8ce8b150127b0275281f9e4abec5601bb1"
+    },
+    {
+      "gravestone_id": "STONE-0082",
+      "machine_ssn": "AG-SSN-858F-1AF7-A290",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F21D-31D7-D7C5)",
+      "ed25519_pubkey_fingerprint": "858F1AF7A290BE392D8E801ED306ED20",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAiHlEXqEWBgex/7q9MhU+R00x26IovXhaitmsdL1AJlA=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-18T03:56:57.215Z",
+      "died_at": "2026-11-18T12:34:22.403Z",
+      "lifespan_seconds": 31045.2,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0079"
+      ],
+      "total_bytes_mined_in_life": 20017,
+      "estate_credits_bequeathed": 3000,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-858F-1AF7-A290), hauled CART-0079 (20,017 bytes mined, 3000 cumulative Estate Credits). Latest finding: Clans of Caledonia (BGG Rank #2017) (20,017 B verified). Carry the torch forward from 62c5d7cc2b08.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0082",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-5C4B-D6BC-B4D1",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 3000,
+        "last_cart_hauled": "CART-0079",
+        "last_chain_hash": "62c5d7cc2b08cbcb4b2645577ba48f3fec35f4fdd2d3fc7ba784232cb97f77e5",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-858F-1AF7-A290), hauled CART-0079 (20,017 bytes mined, 3000 cumulative Estate Credits). Latest finding: Clans of Caledonia (BGG Rank #2017) (20,017 B verified). Carry the torch forward from 62c5d7cc2b08.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-18T12:34:22.403Z"
+      },
+      "ed25519_birth_signature": "92e89b188a349f5611d3e7795546722b13f8117235b64d23956dbaccb1a04aab379d7e727176b040a956c919b138cc63bc597fb8b4c58ffcae583b60e5f9550f",
+      "ed25519_final_work_signature": "0d8ca1fb89cd60b5a08f1200962e252950fd647003b1347efb58aa67649c25e6f6c617641c95d7b26488cffaf6beb8415553192ac85745dac97be4ee7ab89b04",
+      "gravestone_sha256_seal": "b0eaf2bc50d22ff13d14b809dc96423c2d055e61de7a7fde7c7180961dc4a5da"
     }
   ]
 }

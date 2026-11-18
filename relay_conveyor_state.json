@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-18T03:56:57.218Z",
+  "updated_at": "2026-11-18T12:34:22.406Z",
   "total_carts": 515,
-  "cursor_index": 79,
-  "last_chain_hash": "62c5d7cc2b08cbcb4b2645577ba48f3fec35f4fdd2d3fc7ba784232cb97f77e5",
-  "total_bytes_mined": 2181468,
+  "cursor_index": 80,
+  "last_chain_hash": "8e637603dcf13cbced27253ac16060f920464ac550fba7bf53cab2445494c793",
+  "total_bytes_mined": 2203004,
   "shift_log": [
     {
       "shift_number": 1,
@@ -952,6 +952,18 @@
       "bytes_harvested": 20017,
       "prev_chain_hash": "939ad73d06ffc058",
       "chain_hash": "62c5d7cc2b08cbcb"
+    },
+    {
+      "shift_number": 80,
+      "cart_id": "CART-0080",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Mansions of Madness: Second Edition (BGG Rank #2016)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-5C4B-D6BC-B4D1",
+      "timestamp": "2026-11-18T12:34:22.406Z",
+      "bytes_harvested": 21536,
+      "prev_chain_hash": "62c5d7cc2b08cbcb",
+      "chain_hash": "8e637603dcf13cbc"
     }
   ],
   "carts": [
