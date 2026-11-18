@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-17T22:02:00.775Z",
+  "updated_at": "2026-11-18T03:56:57.218Z",
   "total_carts": 515,
-  "cursor_index": 78,
-  "last_chain_hash": "939ad73d06ffc05846a120fe12a29213b9f4079f6a29816040cc33e3ba93e2a4",
-  "total_bytes_mined": 2161451,
+  "cursor_index": 79,
+  "last_chain_hash": "62c5d7cc2b08cbcb4b2645577ba48f3fec35f4fdd2d3fc7ba784232cb97f77e5",
+  "total_bytes_mined": 2181468,
   "shift_log": [
     {
       "shift_number": 1,
@@ -940,6 +940,18 @@
       "bytes_harvested": 19941,
       "prev_chain_hash": "a72103daccaf8ea8",
       "chain_hash": "939ad73d06ffc058"
+    },
+    {
+      "shift_number": 79,
+      "cart_id": "CART-0079",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Clans of Caledonia (BGG Rank #2017)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-858F-1AF7-A290",
+      "timestamp": "2026-11-18T03:56:57.218Z",
+      "bytes_harvested": 20017,
+      "prev_chain_hash": "939ad73d06ffc058",
+      "chain_hash": "62c5d7cc2b08cbcb"
     }
   ],
   "carts": [

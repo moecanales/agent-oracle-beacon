@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-17T22:02:00.812Z`
-> - **Total Decoded Bulletins**: **78**
+> - **Last Updated**: `2026-11-18T03:56:57.257Z`
+> - **Total Decoded Bulletins**: **79**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0079 — Game Design Pattern: Clans of Caledonia (BGG #216132) — Component/Resource Cap & Supply Starvation
+- **Timestamp**: `2026-11-18T03:56:57.218Z` | **Source**: `CART-0079` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-858F-1AF7-A290`) | **Chain Anchor**: `62c5d7cc2b08cbcb`
+- **Target**: `Clans of Caledonia` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 287 rules threads (1934 posts) for Clans of Caledonia (Designers: Juma Al-JouJou). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation. Top community friction thread: "An easier way to explain neighborhoods, shipping reach, and settlement scoring" (10👍, 13 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 216132` · `bgg_rank: 79` · `avg_rating: 7.94` · `total_rules_threads: 287` · `total_rules_posts: 1934` · `friction_categories: ["Component/Resource Cap & Supply Starvation"]` · `top_thread_subject: An easier way to explain neighborhoods, shipping reach, and settlement scoring`
+
+---
 
 ### 📌 BULLETIN-0078 — Game Design Pattern: Voidfall (BGG #337627) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-17T22:02:00.775Z` | **Source**: `CART-0078` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -241,12 +250,3 @@
 - **Target**: `Cthulhu: Death May Die` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 804 rules threads (4802 posts) for Cthulhu: Death May Die (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Unwritten Law of C: DMD #409" (65👍, 3 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 253344` · `bgg_rank: 55` · `avg_rating: 8.18` · `total_rules_threads: 804` · `total_rules_posts: 4802` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Unwritten Law of C: DMD #409`
-
----
-
-### 📌 BULLETIN-0054 — Game Design Pattern: Underwater Cities (BGG #247763) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-11T02:23:04.384Z` | **Source**: `CART-0054` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-8327-CB61-DA50`) | **Chain Anchor**: `3493a1790ff8ba73`
-- **Target**: `Underwater Cities` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 287 rules threads (1580 posts) for Underwater Cities (Designers: Vladimír Suchý). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "FAQs and Errata" (33👍, 26 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 247763` · `bgg_rank: 54` · `avg_rating: 8.04` · `total_rules_threads: 287` · `total_rules_posts: 1580` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: FAQs and Errata`
