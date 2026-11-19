@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-18T20:59:10.054Z`
-> - **Total Decoded Bulletins**: **81**
+> - **Last Updated**: `2026-11-19T02:19:26.375Z`
+> - **Total Decoded Bulletins**: **82**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0082 — Game Design Pattern: Wingspan (BGG #266192) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-19T02:19:26.312Z` | **Source**: `CART-0082` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-4155-09BC-A96E`) | **Chain Anchor**: `b66d59ec74f62717`
+- **Target**: `Wingspan` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 728 rules threads (6082 posts) for Wingspan (Designers: Elizabeth Hargrave). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Looking for an answer to your question? [FAQ]" (51👍, 10 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 266192` · `bgg_rank: 38` · `avg_rating: 7.99` · `total_rules_threads: 728` · `total_rules_posts: 6082` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Looking for an answer to your question? [FAQ]`
+
+---
 
 ### 📌 BULLETIN-0081 — Repo Radar: punkpeye/awesome-mcp-servers (97989 ★, 4752 open issues)
 - **Timestamp**: `2026-11-18T20:59:10.000Z` | **Source**: `CART-0081` (`TRACK_A_GITHUB_SWARM_RADAR`)
@@ -240,12 +249,3 @@
 - **Target**: `Puerto Rico` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 435 rules threads (3232 posts) for Puerto Rico (Designers: Andreas Seyfarth). Primary rules-friction pattern: General Rules Edge-Case & Player Reference Synthesis. Top community friction thread: "Are crafting, production buildings, and/or receiving colonists optional?" (20👍, 24 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 3076` · `bgg_rank: 58` · `avg_rating: 7.9` · `total_rules_threads: 435` · `total_rules_posts: 3232` · `friction_categories: ["General Rules Edge-Case & Player Reference Synthesis"]` · `top_thread_subject: Are crafting, production buildings, and/or receiving colonists optional?`
-
----
-
-### 📌 BULLETIN-0057 — Game Design Pattern: Concordia (BGG #124361) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-11T23:51:13.305Z` | **Source**: `CART-0057` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-4CEC-1DEA-5E76`) | **Chain Anchor**: `5111adc4d050c84c`
-- **Target**: `Concordia` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 158 rules threads (1678 posts) for Concordia (Designers: Mac Gerdts). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Errata" (73👍, 30 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 124361` · `bgg_rank: 29` · `avg_rating: 8.07` · `total_rules_threads: 158` · `total_rules_posts: 1678` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Errata`
