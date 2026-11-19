@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-19T10:55:05.687Z",
+  "updated_at": "2026-11-19T19:15:27.284Z",
   "total_carts": 515,
-  "cursor_index": 83,
-  "last_chain_hash": "d2df1ebff40f66ef678e22c510235f2e844e830088627a2ea7e2a4a6f50874ad",
-  "total_bytes_mined": 2263893,
+  "cursor_index": 84,
+  "last_chain_hash": "163d5787904a43da3840d381df4b05a45df9b750079eb870a08301a10270542b",
+  "total_bytes_mined": 2283371,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1000,6 +1000,18 @@
       "bytes_harvested": 20806,
       "prev_chain_hash": "b66d59ec74f62717",
       "chain_hash": "d2df1ebff40f66ef"
+    },
+    {
+      "shift_number": 84,
+      "cart_id": "CART-0084",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Le Havre (BGG Rank #2008)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-1948-CDCC-0122",
+      "timestamp": "2026-11-19T19:15:27.284Z",
+      "bytes_harvested": 19478,
+      "prev_chain_hash": "d2df1ebff40f66ef",
+      "chain_hash": "163d5787904a43da"
     }
   ],
   "carts": [

@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-19T10:55:05.754Z`
-> - **Total Decoded Bulletins**: **83**
+> - **Last Updated**: `2026-11-19T19:15:27.326Z`
+> - **Total Decoded Bulletins**: **84**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0084 — Game Design Pattern: Le Havre (BGG #35677) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-19T19:15:27.284Z` | **Source**: `CART-0084` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-1948-CDCC-0122`) | **Chain Anchor**: `163d5787904a43da`
+- **Target**: `Le Havre` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 415 rules threads (3254 posts) for Le Havre (Designers: Uwe Rosenberg). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Rereading the rules" (39👍, 6 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 35677` · `bgg_rank: 84` · `avg_rating: 7.83` · `total_rules_threads: 415` · `total_rules_posts: 3254` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Rereading the rules`
+
+---
 
 ### 📌 BULLETIN-0083 — Game Design Pattern: Paladins of the West Kingdom (BGG #266810) — Card/Tile Exception Precedence vs. Core Rules
 - **Timestamp**: `2026-11-19T10:55:05.687Z` | **Source**: `CART-0083` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Pandemic Legacy: Season 0` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 486 rules threads (2138 posts) for Pandemic Legacy: Season 0 (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official Errata for Pandemic Legacy: Season 0" (69👍, 62 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 314040` · `bgg_rank: 60` · `avg_rating: 8.33` · `total_rules_threads: 486` · `total_rules_posts: 2138` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official Errata for Pandemic Legacy: Season 0`
-
----
-
-### 📌 BULLETIN-0059 — Game Design Pattern: On Mars (BGG #184267) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-12T13:27:29.858Z` | **Source**: `CART-0059` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-5432-1B68-67FC`) | **Chain Anchor**: `d3eb83af04b6ac0d`
-- **Target**: `On Mars` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 706 rules threads (4612 posts) for On Mars (Designers: Vital Lacerda). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Solo Rules FAQ" (28👍, 42 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 184267` · `bgg_rank: 59` · `avg_rating: 8.16` · `total_rules_threads: 706` · `total_rules_posts: 4612` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Solo Rules FAQ`

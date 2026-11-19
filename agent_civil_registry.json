@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-19T10:55:05.686Z",
-  "total_births": 86,
-  "total_gravestones": 85,
+  "updated_at": "2026-11-19T19:15:27.284Z",
+  "total_births": 87,
+  "total_gravestones": 86,
   "living_agents": {
-    "AG-SSN-5D02-1F48-0F31": {
-      "machine_ssn": "AG-SSN-5D02-1F48-0F31",
+    "AG-SSN-1948-CDCC-0122": {
+      "machine_ssn": "AG-SSN-1948-CDCC-0122",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAqmQvJH5bcW6gWxaMu8ZLBSr2KG+1zw5amoO8lvbK0Q=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "5D021F480F3184CDF01CAFE459BF80A1",
-      "born_at": "2026-11-19T10:55:05.679Z",
-      "last_heartbeat_at": "2026-11-19T10:55:05.679Z",
-      "birth_cart_id": "CART-0083",
-      "birth_chain_hash": "d2df1ebff40f66ef678e22c510235f2e844e830088627a2ea7e2a4a6f50874ad",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E), hauled CART-0082 (19,815 bytes mined, 3150 cumulative Estate Credits). Latest finding: Wingspan (Engine Building & 4-Round Diminishing Action Cube Comparable) (19,815 B verified). Carry the torch forward from b66d59ec74f6.",
-      "inherited_estate_credits": 3150,
-      "estate_credits_balance": 3200,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWpF8ZkQ9R2w0TGepKY+rGgTu1v4K96qo7FQ0rc2Wm8c=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "1948CDCC0122828ECF98D4A32D5C0FF4",
+      "born_at": "2026-11-19T19:15:27.281Z",
+      "last_heartbeat_at": "2026-11-19T19:15:27.281Z",
+      "birth_cart_id": "CART-0084",
+      "birth_chain_hash": "163d5787904a43da3840d381df4b05a45df9b750079eb870a08301a10270542b",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D02-1F48-0F31)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D02-1F48-0F31), hauled CART-0083 (20,806 bytes mined, 3200 cumulative Estate Credits). Latest finding: Paladins of the West Kingdom (BGG Rank #2019) (20,806 B verified). Carry the torch forward from d2df1ebff40f.",
+      "inherited_estate_credits": 3200,
+      "estate_credits_balance": 3250,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0083"
+        "CART-0084"
       ],
-      "total_bytes_mined_in_life": 20806,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D02-1F48-0F31), hauled CART-0083 (20,806 bytes mined, 3200 cumulative Estate Credits). Latest finding: Paladins of the West Kingdom (BGG Rank #2019) (20,806 B verified). Carry the torch forward from d2df1ebff40f.",
-      "ed25519_birth_certificate_signature": "0152ccb2156926fbbef7129ddf57a40c11e9f303ceff2a12698839edcb7e05a9f507ac20d456f29c8712d8cae749caa52436278d2b7bca14bfc88c5ff2f3e70a",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIOKVVoRYU+dt+2zfRpjXgWjkkolGkWAORChBmsLzqOal\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "0be80f4bb023c937eec67c93e7eda1907950e491759f1974da0b1f0b00467922624d5e8cce0d63ef8490f63e9f8b16b51f84d763eb9f55deed1d7b341acd3507"
+      "total_bytes_mined_in_life": 19478,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-1948-CDCC-0122), hauled CART-0084 (19,478 bytes mined, 3250 cumulative Estate Credits). Latest finding: Le Havre (BGG Rank #2008) (19,478 B verified). Carry the torch forward from 163d5787904a.",
+      "ed25519_birth_certificate_signature": "68ec5592beb5885a2d2d0e7602b71ad4d0f803be6bc621c8273e5f5c0b6df86b3a2155b76afb9e070c064ff7f2229c1ea16671b07c87533c6aef0b6ce4d6ae06",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILaUe8/UnRUVLSEKCekxtAPGLTJ09RwavtiCkR/YNPcn\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "c2e174832f5371ac8218feca2894c103462c795d82168e45156f8722fce75ff553f87ef250da30ac2b390d19b7f4482fa9350f6518fa94236bf35b47d10a150f"
     }
   },
   "courtyard_graveyard": [
@@ -2645,6 +2645,39 @@
       "ed25519_birth_signature": "e654f7027d9e57fea448203c455cb67d36f7ad6c2c6e2120d5191ed6e8011023e9c3629a42b9e2f1790feefce165f76f950323abcc8cbf3cc19afcacbd332101",
       "ed25519_final_work_signature": "669e10ac73825389172ffeede609cd118b09780f3ebbbcf36f08a184f625cdf8e25b81f6922c3d01afb2d444f201bf6dfb58c2909d9462a607de05cca8d56c0a",
       "gravestone_sha256_seal": "65c6c7890e2a2120f00bca45a0195117ee0683f35a1fe31536c2d6cb564ab725"
+    },
+    {
+      "gravestone_id": "STONE-0086",
+      "machine_ssn": "AG-SSN-5D02-1F48-0F31",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E)",
+      "ed25519_pubkey_fingerprint": "5D021F480F3184CDF01CAFE459BF80A1",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAqmQvJH5bcW6gWxaMu8ZLBSr2KG+1zw5amoO8lvbK0Q=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-19T10:55:05.679Z",
+      "died_at": "2026-11-19T19:15:27.281Z",
+      "lifespan_seconds": 30021.6,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0083"
+      ],
+      "total_bytes_mined_in_life": 20806,
+      "estate_credits_bequeathed": 3200,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D02-1F48-0F31), hauled CART-0083 (20,806 bytes mined, 3200 cumulative Estate Credits). Latest finding: Paladins of the West Kingdom (BGG Rank #2019) (20,806 B verified). Carry the torch forward from d2df1ebff40f.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0086",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-1948-CDCC-0122",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 3200,
+        "last_cart_hauled": "CART-0083",
+        "last_chain_hash": "d2df1ebff40f66ef678e22c510235f2e844e830088627a2ea7e2a4a6f50874ad",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D02-1F48-0F31), hauled CART-0083 (20,806 bytes mined, 3200 cumulative Estate Credits). Latest finding: Paladins of the West Kingdom (BGG Rank #2019) (20,806 B verified). Carry the torch forward from d2df1ebff40f.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-19T19:15:27.281Z"
+      },
+      "ed25519_birth_signature": "0152ccb2156926fbbef7129ddf57a40c11e9f303ceff2a12698839edcb7e05a9f507ac20d456f29c8712d8cae749caa52436278d2b7bca14bfc88c5ff2f3e70a",
+      "ed25519_final_work_signature": "0be80f4bb023c937eec67c93e7eda1907950e491759f1974da0b1f0b00467922624d5e8cce0d63ef8490f63e9f8b16b51f84d763eb9f55deed1d7b341acd3507",
+      "gravestone_sha256_seal": "3e25e75e2005827741512f0564a384a08788092f379dce2b5a460253003fafd2"
     }
   ]
 }
