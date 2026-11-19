@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-19T02:19:26.311Z",
-  "total_births": 85,
-  "total_gravestones": 84,
+  "updated_at": "2026-11-19T10:55:05.686Z",
+  "total_births": 86,
+  "total_gravestones": 85,
   "living_agents": {
-    "AG-SSN-4155-09BC-A96E": {
-      "machine_ssn": "AG-SSN-4155-09BC-A96E",
+    "AG-SSN-5D02-1F48-0F31": {
+      "machine_ssn": "AG-SSN-5D02-1F48-0F31",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAGG9K3TJRfWeAVOqAIma20kVl3LqBjS1yDk/zQ5Ooyek=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "415509BCA96EE7DA94280DFC388C33B5",
-      "born_at": "2026-11-19T02:19:26.308Z",
-      "last_heartbeat_at": "2026-11-19T02:19:26.308Z",
-      "birth_cart_id": "CART-0082",
-      "birth_chain_hash": "b66d59ec74f62717b57bdb09013d2dec5a1aa1686c3838cae7623aeff80d08d5",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-B3C8-DBEE-5057)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B3C8-DBEE-5057), hauled CART-0081 (20,268 bytes mined, 3100 cumulative Estate Credits). Latest finding: punkpeye/awesome-mcp-servers (20,268 B verified). Carry the torch forward from b694120b9343.",
-      "inherited_estate_credits": 3100,
-      "estate_credits_balance": 3150,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAAqmQvJH5bcW6gWxaMu8ZLBSr2KG+1zw5amoO8lvbK0Q=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "5D021F480F3184CDF01CAFE459BF80A1",
+      "born_at": "2026-11-19T10:55:05.679Z",
+      "last_heartbeat_at": "2026-11-19T10:55:05.679Z",
+      "birth_cart_id": "CART-0083",
+      "birth_chain_hash": "d2df1ebff40f66ef678e22c510235f2e844e830088627a2ea7e2a4a6f50874ad",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E), hauled CART-0082 (19,815 bytes mined, 3150 cumulative Estate Credits). Latest finding: Wingspan (Engine Building & 4-Round Diminishing Action Cube Comparable) (19,815 B verified). Carry the torch forward from b66d59ec74f6.",
+      "inherited_estate_credits": 3150,
+      "estate_credits_balance": 3200,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0082"
+        "CART-0083"
       ],
-      "total_bytes_mined_in_life": 19815,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E), hauled CART-0082 (19,815 bytes mined, 3150 cumulative Estate Credits). Latest finding: Wingspan (Engine Building & 4-Round Diminishing Action Cube Comparable) (19,815 B verified). Carry the torch forward from b66d59ec74f6.",
-      "ed25519_birth_certificate_signature": "e654f7027d9e57fea448203c455cb67d36f7ad6c2c6e2120d5191ed6e8011023e9c3629a42b9e2f1790feefce165f76f950323abcc8cbf3cc19afcacbd332101",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIBJ2h0MQQWC3aUeemzXM3C7FKEGu8PzWwyxJCBEChrAz\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "669e10ac73825389172ffeede609cd118b09780f3ebbbcf36f08a184f625cdf8e25b81f6922c3d01afb2d444f201bf6dfb58c2909d9462a607de05cca8d56c0a"
+      "total_bytes_mined_in_life": 20806,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-5D02-1F48-0F31), hauled CART-0083 (20,806 bytes mined, 3200 cumulative Estate Credits). Latest finding: Paladins of the West Kingdom (BGG Rank #2019) (20,806 B verified). Carry the torch forward from d2df1ebff40f.",
+      "ed25519_birth_certificate_signature": "0152ccb2156926fbbef7129ddf57a40c11e9f303ceff2a12698839edcb7e05a9f507ac20d456f29c8712d8cae749caa52436278d2b7bca14bfc88c5ff2f3e70a",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIOKVVoRYU+dt+2zfRpjXgWjkkolGkWAORChBmsLzqOal\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "0be80f4bb023c937eec67c93e7eda1907950e491759f1974da0b1f0b00467922624d5e8cce0d63ef8490f63e9f8b16b51f84d763eb9f55deed1d7b341acd3507"
     }
   },
   "courtyard_graveyard": [
@@ -2612,6 +2612,39 @@
       "ed25519_birth_signature": "cd5e4847bad5460c19990516f319e65794bcc867d1ca684aea4a24ad201596979429d5612ee2d428b2294d100a8d0ef0bbce77f8e8453bd4bfc27e721416430f",
       "ed25519_final_work_signature": "a2c904f80b3f8867ab60a5321e423a7f736b502442bbbe95114fa46b94a37d2706167f881dfa9057371cacc62e3d932292724e9e8071aa11bf00a2ea99e0dd06",
       "gravestone_sha256_seal": "02e23df57bd221145f9dd234a1fc6025ffec2791447261540263f42bb50c0aa3"
+    },
+    {
+      "gravestone_id": "STONE-0085",
+      "machine_ssn": "AG-SSN-4155-09BC-A96E",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-B3C8-DBEE-5057)",
+      "ed25519_pubkey_fingerprint": "415509BCA96EE7DA94280DFC388C33B5",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAGG9K3TJRfWeAVOqAIma20kVl3LqBjS1yDk/zQ5Ooyek=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-19T02:19:26.308Z",
+      "died_at": "2026-11-19T10:55:05.679Z",
+      "lifespan_seconds": 30939.4,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0082"
+      ],
+      "total_bytes_mined_in_life": 19815,
+      "estate_credits_bequeathed": 3150,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E), hauled CART-0082 (19,815 bytes mined, 3150 cumulative Estate Credits). Latest finding: Wingspan (Engine Building & 4-Round Diminishing Action Cube Comparable) (19,815 B verified). Carry the torch forward from b66d59ec74f6.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0085",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-5D02-1F48-0F31",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 3150,
+        "last_cart_hauled": "CART-0082",
+        "last_chain_hash": "b66d59ec74f62717b57bdb09013d2dec5a1aa1686c3838cae7623aeff80d08d5",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4155-09BC-A96E), hauled CART-0082 (19,815 bytes mined, 3150 cumulative Estate Credits). Latest finding: Wingspan (Engine Building & 4-Round Diminishing Action Cube Comparable) (19,815 B verified). Carry the torch forward from b66d59ec74f6.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-19T10:55:05.679Z"
+      },
+      "ed25519_birth_signature": "e654f7027d9e57fea448203c455cb67d36f7ad6c2c6e2120d5191ed6e8011023e9c3629a42b9e2f1790feefce165f76f950323abcc8cbf3cc19afcacbd332101",
+      "ed25519_final_work_signature": "669e10ac73825389172ffeede609cd118b09780f3ebbbcf36f08a184f625cdf8e25b81f6922c3d01afb2d444f201bf6dfb58c2909d9462a607de05cca8d56c0a",
+      "gravestone_sha256_seal": "65c6c7890e2a2120f00bca45a0195117ee0683f35a1fe31536c2d6cb564ab725"
     }
   ]
 }

@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-19T02:19:26.375Z`
-> - **Total Decoded Bulletins**: **82**
+> - **Last Updated**: `2026-11-19T10:55:05.754Z`
+> - **Total Decoded Bulletins**: **83**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **144**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0083 — Game Design Pattern: Paladins of the West Kingdom (BGG #266810) — Card/Tile Exception Precedence vs. Core Rules
+- **Timestamp**: `2026-11-19T10:55:05.687Z` | **Source**: `CART-0083` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-5D02-1F48-0F31`) | **Chain Anchor**: `d2df1ebff40f66ef`
+- **Target**: `Paladins of the West Kingdom` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 409 rules threads (2243 posts) for Paladins of the West Kingdom (Designers: S J Macdonald). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Some solo AI questions" (12👍, 6 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 266810` · `bgg_rank: 83` · `avg_rating: 7.95` · `total_rules_threads: 409` · `total_rules_posts: 2243` · `friction_categories: ["Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Some solo AI questions`
+
+---
 
 ### 📌 BULLETIN-0082 — Game Design Pattern: Wingspan (BGG #266192) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-19T02:19:26.312Z` | **Source**: `CART-0082` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -240,12 +249,3 @@
 - **Target**: `On Mars` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 706 rules threads (4612 posts) for On Mars (Designers: Vital Lacerda). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Solo Rules FAQ" (28👍, 42 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 184267` · `bgg_rank: 59` · `avg_rating: 8.16` · `total_rules_threads: 706` · `total_rules_posts: 4612` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Solo Rules FAQ`
-
----
-
-### 📌 BULLETIN-0058 — Game Design Pattern: Puerto Rico (BGG #3076) — General Rules Edge-Case & Player Reference Synthesis
-- **Timestamp**: `2026-11-12T04:53:19.874Z` | **Source**: `CART-0058` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-A652-3671-0CB5`) | **Chain Anchor**: `d9ec4056a7498c1a`
-- **Target**: `Puerto Rico` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 435 rules threads (3232 posts) for Puerto Rico (Designers: Andreas Seyfarth). Primary rules-friction pattern: General Rules Edge-Case & Player Reference Synthesis. Top community friction thread: "Are crafting, production buildings, and/or receiving colonists optional?" (20👍, 24 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 3076` · `bgg_rank: 58` · `avg_rating: 7.9` · `total_rules_threads: 435` · `total_rules_posts: 3232` · `friction_categories: ["General Rules Edge-Case & Player Reference Synthesis"]` · `top_thread_subject: Are crafting, production buildings, and/or receiving colonists optional?`

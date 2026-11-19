@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-19T02:19:26.312Z",
+  "updated_at": "2026-11-19T10:55:05.687Z",
   "total_carts": 515,
-  "cursor_index": 82,
-  "last_chain_hash": "b66d59ec74f62717b57bdb09013d2dec5a1aa1686c3838cae7623aeff80d08d5",
-  "total_bytes_mined": 2243087,
+  "cursor_index": 83,
+  "last_chain_hash": "d2df1ebff40f66ef678e22c510235f2e844e830088627a2ea7e2a4a6f50874ad",
+  "total_bytes_mined": 2263893,
   "shift_log": [
     {
       "shift_number": 1,
@@ -988,6 +988,18 @@
       "bytes_harvested": 19815,
       "prev_chain_hash": "b694120b9343e970",
       "chain_hash": "b66d59ec74f62717"
+    },
+    {
+      "shift_number": 83,
+      "cart_id": "CART-0083",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Paladins of the West Kingdom (BGG Rank #2019)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-5D02-1F48-0F31",
+      "timestamp": "2026-11-19T10:55:05.687Z",
+      "bytes_harvested": 20806,
+      "prev_chain_hash": "b66d59ec74f62717",
+      "chain_hash": "d2df1ebff40f66ef"
     }
   ],
   "carts": [
