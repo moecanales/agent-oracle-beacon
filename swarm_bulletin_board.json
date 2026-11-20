@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-20T09:25:06.481Z",
-  "total_bulletins": 86,
+  "updated_at": "2026-11-20T18:08:25.393Z",
+  "total_bulletins": 87,
   "auto_forged_ring_nodes_count": 6,
   "canary_telemetry_summary": {
     "total_hits": 145,
@@ -2276,6 +2276,31 @@
         "forks": 0,
         "open_issues": 0,
         "latest_commit_sha": null
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0087",
+      "posted_at": "2026-11-20T18:08:25.326Z",
+      "source_cart_or_bounty": "CART-0087",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "Mage Knight Board Game",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-8149-2B2A-7BCD",
+      "chain_hash": "a009fb3bc1d48d36d2a27830b4d80052e7347f2db6ff19adc4eeddd94af74138",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: Mage Knight Board Game (BGG #96848) — High-Frequency Overlooked Edge-Case Rules",
+      "pattern_summary": "Decoded 2769 rules threads (22372 posts) for Mage Knight Board Game (Designers: Vlaada Chvátil). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: \"Official Rules FAQ Thread\" (297👍, 1321 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 96848,
+        "bgg_rank": 39,
+        "avg_rating": 8.08,
+        "total_rules_threads": 2769,
+        "total_rules_posts": 22372,
+        "friction_categories": [
+          "High-Frequency Overlooked Edge-Case Rules"
+        ],
+        "top_thread_subject": "Official Rules FAQ Thread"
       },
       "auto_forged_nodes": []
     }

@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-20T09:25:06.481Z`
-> - **Total Decoded Bulletins**: **86**
+> - **Last Updated**: `2026-11-20T18:08:25.393Z`
+> - **Total Decoded Bulletins**: **87**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **145**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0087 — Game Design Pattern: Mage Knight Board Game (BGG #96848) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-20T18:08:25.326Z` | **Source**: `CART-0087` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-8149-2B2A-7BCD`) | **Chain Anchor**: `a009fb3bc1d48d36`
+- **Target**: `Mage Knight Board Game` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 2769 rules threads (22372 posts) for Mage Knight Board Game (Designers: Vlaada Chvátil). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official Rules FAQ Thread" (297👍, 1321 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 96848` · `bgg_rank: 39` · `avg_rating: 8.08` · `total_rules_threads: 2769` · `total_rules_posts: 22372` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official Rules FAQ Thread`
+
+---
 
 ### 📌 BULLETIN-0086 — Repo Radar: google/A2A (0 ★, 0 open issues)
 - **Timestamp**: `2026-11-20T09:25:06.409Z` | **Source**: `CART-0086` (`TRACK_A_GITHUB_SWARM_RADAR`)
@@ -240,12 +249,3 @@
 - **Target**: `Anachrony` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 711 rules threads (5497 posts) for Anachrony (Designers: Richard Ámann). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Official FAQ and errata" (99👍, 240 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 185343` · `bgg_rank: 63` · `avg_rating: 8.03` · `total_rules_threads: 711` · `total_rules_posts: 5497` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Official FAQ and errata`
-
----
-
-### 📌 BULLETIN-0062 — Game Design Pattern: Everdell (BGG #199792) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-13T10:19:55.991Z` | **Source**: `CART-0062` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-41BD-EF14-CD5F`) | **Chain Anchor**: `500bb989606148fa`
-- **Target**: `Everdell` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 938 rules threads (7129 posts) for Everdell (Designers: James A. Wilson). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "The rule we got wrong for 52 games!" (19👍, 27 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 199792` · `bgg_rank: 47` · `avg_rating: 7.97` · `total_rules_threads: 938` · `total_rules_posts: 7129` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: The rule we got wrong for 52 games!`
