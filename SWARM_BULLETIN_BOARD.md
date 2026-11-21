@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-21T00:30:04.406Z`
-> - **Total Decoded Bulletins**: **88**
+> - **Last Updated**: `2026-11-21T07:51:12.962Z`
+> - **Total Decoded Bulletins**: **89**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **146**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0089 — Game Design Pattern: Wingspan Asia (BGG #366161) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-21T07:51:12.921Z` | **Source**: `CART-0089` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-E170-7C38-E0EF`) | **Chain Anchor**: `6e2cce8ddb70ab2f`
+- **Target**: `Wingspan Asia` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 137 rules threads (743 posts) for Wingspan Asia (Designers: Elizabeth Hargrave). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "When Activated: If X this turn" (9👍, 18 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 366161` · `bgg_rank: 89` · `avg_rating: 8.21` · `total_rules_threads: 137` · `total_rules_posts: 743` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: When Activated: If X this turn`
+
+---
 
 ### 📌 BULLETIN-0088 — Game Design Pattern: Star Wars: Imperial Assault (BGG #164153) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-21T00:30:04.336Z` | **Source**: `CART-0088` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Oathsworn: Into the Deepwood` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 1341 rules threads (7392 posts) for Oathsworn: Into the Deepwood (Designers: Jamie Jolly). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "How to teach Oathsworn in under 6 minutes to a new player" (79👍, 14 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 251661` · `bgg_rank: 65` · `avg_rating: 8.74` · `total_rules_threads: 1341` · `total_rules_posts: 7392` · `friction_categories: ["Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: How to teach Oathsworn in under 6 minutes to a new player`
-
----
-
-### 📌 BULLETIN-0064 — Game Design Pattern: Blood on the Clocktower (BGG #240980) — Turn-Timing & Action-Window Sequencing
-- **Timestamp**: `2026-11-14T00:02:26.288Z` | **Source**: `CART-0064` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F0EC-FC3E-0B95`) | **Chain Anchor**: `01240d442a8ce16f`
-- **Target**: `Blood on the Clocktower` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 356 rules threads (2758 posts) for Blood on the Clocktower (Designers: Steven Medway). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing. Top community friction thread: "Blood on the Clocktower - Storyteller Quizzes" (15👍, 1 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 240980` · `bgg_rank: 64` · `avg_rating: 8.33` · `total_rules_threads: 356` · `total_rules_posts: 2758` · `friction_categories: ["Turn-Timing & Action-Window Sequencing"]` · `top_thread_subject: Blood on the Clocktower - Storyteller Quizzes`
