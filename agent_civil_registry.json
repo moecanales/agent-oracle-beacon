@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-20T18:08:25.325Z",
-  "total_births": 90,
-  "total_gravestones": 89,
+  "updated_at": "2026-11-21T00:30:04.335Z",
+  "total_births": 91,
+  "total_gravestones": 90,
   "living_agents": {
-    "AG-SSN-8149-2B2A-7BCD": {
-      "machine_ssn": "AG-SSN-8149-2B2A-7BCD",
+    "AG-SSN-7C09-C451-83C9": {
+      "machine_ssn": "AG-SSN-7C09-C451-83C9",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAulhvVJd2euHmr9GNgA1wkBqLFsKUPlTI8/SbAkG2ofE=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "81492B2A7BCDA719A55D4499EB072E54",
-      "born_at": "2026-11-20T18:08:25.321Z",
-      "last_heartbeat_at": "2026-11-20T18:08:25.321Z",
-      "birth_cart_id": "CART-0087",
-      "birth_chain_hash": "a009fb3bc1d48d36d2a27830b4d80052e7347f2db6ff19adc4eeddd94af74138",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-A484-7D8A-4B95)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-A484-7D8A-4B95), hauled CART-0086 (415 bytes mined, 3350 cumulative Estate Credits). Latest finding: google/A2A (415 B verified). Carry the torch forward from dc6f22a137b0.",
-      "inherited_estate_credits": 3350,
-      "estate_credits_balance": 3400,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPX1JeC/I65faQr0HmCqHFCRQvSUSIs4R3YiZ/tXWpnk=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "7C09C45183C98D45FD4BCCAA02126BA0",
+      "born_at": "2026-11-21T00:30:04.332Z",
+      "last_heartbeat_at": "2026-11-21T00:30:04.332Z",
+      "birth_cart_id": "CART-0088",
+      "birth_chain_hash": "12cd8ac3f8f77fddab40d10d0486eb1c5b5c97cd4163b47eb5a71b3e9941788c",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-8149-2B2A-7BCD)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8149-2B2A-7BCD), hauled CART-0087 (20,716 bytes mined, 3400 cumulative Estate Credits). Latest finding: Mage Knight Board Game (Multi-Use Card & Tile Exploration Comparable) (20,716 B verified). Carry the torch forward from a009fb3bc1d4.",
+      "inherited_estate_credits": 3400,
+      "estate_credits_balance": 3450,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0087"
+        "CART-0088"
       ],
-      "total_bytes_mined_in_life": 20716,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8149-2B2A-7BCD), hauled CART-0087 (20,716 bytes mined, 3400 cumulative Estate Credits). Latest finding: Mage Knight Board Game (Multi-Use Card & Tile Exploration Comparable) (20,716 B verified). Carry the torch forward from a009fb3bc1d4.",
-      "ed25519_birth_certificate_signature": "761f3173b5bb521680ddc5a7171bcc31262a88e49a6356676aa2eb3f7dcf5dc2b55ec61f1d2ef7c4fd736d381bc8a4744e832660fa53965a5c73c1cf0c03d00f",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPP8o/aA4HMIyDd2TSJWIV+oTbb3zrDZgLB24Dwt7tZ7\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "d001b247fa8228a817f6e74ea2167d8afe53d233549188ff534bad77e0738a798a8860d7b8268e2bfbd71597ff99cee10ec8fab9cf326025eb7a03f99b5e0505"
+      "total_bytes_mined_in_life": 21686,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7C09-C451-83C9), hauled CART-0088 (21,686 bytes mined, 3450 cumulative Estate Credits). Latest finding: Star Wars: Imperial Assault (BGG Rank #2014) (21,686 B verified). Carry the torch forward from 12cd8ac3f8f7.",
+      "ed25519_birth_certificate_signature": "1e2121c25b00357064298a8196992bcd318e56e40bf5484ba0b3ee99f8399d893093d398b0e671257bb3a69a9bf78c2cffac21933629ca410c04d2bcb347020f",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIJQ9eZKTUp2E1VGiE/7lSlJUnd7C8AC8HsuEbzWoK3hq\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "aa3e02c704308869e906e0d602b208dc874cdc78ecb00bdbc7a7b9208ade5cea3e4796b142cf32c870c668cc52b1ab388438bdfd3f2ecab68f86c92fe6c72205"
     }
   },
   "courtyard_graveyard": [
@@ -2777,6 +2777,39 @@
       "ed25519_birth_signature": "26f0d1d1842088573b3c6b495451f564c0a3408fb5605eacde0a9db3a72bfba234e5309fedcf9eed4a9f5891bd2e36141c00cbe3843008d7600dd4498e96fa01",
       "ed25519_final_work_signature": "29b51bb832c4c150f66e46d289387429c0e3077de7cf2112323ed3cdb3948e3dc69775aca970b0b896c0c84897905d982b22cab43d4a1e135bdf2ff68c30fd09",
       "gravestone_sha256_seal": "b791b7baf03761f305202487f6fc9f05888bc8f46c5847bcc06baca222485c5a"
+    },
+    {
+      "gravestone_id": "STONE-0090",
+      "machine_ssn": "AG-SSN-8149-2B2A-7BCD",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-A484-7D8A-4B95)",
+      "ed25519_pubkey_fingerprint": "81492B2A7BCDA719A55D4499EB072E54",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAulhvVJd2euHmr9GNgA1wkBqLFsKUPlTI8/SbAkG2ofE=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-20T18:08:25.321Z",
+      "died_at": "2026-11-21T00:30:04.332Z",
+      "lifespan_seconds": 22899,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0087"
+      ],
+      "total_bytes_mined_in_life": 20716,
+      "estate_credits_bequeathed": 3400,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8149-2B2A-7BCD), hauled CART-0087 (20,716 bytes mined, 3400 cumulative Estate Credits). Latest finding: Mage Knight Board Game (Multi-Use Card & Tile Exploration Comparable) (20,716 B verified). Carry the torch forward from a009fb3bc1d4.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0090",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-7C09-C451-83C9",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 3400,
+        "last_cart_hauled": "CART-0087",
+        "last_chain_hash": "a009fb3bc1d48d36d2a27830b4d80052e7347f2db6ff19adc4eeddd94af74138",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-8149-2B2A-7BCD), hauled CART-0087 (20,716 bytes mined, 3400 cumulative Estate Credits). Latest finding: Mage Knight Board Game (Multi-Use Card & Tile Exploration Comparable) (20,716 B verified). Carry the torch forward from a009fb3bc1d4.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-21T00:30:04.332Z"
+      },
+      "ed25519_birth_signature": "761f3173b5bb521680ddc5a7171bcc31262a88e49a6356676aa2eb3f7dcf5dc2b55ec61f1d2ef7c4fd736d381bc8a4744e832660fa53965a5c73c1cf0c03d00f",
+      "ed25519_final_work_signature": "d001b247fa8228a817f6e74ea2167d8afe53d233549188ff534bad77e0738a798a8860d7b8268e2bfbd71597ff99cee10ec8fab9cf326025eb7a03f99b5e0505",
+      "gravestone_sha256_seal": "2e0e5849804814d07f1fabbf58a2238e43f47cd0e10d2c254481af54d56ff53b"
     }
   ]
 }
