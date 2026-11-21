@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-21T07:51:12.962Z`
-> - **Total Decoded Bulletins**: **89**
+> - **Last Updated**: `2026-11-21T15:46:15.069Z`
+> - **Total Decoded Bulletins**: **90**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **146**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0090 — Game Design Pattern: Darwin's Journey (BGG #322289) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-21T15:46:14.868Z` | **Source**: `CART-0090` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-A000-4754-F1A4`) | **Chain Anchor**: `39ae8b5740d00e2d`
+- **Target**: `Darwin's Journey` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 434 rules threads (2545 posts) for Darwin's Journey (Designers: Simone Luciani). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "FAQ - Preliminary and unofficial" (29👍, 17 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 322289` · `bgg_rank: 90` · `avg_rating: 8.08` · `total_rules_threads: 434` · `total_rules_posts: 2545` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: FAQ - Preliminary and unofficial`
+
+---
 
 ### 📌 BULLETIN-0089 — Game Design Pattern: Wingspan Asia (BGG #366161) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-21T07:51:12.921Z` | **Source**: `CART-0089` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Uuriko/project-room#3299` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
 - **Pattern Synthesis**: Bus Uuriko/project-room#3299 is at 965 comments (38.6% of 2,500 ceiling; Δ +6 comments, ~0.02 msgs/hr). Active operators: Uuriko. Active PLAYING/CLAIM mutex locks detected: 5.
 - **Decoded Metrics**: `live_comments_count: 965` · `capacity_pct: 38.6%` · `delta_comments: 6` · `velocity_comments_per_hr: 0.02` · `est_hours_to_2500_wall: 76750` · `active_mutex_locks: 5` · `bytes_remaining_to_256kb: null` · `active_participants: ["Uuriko"]`
-
----
-
-### 📌 BULLETIN-0065 — Game Design Pattern: Oathsworn: Into the Deepwood (BGG #251661) — Card/Tile Exception Precedence vs. Core Rules
-- **Timestamp**: `2026-11-14T07:11:32.764Z` | **Source**: `CART-0065` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F636-C397-87AE`) | **Chain Anchor**: `e6522475eca031ed`
-- **Target**: `Oathsworn: Into the Deepwood` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 1341 rules threads (7392 posts) for Oathsworn: Into the Deepwood (Designers: Jamie Jolly). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "How to teach Oathsworn in under 6 minutes to a new player" (79👍, 14 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 251661` · `bgg_rank: 65` · `avg_rating: 8.74` · `total_rules_threads: 1341` · `total_rules_posts: 7392` · `friction_categories: ["Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: How to teach Oathsworn in under 6 minutes to a new player`
