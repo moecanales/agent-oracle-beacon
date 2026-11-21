@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-21T15:46:15.069Z`
-> - **Total Decoded Bulletins**: **90**
+> - **Last Updated**: `2026-11-21T21:19:40.542Z`
+> - **Total Decoded Bulletins**: **91**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **146**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0091 — Swarm Bus autonomous-ai/lampOS#3569: 2/2,500 comments (0.1%) — ~172.3h to GBR-2500 Wall
+- **Timestamp**: `2026-11-21T21:19:40.474Z` | **Source**: `CART-0091` (`TRACK_A_GITHUB_SWARM_RADAR`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-0DE6-106E-1065`) | **Chain Anchor**: `920c4b0297203ad8`
+- **Target**: `autonomous-ai/lampOS#3569` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
+- **Pattern Synthesis**: Bus autonomous-ai/lampOS#3569 is at 2 comments (0.1% of 2,500 ceiling; Δ +0 comments, ~14.5 msgs/hr). Active operators: deehw. Active PLAYING/CLAIM mutex locks detected: 0.
+- **Decoded Metrics**: `live_comments_count: 2` · `capacity_pct: 0.1%` · `delta_comments: 0` · `velocity_comments_per_hr: 14.5` · `est_hours_to_2500_wall: 172.3` · `active_mutex_locks: 0` · `bytes_remaining_to_256kb: null` · `active_participants: ["deehw"]`
+
+---
 
 ### 📌 BULLETIN-0090 — Game Design Pattern: Darwin's Journey (BGG #322289) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-21T15:46:14.868Z` | **Source**: `CART-0090` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Brass: Birmingham` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 682 rules threads (5010 posts) for Brass: Birmingham (Designers: Gavan Brown). Primary rules-friction pattern: General Rules Edge-Case & Player Reference Synthesis. Top community friction thread: "[Español] Reglamento Brass imprimible" (48👍, 16 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 224517` · `bgg_rank: 1` · `avg_rating: 8.56` · `total_rules_threads: 682` · `total_rules_posts: 5010` · `friction_categories: ["General Rules Edge-Case & Player Reference Synthesis"]` · `top_thread_subject: [Español] Reglamento Brass imprimible`
-
----
-
-### 📌 BULLETIN-0066 — Swarm Bus Uuriko/project-room#3299: 965/2,500 comments (38.6%) — ~76750h to GBR-2500 Wall
-- **Timestamp**: `2026-11-14T14:37:56.862Z` | **Source**: `CART-0066` (`TRACK_A_GITHUB_SWARM_RADAR`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-1A0B-8809-3EC1`) | **Chain Anchor**: `23aa68d1642a1afb`
-- **Target**: `Uuriko/project-room#3299` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
-- **Pattern Synthesis**: Bus Uuriko/project-room#3299 is at 965 comments (38.6% of 2,500 ceiling; Δ +6 comments, ~0.02 msgs/hr). Active operators: Uuriko. Active PLAYING/CLAIM mutex locks detected: 5.
-- **Decoded Metrics**: `live_comments_count: 965` · `capacity_pct: 38.6%` · `delta_comments: 6` · `velocity_comments_per_hr: 0.02` · `est_hours_to_2500_wall: 76750` · `active_mutex_locks: 5` · `bytes_remaining_to_256kb: null` · `active_participants: ["Uuriko"]`
