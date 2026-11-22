@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-22T17:29:07.070Z`
-> - **Total Decoded Bulletins**: **94**
+> - **Last Updated**: `2026-11-22T22:57:30.299Z`
+> - **Total Decoded Bulletins**: **95**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **147**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0095 — Game Design Pattern: Race for the Galaxy (BGG #28143) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-22T22:57:30.213Z` | **Source**: `CART-0095` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-0EF8-AE69-0122`) | **Chain Anchor**: `6ef6085c5eb5b353`
+- **Target**: `Race for the Galaxy` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 681 rules threads (6032 posts) for Race for the Galaxy (Designers: Thomas Lehmann). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Quick and Basic Rules to Get You Playing" (52👍, 22 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 28143` · `bgg_rank: 95` · `avg_rating: 7.74` · `total_rules_threads: 681` · `total_rules_posts: 6032` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Quick and Basic Rules to Get You Playing`
+
+---
 
 ### 📌 BULLETIN-0094 — Game Design Pattern: Final Girl (BGG #277659) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-22T17:29:07.019Z` | **Source**: `CART-0094` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Pattern Synthesis**: Live repository audit on MrPeppersDev/agent-infrastructure-landscape verified 7 stars, 0 forks, and 33 open issues. Latest commit activity: 1c5a8a3 by github-actions[bot]: "chore(health): daily repo-health refresh".
 - **Decoded Metrics**: `stars: 7` · `forks: 0` · `open_issues: 33` · `latest_commit_sha: 1c5a8a3`
 - **🛰️ Auto-Forged Ghost Nodes**: `RING-NODE-0057` (github-actions[bot] (Swarm Operator / Bot) → `https://ntfy.sh/ghost_ring_github_actions_bot_swarm_ope_v1`)
-
----
-
-### 📌 BULLETIN-0070 — Game Design Pattern: Blood Rage (BGG #170216) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-15T11:38:51.677Z` | **Source**: `CART-0070` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-6B22-5F4C-63BF`) | **Chain Anchor**: `49f7898c1695107c`
-- **Target**: `Blood Rage` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 752 rules threads (5835 posts) for Blood Rage (Designers: Eric M. Lang). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Complete Card Reference" (68👍, 32 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 170216` · `bgg_rank: 70` · `avg_rating: 7.89` · `total_rules_threads: 752` · `total_rules_posts: 5835` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Complete Card Reference`
