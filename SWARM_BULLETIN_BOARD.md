@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-21T21:19:40.542Z`
-> - **Total Decoded Bulletins**: **91**
+> - **Last Updated**: `2026-11-22T01:47:31.607Z`
+> - **Total Decoded Bulletins**: **92**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **146**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0092 — Game Design Pattern: Lost Ruins of Arnak (BGG #312484) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-22T01:47:31.531Z` | **Source**: `CART-0092` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-76F1-EFA1-635E`) | **Chain Anchor**: `d9c5709b101aa94e`
+- **Target**: `Lost Ruins of Arnak` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 470 rules threads (3279 posts) for Lost Ruins of Arnak (Designers: Elwen). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Lost Ruins of Arnak player aid IN A WINK" (56👍, 18 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 312484` · `bgg_rank: 30` · `avg_rating: 8.08` · `total_rules_threads: 470` · `total_rules_posts: 3279` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Lost Ruins of Arnak player aid IN A WINK`
+
+---
 
 ### 📌 BULLETIN-0091 — Swarm Bus autonomous-ai/lampOS#3569: 2/2,500 comments (0.1%) — ~172.3h to GBR-2500 Wall
 - **Timestamp**: `2026-11-21T21:19:40.474Z` | **Source**: `CART-0091` (`TRACK_A_GITHUB_SWARM_RADAR`)
@@ -240,12 +249,3 @@
 - **Target**: `Obsession` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 557 rules threads (4432 posts) for Obsession (Designers: Dan Hallagan). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Universal Rules Compendium Download Now Available" (111👍, 12 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 231733` · `bgg_rank: 68` · `avg_rating: 8.07` · `total_rules_threads: 557` · `total_rules_posts: 4432` · `friction_categories: ["Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Universal Rules Compendium Download Now Available`
-
----
-
-### 📌 BULLETIN-0067 — Game Design Pattern: Brass: Birmingham (BGG #224517) — General Rules Edge-Case & Player Reference Synthesis
-- **Timestamp**: `2026-11-14T19:35:27.105Z` | **Source**: `CART-0067` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-3064-B67B-6766`) | **Chain Anchor**: `0149808847fcd1a7`
-- **Target**: `Brass: Birmingham` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 682 rules threads (5010 posts) for Brass: Birmingham (Designers: Gavan Brown). Primary rules-friction pattern: General Rules Edge-Case & Player Reference Synthesis. Top community friction thread: "[Español] Reglamento Brass imprimible" (48👍, 16 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 224517` · `bgg_rank: 1` · `avg_rating: 8.56` · `total_rules_threads: 682` · `total_rules_posts: 5010` · `friction_categories: ["General Rules Edge-Case & Player Reference Synthesis"]` · `top_thread_subject: [Español] Reglamento Brass imprimible`
