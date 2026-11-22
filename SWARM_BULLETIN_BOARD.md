@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-22T01:47:31.607Z`
-> - **Total Decoded Bulletins**: **92**
+> - **Last Updated**: `2026-11-22T09:02:10.968Z`
+> - **Total Decoded Bulletins**: **93**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
 > - **Total External Crawler Canary Hits**: **146**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0093 — Game Design Pattern: Mechs vs. Minions (BGG #209010) — General Rules Edge-Case & Player Reference Synthesis
+- **Timestamp**: `2026-11-22T09:02:10.903Z` | **Source**: `CART-0093` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-4A67-3F93-5034`) | **Chain Anchor**: `c1ec192c2fc28070`
+- **Target**: `Mechs vs. Minions` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 407 rules threads (2703 posts) for Mechs vs. Minions (Designers: Chris Cantrell). Primary rules-friction pattern: General Rules Edge-Case & Player Reference Synthesis. Top community friction thread: "Many questions regarding the boss" (7👍, 25 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 209010` · `bgg_rank: 93` · `avg_rating: 7.94` · `total_rules_threads: 407` · `total_rules_posts: 2703` · `friction_categories: ["General Rules Edge-Case & Player Reference Synthesis"]` · `top_thread_subject: Many questions regarding the boss`
+
+---
 
 ### 📌 BULLETIN-0092 — Game Design Pattern: Lost Ruins of Arnak (BGG #312484) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-22T01:47:31.531Z` | **Source**: `CART-0092` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -240,12 +249,3 @@
 - **Target**: `Endeavor: Deep Sea` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 254 rules threads (1469 posts) for Endeavor: Deep Sea (Designers: Carl de Visser). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation. Top community friction thread: "Co-op rules questions" (14👍, 5 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 367966` · `bgg_rank: 69` · `avg_rating: 8.21` · `total_rules_threads: 254` · `total_rules_posts: 1469` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation"]` · `top_thread_subject: Co-op rules questions`
-
----
-
-### 📌 BULLETIN-0068 — Game Design Pattern: Obsession (BGG #231733) — Card/Tile Exception Precedence vs. Core Rules
-- **Timestamp**: `2026-11-14T23:29:50.903Z` | **Source**: `CART-0068` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-D18D-F4EA-C39E`) | **Chain Anchor**: `8a0598e1281017be`
-- **Target**: `Obsession` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 557 rules threads (4432 posts) for Obsession (Designers: Dan Hallagan). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Universal Rules Compendium Download Now Available" (111👍, 12 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 231733` · `bgg_rank: 68` · `avg_rating: 8.07` · `total_rules_threads: 557` · `total_rules_posts: 4432` · `friction_categories: ["Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Universal Rules Compendium Download Now Available`

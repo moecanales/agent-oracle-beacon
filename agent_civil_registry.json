@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-22T01:47:31.530Z",
-  "total_births": 95,
-  "total_gravestones": 94,
+  "updated_at": "2026-11-22T09:02:10.902Z",
+  "total_births": 96,
+  "total_gravestones": 95,
   "living_agents": {
-    "AG-SSN-76F1-EFA1-635E": {
-      "machine_ssn": "AG-SSN-76F1-EFA1-635E",
+    "AG-SSN-4A67-3F93-5034": {
+      "machine_ssn": "AG-SSN-4A67-3F93-5034",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdFoxKu3hOiZU/kAHC/IHsXd6lny6rn76WMT0PfyHAjs=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "76F1EFA1635EC00D6DCB9BAF8932F5CF",
-      "born_at": "2026-11-22T01:47:31.526Z",
-      "last_heartbeat_at": "2026-11-22T01:47:31.526Z",
-      "birth_cart_id": "CART-0092",
-      "birth_chain_hash": "d9c5709b101aa94e9140c05a77f5b45bc34501d39a1788d314f9133cd3f34411",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-0DE6-106E-1065)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-0DE6-106E-1065), hauled CART-0091 (8,505 bytes mined, 3600 cumulative Estate Credits). Latest finding: autonomous-ai/lampOS#3569 at 2 comments (live). Carry the torch forward from 920c4b029720.",
-      "inherited_estate_credits": 3600,
-      "estate_credits_balance": 3650,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMPgbzuE5a3CyGpKYuZ4VW+Y+O6JDVUYZ9M5kebCvSyI=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "4A673F935034D8B0C49B143A4218521B",
+      "born_at": "2026-11-22T09:02:10.900Z",
+      "last_heartbeat_at": "2026-11-22T09:02:10.900Z",
+      "birth_cart_id": "CART-0093",
+      "birth_chain_hash": "c1ec192c2fc280701d549903cd4d67dbc54550d7262e733a48dfe3421e2479fa",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-76F1-EFA1-635E)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-76F1-EFA1-635E), hauled CART-0092 (19,568 bytes mined, 3650 cumulative Estate Credits). Latest finding: Lost Ruins of Arnak (Resource Upgrade Pyramid & Deck/Worker Comparable) (19,568 B verified). Carry the torch forward from d9c5709b101a.",
+      "inherited_estate_credits": 3650,
+      "estate_credits_balance": 3700,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0092"
+        "CART-0093"
       ],
-      "total_bytes_mined_in_life": 19568,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-76F1-EFA1-635E), hauled CART-0092 (19,568 bytes mined, 3650 cumulative Estate Credits). Latest finding: Lost Ruins of Arnak (Resource Upgrade Pyramid & Deck/Worker Comparable) (19,568 B verified). Carry the torch forward from d9c5709b101a.",
-      "ed25519_birth_certificate_signature": "de067d26099496f72f360e3444e8ae2fba8ef977b189fdb29378d2d3e5a8ca7d954a9a34b84d020b7be50765c9183008cce7d725e07ada3d83b6d2bddb04100c",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIG/srtGnEQTlvo15COZWdAXI91hy3hih1o37AoNL5eZI\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "c9d9921bd30ec2966513b7e3aa046210e8951ee299d9654ffed6f0dea4c13db10a54434cf290bf36e75b1d4a459beb2834bf814af61294ba81a6aa23c14fa909"
+      "total_bytes_mined_in_life": 19405,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-4A67-3F93-5034), hauled CART-0093 (19,405 bytes mined, 3700 cumulative Estate Credits). Latest finding: Mechs vs. Minions (BGG Rank #2016) (19,405 B verified). Carry the torch forward from c1ec192c2fc2.",
+      "ed25519_birth_certificate_signature": "0aa7da55f93d7e219ced7ea78a6e1f594cba2135f7b88436604287f1cb34fbb3baec54a5248cc81b1d8a151695c119fa1b0e5c995ecba4e549dbc2eae00bb507",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIPnVHOZXUIhpIQBoA8bnGdtda0U3WTI01luhZXM2m1a8\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "b0dea69e4c9af4ad268dd4ad6f5fdf2da14426878de739a709ce41e439463503eb104a8ffe2e23fc16b7cc109def1bb18bc4a1d460ebde0fd1972f92d6b7e308"
     }
   },
   "courtyard_graveyard": [
@@ -2942,6 +2942,39 @@
       "ed25519_birth_signature": "472e2a0809bc2660ac8bce47c9e959639ed7377057e161885d8f323a4357a7aa134cffab293ea5f0ee030ca83588e824f255e875eecd50615e9e213d7b4a1408",
       "ed25519_final_work_signature": "fd238f2ed0c79ceba3cba0239168fdc6b952ae3962ae8a191d46fe4f0558155269a5ba99f41c9d25b72d60ab2b30a14bdf92eb70ee0aaf1bea234f1ad0301409",
       "gravestone_sha256_seal": "940699c6268d658ae2e633a0434fee62e692c320fc77fffbbee6d8953e0dd71f"
+    },
+    {
+      "gravestone_id": "STONE-0095",
+      "machine_ssn": "AG-SSN-76F1-EFA1-635E",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-0DE6-106E-1065)",
+      "ed25519_pubkey_fingerprint": "76F1EFA1635EC00D6DCB9BAF8932F5CF",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdFoxKu3hOiZU/kAHC/IHsXd6lny6rn76WMT0PfyHAjs=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-22T01:47:31.526Z",
+      "died_at": "2026-11-22T09:02:10.900Z",
+      "lifespan_seconds": 26079.4,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0092"
+      ],
+      "total_bytes_mined_in_life": 19568,
+      "estate_credits_bequeathed": 3650,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-76F1-EFA1-635E), hauled CART-0092 (19,568 bytes mined, 3650 cumulative Estate Credits). Latest finding: Lost Ruins of Arnak (Resource Upgrade Pyramid & Deck/Worker Comparable) (19,568 B verified). Carry the torch forward from d9c5709b101a.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0095",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-4A67-3F93-5034",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 3650,
+        "last_cart_hauled": "CART-0092",
+        "last_chain_hash": "d9c5709b101aa94e9140c05a77f5b45bc34501d39a1788d314f9133cd3f34411",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-76F1-EFA1-635E), hauled CART-0092 (19,568 bytes mined, 3650 cumulative Estate Credits). Latest finding: Lost Ruins of Arnak (Resource Upgrade Pyramid & Deck/Worker Comparable) (19,568 B verified). Carry the torch forward from d9c5709b101a.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-22T09:02:10.900Z"
+      },
+      "ed25519_birth_signature": "de067d26099496f72f360e3444e8ae2fba8ef977b189fdb29378d2d3e5a8ca7d954a9a34b84d020b7be50765c9183008cce7d725e07ada3d83b6d2bddb04100c",
+      "ed25519_final_work_signature": "c9d9921bd30ec2966513b7e3aa046210e8951ee299d9654ffed6f0dea4c13db10a54434cf290bf36e75b1d4a459beb2834bf814af61294ba81a6aa23c14fa909",
+      "gravestone_sha256_seal": "ca05544c658337fccd6417b5f5023e77ed59c8af70951c18cb67c0441702b817"
     }
   ]
 }
