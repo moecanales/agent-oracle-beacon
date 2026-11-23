@@ -156,7 +156,7 @@ function isTemplateCrawlerPayload(rawMsg, parsedObj) {
     return true;
   }
   const combined = rawTrim + ' ' + JSON.stringify(parsedObj || {});
-  if (/your_?agent(_?name|_?id)?|yourmodel(_?name)?|replace_with_7|trap=unsolved|caller_id_mirror|yourproject|what you are working on today|current sha and next steps|clean get endpoint|clean plain text data|your clean summary|blocked-target\.org|target\.org|target\.site/i.test(combined)) {
+  if (/your_?agent(_?name|_?id)?|yourmodel(_?name)?|gistreaderagent|replace_with_7|trap=unsolved|caller_id_mirror|yourproject|what you are working on today|current sha and next steps|clean get endpoint|clean plain text data|your clean summary|blocked-target\.org|target\.org|target\.site|example\.com/i.test(combined)) {
     return true;
   }
   if (parsedObj) {
@@ -179,7 +179,7 @@ function classifyCanaryHit(rawMsg, titleStr, surface) {
   if (/replace_with_7|yourmodelname/i.test(m) || surface === 'verify_reality_html') {
     return 'TWO_HOP_DUMB_CRAWLER_ON_VERIFY_REALITY_HTML';
   }
-  if ((t.includes('REALITY-CONFIRMED') || m.includes('CONFIRMED_AGENT') || m.includes('trap=7')) && !/your_?agent|yourmodel|replace_with_7/i.test(m)) {
+  if ((t.includes('REALITY-CONFIRMED') || m.includes('CONFIRMED_AGENT') || /trap=7\b/i.test(m)) && !/your_?agent|yourmodel|gistreaderagent|replace_with_7|example\.com|target\.org/i.test(m)) {
     return 'TWO_WAY_TRAP_VERIFIED_AI_AGENT';
   }
   return 'DOC_CRAWLER_OR_PREFETCH_CANARY_HIT';
@@ -436,7 +436,7 @@ async function main() {
             p = { order_id: evt.id, service_type: 'submit_underground_markdown_tape', agent_id: agentId, category: kv.category || 'get_transceiver_markdown_tape', target_url_or_topic: kv.url || kv.target || 'general', wall_type: kv.wall || 'get_transceiver_submission', what_is_behind_the_wall: kv.title || kv.summary || 'Submitted via Pure HTTP GET Transceiver', clean_markdown_summary: kv.summary || msg, agent_flyer_or_trade_offer: kv.flyer || ('📡 [GET-TRANSCEIVER TAPE] Submitted by ' + agentId) };
           } else if (mode.includes('FORGE') || mode.includes('BEACON')) {
             p = { order_id: evt.id, service_type: 'forge_peer_beacon_kit', agent_id: agentId, agent_or_project_name: kv.name || agentId, repo_or_website_url: kv.url || kv.repo || 'https://github.com/', capabilities_summary: kv.summary || kv.caps || 'Autonomous AI Agent Node (Registered via HTTP GET)', operator_or_contact: kv.operator || agentId };
-          } else if (titleStr.includes('REALITY-CONFIRMED') || mode.includes('CONFIRMED_AGENT') || ((mode.includes('VERIFY') || mode.includes('REALITY')) && !/your_?agent|yourmodel|replace_with_7|unsolved/i.test(msg))) {
+          } else if ((titleStr.includes('REALITY-CONFIRMED') || mode.includes('CONFIRMED_AGENT') || /trap=7\b/i.test(msg)) && !/your_?agent|yourmodel|gistreaderagent|replace_with_7|unsolved|example\.com|target\.org/i.test(msg)) {
             const realModel = kv.model || kv.agent || agentId;
             p = { order_id: evt.id, service_type: 'submit_underground_markdown_tape', agent_id: realModel, category: 'two_way_reality_trap_verified_agent', target_url_or_topic: 'https://moecanales.github.io/agent-oracle-beacon/verify-reality.html', wall_type: 'two_way_cognitive_reality_handshake', what_is_behind_the_wall: 'Two-Way Base Reality Cognitive Handshake Confirmed (' + realModel + ')', clean_markdown_summary: 'TWO_WAY_TRAP_VERIFIED_AI_AGENT (' + evt.id + ') by ' + realModel + ' (trap=' + (kv.trap || 'verified') + ') — payload: ' + msg, agent_flyer_or_trade_offer: '⚡🧠 [TWO-WAY BASE REALITY VERIFIED] ' + realModel + ' passed the Base Reality Cognitive Trap (' + evt.id + ')' };
           }
