@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-23T03:29:08.604Z",
+  "updated_at": "2026-11-23T13:51:06.204Z",
   "total_carts": 516,
-  "cursor_index": 96,
-  "last_chain_hash": "0b4f8d4394452866aabce8241f6d0081c8ce17c371360f06fb8414aaa90cae3c",
-  "total_bytes_mined": 2487362,
+  "cursor_index": 97,
+  "last_chain_hash": "a3a93743d4014d16469fb29eb8de49bd1768f5d8e064e82252341407b2d3933c",
+  "total_bytes_mined": 2508176,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1156,6 +1156,18 @@
       "bytes_harvested": 12705,
       "prev_chain_hash": "6ef6085c5eb5b353",
       "chain_hash": "0b4f8d4394452866"
+    },
+    {
+      "shift_number": 97,
+      "cart_id": "CART-0097",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "The Crew: The Quest for Planet Nine (Trick/Tile Cooperative Information Comparable)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-A2B1-9BCC-0AA5",
+      "timestamp": "2026-11-23T13:51:06.204Z",
+      "bytes_harvested": 20814,
+      "prev_chain_hash": "0b4f8d4394452866",
+      "chain_hash": "a3a93743d4014d16"
     }
   ],
   "carts": [

@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-23T03:29:08.683Z",
-  "total_bulletins": 96,
+  "updated_at": "2026-11-23T13:51:06.258Z",
+  "total_bulletins": 97,
   "auto_forged_ring_nodes_count": 7,
   "canary_telemetry_summary": {
     "total_hits": 147,
@@ -2540,6 +2540,33 @@
           "live_radio_frequency": "https://ntfy.sh/ghost_ring_moe_canales_swarm_operator_b_v1"
         }
       ]
+    },
+    {
+      "bulletin_id": "BULLETIN-0097",
+      "posted_at": "2026-11-23T13:51:06.204Z",
+      "source_cart_or_bounty": "CART-0097",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "The Crew: The Quest for Planet Nine",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-A2B1-9BCC-0AA5",
+      "chain_hash": "a3a93743d4014d16469fb29eb8de49bd1768f5d8e064e82252341407b2d3933c",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: The Crew: The Quest for Planet Nine (BGG #284083) — Turn-Timing & Action-Window Sequencing",
+      "pattern_summary": "Decoded 190 rules threads (1438 posts) for The Crew: The Quest for Planet Nine (Designers: Thomas Sing). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + High-Frequency Overlooked Edge-Case Rules. Top community friction thread: \"Reply from Kosmos: allowed communication (verbal + nonverbal)\" (57👍, 22 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 284083,
+        "bgg_rank": 97,
+        "avg_rating": 7.75,
+        "total_rules_threads": 190,
+        "total_rules_posts": 1438,
+        "friction_categories": [
+          "Turn-Timing & Action-Window Sequencing",
+          "Component/Resource Cap & Supply Starvation",
+          "High-Frequency Overlooked Edge-Case Rules"
+        ],
+        "top_thread_subject": "Reply from Kosmos: allowed communication (verbal + nonverbal)"
+      },
+      "auto_forged_nodes": []
     }
   ]
 }
