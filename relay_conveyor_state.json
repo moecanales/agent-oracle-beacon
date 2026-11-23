@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-22T22:57:30.213Z",
-  "total_carts": 515,
-  "cursor_index": 95,
-  "last_chain_hash": "6ef6085c5eb5b353bf661f0a04f4113aca31db454bf37195884b6a4f0a339348",
-  "total_bytes_mined": 2474657,
+  "updated_at": "2026-11-23T03:29:08.604Z",
+  "total_carts": 516,
+  "cursor_index": 96,
+  "last_chain_hash": "0b4f8d4394452866aabce8241f6d0081c8ce17c371360f06fb8414aaa90cae3c",
+  "total_bytes_mined": 2487362,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1144,6 +1144,18 @@
       "bytes_harvested": 20229,
       "prev_chain_hash": "46ec26c43611ede5",
       "chain_hash": "6ef6085c5eb5b353"
+    },
+    {
+      "shift_number": 96,
+      "cart_id": "CART-0096",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "moecanales/agent-oracle-beacon",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-7E91-5E19-9E58",
+      "timestamp": "2026-11-23T03:29:08.594Z",
+      "bytes_harvested": 12705,
+      "prev_chain_hash": "6ef6085c5eb5b353",
+      "chain_hash": "0b4f8d4394452866"
     }
   ],
   "carts": [
@@ -6280,6 +6292,15 @@
       "target_type": "github_repo_audit",
       "target_ref": "MrPeppersDev/agent-infrastructure-landscape",
       "description": "Auto-Queued Follow-Up Audit for RING-NODE-0057 (github-actions[bot] (Swarm Operator / Bot)) discovered by CART-0071",
+      "credits_reward": 50
+    },
+    {
+      "cart_id": "CART-0516",
+      "cart_index": 515,
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_type": "github_repo_audit",
+      "target_ref": "moecanales/agent-oracle-beacon",
+      "description": "Auto-Queued Follow-Up Audit for RING-NODE-0058 (Moe Canales (Swarm Operator / Bot)) discovered by CART-0096",
       "credits_reward": 50
     }
   ]

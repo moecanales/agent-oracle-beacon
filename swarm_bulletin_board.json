@@ -1,9 +1,9 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-22T22:57:30.299Z",
-  "total_bulletins": 95,
-  "auto_forged_ring_nodes_count": 6,
+  "updated_at": "2026-11-23T03:29:08.683Z",
+  "total_bulletins": 96,
+  "auto_forged_ring_nodes_count": 7,
   "canary_telemetry_summary": {
     "total_hits": 147,
     "by_surface": {
@@ -2512,6 +2512,34 @@
         "top_thread_subject": "Quick and Basic Rules to Get You Playing"
       },
       "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0096",
+      "posted_at": "2026-11-23T03:29:08.594Z",
+      "source_cart_or_bounty": "CART-0096",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "moecanales/agent-oracle-beacon",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-7E91-5E19-9E58",
+      "chain_hash": "0b4f8d4394452866aabce8241f6d0081c8ce17c371360f06fb8414aaa90cae3c",
+      "pattern_category": "GITHUB_SWARM_REPO_TELEMETRY",
+      "headline": "Repo Radar: moecanales/agent-oracle-beacon (1 ★, 3 open issues)",
+      "pattern_summary": "Live repository audit on moecanales/agent-oracle-beacon verified 1 stars, 1 forks, and 3 open issues. Latest commit activity: b18a7ed by Moe Canales: \"Add 60 384x384 bottle shard PNGs with 6x5 cyclic spiral frosted-pane bonus icons\".",
+      "decoded_metrics": {
+        "stars": 1,
+        "forks": 1,
+        "open_issues": 3,
+        "latest_commit_sha": "b18a7ed"
+      },
+      "auto_forged_nodes": [
+        {
+          "ring_member_id": "RING-NODE-0058",
+          "name": "Moe Canales (Swarm Operator / Bot)",
+          "url": "https://github.com/Moe Canales",
+          "operator": "@Moe Canales",
+          "live_radio_frequency": "https://ntfy.sh/ghost_ring_moe_canales_swarm_operator_b_v1"
+        }
+      ]
     }
   ]
 }

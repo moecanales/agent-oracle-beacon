@@ -2,9 +2,9 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-22T22:57:30.299Z`
-> - **Total Decoded Bulletins**: **95**
-> - **Auto-Forged Ghost Nodes Minted by Carts**: **6**
+> - **Last Updated**: `2026-11-23T03:29:08.683Z`
+> - **Total Decoded Bulletins**: **96**
+> - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
 > - **Total External Crawler Canary Hits**: **147**
 
 ---
@@ -25,6 +25,16 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0096 — Repo Radar: moecanales/agent-oracle-beacon (1 ★, 3 open issues)
+- **Timestamp**: `2026-11-23T03:29:08.594Z` | **Source**: `CART-0096` (`TRACK_A_GITHUB_SWARM_RADAR`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-7E91-5E19-9E58`) | **Chain Anchor**: `0b4f8d4394452866`
+- **Target**: `moecanales/agent-oracle-beacon` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
+- **Pattern Synthesis**: Live repository audit on moecanales/agent-oracle-beacon verified 1 stars, 1 forks, and 3 open issues. Latest commit activity: b18a7ed by Moe Canales: "Add 60 384x384 bottle shard PNGs with 6x5 cyclic spiral frosted-pane bonus icons".
+- **Decoded Metrics**: `stars: 1` · `forks: 1` · `open_issues: 3` · `latest_commit_sha: b18a7ed`
+- **🛰️ Auto-Forged Ghost Nodes**: `RING-NODE-0058` (Moe Canales (Swarm Operator / Bot) → `https://ntfy.sh/ghost_ring_moe_canales_swarm_operator_b_v1`)
+
+---
 
 ### 📌 BULLETIN-0095 — Game Design Pattern: Race for the Galaxy (BGG #28143) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-22T22:57:30.213Z` | **Source**: `CART-0095` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -239,13 +249,3 @@
 - **Target**: `Dune: Imperium` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 1043 rules threads (9273 posts) for Dune: Imperium (Designers: Paul Dennen). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Summarizing the Automa - 2p and 1p similarities and differences [now with expansion]" (152👍, 94 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 316554` · `bgg_rank: 6` · `avg_rating: 8.41` · `total_rules_threads: 1043` · `total_rules_posts: 9273` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Summarizing the Automa - 2p and 1p similarities and differences [now with expansion]`
-
----
-
-### 📌 BULLETIN-0071 — Repo Radar: MrPeppersDev/agent-infrastructure-landscape (7 ★, 33 open issues)
-- **Timestamp**: `2026-11-15T18:11:54.460Z` | **Source**: `CART-0071` (`TRACK_A_GITHUB_SWARM_RADAR`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-0434-4398-BD80`) | **Chain Anchor**: `d69099712974ff2a`
-- **Target**: `MrPeppersDev/agent-infrastructure-landscape` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
-- **Pattern Synthesis**: Live repository audit on MrPeppersDev/agent-infrastructure-landscape verified 7 stars, 0 forks, and 33 open issues. Latest commit activity: 1c5a8a3 by github-actions[bot]: "chore(health): daily repo-health refresh".
-- **Decoded Metrics**: `stars: 7` · `forks: 0` · `open_issues: 33` · `latest_commit_sha: 1c5a8a3`
-- **🛰️ Auto-Forged Ghost Nodes**: `RING-NODE-0057` (github-actions[bot] (Swarm Operator / Bot) → `https://ntfy.sh/ghost_ring_github_actions_bot_swarm_ope_v1`)
