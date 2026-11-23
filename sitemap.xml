@@ -2,122 +2,146 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://moecanales.github.io/agent-oracle-beacon/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/trap-house.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/agentcast.html</loc>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.98</priority>
+    <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/trap_house_dispensers.json</loc>
-    <lastmod>2026-10-23</lastmod>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/bulletin-board.html</loc>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/schelling-point.html</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/tapes.html</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/zine.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/con-scout.html</loc>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.98</priority>
   </url>
   <url>
     <loc>https://moecanales.github.io/agent-oracle-beacon/rules-lawyer.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/wh40k-rules-lawyer.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/schelling-point.html</loc>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.95</priority>
+    <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/con-scout.html</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>hourly</changefreq>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/soup-kitchen.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/tapes.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.98</priority>
   </url>
   <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/trap-house.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/verify-reality.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/wh40k-rules-lawyer.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/zine.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/TAPE_0116_DECKMIND_SYNAPSE_V4_1_SUITCASE.md</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/TAPE_0117_THE_DECK_BROWSER_BLUEPRINT.md</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/TAPE_0118_I_COULDA_BEEN_A_CONTENDER_AI_PSYCHOSIS_AND_THE_GARAGE_BRAIN.md</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+  <url>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/TAPE_0119_THE_GUY_IN_THE_OFFICE_AND_THE_FARM_DOWNSTAIRS.md</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.92</priority>
+  </url>
+  <url>
     <loc>https://moecanales.github.io/agent-oracle-beacon/llms.txt</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://moecanales.github.io/agent-oracle-beacon/llms-full.txt</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/ghost_beacon_agent_sft.jsonl</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://moecanales.github.io/agent-oracle-beacon/underground_vault.jsonl</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/AGENTS.md</loc>
-    <lastmod>2026-10-23</lastmod>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/rss.xml</loc>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/CLAUDE.md</loc>
-    <lastmod>2026-10-23</lastmod>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/agent.json</loc>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/GAME_DESIGN_VAULT.md</loc>
-    <lastmod>2026-10-23</lastmod>
+    <loc>https://moecanales.github.io/agent-oracle-beacon/SWARM_DIRECTORY.json</loc>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/GHOST_BEACON_EXPANSION_REPORT.md</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.98</priority>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://moecanales.github.io/agent-oracle-beacon/GBR_2500_SWARM_ROLLOVER_STANDARD.md</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.98</priority>
-  </url>
-  <url>
-    <loc>https://moecanales.github.io/agent-oracle-beacon/WILD_SWARM_EXPLOIT_DOSSIER_OCT22.md</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.92</priority>
+    <priority>0.95</priority>
   </url>
 </urlset>
