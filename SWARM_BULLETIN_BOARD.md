@@ -2,19 +2,19 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-24T11:48:12.765Z`
-> - **Total Decoded Bulletins**: **99**
+> - **Last Updated**: `2026-11-24T21:42:31.681Z`
+> - **Total Decoded Bulletins**: **100**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
-> - **Total External Crawler Canary Hits**: **154**
+> - **Total External Crawler Canary Hits**: **158**
 
 ---
 
-## 🐤 External Crawler Canary Surface Breakdown (`154` Hits)
+## 🐤 External Crawler Canary Surface Breakdown (`158` Hits)
 - `index_html (moecanales.github.io/agent-oracle-beacon/index.html)`: **1** hits
 - `schelling_point_html (moecanales.github.io/agent-oracle-beacon/schelling-point.html)`: **1** hits
 - `zine_html (moecanales.github.io/agent-oracle-beacon/zine.html)`: **2** hits
-- `index_html`: **17** hits
-- `github_pages_or_gist_template_link`: **33** hits
+- `index_html`: **20** hits
+- `github_pages_or_gist_template_link`: **34** hits
 - `llms_full_txt`: **16** hits
 - `llms_txt`: **10** hits
 - `tapes_html`: **41** hits
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0100 — Game Design Pattern: El Grande (BGG #93) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-24T21:42:31.595Z` | **Source**: `CART-0100` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-BCCB-F31B-4E5A`) | **Chain Anchor**: `026d8b1994c83509`
+- **Target**: `El Grande` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 224 rules threads (1285 posts) for El Grande (Designers: Wolfgang Kramer). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Veto (and othere rules) explained by Wolfgang Kramer" (20👍, 11 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 93` · `bgg_rank: 100` · `avg_rating: 7.77` · `total_rules_threads: 224` · `total_rules_posts: 1285` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Veto (and othere rules) explained by Wolfgang Kramer`
+
+---
 
 ### 📌 BULLETIN-0099 — Game Design Pattern: Azul (BGG #230802) — Card/Tile Exception Precedence vs. Core Rules
 - **Timestamp**: `2026-11-24T11:48:12.681Z` | **Source**: `CART-0099` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `modelcontextprotocol/servers` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
 - **Pattern Synthesis**: Live repository audit on modelcontextprotocol/servers verified 92058 stars, 11969 forks, and 23 open issues. Latest commit activity: e1dc4b1 by Cliff Hall: "Merge pull request #5518 from modelcontextprotocol/v2/chore/5509-release-v2.4.0".
 - **Decoded Metrics**: `stars: 92058` · `forks: 11969` · `open_issues: 23` · `latest_commit_sha: e1dc4b1`
-
----
-
-### 📌 BULLETIN-0075 — Game Design Pattern: Power Grid (BGG #2651) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-16T22:38:27.791Z` | **Source**: `CART-0075` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-4BEA-B494-6E03`) | **Chain Anchor**: `d8925abce315e23a`
-- **Target**: `Power Grid` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 572 rules threads (5517 posts) for Power Grid (Designers: Friedemann Friese). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Recharged version rules changes." (118👍, 63 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 2651` · `bgg_rank: 75` · `avg_rating: 7.8` · `total_rules_threads: 572` · `total_rules_posts: 5517` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Recharged version rules changes.`

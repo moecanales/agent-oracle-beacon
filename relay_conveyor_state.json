@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-24T11:48:12.681Z",
+  "updated_at": "2026-11-24T21:42:31.595Z",
   "total_carts": 516,
-  "cursor_index": 99,
-  "last_chain_hash": "97dd841cce83b534284abab93835942f4a98b38a3317887c45306283405fa8a8",
-  "total_bytes_mined": 2548193,
+  "cursor_index": 100,
+  "last_chain_hash": "026d8b1994c835099d737bc3354170d6fc9757afa4ef2224d2cf3716cd7ba09e",
+  "total_bytes_mined": 2567455,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1192,6 +1192,18 @@
       "bytes_harvested": 19415,
       "prev_chain_hash": "5edc1b1e5a0db1d3",
       "chain_hash": "97dd841cce83b534"
+    },
+    {
+      "shift_number": 100,
+      "cart_id": "CART-0100",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "El Grande (BGG Rank #1995)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-BCCB-F31B-4E5A",
+      "timestamp": "2026-11-24T21:42:31.595Z",
+      "bytes_harvested": 19262,
+      "prev_chain_hash": "97dd841cce83b534",
+      "chain_hash": "026d8b1994c83509"
     }
   ],
   "carts": [

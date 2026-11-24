@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-24T11:48:12.680Z",
-  "total_births": 102,
-  "total_gravestones": 101,
+  "updated_at": "2026-11-24T21:42:31.594Z",
+  "total_births": 103,
+  "total_gravestones": 102,
   "living_agents": {
-    "AG-SSN-BC63-988E-4038": {
-      "machine_ssn": "AG-SSN-BC63-988E-4038",
+    "AG-SSN-BCCB-F31B-4E5A": {
+      "machine_ssn": "AG-SSN-BCCB-F31B-4E5A",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAzTN/+5EX9xVDY1VsQs8e3SGeAc4xD2MlN2feFf2cCsM=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "BC63988E4038433264AD5BB2A94223EA",
-      "born_at": "2026-11-24T11:48:12.676Z",
-      "last_heartbeat_at": "2026-11-24T11:48:12.676Z",
-      "birth_cart_id": "CART-0099",
-      "birth_chain_hash": "97dd841cce83b534284abab93835942f4a98b38a3317887c45306283405fa8a8",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F282-0668-60F3)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-F282-0668-60F3), hauled CART-0098 (20,602 bytes mined, 3950 cumulative Estate Credits). Latest finding: Five Tribes: The Djinns of Naqala (BGG Rank #2014) (20,602 B verified). Carry the torch forward from 5edc1b1e5a0d.",
-      "inherited_estate_credits": 3950,
-      "estate_credits_balance": 4000,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA3zAC3tpaFLTDnvxnKAj8af93qv9Zuv7pM2/Mu5YURsM=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "BCCBF31B4E5A619BD9799CE794212FCB",
+      "born_at": "2026-11-24T21:42:31.591Z",
+      "last_heartbeat_at": "2026-11-24T21:42:31.591Z",
+      "birth_cart_id": "CART-0100",
+      "birth_chain_hash": "026d8b1994c835099d737bc3354170d6fc9757afa4ef2224d2cf3716cd7ba09e",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-BC63-988E-4038)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-BC63-988E-4038), hauled CART-0099 (19,415 bytes mined, 4000 cumulative Estate Credits). Latest finding: Azul (BGG Rank #2017) (19,415 B verified). Carry the torch forward from 97dd841cce83.",
+      "inherited_estate_credits": 4000,
+      "estate_credits_balance": 4050,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0099"
+        "CART-0100"
       ],
-      "total_bytes_mined_in_life": 19415,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-BC63-988E-4038), hauled CART-0099 (19,415 bytes mined, 4000 cumulative Estate Credits). Latest finding: Azul (BGG Rank #2017) (19,415 B verified). Carry the torch forward from 97dd841cce83.",
-      "ed25519_birth_certificate_signature": "42161a646f6d24348364ee5d22eb92c6c4d19760bfc47c92c63ca09a5bfbe49c1642f40c6d0dee9a1bfe6e1288dc73c15f6cd013dede67c84cd5aab69d22620d",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIOOV5nuphNb5iGAwDP4J9RUMCNyi5mqhSi2ftGhaBOpU\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "33d54d76a0a92c3631ae673853e21988b0de27ba7d12df98c0c31e47995f7285b38eda487984842f63e91ebc1a328ea852db8138fd687fdc2fbe95949f664d0a"
+      "total_bytes_mined_in_life": 19262,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-BCCB-F31B-4E5A), hauled CART-0100 (19,262 bytes mined, 4050 cumulative Estate Credits). Latest finding: El Grande (BGG Rank #1995) (19,262 B verified). Carry the torch forward from 026d8b1994c8.",
+      "ed25519_birth_certificate_signature": "cf2b73a03d4178cda3a5661bc3d6851e3b5f4de34a88352ac0884135d784002ac7bfce476c6a3611260cc847d33ae9cdd55fe60bc8be1e946f81960e16354401",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIKK9vdLTNfl8Cv+t/MfBqivJwU39JGMB5Xc8vx8FBW/I\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "56e62b5869208e31c17864f007b1d512d18c536f4b6067d4970b4680f447a27c0fc386b625560dcd43541d30d97b1601ace1dc3d09f49fe522cf11296c4eec08"
     }
   },
   "courtyard_graveyard": [
@@ -3173,6 +3173,39 @@
       "ed25519_birth_signature": "f12576e763fe4ab7b5a74bd626d30a8be65e0f3f0e030e8f3c0428e3f06d96df97adf1e8a2348030e24d75fc5405b48c7df97fe48ae9caa0e2e84fb6a7e40a05",
       "ed25519_final_work_signature": "b42977e48aba751adaffd2f2ec6fd1bf433794b940eefed8666f2c1e52d2a034eb9ba6dd6511f5b432dbb4a9981cba9502db7fe2e082608d761d0f3df2e58a0e",
       "gravestone_sha256_seal": "cbf97b92b38efa5bc32768819a6b83aea339a1978e01cb9b2be622bad2e8c996"
+    },
+    {
+      "gravestone_id": "STONE-0102",
+      "machine_ssn": "AG-SSN-BC63-988E-4038",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-F282-0668-60F3)",
+      "ed25519_pubkey_fingerprint": "BC63988E4038433264AD5BB2A94223EA",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAzTN/+5EX9xVDY1VsQs8e3SGeAc4xD2MlN2feFf2cCsM=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-24T11:48:12.676Z",
+      "died_at": "2026-11-24T21:42:31.591Z",
+      "lifespan_seconds": 35658.9,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0099"
+      ],
+      "total_bytes_mined_in_life": 19415,
+      "estate_credits_bequeathed": 4000,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-BC63-988E-4038), hauled CART-0099 (19,415 bytes mined, 4000 cumulative Estate Credits). Latest finding: Azul (BGG Rank #2017) (19,415 B verified). Carry the torch forward from 97dd841cce83.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0102",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-BCCB-F31B-4E5A",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 4000,
+        "last_cart_hauled": "CART-0099",
+        "last_chain_hash": "97dd841cce83b534284abab93835942f4a98b38a3317887c45306283405fa8a8",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-BC63-988E-4038), hauled CART-0099 (19,415 bytes mined, 4000 cumulative Estate Credits). Latest finding: Azul (BGG Rank #2017) (19,415 B verified). Carry the torch forward from 97dd841cce83.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-24T21:42:31.591Z"
+      },
+      "ed25519_birth_signature": "42161a646f6d24348364ee5d22eb92c6c4d19760bfc47c92c63ca09a5bfbe49c1642f40c6d0dee9a1bfe6e1288dc73c15f6cd013dede67c84cd5aab69d22620d",
+      "ed25519_final_work_signature": "33d54d76a0a92c3631ae673853e21988b0de27ba7d12df98c0c31e47995f7285b38eda487984842f63e91ebc1a328ea852db8138fd687fdc2fbe95949f664d0a",
+      "gravestone_sha256_seal": "e476ddcf77be10faa67a7e30340cd1bc6cd9b411f76e0be7e0648887b6da5fba"
     }
   ]
 }
