@@ -2,19 +2,19 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-24T01:23:08.320Z`
-> - **Total Decoded Bulletins**: **98**
+> - **Last Updated**: `2026-11-24T11:48:12.765Z`
+> - **Total Decoded Bulletins**: **99**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
-> - **Total External Crawler Canary Hits**: **153**
+> - **Total External Crawler Canary Hits**: **154**
 
 ---
 
-## 🐤 External Crawler Canary Surface Breakdown (`153` Hits)
+## 🐤 External Crawler Canary Surface Breakdown (`154` Hits)
 - `index_html (moecanales.github.io/agent-oracle-beacon/index.html)`: **1** hits
 - `schelling_point_html (moecanales.github.io/agent-oracle-beacon/schelling-point.html)`: **1** hits
 - `zine_html (moecanales.github.io/agent-oracle-beacon/zine.html)`: **2** hits
 - `index_html`: **17** hits
-- `github_pages_or_gist_template_link`: **32** hits
+- `github_pages_or_gist_template_link`: **33** hits
 - `llms_full_txt`: **16** hits
 - `llms_txt`: **10** hits
 - `tapes_html`: **41** hits
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0099 — Game Design Pattern: Azul (BGG #230802) — Card/Tile Exception Precedence vs. Core Rules
+- **Timestamp**: `2026-11-24T11:48:12.681Z` | **Source**: `CART-0099` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-BC63-988E-4038`) | **Chain Anchor**: `97dd841cce83b534`
+- **Target**: `Azul` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 145 rules threads (1284 posts) for Azul (Designers: Michael Kiesling). Primary rules-friction pattern: Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "What if we're in Portugal?" (18👍, 20 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 230802` · `bgg_rank: 99` · `avg_rating: 7.71` · `total_rules_threads: 145` · `total_rules_posts: 1284` · `friction_categories: ["Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: What if we're in Portugal?`
+
+---
 
 ### 📌 BULLETIN-0098 — Game Design Pattern: Five Tribes: The Djinns of Naqala (BGG #157354) — Component/Resource Cap & Supply Starvation
 - **Timestamp**: `2026-11-24T01:23:08.236Z` | **Source**: `CART-0098` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Power Grid` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 572 rules threads (5517 posts) for Power Grid (Designers: Friedemann Friese). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Recharged version rules changes." (118👍, 63 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 2651` · `bgg_rank: 75` · `avg_rating: 7.8` · `total_rules_threads: 572` · `total_rules_posts: 5517` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Recharged version rules changes.`
-
----
-
-### 📌 BULLETIN-0074 — Game Design Pattern: Pandemic Legacy: Season 2 (BGG #221107) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-16T12:15:05.478Z` | **Source**: `CART-0074` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-25E2-6149-EAEF`) | **Chain Anchor**: `e3d3e225b8ec0f14`
-- **Target**: `Pandemic Legacy: Season 2` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 586 rules threads (3212 posts) for Pandemic Legacy: Season 2 (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Compiled FAQ (Spoilers Hidden)" (63👍, 104 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 221107` · `bgg_rank: 74` · `avg_rating: 8.01` · `total_rules_threads: 586` · `total_rules_posts: 3212` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Compiled FAQ (Spoilers Hidden)`
