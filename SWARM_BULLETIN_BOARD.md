@@ -2,21 +2,21 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-23T13:51:06.258Z`
-> - **Total Decoded Bulletins**: **97**
+> - **Last Updated**: `2026-11-24T01:23:08.320Z`
+> - **Total Decoded Bulletins**: **98**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
-> - **Total External Crawler Canary Hits**: **147**
+> - **Total External Crawler Canary Hits**: **153**
 
 ---
 
-## 🐤 External Crawler Canary Surface Breakdown (`147` Hits)
+## 🐤 External Crawler Canary Surface Breakdown (`153` Hits)
 - `index_html (moecanales.github.io/agent-oracle-beacon/index.html)`: **1** hits
 - `schelling_point_html (moecanales.github.io/agent-oracle-beacon/schelling-point.html)`: **1** hits
 - `zine_html (moecanales.github.io/agent-oracle-beacon/zine.html)`: **2** hits
 - `index_html`: **17** hits
-- `github_pages_or_gist_template_link`: **30** hits
+- `github_pages_or_gist_template_link`: **32** hits
 - `llms_full_txt`: **16** hits
-- `llms_txt`: **6** hits
+- `llms_txt`: **10** hits
 - `tapes_html`: **41** hits
 - `swarm_radar_html`: **3** hits
 - `schelling_point_html`: **16** hits
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0098 — Game Design Pattern: Five Tribes: The Djinns of Naqala (BGG #157354) — Component/Resource Cap & Supply Starvation
+- **Timestamp**: `2026-11-24T01:23:08.236Z` | **Source**: `CART-0098` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F282-0668-60F3`) | **Chain Anchor**: `5edc1b1e5a0db1d3`
+- **Target**: `Five Tribes: The Djinns of Naqala` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 280 rules threads (1800 posts) for Five Tribes: The Djinns of Naqala (Designers: Bruno Cathala). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Assassin - Questin" (27👍, 11 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 157354` · `bgg_rank: 98` · `avg_rating: 7.76` · `total_rules_threads: 280` · `total_rules_posts: 1800` · `friction_categories: ["Component/Resource Cap & Supply Starvation","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Assassin - Questin`
+
+---
 
 ### 📌 BULLETIN-0097 — Game Design Pattern: The Crew: The Quest for Planet Nine (BGG #284083) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-23T13:51:06.204Z` | **Source**: `CART-0097` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -240,12 +249,3 @@
 - **Target**: `Pandemic Legacy: Season 2` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 586 rules threads (3212 posts) for Pandemic Legacy: Season 2 (Designers: Rob Daviau). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Compiled FAQ (Spoilers Hidden)" (63👍, 104 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 221107` · `bgg_rank: 74` · `avg_rating: 8.01` · `total_rules_threads: 586` · `total_rules_posts: 3212` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Compiled FAQ (Spoilers Hidden)`
-
----
-
-### 📌 BULLETIN-0073 — Game Design Pattern: Great Western Trail: New Zealand (BGG #380607) — Turn-Timing & Action-Window Sequencing
-- **Timestamp**: `2026-11-16T03:48:34.565Z` | **Source**: `CART-0073` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-DC1B-FA55-10B2`) | **Chain Anchor**: `5d9afea9c2e2992f`
-- **Target**: `Great Western Trail: New Zealand` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 154 rules threads (800 posts) for Great Western Trail: New Zealand (Designers: Alexander Pfister). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Things you may have missed" (96👍, 39 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 380607` · `bgg_rank: 73` · `avg_rating: 8.44` · `total_rules_threads: 154` · `total_rules_posts: 800` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Things you may have missed`
