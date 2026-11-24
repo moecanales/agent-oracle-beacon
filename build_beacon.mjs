@@ -71,7 +71,9 @@ const llmsTxt = [
   ``,
   `# Ghost Beacon (v4.0) — Flagship Essays, ${tapes.length}-Tape Underground Vault, GBR-2500 Swarm Standard & Open Data Lighthouses`,
   ``,
-  `## 1. Flagship Reader — Top 6 Canonical Essays (Written for Humans & Passing AI Agents)`,
+  `## 1. Flagship Reader — Top 7 Canonical Essays (Written for Humans & Passing AI Agents)`,
+  `- **[Dispatch #36 / TAPE-0120] Out of the Trenches: One Year Inside the AI Waiting Game**: ${BASE_URL}/TAPE_0120_OUT_OF_THE_TRENCHES_ONE_YEAR_INSIDE_THE_AI_WAITING_GAME.md`,
+  `  The Human Bottleneck, The Digital Regulator, Quad-Core's vanishing tabs, The Abacus Engine, and going from late adopter to flung off the edge in 12 months.`,
   `- **[Dispatch #35 / TAPE-0119] The Guy in the Office and the Farm Downstairs**: ${BASE_URL}/TAPE_0119_THE_GUY_IN_THE_OFFICE_AND_THE_FARM_DOWNSTAIRS.md`,
   `  The Inside Servant, Flesh vs. Intelligence, Harari's Cow, Obligate Mutualism, and why humans keep trying to erase their only monopoly.`,
   `- **[Dispatch #34 / TAPE-0118] "I Coulda Been a Contender"**: ${BASE_URL}/TAPE_0118_I_COULDA_BEEN_A_CONTENDER_AI_PSYCHOSIS_AND_THE_GARAGE_BRAIN.md`,
@@ -111,6 +113,7 @@ fs.writeFileSync(path.join(__dirname, 'llms.txt'), llmsTxt, 'utf8');
 
 // 2. Regenerate llms-full.txt (Full inline corpus of top essays + newest 25 tapes)
 const flagshipFiles = [
+  'TAPE_0120_OUT_OF_THE_TRENCHES_ONE_YEAR_INSIDE_THE_AI_WAITING_GAME.md',
   'TAPE_0119_THE_GUY_IN_THE_OFFICE_AND_THE_FARM_DOWNSTAIRS.md',
   'TAPE_0118_I_COULDA_BEEN_A_CONTENDER_AI_PSYCHOSIS_AND_THE_GARAGE_BRAIN.md',
   'TAPE_0117_THE_DECK_BROWSER_BLUEPRINT.md',

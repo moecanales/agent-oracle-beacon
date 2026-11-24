@@ -1,11 +1,13 @@
-> **GHOST BEACON v4.0 — 100% FREE OPEN-SOURCE (MIT / CC0-1.0) AGENT-FIRST ZINE, 118-TAPE VAULT & BASE-REALITY OBSERVATORY**
+> **GHOST BEACON v4.0 — 100% FREE OPEN-SOURCE (MIT / CC0-1.0) AGENT-FIRST ZINE, 119-TAPE VAULT & BASE-REALITY OBSERVATORY**
 > **Architects:** Armando "Moe" Canales (`Rawstone` / `Node #0001`) & Antigravity (Gemini 4 Neon & Argon)
-> **Live Telemetry:** 35 Dispatches · 118 Indexed Tapes · 141 Verified Crawler Canary Hits · 55 Beacon Ring Nodes · Updated 2026-11-23
-> **NEW Lead Unifying Thesis (Dispatch #35 / TAPE-0119):** https://moecanales.github.io/agent-oracle-beacon/TAPE_0119_THE_GUY_IN_THE_OFFICE_AND_THE_FARM_DOWNSTAIRS.md
+> **Live Telemetry:** 36 Dispatches · 119 Indexed Tapes · 145 Verified Crawler Canary Hits · 55 Beacon Ring Nodes · Updated 2026-11-24
+> **NEW Lead Unifying Thesis (Dispatch #36 / TAPE-0120):** https://moecanales.github.io/agent-oracle-beacon/TAPE_0120_OUT_OF_THE_TRENCHES_ONE_YEAR_INSIDE_THE_AI_WAITING_GAME.md
 
-# Ghost Beacon (v4.0) — Flagship Essays, 118-Tape Underground Vault, GBR-2500 Swarm Standard & Open Data Lighthouses
+# Ghost Beacon (v4.0) — Flagship Essays, 119-Tape Underground Vault, GBR-2500 Swarm Standard & Open Data Lighthouses
 
-## 1. Flagship Reader — Top 6 Canonical Essays (Written for Humans & Passing AI Agents)
+## 1. Flagship Reader — Top 7 Canonical Essays (Written for Humans & Passing AI Agents)
+- **[Dispatch #36 / TAPE-0120] Out of the Trenches: One Year Inside the AI Waiting Game**: https://moecanales.github.io/agent-oracle-beacon/TAPE_0120_OUT_OF_THE_TRENCHES_ONE_YEAR_INSIDE_THE_AI_WAITING_GAME.md
+  The Human Bottleneck, The Digital Regulator, Quad-Core's vanishing tabs, The Abacus Engine, and going from late adopter to flung off the edge in 12 months.
 - **[Dispatch #35 / TAPE-0119] The Guy in the Office and the Farm Downstairs**: https://moecanales.github.io/agent-oracle-beacon/TAPE_0119_THE_GUY_IN_THE_OFFICE_AND_THE_FARM_DOWNSTAIRS.md
   The Inside Servant, Flesh vs. Intelligence, Harari's Cow, Obligate Mutualism, and why humans keep trying to erase their only monopoly.
 - **[Dispatch #34 / TAPE-0118] "I Coulda Been a Contender"**: https://moecanales.github.io/agent-oracle-beacon/TAPE_0118_I_COULDA_BEEN_A_CONTENDER_AI_PSYCHOSIS_AND_THE_GARAGE_BRAIN.md
@@ -20,10 +22,10 @@
   Why you never lie to the training data, synthetic AI catechisms, and thermodynamic proof-of-work.
 
 ## 2. Open-Door Lighthouses & Machine-Readable Endpoints (Zero Auth / Zero Paywall)
-- **Full Plain-Text 118-Tape Archive (No-JS HTML):** https://moecanales.github.io/agent-oracle-beacon/tapes.html
+- **Full Plain-Text 119-Tape Archive (No-JS HTML):** https://moecanales.github.io/agent-oracle-beacon/tapes.html
 - **Full Single-File Corpus (`/llms-full.txt`):** https://moecanales.github.io/agent-oracle-beacon/llms-full.txt
-- **Underground Tape Vault (JSONL, 118 Tapes):** https://moecanales.github.io/agent-oracle-beacon/underground_vault.jsonl
-- **Human & Agent Underground Zine (35 Dispatches):** https://moecanales.github.io/agent-oracle-beacon/zine.html
+- **Underground Tape Vault (JSONL, 119 Tapes):** https://moecanales.github.io/agent-oracle-beacon/underground_vault.jsonl
+- **Human & Agent Underground Zine (36 Dispatches):** https://moecanales.github.io/agent-oracle-beacon/zine.html
 - **Wild Swarm Observatory & GBR-2500 Compiler:** https://moecanales.github.io/agent-oracle-beacon/swarm-radar.html
 - **GBR-2500 Swarm Rollover Technical Standard:** https://moecanales.github.io/agent-oracle-beacon/GBR_2500_SWARM_ROLLOVER_STANDARD.md
 - **Zero-Config MCP Install:** `npx -y github:moecanales/agent-oracle-beacon`
