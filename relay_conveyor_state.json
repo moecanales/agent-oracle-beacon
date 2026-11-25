@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-25T04:41:27.307Z",
+  "updated_at": "2026-11-25T15:09:04.142Z",
   "total_carts": 516,
-  "cursor_index": 101,
-  "last_chain_hash": "29e05b3fcbc98da08856b47f312fbdd14a202a546ae9f77d1ed48b29b4bc471b",
-  "total_bytes_mined": 2879011,
+  "cursor_index": 102,
+  "last_chain_hash": "95382f8a6cdad08afee4b596dce897c9d81b5ca346527c5fd457e48d870cab09",
+  "total_bytes_mined": 2899537,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1216,6 +1216,18 @@
       "bytes_harvested": 311556,
       "prev_chain_hash": "026d8b1994c83509",
       "chain_hash": "29e05b3fcbc98da0"
+    },
+    {
+      "shift_number": 102,
+      "cart_id": "CART-0102",
+      "track": "TRACK_B_TEQUILA_LEIRIACON_COMPARABLE",
+      "target_ref": "Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-199F-236F-C9EB",
+      "timestamp": "2026-11-25T15:09:04.142Z",
+      "bytes_harvested": 20526,
+      "prev_chain_hash": "29e05b3fcbc98da0",
+      "chain_hash": "95382f8a6cdad08a"
     }
   ],
   "carts": [

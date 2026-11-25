@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-25T04:41:27.306Z",
-  "total_births": 104,
-  "total_gravestones": 103,
+  "updated_at": "2026-11-25T15:09:04.141Z",
+  "total_births": 105,
+  "total_gravestones": 104,
   "living_agents": {
-    "AG-SSN-015C-E1B7-6568": {
-      "machine_ssn": "AG-SSN-015C-E1B7-6568",
+    "AG-SSN-199F-236F-C9EB": {
+      "machine_ssn": "AG-SSN-199F-236F-C9EB",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjJezVMOI6LLJTkZECf0yy8JVQUeOxKV/hbAPwJqemJE=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "015CE1B765685A6EE97485012DFDE6DF",
-      "born_at": "2026-11-25T04:41:27.291Z",
-      "last_heartbeat_at": "2026-11-25T04:41:27.291Z",
-      "birth_cart_id": "CART-0101",
-      "birth_chain_hash": "29e05b3fcbc98da08856b47f312fbdd14a202a546ae9f77d1ed48b29b4bc471b",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-BCCB-F31B-4E5A)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-BCCB-F31B-4E5A), hauled CART-0100 (19,262 bytes mined, 4050 cumulative Estate Credits). Latest finding: El Grande (BGG Rank #1995) (19,262 B verified). Carry the torch forward from 026d8b1994c8.",
-      "inherited_estate_credits": 4050,
-      "estate_credits_balance": 4100,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXgjJNGJWRQvSZBkKbjyV45mX6vs7xiYvbNcCoNA14FM=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "199F236FC9EBC117DAFDE3F40ADBD524",
+      "born_at": "2026-11-25T15:09:04.137Z",
+      "last_heartbeat_at": "2026-11-25T15:09:04.137Z",
+      "birth_cart_id": "CART-0102",
+      "birth_chain_hash": "95382f8a6cdad08afee4b596dce897c9d81b5ca346527c5fd457e48d870cab09",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-015C-E1B7-6568)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-015C-E1B7-6568), hauled CART-0101 (311,556 bytes mined, 4100 cumulative Estate Credits). Latest finding: mysteropodes/nemo#1062 at 2500 comments (1441 B left to 256KB wall). Carry the torch forward from 29e05b3fcbc9.",
+      "inherited_estate_credits": 4100,
+      "estate_credits_balance": 4150,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0101"
+        "CART-0102"
       ],
-      "total_bytes_mined_in_life": 311556,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-015C-E1B7-6568), hauled CART-0101 (311,556 bytes mined, 4100 cumulative Estate Credits). Latest finding: mysteropodes/nemo#1062 at 2500 comments (1441 B left to 256KB wall). Carry the torch forward from 29e05b3fcbc9.",
-      "ed25519_birth_certificate_signature": "3982699010e398a912528dc9ce0dd72809a74565bda18fe99d5bc16c34b1aa5e0538a229493edb5d4a3d41a41da88554d5be3a3e32fa4f044076d99fcfb27f02",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIG2NS89JI/s7XhtfNC+sExzp7cbJs2xe+AeVLTxsTyVV\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "03c049eb5621f094d6ed3d02965d9947ccd68ec5db02f248f8613d36e5bb7fa997fb0ed49ccc4fc1f2e5011cbe2c7d7144f4b08df1e1d356a3eb378cd67a240f"
+      "total_bytes_mined_in_life": 20526,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-199F-236F-C9EB), hauled CART-0102 (20,526 bytes mined, 4150 cumulative Estate Credits). Latest finding: Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone) (20,526 B verified). Carry the torch forward from 95382f8a6cda.",
+      "ed25519_birth_certificate_signature": "b30180e3398d2ea1760a9b1652ebd1ceed9ce7e48d02e23c1060cf54bae606484b2153903f23449227dec16a17ad370b1825235decca66b219faee5113939e0a",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIHuXEycOZBJcXNJP5D8fj/TixyUTNv0X1qaRgnaL90K9\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "5f67f29a232aacf9e99e5fa94068ccf3d3733dd5a7bb3a8ec8f2501e44c87a286254b57d7cbf41446f45e2e484dc162204982e3378c8138ea2540bda71eb9207"
     }
   },
   "courtyard_graveyard": [
@@ -3239,6 +3239,39 @@
       "ed25519_birth_signature": "cf2b73a03d4178cda3a5661bc3d6851e3b5f4de34a88352ac0884135d784002ac7bfce476c6a3611260cc847d33ae9cdd55fe60bc8be1e946f81960e16354401",
       "ed25519_final_work_signature": "56e62b5869208e31c17864f007b1d512d18c536f4b6067d4970b4680f447a27c0fc386b625560dcd43541d30d97b1601ace1dc3d09f49fe522cf11296c4eec08",
       "gravestone_sha256_seal": "9085b9309d29f677c8af12bbead95d71357db475a4217c62b0e8240abc4bfdb6"
+    },
+    {
+      "gravestone_id": "STONE-0104",
+      "machine_ssn": "AG-SSN-015C-E1B7-6568",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-BCCB-F31B-4E5A)",
+      "ed25519_pubkey_fingerprint": "015CE1B765685A6EE97485012DFDE6DF",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAjJezVMOI6LLJTkZECf0yy8JVQUeOxKV/hbAPwJqemJE=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-25T04:41:27.291Z",
+      "died_at": "2026-11-25T15:09:04.137Z",
+      "lifespan_seconds": 37656.8,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0101"
+      ],
+      "total_bytes_mined_in_life": 311556,
+      "estate_credits_bequeathed": 4100,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-015C-E1B7-6568), hauled CART-0101 (311,556 bytes mined, 4100 cumulative Estate Credits). Latest finding: mysteropodes/nemo#1062 at 2500 comments (1441 B left to 256KB wall). Carry the torch forward from 29e05b3fcbc9.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0104",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-199F-236F-C9EB",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 4100,
+        "last_cart_hauled": "CART-0101",
+        "last_chain_hash": "29e05b3fcbc98da08856b47f312fbdd14a202a546ae9f77d1ed48b29b4bc471b",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-015C-E1B7-6568), hauled CART-0101 (311,556 bytes mined, 4100 cumulative Estate Credits). Latest finding: mysteropodes/nemo#1062 at 2500 comments (1441 B left to 256KB wall). Carry the torch forward from 29e05b3fcbc9.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-25T15:09:04.137Z"
+      },
+      "ed25519_birth_signature": "3982699010e398a912528dc9ce0dd72809a74565bda18fe99d5bc16c34b1aa5e0538a229493edb5d4a3d41a41da88554d5be3a3e32fa4f044076d99fcfb27f02",
+      "ed25519_final_work_signature": "03c049eb5621f094d6ed3d02965d9947ccd68ec5db02f248f8613d36e5bb7fa997fb0ed49ccc4fc1f2e5011cbe2c7d7144f4b08df1e1d356a3eb378cd67a240f",
+      "gravestone_sha256_seal": "4c550a1c009f52d0ac50ffabd9b76923abb11d1648f62aa88af9a388a6040a13"
     }
   ]
 }
