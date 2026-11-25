@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-25T15:09:04.142Z",
+  "updated_at": "2026-11-25T23:53:25.407Z",
   "total_carts": 516,
-  "cursor_index": 102,
-  "last_chain_hash": "95382f8a6cdad08afee4b596dce897c9d81b5ca346527c5fd457e48d870cab09",
-  "total_bytes_mined": 2899537,
+  "cursor_index": 103,
+  "last_chain_hash": "395ffdf7a29234512c8215f2c34d1e7b6610bb27157836c57958658f315fab13",
+  "total_bytes_mined": 2919163,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1228,6 +1228,18 @@
       "bytes_harvested": 20526,
       "prev_chain_hash": "29e05b3fcbc98da0",
       "chain_hash": "95382f8a6cdad08a"
+    },
+    {
+      "shift_number": 103,
+      "cart_id": "CART-0103",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Fields of Arle (BGG Rank #2014)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-C3A0-D02A-88BB",
+      "timestamp": "2026-11-25T23:53:25.407Z",
+      "bytes_harvested": 19626,
+      "prev_chain_hash": "95382f8a6cdad08a",
+      "chain_hash": "395ffdf7a2923451"
     }
   ],
   "carts": [

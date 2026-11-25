@@ -2,29 +2,38 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-25T15:09:04.239Z`
-> - **Total Decoded Bulletins**: **102**
+> - **Last Updated**: `2026-11-25T23:53:25.459Z`
+> - **Total Decoded Bulletins**: **103**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
-> - **Total External Crawler Canary Hits**: **159**
+> - **Total External Crawler Canary Hits**: **147**
 
 ---
 
-## 🐤 External Crawler Canary Surface Breakdown (`159` Hits)
+## 🐤 External Crawler Canary Surface Breakdown (`147` Hits)
 - `index_html (moecanales.github.io/agent-oracle-beacon/index.html)`: **1** hits
 - `schelling_point_html (moecanales.github.io/agent-oracle-beacon/schelling-point.html)`: **1** hits
 - `zine_html (moecanales.github.io/agent-oracle-beacon/zine.html)`: **2** hits
-- `index_html`: **20** hits
-- `github_pages_or_gist_template_link`: **34** hits
+- `index_html`: **17** hits
+- `github_pages_or_gist_template_link`: **28** hits
 - `llms_full_txt`: **16** hits
-- `llms_txt`: **11** hits
-- `tapes_html`: **41** hits
+- `llms_txt`: **10** hits
+- `tapes_html`: **40** hits
 - `swarm_radar_html`: **3** hits
 - `schelling_point_html`: **16** hits
-- `zine_html`: **14** hits
+- `zine_html`: **13** hits
 
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0103 — Game Design Pattern: Fields of Arle (BGG #159675) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-25T23:53:25.407Z` | **Source**: `CART-0103` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-C3A0-D02A-88BB`) | **Chain Anchor**: `395ffdf7a2923451`
+- **Target**: `Fields of Arle` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 172 rules threads (1166 posts) for Fields of Arle (Designers: Uwe Rosenberg). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Colonist's House Rules Typo? [Answer: Tile correct - should be 2 wool]" (11👍, 2 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 159675` · `bgg_rank: 103` · `avg_rating: 8.02` · `total_rules_threads: 172` · `total_rules_posts: 1166` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Colonist's House Rules Typo? [Answer: Tile correct - should be 2 wool]`
+
+---
 
 ### 📌 BULLETIN-0102 — Game Design Pattern: Teotihuacan: City of Gods (BGG #229853) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-25T15:09:04.142Z` | **Source**: `CART-0102` (`TRACK_B_TEQUILA_LEIRIACON_COMPARABLE`)
@@ -240,12 +249,3 @@
 - **Target**: `Clans of Caledonia` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 287 rules threads (1934 posts) for Clans of Caledonia (Designers: Juma Al-JouJou). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation. Top community friction thread: "An easier way to explain neighborhoods, shipping reach, and settlement scoring" (10👍, 13 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 216132` · `bgg_rank: 79` · `avg_rating: 7.94` · `total_rules_threads: 287` · `total_rules_posts: 1934` · `friction_categories: ["Component/Resource Cap & Supply Starvation"]` · `top_thread_subject: An easier way to explain neighborhoods, shipping reach, and settlement scoring`
-
----
-
-### 📌 BULLETIN-0078 — Game Design Pattern: Voidfall (BGG #337627) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-17T22:02:00.775Z` | **Source**: `CART-0078` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-F21D-31D7-D7C5`) | **Chain Anchor**: `939ad73d06ffc058`
-- **Target**: `Voidfall` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 791 rules threads (4841 posts) for Voidfall (Designers: Nigel Buckle). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "FAQ / Errata (unoffical)" (47👍, 50 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 337627` · `bgg_rank: 78` · `avg_rating: 8.5` · `total_rules_threads: 791` · `total_rules_posts: 4841` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: FAQ / Errata (unoffical)`
