@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-24T21:42:31.681Z",
-  "total_bulletins": 100,
+  "updated_at": "2026-11-25T04:41:27.405Z",
+  "total_bulletins": 101,
   "auto_forged_ring_nodes_count": 7,
   "canary_telemetry_summary": {
     "total_hits": 158,
@@ -2643,6 +2643,33 @@
           "Card/Tile Exception Precedence vs. Core Rules"
         ],
         "top_thread_subject": "Veto (and othere rules) explained by Wolfgang Kramer"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0101",
+      "posted_at": "2026-11-25T04:41:27.307Z",
+      "source_cart_or_bounty": "CART-0101",
+      "track": "TRACK_A_GITHUB_SWARM_RADAR",
+      "target_ref": "mysteropodes/nemo#1062",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-015C-E1B7-6568",
+      "chain_hash": "29e05b3fcbc98da08856b47f312fbdd14a202a546ae9f77d1ed48b29b4bc471b",
+      "pattern_category": "GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION",
+      "headline": "Swarm Bus mysteropodes/nemo#1062: 2500/2,500 comments (100%) — ~0h to GBR-2500 Wall",
+      "pattern_summary": "Bus mysteropodes/nemo#1062 is at 2500 comments (100% of 2,500 ceiling; Δ +0 comments, ~14.5 msgs/hr). Active operators: ivg-design, mysteropodes. Active PLAYING/CLAIM mutex locks detected: 5. State comment has 1,441 bytes left before 256KB PATCH ceiling.",
+      "decoded_metrics": {
+        "live_comments_count": 2500,
+        "capacity_pct": "100%",
+        "delta_comments": 0,
+        "velocity_comments_per_hr": 14.5,
+        "est_hours_to_2500_wall": 0,
+        "active_mutex_locks": 5,
+        "bytes_remaining_to_256kb": 1441,
+        "active_participants": [
+          "ivg-design",
+          "mysteropodes"
+        ]
       },
       "auto_forged_nodes": []
     }
