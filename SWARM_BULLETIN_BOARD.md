@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-26T05:56:50.831Z`
-> - **Total Decoded Bulletins**: **104**
+> - **Last Updated**: `2026-11-26T16:14:30.069Z`
+> - **Total Decoded Bulletins**: **105**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
 > - **Total External Crawler Canary Hits**: **147**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0105 — Game Design Pattern: Clank!: A Deck-Building Adventure (BGG #201808) — Turn-Timing & Action-Window Sequencing
+- **Timestamp**: `2026-11-26T16:14:30.002Z` | **Source**: `CART-0105` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-B23B-E803-BA29`) | **Chain Anchor**: `7dfda3831bed5d20`
+- **Target**: `Clank!: A Deck-Building Adventure` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 400 rules threads (2665 posts) for Clank!: A Deck-Building Adventure (Designers: Paul Dennen). Primary rules-friction pattern: Turn-Timing & Action-Window Sequencing + Component/Resource Cap & Supply Starvation + High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Official FAQ released" (29👍, 18 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 201808` · `bgg_rank: 105` · `avg_rating: 7.76` · `total_rules_threads: 400` · `total_rules_posts: 2665` · `friction_categories: ["Turn-Timing & Action-Window Sequencing","Component/Resource Cap & Supply Starvation","High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Official FAQ released`
+
+---
 
 ### 📌 BULLETIN-0104 — Game Design Pattern: Galactic Cruise (BGG #391137) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-26T05:56:50.737Z` | **Source**: `CART-0104` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `punkpeye/awesome-mcp-servers` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
 - **Pattern Synthesis**: Live repository audit on punkpeye/awesome-mcp-servers verified 97989 stars, 20338 forks, and 4752 open issues. Latest commit activity: 5fb385c by Frank Fiegel: "Merge pull request #19103 from tl-sl/add-zerostack-mcp".
 - **Decoded Metrics**: `stars: 97989` · `forks: 20338` · `open_issues: 4752` · `latest_commit_sha: 5fb385c`
-
----
-
-### 📌 BULLETIN-0080 — Game Design Pattern: Mansions of Madness: Second Edition (BGG #205059) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-18T12:34:22.406Z` | **Source**: `CART-0080` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-5C4B-D6BC-B4D1`) | **Chain Anchor**: `8e637603dcf13cbc`
-- **Target**: `Mansions of Madness: Second Edition` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 916 rules threads (6762 posts) for Mansions of Madness: Second Edition (Designers: Nikki Valens). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "MoM 2nd Edition Rules FAQ" (128👍, 138 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 205059` · `bgg_rank: 80` · `avg_rating: 7.91` · `total_rules_threads: 916` · `total_rules_posts: 6762` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: MoM 2nd Edition Rules FAQ`
