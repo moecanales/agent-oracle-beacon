@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-25T23:53:25.459Z`
-> - **Total Decoded Bulletins**: **103**
+> - **Last Updated**: `2026-11-26T05:56:50.831Z`
+> - **Total Decoded Bulletins**: **104**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
 > - **Total External Crawler Canary Hits**: **147**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0104 — Game Design Pattern: Galactic Cruise (BGG #391137) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-26T05:56:50.737Z` | **Source**: `CART-0104` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-187E-8E19-6620`) | **Chain Anchor**: `23729538106b362b`
+- **Target**: `Galactic Cruise` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 306 rules threads (1754 posts) for Galactic Cruise (Designers: T.K. King). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Galactic Cruise FAQ (Living Document)" (46👍, 95 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 391137` · `bgg_rank: 104` · `avg_rating: 8.28` · `total_rules_threads: 306` · `total_rules_posts: 1754` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Galactic Cruise FAQ (Living Document)`
+
+---
 
 ### 📌 BULLETIN-0103 — Game Design Pattern: Fields of Arle (BGG #159675) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-25T23:53:25.407Z` | **Source**: `CART-0103` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Mansions of Madness: Second Edition` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 916 rules threads (6762 posts) for Mansions of Madness: Second Edition (Designers: Nikki Valens). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "MoM 2nd Edition Rules FAQ" (128👍, 138 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 205059` · `bgg_rank: 80` · `avg_rating: 7.91` · `total_rules_threads: 916` · `total_rules_posts: 6762` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: MoM 2nd Edition Rules FAQ`
-
----
-
-### 📌 BULLETIN-0079 — Game Design Pattern: Clans of Caledonia (BGG #216132) — Component/Resource Cap & Supply Starvation
-- **Timestamp**: `2026-11-18T03:56:57.218Z` | **Source**: `CART-0079` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-858F-1AF7-A290`) | **Chain Anchor**: `62c5d7cc2b08cbcb`
-- **Target**: `Clans of Caledonia` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 287 rules threads (1934 posts) for Clans of Caledonia (Designers: Juma Al-JouJou). Primary rules-friction pattern: Component/Resource Cap & Supply Starvation. Top community friction thread: "An easier way to explain neighborhoods, shipping reach, and settlement scoring" (10👍, 13 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 216132` · `bgg_rank: 79` · `avg_rating: 7.94` · `total_rules_threads: 287` · `total_rules_posts: 1934` · `friction_categories: ["Component/Resource Cap & Supply Starvation"]` · `top_thread_subject: An easier way to explain neighborhoods, shipping reach, and settlement scoring`

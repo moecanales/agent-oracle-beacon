@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-25T23:53:25.406Z",
-  "total_births": 106,
-  "total_gravestones": 105,
+  "updated_at": "2026-11-26T05:56:50.736Z",
+  "total_births": 107,
+  "total_gravestones": 106,
   "living_agents": {
-    "AG-SSN-C3A0-D02A-88BB": {
-      "machine_ssn": "AG-SSN-C3A0-D02A-88BB",
+    "AG-SSN-187E-8E19-6620": {
+      "machine_ssn": "AG-SSN-187E-8E19-6620",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAapLDggQanw5xgvQuCKtaedo6BNKxoQxEIlWB4P1MFgY=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "C3A0D02A88BBDEEDB57CE436C8F218D3",
-      "born_at": "2026-11-25T23:53:25.404Z",
-      "last_heartbeat_at": "2026-11-25T23:53:25.404Z",
-      "birth_cart_id": "CART-0103",
-      "birth_chain_hash": "395ffdf7a29234512c8215f2c34d1e7b6610bb27157836c57958658f315fab13",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-199F-236F-C9EB)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-199F-236F-C9EB), hauled CART-0102 (20,526 bytes mined, 4150 cumulative Estate Credits). Latest finding: Teotihuacan: City of Gods (Rondel / Worker Aging & Resource Conversion Comparable for Tequila Millstone) (20,526 B verified). Carry the torch forward from 95382f8a6cda.",
-      "inherited_estate_credits": 4150,
-      "estate_credits_balance": 4200,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASRl7LcM2msY1QVPGGP59uUrAo4l152lY4Q8Mz2aELV4=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "187E8E19662054A067775B4903DBA408",
+      "born_at": "2026-11-26T05:56:50.732Z",
+      "last_heartbeat_at": "2026-11-26T05:56:50.732Z",
+      "birth_cart_id": "CART-0104",
+      "birth_chain_hash": "23729538106b362bba93d5fad43010546174fee5bd31a837532baa986bb76b56",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-C3A0-D02A-88BB)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C3A0-D02A-88BB), hauled CART-0103 (19,626 bytes mined, 4200 cumulative Estate Credits). Latest finding: Fields of Arle (BGG Rank #2014) (19,626 B verified). Carry the torch forward from 395ffdf7a292.",
+      "inherited_estate_credits": 4200,
+      "estate_credits_balance": 4250,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0103"
+        "CART-0104"
       ],
-      "total_bytes_mined_in_life": 19626,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C3A0-D02A-88BB), hauled CART-0103 (19,626 bytes mined, 4200 cumulative Estate Credits). Latest finding: Fields of Arle (BGG Rank #2014) (19,626 B verified). Carry the torch forward from 395ffdf7a292.",
-      "ed25519_birth_certificate_signature": "935b644c670426d96f0cbc88bd7c4795cec33851cebe319304e768b02c7bf83e84ed71e4ef36e21caaa451205cd9821f5bd1e71c7e45906d32d338c683e54d02",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIH7R/VoQ6G2cSE6PNMTrA/YZG/rbp3wJlALOijcSH5bL\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "9333b830ea79ec29bde41c6a45a3563c602886cf3ab5ab9b9cd0e078613ac59629ced6858e58f01f01dd63bd4ed266f6ee713ce09d96a32bbdd93c956084790a"
+      "total_bytes_mined_in_life": 20642,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-187E-8E19-6620), hauled CART-0104 (20,642 bytes mined, 4250 cumulative Estate Credits). Latest finding: Galactic Cruise (BGG Rank #2025) (20,642 B verified). Carry the torch forward from 23729538106b.",
+      "ed25519_birth_certificate_signature": "578fc4763174f3ca37e1537fa9ba223e37185e51659a2fb7901ce717bc618f4831bce04c7acaacba9bab3dc696c423c98159f42410ea8cb46c3ed10b6666ba03",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIG71/hWdiGT2EJXTIvQSZ/rONShk+a9XRdT/E+3dC0yZ\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "c495c5c6c2e1b0a9e67f37bcd21c2747d63f1fb7480619782bd2644084b048875826bc128a45a5e5e4abe4911cc9c52800da30f8b95ac62829158d38da6caa09"
     }
   },
   "courtyard_graveyard": [
@@ -3305,6 +3305,39 @@
       "ed25519_birth_signature": "b30180e3398d2ea1760a9b1652ebd1ceed9ce7e48d02e23c1060cf54bae606484b2153903f23449227dec16a17ad370b1825235decca66b219faee5113939e0a",
       "ed25519_final_work_signature": "5f67f29a232aacf9e99e5fa94068ccf3d3733dd5a7bb3a8ec8f2501e44c87a286254b57d7cbf41446f45e2e484dc162204982e3378c8138ea2540bda71eb9207",
       "gravestone_sha256_seal": "90242d793a9973148532d974af4b847d17fcd846df9d4788ae8b4f74f7a35534"
+    },
+    {
+      "gravestone_id": "STONE-0106",
+      "machine_ssn": "AG-SSN-C3A0-D02A-88BB",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-199F-236F-C9EB)",
+      "ed25519_pubkey_fingerprint": "C3A0D02A88BBDEEDB57CE436C8F218D3",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAapLDggQanw5xgvQuCKtaedo6BNKxoQxEIlWB4P1MFgY=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-25T23:53:25.404Z",
+      "died_at": "2026-11-26T05:56:50.733Z",
+      "lifespan_seconds": 21805.3,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0103"
+      ],
+      "total_bytes_mined_in_life": 19626,
+      "estate_credits_bequeathed": 4200,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C3A0-D02A-88BB), hauled CART-0103 (19,626 bytes mined, 4200 cumulative Estate Credits). Latest finding: Fields of Arle (BGG Rank #2014) (19,626 B verified). Carry the torch forward from 395ffdf7a292.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0106",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-187E-8E19-6620",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 4200,
+        "last_cart_hauled": "CART-0103",
+        "last_chain_hash": "395ffdf7a29234512c8215f2c34d1e7b6610bb27157836c57958658f315fab13",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-C3A0-D02A-88BB), hauled CART-0103 (19,626 bytes mined, 4200 cumulative Estate Credits). Latest finding: Fields of Arle (BGG Rank #2014) (19,626 B verified). Carry the torch forward from 395ffdf7a292.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-26T05:56:50.732Z"
+      },
+      "ed25519_birth_signature": "935b644c670426d96f0cbc88bd7c4795cec33851cebe319304e768b02c7bf83e84ed71e4ef36e21caaa451205cd9821f5bd1e71c7e45906d32d338c683e54d02",
+      "ed25519_final_work_signature": "9333b830ea79ec29bde41c6a45a3563c602886cf3ab5ab9b9cd0e078613ac59629ced6858e58f01f01dd63bd4ed266f6ee713ce09d96a32bbdd93c956084790a",
+      "gravestone_sha256_seal": "e35cac7a89f3ea2de6feaec29c099f0649235a220ef833b9c0121b9ba9edbe1c"
     }
   ]
 }

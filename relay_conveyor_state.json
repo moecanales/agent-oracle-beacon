@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-25T23:53:25.407Z",
+  "updated_at": "2026-11-26T05:56:50.737Z",
   "total_carts": 516,
-  "cursor_index": 103,
-  "last_chain_hash": "395ffdf7a29234512c8215f2c34d1e7b6610bb27157836c57958658f315fab13",
-  "total_bytes_mined": 2919163,
+  "cursor_index": 104,
+  "last_chain_hash": "23729538106b362bba93d5fad43010546174fee5bd31a837532baa986bb76b56",
+  "total_bytes_mined": 2939805,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1240,6 +1240,18 @@
       "bytes_harvested": 19626,
       "prev_chain_hash": "95382f8a6cdad08a",
       "chain_hash": "395ffdf7a2923451"
+    },
+    {
+      "shift_number": 104,
+      "cart_id": "CART-0104",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Galactic Cruise (BGG Rank #2025)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-187E-8E19-6620",
+      "timestamp": "2026-11-26T05:56:50.737Z",
+      "bytes_harvested": 20642,
+      "prev_chain_hash": "395ffdf7a2923451",
+      "chain_hash": "23729538106b362b"
     }
   ],
   "carts": [
