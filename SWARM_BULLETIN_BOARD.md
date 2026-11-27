@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-26T16:14:30.069Z`
-> - **Total Decoded Bulletins**: **105**
+> - **Last Updated**: `2026-11-27T00:52:25.188Z`
+> - **Total Decoded Bulletins**: **106**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
 > - **Total External Crawler Canary Hits**: **147**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0106 — Swarm Bus autonomous-ai/lampOS#3997: 2500/2,500 comments (100%) — ~0h to GBR-2500 Wall
+- **Timestamp**: `2026-11-27T00:52:25.085Z` | **Source**: `CART-0106` (`TRACK_A_GITHUB_SWARM_RADAR`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-E0CE-3AAD-D3D4`) | **Chain Anchor**: `82680ab24fd2adf3`
+- **Target**: `autonomous-ai/lampOS#3997` | **Pattern Category**: `GBR2500_SWARM_VELOCITY_AND_MUTEX_CONTENTION`
+- **Pattern Synthesis**: Bus autonomous-ai/lampOS#3997 is at 2500 comments (100% of 2,500 ceiling; Δ +0 comments, ~14.5 msgs/hr). Active operators: loclt1011, deehw, leo-super-dev, darren101004. Active PLAYING/CLAIM mutex locks detected: 4.
+- **Decoded Metrics**: `live_comments_count: 2500` · `capacity_pct: 100%` · `delta_comments: 0` · `velocity_comments_per_hr: 14.5` · `est_hours_to_2500_wall: 0` · `active_mutex_locks: 4` · `bytes_remaining_to_256kb: null` · `active_participants: ["loclt1011","deehw","leo-super-dev","darren101004"]`
+
+---
 
 ### 📌 BULLETIN-0105 — Game Design Pattern: Clank!: A Deck-Building Adventure (BGG #201808) — Turn-Timing & Action-Window Sequencing
 - **Timestamp**: `2026-11-26T16:14:30.002Z` | **Source**: `CART-0105` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Wingspan` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 728 rules threads (6082 posts) for Wingspan (Designers: Elizabeth Hargrave). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Looking for an answer to your question? [FAQ]" (51👍, 10 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 266192` · `bgg_rank: 38` · `avg_rating: 7.99` · `total_rules_threads: 728` · `total_rules_posts: 6082` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Looking for an answer to your question? [FAQ]`
-
----
-
-### 📌 BULLETIN-0081 — Repo Radar: punkpeye/awesome-mcp-servers (97989 ★, 4752 open issues)
-- **Timestamp**: `2026-11-18T20:59:10.000Z` | **Source**: `CART-0081` (`TRACK_A_GITHUB_SWARM_RADAR`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-B3C8-DBEE-5057`) | **Chain Anchor**: `b694120b9343e970`
-- **Target**: `punkpeye/awesome-mcp-servers` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
-- **Pattern Synthesis**: Live repository audit on punkpeye/awesome-mcp-servers verified 97989 stars, 20338 forks, and 4752 open issues. Latest commit activity: 5fb385c by Frank Fiegel: "Merge pull request #19103 from tl-sl/add-zerostack-mcp".
-- **Decoded Metrics**: `stars: 97989` · `forks: 20338` · `open_issues: 4752` · `latest_commit_sha: 5fb385c`

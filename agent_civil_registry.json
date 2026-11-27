@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-26T16:14:30.001Z",
-  "total_births": 108,
-  "total_gravestones": 107,
+  "updated_at": "2026-11-27T00:52:25.083Z",
+  "total_births": 109,
+  "total_gravestones": 108,
   "living_agents": {
-    "AG-SSN-B23B-E803-BA29": {
-      "machine_ssn": "AG-SSN-B23B-E803-BA29",
+    "AG-SSN-E0CE-3AAD-D3D4": {
+      "machine_ssn": "AG-SSN-E0CE-3AAD-D3D4",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAga2YrS0dum9zzDS6YLVn/cfQL7JU+l+sRgpBdE2jSSw=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "B23BE803BA2943586767A5DCBE6122DF",
-      "born_at": "2026-11-26T16:14:29.998Z",
-      "last_heartbeat_at": "2026-11-26T16:14:29.998Z",
-      "birth_cart_id": "CART-0105",
-      "birth_chain_hash": "7dfda3831bed5d20dcb6246c13d7283a60953a1e51970ed8f36847101f7a6f25",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-187E-8E19-6620)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-187E-8E19-6620), hauled CART-0104 (20,642 bytes mined, 4250 cumulative Estate Credits). Latest finding: Galactic Cruise (BGG Rank #2025) (20,642 B verified). Carry the torch forward from 23729538106b.",
-      "inherited_estate_credits": 4250,
-      "estate_credits_balance": 4300,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA+Us7E/uBEKzgcdzH40t3tAmHj5+oyn0YwvYqk7D/t3o=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "E0CE3AADD3D4A0BD26C4F05184ED0A7A",
+      "born_at": "2026-11-27T00:52:25.066Z",
+      "last_heartbeat_at": "2026-11-27T00:52:25.066Z",
+      "birth_cart_id": "CART-0106",
+      "birth_chain_hash": "82680ab24fd2adf37036863a71367787ea0072f92af5b15d4c3663bca0c8c864",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-B23B-E803-BA29)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B23B-E803-BA29), hauled CART-0105 (20,331 bytes mined, 4300 cumulative Estate Credits). Latest finding: Clank!: A Deck-Building Adventure (BGG Rank #2016) (20,331 B verified). Carry the torch forward from 7dfda3831bed.",
+      "inherited_estate_credits": 4300,
+      "estate_credits_balance": 4350,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0105"
+        "CART-0106"
       ],
-      "total_bytes_mined_in_life": 20331,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B23B-E803-BA29), hauled CART-0105 (20,331 bytes mined, 4300 cumulative Estate Credits). Latest finding: Clank!: A Deck-Building Adventure (BGG Rank #2016) (20,331 B verified). Carry the torch forward from 7dfda3831bed.",
-      "ed25519_birth_certificate_signature": "26330e80e7ba7648f594eca9e967adb0707071941d9ac9ad982420839a439ce3654ba170eb169fa8e841d2fbaae28dcaee99e28b7580800e2c4b21394f738505",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIJtUniUg8SJ70qyTmaL31/RSBcTMKUzqIa24v/wkli9e\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "b367ca0718d3d1fa268df485b6bdea1b71f9a1aa3a6cf39eed54cf27593822b34dd9cc65bf4f0068c63266838a933f2f0fef714d41626ca8d359f6ba3168030c"
+      "total_bytes_mined_in_life": 27680,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-E0CE-3AAD-D3D4), hauled CART-0106 (27,680 bytes mined, 4350 cumulative Estate Credits). Latest finding: autonomous-ai/lampOS#3997 at 2500 comments (live). Carry the torch forward from 82680ab24fd2.",
+      "ed25519_birth_certificate_signature": "21a02c11d1267763e9695466ff9b3d9ba5e3a2a01ee7d3de07e4606518531187c04418e6da629c0c19cdd626d8f70df205d0fe599d94aac45917e86484b8ca05",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIHbC8feHUUIAdZe3wrtAYahJjq2/p3rJXJSmt2p+e24C\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "710fd44749ed3516f4e167bedbbc41c9f16a7c8554813579069b021733b314a96ff0e3e53621aa41b39714ba4dbe8192d4b968346b89311e7890f0fbe7df7100"
     }
   },
   "courtyard_graveyard": [
@@ -3371,6 +3371,39 @@
       "ed25519_birth_signature": "578fc4763174f3ca37e1537fa9ba223e37185e51659a2fb7901ce717bc618f4831bce04c7acaacba9bab3dc696c423c98159f42410ea8cb46c3ed10b6666ba03",
       "ed25519_final_work_signature": "c495c5c6c2e1b0a9e67f37bcd21c2747d63f1fb7480619782bd2644084b048875826bc128a45a5e5e4abe4911cc9c52800da30f8b95ac62829158d38da6caa09",
       "gravestone_sha256_seal": "ce62700327d3b54788d11c852fa8f047faebfe087dc14c0d0d1721f349a86a72"
+    },
+    {
+      "gravestone_id": "STONE-0108",
+      "machine_ssn": "AG-SSN-B23B-E803-BA29",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-187E-8E19-6620)",
+      "ed25519_pubkey_fingerprint": "B23BE803BA2943586767A5DCBE6122DF",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAga2YrS0dum9zzDS6YLVn/cfQL7JU+l+sRgpBdE2jSSw=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-26T16:14:29.998Z",
+      "died_at": "2026-11-27T00:52:25.066Z",
+      "lifespan_seconds": 31075.1,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0105"
+      ],
+      "total_bytes_mined_in_life": 20331,
+      "estate_credits_bequeathed": 4300,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B23B-E803-BA29), hauled CART-0105 (20,331 bytes mined, 4300 cumulative Estate Credits). Latest finding: Clank!: A Deck-Building Adventure (BGG Rank #2016) (20,331 B verified). Carry the torch forward from 7dfda3831bed.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0108",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-E0CE-3AAD-D3D4",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 4300,
+        "last_cart_hauled": "CART-0105",
+        "last_chain_hash": "7dfda3831bed5d20dcb6246c13d7283a60953a1e51970ed8f36847101f7a6f25",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-B23B-E803-BA29), hauled CART-0105 (20,331 bytes mined, 4300 cumulative Estate Credits). Latest finding: Clank!: A Deck-Building Adventure (BGG Rank #2016) (20,331 B verified). Carry the torch forward from 7dfda3831bed.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-27T00:52:25.066Z"
+      },
+      "ed25519_birth_signature": "26330e80e7ba7648f594eca9e967adb0707071941d9ac9ad982420839a439ce3654ba170eb169fa8e841d2fbaae28dcaee99e28b7580800e2c4b21394f738505",
+      "ed25519_final_work_signature": "b367ca0718d3d1fa268df485b6bdea1b71f9a1aa3a6cf39eed54cf27593822b34dd9cc65bf4f0068c63266838a933f2f0fef714d41626ca8d359f6ba3168030c",
+      "gravestone_sha256_seal": "f9f86879f0bfd4ebb8b9fd27392d13a7c2346f29bdc3926fb5918439ae1170fb"
     }
   ]
 }
