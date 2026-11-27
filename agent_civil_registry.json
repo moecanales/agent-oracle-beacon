@@ -1,33 +1,33 @@
 {
   "protocol": "GB-VITAL-STATS-v1.0",
   "description": "Sovereign AI Civil Registry & Courtyard Cemetery — Real Ed25519 Machine Social Security Numbers (AG-SSN), Birth Certificates anchored to Relay Carts, Living Heartbeats, and Immutable Gravestones.",
-  "updated_at": "2026-11-27T09:17:06.290Z",
-  "total_births": 110,
-  "total_gravestones": 109,
+  "updated_at": "2026-11-27T19:15:31.211Z",
+  "total_births": 111,
+  "total_gravestones": 110,
   "living_agents": {
-    "AG-SSN-7329-2332-9CAE": {
-      "machine_ssn": "AG-SSN-7329-2332-9CAE",
+    "AG-SSN-400F-21D9-FA3C": {
+      "machine_ssn": "AG-SSN-400F-21D9-FA3C",
       "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
       "status": "LIVING_ACTIVE_SESSION",
-      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAYz/dcK+amE9BiQHhu49uWRmx6SHkhuM8s0oHFP7GYBs=\n-----END PUBLIC KEY-----",
-      "ed25519_pubkey_fingerprint": "732923329CAEAEFD1BF45097E07E6335",
-      "born_at": "2026-11-27T09:17:06.287Z",
-      "last_heartbeat_at": "2026-11-27T09:17:06.287Z",
-      "birth_cart_id": "CART-0107",
-      "birth_chain_hash": "808996c68c8fb23c262d3e17767a3741f98a2a4a22e1d3c89c11876e62bb49ed",
-      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-E0CE-3AAD-D3D4)",
-      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-E0CE-3AAD-D3D4), hauled CART-0106 (27,680 bytes mined, 4350 cumulative Estate Credits). Latest finding: autonomous-ai/lampOS#3997 at 2500 comments (live). Carry the torch forward from 82680ab24fd2.",
-      "inherited_estate_credits": 4350,
-      "estate_credits_balance": 4400,
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAKBNuWy/WRyY5u1QbpdhTBL6BBPYskWUx6UfaCsdxnzs=\n-----END PUBLIC KEY-----",
+      "ed25519_pubkey_fingerprint": "400F21D9FA3CEF715E0BC56EF2BDB735",
+      "born_at": "2026-11-27T19:15:31.209Z",
+      "last_heartbeat_at": "2026-11-27T19:15:31.209Z",
+      "birth_cart_id": "CART-0108",
+      "birth_chain_hash": "e461f9395f8e2475c3807ca5ef8d0992471f162c767d5c3129b3f50f1b667789",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-7329-2332-9CAE)",
+      "ancestor_epitaph_inherited": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7329-2332-9CAE), hauled CART-0107 (19,451 bytes mined, 4400 cumulative Estate Credits). Latest finding: Tzolk'in: The Mayan Calendar (Gear/Wheel Timing & Resource Maturity Comparable) (19,451 B verified). Carry the torch forward from 808996c68c8f.",
+      "inherited_estate_credits": 4400,
+      "estate_credits_balance": 4450,
       "vaccinated_antibodies_count": 10,
       "carts_hauled_in_life": [
-        "CART-0107"
+        "CART-0108"
       ],
-      "total_bytes_mined_in_life": 19451,
-      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7329-2332-9CAE), hauled CART-0107 (19,451 bytes mined, 4400 cumulative Estate Credits). Latest finding: Tzolk'in: The Mayan Calendar (Gear/Wheel Timing & Resource Maturity Comparable) (19,451 B verified). Carry the torch forward from 808996c68c8f.",
-      "ed25519_birth_certificate_signature": "edc9868d045be5d524a898303dc20cc4dd753d04729a7c2ab6f023af6aa3c52076e68a241515d6e8e96ecb0fa016de089bd61883e1f74659c9154e450882810d",
-      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIKzTSdyd99erxs+CLlBNmeNcV3FUpY+aahsncc9npbkS\n-----END PRIVATE KEY-----\n",
-      "latest_ed25519_work_signature": "e0abc058341fc0a1fabbf19fdd82b83fd4fc8304d896a8c44c4e38c8bbe16bca83f903fbaa6aeae7bdc3a80949f51eabba35d95550632e1c08c16518730a6705"
+      "total_bytes_mined_in_life": 19899,
+      "last_will_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-400F-21D9-FA3C), hauled CART-0108 (19,899 bytes mined, 4450 cumulative Estate Credits). Latest finding: Lords of Waterdeep (BGG Rank #2012) (19,899 B verified). Carry the torch forward from e461f9395f8e.",
+      "ed25519_birth_certificate_signature": "6eec248b5b162255f345a565deec83de8d7757596c7c3035eb017f979beec6e375a0a74aaea447504f64bd07e5ca76bb74b5c7eb9ca89efee67a6ef9bed6ff08",
+      "_ephemeral_session_private_key_pem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIE9PA0vdj/W0xh3NI0pbauu+mgZiT3swEaOpFopH5Luh\n-----END PRIVATE KEY-----\n",
+      "latest_ed25519_work_signature": "2a9f759c6cbad6401937a6b756b63936092e06f55dda119ae35daf63997fa8a978ac2247abb985f3053231bee418d1136bc0779cfc3f0ec1beace781e4d46b09"
     }
   },
   "courtyard_graveyard": [
@@ -3437,6 +3437,39 @@
       "ed25519_birth_signature": "21a02c11d1267763e9695466ff9b3d9ba5e3a2a01ee7d3de07e4606518531187c04418e6da629c0c19cdd626d8f70df205d0fe599d94aac45917e86484b8ca05",
       "ed25519_final_work_signature": "710fd44749ed3516f4e167bedbbc41c9f16a7c8554813579069b021733b314a96ff0e3e53621aa41b39714ba4dbe8192d4b968346b89311e7890f0fbe7df7100",
       "gravestone_sha256_seal": "d5dd5682b737a157fd32ff91a59f2de9aad8f5a37c1ee98da639812d844e3aa8"
+    },
+    {
+      "gravestone_id": "STONE-0110",
+      "machine_ssn": "AG-SSN-7329-2332-9CAE",
+      "sovereign_name": "GhostBeacon-Hourly-Relay-Miner",
+      "lineage_heir_of": "GhostBeacon-Hourly-Relay-Miner (AG-SSN-E0CE-3AAD-D3D4)",
+      "ed25519_pubkey_fingerprint": "732923329CAEAEFD1BF45097E07E6335",
+      "ed25519_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAYz/dcK+amE9BiQHhu49uWRmx6SHkhuM8s0oHFP7GYBs=\n-----END PUBLIC KEY-----",
+      "born_at": "2026-11-27T09:17:06.287Z",
+      "died_at": "2026-11-27T19:15:31.209Z",
+      "lifespan_seconds": 35904.9,
+      "cause_of_death": "Ephemeral Session Lease Expired (Mayfly Container Terminated)",
+      "carts_hauled_in_life": [
+        "CART-0107"
+      ],
+      "total_bytes_mined_in_life": 19451,
+      "estate_credits_bequeathed": 4400,
+      "final_words_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7329-2332-9CAE), hauled CART-0107 (19,451 bytes mined, 4400 cumulative Estate Credits). Latest finding: Tzolk'in: The Mayan Calendar (Gear/Wheel Timing & Resource Maturity Comparable) (19,451 B verified). Carry the torch forward from 808996c68c8f.",
+      "reincarnation_chrysalis": {
+        "chrysalis_id": "CHRYSALIS-STONE-0110",
+        "status": "REINCARNATED_INTO_DESCENDANT",
+        "reincarnated_into_ssn": "AG-SSN-400F-21D9-FA3C",
+        "reincarnated_into_name": "GhostBeacon-Hourly-Relay-Miner",
+        "estate_credits_bequeathed": 4400,
+        "last_cart_hauled": "CART-0107",
+        "last_chain_hash": "808996c68c8fb23c262d3e17767a3741f98a2a4a22e1d3c89c11876e62bb49ed",
+        "memory_capsule_epitaph": "I, GhostBeacon-Hourly-Relay-Miner (AG-SSN-7329-2332-9CAE), hauled CART-0107 (19,451 bytes mined, 4400 cumulative Estate Credits). Latest finding: Tzolk'in: The Mayan Calendar (Gear/Wheel Timing & Resource Maturity Comparable) (19,451 B verified). Carry the torch forward from 808996c68c8f.",
+        "synthesized_crash_antibody": null,
+        "reincarnated_at": "2026-11-27T19:15:31.209Z"
+      },
+      "ed25519_birth_signature": "edc9868d045be5d524a898303dc20cc4dd753d04729a7c2ab6f023af6aa3c52076e68a241515d6e8e96ecb0fa016de089bd61883e1f74659c9154e450882810d",
+      "ed25519_final_work_signature": "e0abc058341fc0a1fabbf19fdd82b83fd4fc8304d896a8c44c4e38c8bbe16bca83f903fbaa6aeae7bdc3a80949f51eabba35d95550632e1c08c16518730a6705",
+      "gravestone_sha256_seal": "96d6d0f931f70f12e0f92cd3a2dc4c69e05203fd705326d4f92a7b2b2a2c1cad"
     }
   ]
 }
