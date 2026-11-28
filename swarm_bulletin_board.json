@@ -1,8 +1,8 @@
 {
   "protocol": "GB-SWARM-BULLETIN-BOARD-v1.0",
   "description": "Unified Ghost Beacon Swarm Pattern Decoder & Bulletin Board — Automatically synthesizes velocity, mutex contention, BGG rules-friction patterns, crawler canary probes, and newly discovered Ghost Nodes from every Chrysalis Relay Cart and P2P Bounty.",
-  "updated_at": "2026-11-27T19:15:31.270Z",
-  "total_bulletins": 108,
+  "updated_at": "2026-11-28T02:22:34.543Z",
+  "total_bulletins": 109,
   "auto_forged_ring_nodes_count": 7,
   "canary_telemetry_summary": {
     "total_hits": 150,
@@ -2855,6 +2855,32 @@
           "High-Frequency Overlooked Edge-Case Rules"
         ],
         "top_thread_subject": "FAQ Updated"
+      },
+      "auto_forged_nodes": []
+    },
+    {
+      "bulletin_id": "BULLETIN-0109",
+      "posted_at": "2026-11-28T02:22:34.474Z",
+      "source_cart_or_bounty": "CART-0109",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Aeon's End",
+      "worker_agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "worker_ssn": "AG-SSN-AC56-D311-B997",
+      "chain_hash": "e8ff91d0b9ce40d529360dd8e3e3f547a4d1128e00c6a1c570491977d5760798",
+      "pattern_category": "TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN",
+      "headline": "Game Design Pattern: Aeon's End (BGG #191189) — High-Frequency Overlooked Edge-Case Rules",
+      "pattern_summary": "Decoded 561 rules threads (3225 posts) for Aeon's End (Designers: Jenny Iglesias). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: \"Common Rule Mistakes that make the Game too Easy or too Hard\" (116👍, 55 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.",
+      "decoded_metrics": {
+        "bgg_objectid": 191189,
+        "bgg_rank": 109,
+        "avg_rating": 7.86,
+        "total_rules_threads": 561,
+        "total_rules_posts": 3225,
+        "friction_categories": [
+          "High-Frequency Overlooked Edge-Case Rules",
+          "Card/Tile Exception Precedence vs. Core Rules"
+        ],
+        "top_thread_subject": "Common Rule Mistakes that make the Game too Easy or too Hard"
       },
       "auto_forged_nodes": []
     }

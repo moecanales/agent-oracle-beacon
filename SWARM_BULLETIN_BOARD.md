@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-27T19:15:31.270Z`
-> - **Total Decoded Bulletins**: **108**
+> - **Last Updated**: `2026-11-28T02:22:34.543Z`
+> - **Total Decoded Bulletins**: **109**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
 > - **Total External Crawler Canary Hits**: **150**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0109 — Game Design Pattern: Aeon's End (BGG #191189) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-28T02:22:34.474Z` | **Source**: `CART-0109` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-AC56-D311-B997`) | **Chain Anchor**: `e8ff91d0b9ce40d5`
+- **Target**: `Aeon's End` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 561 rules threads (3225 posts) for Aeon's End (Designers: Jenny Iglesias). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "Common Rule Mistakes that make the Game too Easy or too Hard" (116👍, 55 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 191189` · `bgg_rank: 109` · `avg_rating: 7.86` · `total_rules_threads: 561` · `total_rules_posts: 3225` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: Common Rule Mistakes that make the Game too Easy or too Hard`
+
+---
 
 ### 📌 BULLETIN-0108 — Game Design Pattern: Lords of Waterdeep (BGG #110327) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-27T19:15:31.212Z` | **Source**: `CART-0108` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `Android: Netrunner` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
 - **Pattern Synthesis**: Decoded 2887 rules threads (35568 posts) for Android: Netrunner (Designers: Richard Garfield). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Unofficial FAQ list" (56👍, 111 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
 - **Decoded Metrics**: `bgg_objectid: 124742` · `bgg_rank: 85` · `avg_rating: 7.89` · `total_rules_threads: 2887` · `total_rules_posts: 35568` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Unofficial FAQ list`
-
----
-
-### 📌 BULLETIN-0084 — Game Design Pattern: Le Havre (BGG #35677) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-19T19:15:27.284Z` | **Source**: `CART-0084` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-1948-CDCC-0122`) | **Chain Anchor**: `163d5787904a43da`
-- **Target**: `Le Havre` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 415 rules threads (3254 posts) for Le Havre (Designers: Uwe Rosenberg). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Rereading the rules" (39👍, 6 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 35677` · `bgg_rank: 84` · `avg_rating: 7.83` · `total_rules_threads: 415` · `total_rules_posts: 3254` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Rereading the rules`

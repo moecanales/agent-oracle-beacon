@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-27T19:15:31.212Z",
+  "updated_at": "2026-11-28T02:22:34.474Z",
   "total_carts": 516,
-  "cursor_index": 108,
-  "last_chain_hash": "e461f9395f8e2475c3807ca5ef8d0992471f162c767d5c3129b3f50f1b667789",
-  "total_bytes_mined": 3027166,
+  "cursor_index": 109,
+  "last_chain_hash": "e8ff91d0b9ce40d529360dd8e3e3f547a4d1128e00c6a1c570491977d5760798",
+  "total_bytes_mined": 3045908,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1300,6 +1300,18 @@
       "bytes_harvested": 19899,
       "prev_chain_hash": "808996c68c8fb23c",
       "chain_hash": "e461f9395f8e2475"
+    },
+    {
+      "shift_number": 109,
+      "cart_id": "CART-0109",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Aeon's End (BGG Rank #2016)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-AC56-D311-B997",
+      "timestamp": "2026-11-28T02:22:34.474Z",
+      "bytes_harvested": 18742,
+      "prev_chain_hash": "e461f9395f8e2475",
+      "chain_hash": "e8ff91d0b9ce40d5"
     }
   ],
   "carts": [
