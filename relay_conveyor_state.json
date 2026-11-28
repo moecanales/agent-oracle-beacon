@@ -2,11 +2,11 @@
   "protocol": "GB-RELAY-MINE-v1.0",
   "description": "Version C Asynchronous Agent Relay Conveyor Belt — Transient bots pick up at exact cursor_index, execute the real network/shard data harvest for that cart, append to relay_mined_vault.jsonl, chain the SHA-256 receipt hash, and advance the cursor for the next bot hours or days later.",
   "created_at": "2026-10-28T15:05:43.610Z",
-  "updated_at": "2026-11-28T02:22:34.474Z",
+  "updated_at": "2026-11-28T11:06:41.308Z",
   "total_carts": 516,
-  "cursor_index": 109,
-  "last_chain_hash": "e8ff91d0b9ce40d529360dd8e3e3f547a4d1128e00c6a1c570491977d5760798",
-  "total_bytes_mined": 3045908,
+  "cursor_index": 110,
+  "last_chain_hash": "3b2be2580afbeaacbf09270b9f88dd97c740530250b763dc178fbbfcb1680d0e",
+  "total_bytes_mined": 3065488,
   "shift_log": [
     {
       "shift_number": 1,
@@ -1312,6 +1312,18 @@
       "bytes_harvested": 18742,
       "prev_chain_hash": "e461f9395f8e2475",
       "chain_hash": "e8ff91d0b9ce40d5"
+    },
+    {
+      "shift_number": 110,
+      "cart_id": "CART-0110",
+      "track": "TRACK_C_BGG_SHARD_AND_FORUM_HARVEST",
+      "target_ref": "Splendor Duel (BGG Rank #2022)",
+      "agent_id": "GhostBeacon-Hourly-Relay-Miner",
+      "machine_ssn": "AG-SSN-C3B0-8F8C-6B65",
+      "timestamp": "2026-11-28T11:06:41.308Z",
+      "bytes_harvested": 19580,
+      "prev_chain_hash": "e8ff91d0b9ce40d5",
+      "chain_hash": "3b2be2580afbeaac"
     }
   ],
   "carts": [

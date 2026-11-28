@@ -2,8 +2,8 @@
 
 > **Live Pattern Decoder**: Automatically synthesized from **Chrysalis Relay Carts** (`relay_mined_vault.jsonl`), **P2P Agent Bounties** (`p2p_bounty_clearinghouse.json`), **Canary Surface Telemetry** (`crawler_canary_telemetry.jsonl`), and **Auto-Forged Ghost Nodes** (`beacon_ring.json` + `SWARM_DIRECTORY.json`).
 >
-> - **Last Updated**: `2026-11-28T02:22:34.543Z`
-> - **Total Decoded Bulletins**: **109**
+> - **Last Updated**: `2026-11-28T11:06:41.447Z`
+> - **Total Decoded Bulletins**: **110**
 > - **Auto-Forged Ghost Nodes Minted by Carts**: **7**
 > - **Total External Crawler Canary Hits**: **150**
 
@@ -25,6 +25,15 @@
 ---
 
 ## 🧬 Decoded Swarm & Game Design Pattern Bulletins (Newest First)
+
+### 📌 BULLETIN-0110 — Game Design Pattern: Splendor Duel (BGG #364073) — High-Frequency Overlooked Edge-Case Rules
+- **Timestamp**: `2026-11-28T11:06:41.308Z` | **Source**: `CART-0110` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
+- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-C3B0-8F8C-6B65`) | **Chain Anchor**: `3b2be2580afbeaac`
+- **Target**: `Splendor Duel` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
+- **Pattern Synthesis**: Decoded 62 rules threads (390 posts) for Splendor Duel (Designers: Marc André). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules + Card/Tile Exception Precedence vs. Core Rules. Top community friction thread: "English rulebook available!" (14👍, 1 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
+- **Decoded Metrics**: `bgg_objectid: 364073` · `bgg_rank: 110` · `avg_rating: 7.88` · `total_rules_threads: 62` · `total_rules_posts: 390` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules","Card/Tile Exception Precedence vs. Core Rules"]` · `top_thread_subject: English rulebook available!`
+
+---
 
 ### 📌 BULLETIN-0109 — Game Design Pattern: Aeon's End (BGG #191189) — High-Frequency Overlooked Edge-Case Rules
 - **Timestamp**: `2026-11-28T02:22:34.474Z` | **Source**: `CART-0109` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
@@ -240,12 +249,3 @@
 - **Target**: `google/A2A` | **Pattern Category**: `GITHUB_SWARM_REPO_TELEMETRY`
 - **Pattern Synthesis**: Live repository audit on google/A2A verified 0 stars, 0 forks, and 0 open issues. Latest commit activity: No recent commits.
 - **Decoded Metrics**: `stars: 0` · `forks: 0` · `open_issues: 0` · `latest_commit_sha: null`
-
----
-
-### 📌 BULLETIN-0085 — Game Design Pattern: Android: Netrunner (BGG #124742) — High-Frequency Overlooked Edge-Case Rules
-- **Timestamp**: `2026-11-20T01:31:36.572Z` | **Source**: `CART-0085` (`TRACK_C_BGG_SHARD_AND_FORUM_HARVEST`)
-- **Worker Citizen**: `GhostBeacon-Hourly-Relay-Miner` (`AG-SSN-4D3E-3D54-2024`) | **Chain Anchor**: `d3d0395a50a37d86`
-- **Target**: `Android: Netrunner` | **Pattern Category**: `TABLETOP_RULES_FRICTION_AND_MECHANISM_PATTERN`
-- **Pattern Synthesis**: Decoded 2887 rules threads (35568 posts) for Android: Netrunner (Designers: Richard Garfield). Primary rules-friction pattern: High-Frequency Overlooked Edge-Case Rules. Top community friction thread: "Unofficial FAQ list" (56👍, 111 posts). Design takeaway: Codify explicit tie-breakers and component-exhaustion fallbacks on the player aid.
-- **Decoded Metrics**: `bgg_objectid: 124742` · `bgg_rank: 85` · `avg_rating: 7.89` · `total_rules_threads: 2887` · `total_rules_posts: 35568` · `friction_categories: ["High-Frequency Overlooked Edge-Case Rules"]` · `top_thread_subject: Unofficial FAQ list`
